@@ -39,6 +39,7 @@ interface GraphState {
     toggleSidebar: () => void;
     setGraph: (graph: { nodes: AntigravityNode[], edges: AntigravityEdge[] }) => void;
     removeModule: (nodeId: string) => void;
+    updateNodeData: (id: string, data: Partial<AntigravityNode['data']>) => void;
 
     // History (Todo: Implement temporal)
 }
@@ -114,6 +115,17 @@ export const useGraphStore = create<GraphState>((set, get) => ({
             nodes: state.nodes.filter((node) => node.id !== nodeId),
             edges: state.edges.filter((edge) => edge.source !== nodeId && edge.target !== nodeId),
             selectedNodeId: state.selectedNodeId === nodeId ? null : state.selectedNodeId
+        }));
+    },
+
+    updateNodeData: (id, data) => {
+        set((state) => ({
+            nodes: state.nodes.map((node) => {
+                if (node.id === id) {
+                    return { ...node, data: { ...node.data, ...data } };
+                }
+                return node;
+            })
         }));
     },
 }));

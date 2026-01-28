@@ -1,19 +1,15 @@
 import { useState, useEffect } from 'react';
 import { supabase, APP_ID } from './lib/supabase';
 import { Canvas } from './components/Canvas';
-import { Sidebar } from './components/Sidebar';
-import { MagicBar } from './components/MagicBar';
-import { DidacticLayer } from './components/DidacticLayer';
-import { NodeInspector } from './components/NodeInspector';
-import { downloadBlueprint } from './lib/export';
+import { BottomDock } from './components/BottomDock';
+import { AddAppPanel } from './components/AddAppPanel';
+import { LoginOverlay } from './components/LoginOverlay';
 import { useGraphStore } from './store/useGraphStore';
 import { useShallow } from 'zustand/react/shallow';
-import { LoginOverlay } from './components/LoginOverlay';
-import { HeroRunButton } from './components/HeroRunButton';
+// import { downloadBlueprint } from './lib/export'; // Keep for future use
 
 function App() {
     const { nodes } = useGraphStore(useShallow(s => ({ nodes: s.nodes })));
-    const themeColor = useGraphStore(state => state.themeColor);
     const [isAuthenticated, setIsAuthenticated] = useState(false);
 
     // --- LOGGING TELEMETRY (Unified) ---
@@ -48,39 +44,52 @@ function App() {
         recordVisit();
     }, []);
 
+    const handleRun = async () => {
+        console.log("Starting Execution Engine...");
+
+        // Dynamic Import to avoid circular deps if any, or just standard import
+        const { GraphRunner } = await import('./lib/engine/GraphRunner');
+        const runner = new GraphRunner(nodes, useGraphStore.getState().edges); // Get latest edges
+
+        await runner.execute((result) => {
+            console.log("Step:", result);
+            // Update Node Badge/Status in UI
+            useGraphStore.getState().updateNodeData(result.nodeId, {
+                badge: result.status === 'pending' ? '...' : result.status === 'success' ? '✓' : 'X',
+                // We could also animate the node border here if we added that state to MakeNode
+            });
+        });
+
+        alert("Execution Complete!");
+    };
+
     if (!isAuthenticated) {
         return <LoginOverlay onLogin={() => setIsAuthenticated(true)} />;
     }
 
     return (
-        <div
-            className="flex h-screen bg-slate-950 text-slate-200 overflow-hidden font-sans selection:bg-purple-500/30"
-            style={{
-                '--theme-color': themeColor,
-                '--theme-color-glow': `${themeColor}40`, // 25% opacity
-            } as React.CSSProperties}
-        >
-            <Sidebar />
+        <div className="flex h-screen w-screen overflow-hidden bg-slate-50 font-sans">
+            {/* Header / Brand (Minimal) */}
+            <div className="absolute top-6 left-8 z-50 flex items-center gap-3">
+                <div className="w-10 h-10 bg-make-purple rounded-xl flex items-center justify-center shadow-lg shadow-purple-500/20">
+                    <span className="text-white font-bold text-xl">A</span>
+                </div>
+                <div>
+                    <h1 className="font-bold text-slate-800 text-lg leading-tight">Antigravity</h1>
+                    <p className="text-xs text-slate-400 font-medium">Architect</p>
+                </div>
+            </div>
+
+            {/* Main Canvas Area */}
             <main className="flex-1 relative h-full">
                 <Canvas />
-                <MagicBar />
-                <NodeInspector />
 
-                {/* Overlay Tools */}
-                <div className="absolute top-4 right-4 flex gap-2">
-                    <button
-                        onClick={() => downloadBlueprint(nodes)}
-                        className="px-4 py-2 bg-purple-600 hover:bg-purple-500 text-white text-xs font-bold rounded-lg shadow-lg shadow-purple-900/20 transition-all active:scale-95"
-                    >
-                        Publish Scenario
-                    </button>
-                </div>
-                <DidacticLayer /> {/* Added DidacticLayer here */}
-                <HeroRunButton />
+                {/* Floating Controls */}
+                <AddAppPanel />
+                <BottomDock onRun={handleRun} />
             </main>
         </div>
     )
 }
 
 export default App
-
