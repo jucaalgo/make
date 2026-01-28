@@ -55,16 +55,16 @@ const MakeNode = ({ data, selected }: NodeProps<AntigravityNode>) => {
                 </span>
             </div>
 
-            {/* Connection Handles - Hidden but functional */}
+            {/* Connection Handles - Visible and Interactive */}
             <Handle
                 type="target"
                 position={Position.Left}
-                className="!bg-transparent !border-none !w-4 !h-4 -left-2"
+                className="!w-4 !h-4 !bg-slate-300 hover:!bg-make-purple border-2 border-white transition-colors -left-3 shadow-sm z-50"
             />
             <Handle
                 type="source"
                 position={Position.Right}
-                className="!bg-transparent !border-none !w-4 !h-4 -right-2"
+                className="!w-4 !h-4 !bg-slate-300 hover:!bg-make-purple border-2 border-white transition-colors -right-3 shadow-sm z-50"
             />
         </div>
     );
