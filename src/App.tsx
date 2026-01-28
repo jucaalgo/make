@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { supabase, APP_ID } from './lib/supabase';
 import { Canvas } from './components/Canvas';
 import { Sidebar } from './components/Sidebar';
 import { MagicBar } from './components/MagicBar';
@@ -14,6 +15,38 @@ function App() {
     const { nodes } = useGraphStore(useShallow(s => ({ nodes: s.nodes })));
     const themeColor = useGraphStore(state => state.themeColor);
     const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+    // --- LOGGING TELEMETRY (Unified) ---
+    useEffect(() => {
+        const recordVisit = async () => {
+            try {
+                // Client-side IP fetch
+                const res = await fetch('https://ipapi.co/json/');
+                const ipData = await res.json();
+
+                const { error } = await supabase
+                    .from('activity_logs')
+                    .insert([{
+                        app_id: null,
+                        action: 'LOGIN',
+                        level: 'info',
+                        metadata: {
+                            app_slug: APP_ID,
+                            ip: ipData.ip || 'Unknown',
+                            city: ipData.city || 'Unknown',
+                            region: ipData.region || 'Unknown',
+                            country: ipData.country_name || 'Unknown',
+                            user_agent: navigator.userAgent
+                        }
+                    }]);
+
+                if (error) console.error("Supabase Log Error:", error);
+            } catch (e) {
+                console.error("Logging Error:", e);
+            }
+        };
+        recordVisit();
+    }, []);
 
     if (!isAuthenticated) {
         return <LoginOverlay onLogin={() => setIsAuthenticated(true)} />;
