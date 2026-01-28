@@ -120,11 +120,64 @@ export class SmartBlueprinter {
      */
     private static architectPlan(prompt: string): LogicalStep[] {
         const plan: LogicalStep[] = [];
+        const p = prompt.toLowerCase();
+
+        // -------------------------------------------------------------
+        // SCENARIO: "THE AUTOMATOR" (Specific User Request Match)
+        // -------------------------------------------------------------
+        if ((p.includes('google sheets') || p.includes('excel')) && p.includes('sleep') && (p.includes('gemini') || p.includes('gpt'))) {
+
+            // 1. Activation
+            plan.push({ id: uuidv4(), app: 'google-sheets', action: 'search' });
+
+            // 2. Delays (5x Sleep)
+            plan.push({
+                id: uuidv4(),
+                app: 'util',
+                action: 'sleep',
+                repeatCount: 5,
+                labelOverride: 'Temporizador'
+            });
+
+            // 3. AI Generation
+            plan.push({ id: uuidv4(), app: 'gemini-ai', action: 'create' });
+
+            // 4. Iterator
+            plan.push({ id: uuidv4(), app: 'builtin', action: 'iterator' });
+            plan.push({ id: uuidv4(), app: 'builtin', action: 'aggregator' });
+
+            // 5. Publishing - Only if Instagram mentioned
+            if (p.includes('instagram')) {
+                plan.push({ id: uuidv4(), app: 'instagram-business', action: 'create' });
+            }
+
+            // 6. Router Branching
+            if (p.includes('drive') || p.includes('telegram')) {
+                const routerStep: LogicalStep = {
+                    id: uuidv4(),
+                    app: 'builtin',
+                    action: 'router',
+                    children: [
+                        {
+                            id: uuidv4(), app: 'google-sheets', action: 'update', labelOverride: 'Update Row',
+                            children: [{ id: uuidv4(), app: 'google-drive', action: 'move', labelOverride: 'Move File' }]
+                        },
+                        {
+                            id: uuidv4(), app: 'telegram', action: 'send', labelOverride: 'Notify Admin',
+                            repeatCount: 2
+                        }
+                    ]
+                };
+                plan.push(routerStep);
+            }
+
+            return plan;
+        }
 
         // 1. TRIGGER DETECTION
-        if (prompt.includes('sheet') && (prompt.includes('search') || prompt.includes('buscar'))) {
+        if (p.includes('sheet') && (p.includes('search') || p.includes('buscar'))) {
             plan.push({ id: uuidv4(), app: 'google-sheets', action: 'search' });
-        } else if (prompt.includes('sheet')) {
+        } else if (p.includes('sheet')) {
             plan.push({ id: uuidv4(), app: 'google-sheets', action: 'watch' });
         }
 
@@ -177,28 +230,33 @@ export class SmartBlueprinter {
     }
 
     private static findBestModule(app: string, action: string): string | null {
-        const candidates = Object.values(REGISTRY).filter(r => r.app.includes(app));
-        if (candidates.length === 0) return null;
+        // Special mapping for util
+        let searchApp = app;
+        if (app === 'builtin' && action === 'sleep') searchApp = 'util';
+
+        const candidates = Object.values(REGISTRY).filter(r => r.app.includes(searchApp) || (searchApp === 'util' && r.app === 'util'));
+
+        if (candidates.length === 0) {
+            // Fallback: try finding ANY module with that action name
+            const looseCandidates = Object.values(REGISTRY).filter(r => r.name.toLowerCase().includes(action.toLowerCase()));
+            if (looseCandidates.length > 0) return looseCandidates[0].name;
+            return null;
+        }
 
         const scored = candidates.map(c => {
             let score = 0;
             const labelLow = c.label.toLowerCase();
             const actionLow = action.toLowerCase();
+            const nameLow = c.name.toLowerCase();
 
-            if (actionLow === 'watch' && (labelLow.includes('watch') || labelLow.includes('listener'))) score += 10;
-            if (actionLow === 'create' && (labelLow.includes('create') || labelLow.includes('add') || labelLow.includes('post') || labelLow.includes('generate'))) score += 10;
-            if (actionLow === 'search' && (labelLow.includes('search') || labelLow.includes('get') || labelLow.includes('list'))) score += 10;
-            if (actionLow === 'update' && (labelLow.includes('update') || labelLow.includes('edit'))) score += 10;
-            if (actionLow === 'move' && (labelLow.includes('move') || labelLow.includes('organize'))) score += 10;
-            if (actionLow === 'sleep' && (labelLow.includes('sleep') || labelLow.includes('wait'))) score += 10;
-            if (actionLow === 'iterator' && (labelLow.includes('iterator') || labelLow.includes('split'))) score += 10;
-            if (actionLow === 'router' && (labelLow.includes('router') || labelLow.includes('path'))) score += 10;
+            if (nameLow.includes(actionLow)) score += 50; // Strong match on technical name
+            if (labelLow.includes(actionLow)) score += 30;
 
             return { key: c.name, score };
         });
 
         scored.sort((a, b) => b.score - a.score);
-        return scored[0].score > 0 ? scored[0].key : candidates[0].name;
+        return scored.length > 0 ? scored[0].key : candidates[0].name;
     }
 
     private static generateSmartConfig(moduleDef: RegistryModule, prevNode: AntigravityNode | null | undefined): Record<string, any> {
