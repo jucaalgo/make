@@ -8,7 +8,7 @@ import { OutputMapper } from './ui/OutputMapper';
 import { ErrorBouncer } from './ui/ErrorBouncer';
 import { IconResolver } from './ui/IconResolver';
 import { useState, useEffect } from 'react';
-import registryData from '../data/module_registry.json'; // Direct import for fidelity
+import registryData from '../../module_registry_backup.json'; // Restore backup
 
 
 
@@ -58,7 +58,7 @@ export const NodeInspector = () => {
     };
 
     return (
-        <aside className="absolute right-0 top-0 h-full w-96 bg-white/95 backdrop-blur-xl border-l border-slate-200 shadow-2xl z-50 flex flex-col transition-transform duration-300">
+        <aside className="absolute right-0 top-0 h-full w-[400px] bg-white/95 backdrop-blur-3xl border-l border-slate-200 shadow-2xl z-50 flex flex-col transition-transform duration-300 animate-in slide-in-from-right">
             {/* Header */}
             <div className="flex items-center justify-between p-6 border-b border-slate-100">
                 <div className="flex items-center gap-3">

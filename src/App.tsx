@@ -3,6 +3,7 @@ import { supabase, APP_ID } from './lib/supabase';
 import { Canvas } from './components/Canvas';
 import { BottomDock } from './components/BottomDock';
 import { AddAppPanel } from './components/AddAppPanel';
+import { NodeInspector } from './components/NodeInspector';
 import { LoginOverlay } from './components/LoginOverlay';
 import { useGraphStore } from './store/useGraphStore';
 import { useShallow } from 'zustand/react/shallow';
@@ -83,6 +84,7 @@ function App() {
             {/* Main Canvas Area */}
             <main className="flex-1 relative h-full">
                 <Canvas />
+                <NodeInspector />
 
                 {/* Floating Controls */}
                 <AddAppPanel />

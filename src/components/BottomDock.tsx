@@ -1,6 +1,15 @@
-import { Play, Calendar, Settings, Save, History } from 'lucide-react';
+import { Play, Calendar, Settings, History, Download } from 'lucide-react';
+import { downloadBlueprint } from '../lib/export';
+import { useGraphStore } from '../store/useGraphStore';
+import { useShallow } from 'zustand/react/shallow';
 
 export const BottomDock = ({ onRun }: { onRun: () => void }) => {
+    const { nodes } = useGraphStore(useShallow(s => ({ nodes: s.nodes })));
+
+    const handleExport = () => {
+        downloadBlueprint(nodes);
+    };
+
     return (
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2">
             {/* Main Execution Control */}
@@ -29,8 +38,12 @@ export const BottomDock = ({ onRun }: { onRun: () => void }) => {
                 <button className="p-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
                     <History className="w-4 h-4" />
                 </button>
-                <button className="p-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-slate-700 transition-colors">
-                    <Save className="w-4 h-4" />
+                <button
+                    onClick={handleExport}
+                    className="p-2 hover:bg-slate-100 rounded-full text-slate-400 hover:text-green-600 transition-colors"
+                    title="Export to JSON"
+                >
+                    <Download className="w-4 h-4" />
                 </button>
             </div>
         </div>
