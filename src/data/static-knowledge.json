@@ -1,0 +1,74 @@
+{
+    "knowledge:marketing-psychology": {
+        "name": "knowledge:marketing-psychology",
+        "app": "knowledge-base",
+        "label": "Marketing Psychology",
+        "description": "Deep understanding of consumer behavior and cognitive biases.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:copywriting": {
+        "name": "knowledge:copywriting",
+        "app": "knowledge-base",
+        "label": "Expert Copywriting",
+        "description": "Crafting high-converting text for various mediums.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:analytics-tracking": {
+        "name": "knowledge:analytics-tracking",
+        "app": "knowledge-base",
+        "label": "Analytics & Tracking",
+        "description": "Setup and interpretation of data tracking systems.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:seo-audit": {
+        "name": "knowledge:seo-audit",
+        "app": "knowledge-base",
+        "label": "SEO Audit Master",
+        "description": "Comprehensive site analysis for search engine optimization.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:react-best-practices": {
+        "name": "knowledge:react-best-practices",
+        "app": "knowledge-base",
+        "label": "React Best Practices",
+        "description": "Modern patterns for performant React applications.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:nextjs-architecture": {
+        "name": "knowledge:nextjs-architecture",
+        "app": "knowledge-base",
+        "label": "Next.js Architecture",
+        "description": "Scalable full-stack architecture using Next.js 14+.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:typescript-expert": {
+        "name": "knowledge:typescript-expert",
+        "app": "knowledge-base",
+        "label": "TypeScript Wizardry",
+        "description": "Advanced typing and type safety patterns.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:email-sequence": {
+        "name": "knowledge:email-sequence",
+        "app": "knowledge-base",
+        "label": "Email Sequence Strategy",
+        "description": "Designing effective nurturing email flows.",
+        "parameters": {},
+        "mapper": {}
+    },
+    "knowledge:audit-skills-system": {
+        "name": "knowledge:audit-skills-system",
+        "app": "knowledge-base",
+        "label": "Skill Auditor",
+        "description": "System for evaluating and improving agent capabilities.",
+        "parameters": {},
+        "mapper": {}
+    }
+}

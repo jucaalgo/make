@@ -5,16 +5,18 @@ import { useShallow } from 'zustand/react/shallow';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import registryData from '../../module_registry_backup.json';
+import knowledgeData from '../data/static-knowledge.json';
 import { useState, useMemo } from 'react';
 
 // Extract unique apps from registry for the list
-const RAW_REGISTRY = registryData as Record<string, any>;
+const RAW_REGISTRY = { ...registryData, ...knowledgeData } as Record<string, any>;
 const UNIQUE_APPS = Object.values(RAW_REGISTRY).reduce((acc: any[], module: any) => {
     if (!acc.find((a: any) => a.id === module.app)) {
+        const isKnowledge = module.app === 'knowledge-base';
         acc.push({
             id: module.app,
-            name: module.app.charAt(0).toUpperCase() + module.app.slice(1),
-            color: 'bg-indigo-500' // Default color
+            name: isKnowledge ? '🧠 Knowledge Base' : (module.app.charAt(0).toUpperCase() + module.app.slice(1)),
+            color: isKnowledge ? 'bg-amber-500' : 'bg-indigo-500' // Distinct color for knowledge
         });
     }
     return acc;
