@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+    --color-make-purple: #6e44ff;
+    --color-make-dark: #1a1b26;
+    --font-sans: "Inter", system-ui, sans-serif;
+
+    /* Liquid Spatial Palette */
+    --color-surface-glass: rgba(255, 255, 255, 0.7);
+    --color-surface-glass-heavy: rgba(255, 255, 255, 0.9);
+    --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+    --border-glass: rgba(255, 255, 255, 0.4);
+}
+
+body {
+    @apply bg-slate-50 text-slate-800 antialiased overflow-hidden;
+    background-image:
+        radial-gradient(at 0% 0%, rgba(110, 68, 255, 0.05) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(236, 72, 153, 0.05) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(59, 130, 246, 0.05) 0px, transparent 50%);
+    background-attachment: fixed;
+}
+
+/* Glassmorphism Utilities - Liquid Spatial */
+.glass {
+    @apply bg-[var(--color-surface-glass)] backdrop-blur-xl border border-[var(--border-glass)] shadow-[var(--shadow-glass)];
+}
+
+.glass-heavy {
+    @apply bg-[var(--color-surface-glass-heavy)] backdrop-blur-2xl border border-white/50 shadow-lg;
+}
+
+.glass-panel {
+    @apply bg-white/80 backdrop-blur-xl border border-white/60 shadow-xl shadow-slate-200/40;
+}
+
+.glass-hover {
+    @apply hover:bg-white/90 hover:shadow-lg transition-all duration-300 ease-out hover:-translate-y-0.5;
+}
+
+/* Custom Scrollbar for that premium feel */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
