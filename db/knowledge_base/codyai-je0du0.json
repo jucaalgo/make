@@ -1,0 +1,1719 @@
+{
+  "id": "PUBLISHED-3HnjUHNoTYcBMAhx9V7WZ",
+  "name": "Cody AI by Codex Solutions",
+  "icon": "",
+  "title": "Cody AI by Codex Solutions",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_cody-ai-community.png",
+  "summary": null,
+  "urlKey": "codyai-je0du0",
+  "description": "How to integrate Cody AI with Make.com",
+  "urlAlias": "apps.make.com/cody-ai-community-codex-solutions",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-10-31T11:55:27.028Z"
+    },
+    "nodes": [
+      {
+        "id": "so3-n4VXfsGIS1w3qF48w",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "W-29zI8lge_KMoZKdIjCQ",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "Mm5-h60yavDRdq7C9Utpi",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "0D2pGzIV3WgnEcF_M6BA1",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/cody-ai-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "EhRBQdHOk3MPxE6WNLcNY",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "ZfFPhC0nrv7kpEhTUeQm5",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "cMtBvJ5596tkLEdLbtjTr",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "tglSBh9DLlMzMmGJCxjTd",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Cody is an AI assistant that can be trained on a company’s knowledge base to automate support, answer questions, and assist teams across various roles, making it valuable for Make.com users seeking customizable, workflow-integrated AI automation and knowledge management."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FuFOz98akHRFNh0p2yJuE",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "9zP234AfBEnFy-cQzfQfx",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Cody AI documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "Zlvo1FmOQvRY5DV9j4BjL",
+                "type": "link",
+                "data": {
+                  "href": "https://intercom.help/cody/en/",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Cody AI"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fJaFnRyxCIDF1aFF2SM1F",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Cody AI"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-cody-ai",
+          "legacyHash": "fJaFn"
+        }
+      },
+      {
+        "id": "2sEgR8QqGmwIifETwOn39",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Cody AI is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Cody%20AI&app_slug=cody-ai-community&app_unique_id=codyai-je0du0."
+          }
+        ]
+      },
+      {
+        "id": "pEUC5M91EbpYSIYM7KsN4",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "oFNZbz22242fTud43qjzK"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "pEUC5"
+        }
+      },
+      {
+        "id": "Temoyjqex6a_xNhw4dP8j",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Cody AI app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key, ",
+            "id": "mfUd0pQ-CwCw55DOG9lZi"
+          },
+          {
+            "id": "D0ZnAxnMFC47BMvC_jGQR",
+            "type": "link",
+            "data": {
+              "href": "https://meetcody.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "-1skx-sZpCwL8mzQ8jDsv",
+                "text": "create your account on Cody AI."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "KP3M--vwVC8hwkCFx8b5d",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "KP3M-"
+        }
+      },
+      {
+        "id": "oprE11pHHmTWZwKmDJt5c",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "s6nsHU_9_pZxol7VRhYT5",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "JREoJlPZR48CMjCeuL8H5",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aBdfRBdCTmKoTRF6r2e3f",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "5dVQIcDgQ0tYSfsWCzXiV",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "e6ZKsrLnUkUxcx_JLJMpX",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "BeMGz3aTwUywPw5dmlwNA",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "cRLICPnSnHgMO6-pp8BvB",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/cody-ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "4pXFE20LA3mmggTtrmtOO",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "TDGgf7fVAzwWIkKDVLSI7",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Z_KUy63rgCAmHlHow8QMO",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "8AaUZ-UzokliQdX-nInqs",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "xr1S65OUrI1MiP2HY610L",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "d4XoiaVW8F4r-hmrVEm4x",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XMq5Okn5odrmmpXasVlSU",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Cody AI and ",
+            "id": "2xTgI-DBITuW0Ea0yitgn"
+          },
+          {
+            "id": "Q5ZQjDQ7DJAtUcpvrI0lp",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "I7EMkiQYMfnrlfZteUXz8"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "pGtCuzAZtH7Zn-dV96T3i"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-cody-ai-and",
+          "legacyHash": "XMq5O"
+        }
+      },
+      {
+        "id": "wsUcRURPhYmgDYh30fF1j",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Cody AI and ",
+            "id": "mYVcR8NuTsi-E5TIP3QQ2"
+          },
+          {
+            "id": "E_gcWmGuDYZ9UWBOsCN-S",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "IzygsV7BH9XE39Y27Pciv"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "Wb-GTJOQVUw5xUXOBYs55"
+          }
+        ]
+      },
+      {
+        "id": "39pv_TYBrtIexSAXw_gYE",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "h9dB4DPj__RmiRN6aSXuZ",
+            "text": "You can connect using the following method: API Keys."
+          }
+        ]
+      },
+      {
+        "id": "FXtpW0NxgJZK3lhYGRLPs",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Keys Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-keys-instructions",
+          "legacyHash": "FXtpW"
+        }
+      },
+      {
+        "id": "p02H2Vb6zLAUKi3VUPj5T",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "56aLtwkOVSr737sGdy4uh",
+            "text": "You need to retrieve your API key from your account."
+          }
+        ]
+      },
+      {
+        "id": "qUr8TIsEmQSzIjpraFOPc",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "ypU7CrpG9h6BTtL_wEYCp",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "mUGGDRMymthUuD2WGdUaK",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "P7OMR1zOh2bjspduQHlGe",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "ON7419QU_SYNlohYHLbvG",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to your API Keys page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hsSTu22WfVDwUdeE4Iko6",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "ytvfLncU44Tu1jyNLpJ0t",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Retrieve your API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "B1f8DCD14Fabcu2ttJ7VE",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "CAw7yFPCJlYBza-Mym-iQ",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "_tLGlkcNAoYeATFYBLjjD",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Cody%20AI&app_slug=cody-ai-community&app_unique_id=codyai-je0du0."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "YbaEGGLEI18jeTcXta-U3",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "kjyUHRrHEq9GTT1Q1Rh_o",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "YbaEG"
+        }
+      },
+      {
+        "id": "lUlx3fkoXgqF4PGBuN-PB",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "TdHtfVisdHs02jUU8ZwJ9",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "lVFK9ImvJSt2ZDEjREH8d",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "C0tURYCLcyyD7wXc-i-jI",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "DBQ-s-hHDVJ-MY4vLUK8q",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "AYg8rph4A04_sExBBFTVf"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "GPO1Rg-5dk5m6NF-sdXQL",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "eOePQ7rBQA7D8PfnIxr7x",
+                    "text": ", add the Cody AI module to your "
+                  },
+                  {
+                    "id": "qnedeED2c6y3yO0xbqp4p",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Ku42hsgYWytXgUL-_-JwN",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "MxHZ-fSRPhL1tGJK4AqD7",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "udu3So5XJ78NeM-WQy2pm",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "xhWPYUUr8rU9zBi7TzKsL",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "kxCQT6Z7ujZo620bvKiMT",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "foNRPcHLNbOvClSNXMSkt",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "7HIBBq3v9DVfAEZ-Psli3",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "5lVyb9-zMsrwp4y1fDrQX"
+                  },
+                  {
+                    "id": "hWVXCWjPFt6NOJuFVsTDK",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "xkVzFl1YtZqToK2cyceYw"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "bBE2MOfMpdM01scKt71_p",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "_D0hmNqG-liXVZtsEmSKg",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Cody AI or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pAZVxS0bDW8pH3X0YhVu7",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "30LX1VqLzrEIoYyvz4CTe",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "FGJTU2DzSStMI41ASgnQp",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Cody AI modules",
+            "id": "qauLvPkkurOvxLO7hufhg"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "cody-ai-modules",
+          "legacyHash": "FGJTU"
+        }
+      },
+      {
+        "id": "QSQ_XARi4a6Bft6B9QVrO",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Cody AI app, you can choose from a list of available modules to build your ",
+            "id": "cZ3aN124oIiFkJg2idO3O"
+          },
+          {
+            "id": "evbh9wFbMCOHDJZmQfXCM",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "kZNo9rUQfZbvcTFNioOpZ"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "W4WlvfH-YsgW0duRwb09d"
+          }
+        ]
+      },
+      {
+        "id": "eBI_4V3ixPDR79sDHLLsk",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "YrBE_z9s2R5qz33nymbj1",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Conversation",
+                "id": "L4caY2q4_MAMAAHkRYO_U"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-conversation",
+              "legacyHash": "YrBE_"
+            }
+          },
+          {
+            "id": "9WPSGKntNDS8GnsL3U6T5",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sure! This module lets you create a brand new conversation, making it easy to start fresh discussions or support threads whenever you need.",
+                "id": "1PX7HVT8M3tsuBjXbqIfb"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JyAsQqcn1bFdowL3-hzCT",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "jHnZBe0QWujMfHmEi1UV1",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Document",
+                "id": "kC7qyJUCQY-hkDEmcbcgw"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-document",
+              "legacyHash": "jHnZB"
+            }
+          },
+          {
+            "id": "QOQYQTKJKPwRyU-jDV7LP",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module allows you to create a brand new document, either as plain text or in HTML format. Simply provide the content you want, and the module will generate the document for you.",
+                "id": "tWMMokeR5QKX2sUREd-dQ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5Qjib3f8-CCuLiqiTT-x7",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "HB6XXuy90a5LOk28-pfW5",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Folder",
+                "id": "4unz7XScTeQ_RLPGg1tjd"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-folder",
+              "legacyHash": "HB6XX"
+            }
+          },
+          {
+            "id": "PLoSCtJ7bDd7TP44Xw83M",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a new folder in your specified location, helping you organize your files more efficiently.",
+                "id": "Rqfo3GzKI6KhfRl60RpJY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_q_Zmhv8P4docXawrhsjU",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "TzVziFlCmw4_VnIHCKAm4",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Conversation",
+                "id": "_YgHzBnL1kFyAdQFUGO2j"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-conversation",
+              "legacyHash": "TzVzi"
+            }
+          },
+          {
+            "id": "_y9vqjavkgXMUlhMP1txD",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Delete a conversation using its unique ID—this module lets you permanently remove a specific conversation from your system by specifying its identifier.",
+                "id": "iL8x39k37MjoeQz6YgARM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wwboimJuYebJtvYmBA_dm",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "krv1ef66h9otaJYzUQQUN",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Document",
+                "id": "Dg7wd43T7SiyI2WUGAu7Z"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-document",
+              "legacyHash": "krv1e"
+            }
+          },
+          {
+            "id": "N53hKbGFlVUbP4NTCszbu",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Deletes a specific document from your database using its unique ID.",
+                "id": "f6Ar8wKxu0GQ3i7v1XieL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrFCTQ672xQQ0ED111XEJ",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "EmNolfXlMzVMWnls_Fcoq",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Conversation",
+                "id": "8kJZuwfJ7zVfkXGrJc0J2"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-conversation",
+              "legacyHash": "EmNol"
+            }
+          },
+          {
+            "id": "u6JDyXafi-3hqvFd5YuRr",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a specific conversation by entering its unique ID. This module allows you to access all the details of a particular conversation based on the ID you provide.",
+                "id": "dsPdDIRf3vMUis5CYLi1V"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9B2HAMVGyKfq20GkaThlS",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "OFnBz3z3jRICow0HteKoL",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Document",
+                "id": "Nctvo2WQFpgIQ_SzRxMXC"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-document",
+              "legacyHash": "OFnBz"
+            }
+          },
+          {
+            "id": "RZQGTzgC0lF3Ljhr0v5-4",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a specific document using its unique ID. This module allows you to access and view the details of a particular document by providing its identification number.",
+                "id": "fw9GjCPWs36e5ZGhzkPTJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FuYDQsOyPa_vawgZfH2h6",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "S1cDnVQbp3wyhezeQGYoN",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Folder",
+                "id": "HzEuulWp4UlTbgTB-MgFK"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-folder",
+              "legacyHash": "S1cDn"
+            }
+          },
+          {
+            "id": "5APQzUujs6Rj08BDLRgl9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about a specific folder using its unique ID.",
+                "id": "H8JvYpXCoDm3HXLODTzNn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "96-6T9XgaSKDNqrkilXMZ",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "oYmrQeVjZqgVpvTDjsUqt",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List a Bots",
+                "id": "sV2Adft674ixoI4OJJQlz"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-a-bots",
+              "legacyHash": "oYmrQ"
+            }
+          },
+          {
+            "id": "kyOqmyqZHXuFUxhpCH0Pv",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all the bots available in your account, allowing you to view and manage them as needed.",
+                "id": "pESI3FzqgmgTI39tmDKED"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oApZxQxx32nWdYrHqUX8p",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Dw_aAXTit2Gu0QZx9pPfS",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List a Conversations",
+                "id": "IMN0-abPFYS9cjJwdW5PP"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-a-conversations",
+              "legacyHash": "Dw_aA"
+            }
+          },
+          {
+            "id": "1f0qLUSBVHFZe526W-yDL",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all conversations, allowing you to view and manage every conversation in your account.",
+                "id": "-IpDSwxMe1aWmylm35KuY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "41ENbXiwlN5syJbWq7QTQ",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "DCZZr8-sQk6kPzApye1q5",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List a Documents",
+                "id": "TXCVqlSKF3snOWrYDSmTt"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-a-documents",
+              "legacyHash": "DCZZr"
+            }
+          },
+          {
+            "id": "UbM-h38eXIe44Y4za4qx5",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve all documents from your selected source, allowing you to access and work with the complete list of available files.",
+                "id": "A3VHqZ7sUhTnVQ8TGxDV3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7-SM0_yAykVPNo4eqWi7L",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "b16R8WumJt472WX4qvu4M",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List a Folders",
+                "id": "Ny1aEGEn3946mm2Qj1WFd"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-a-folders",
+              "legacyHash": "b16R8"
+            }
+          },
+          {
+            "id": "fEBbHSNBcArwaDJQmy7W9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a complete list of all folders from your account, allowing you to view and manage your folder structure easily.",
+                "id": "GJ26goNP48VF2xr9BerjB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b69n802gmgyFr6AJrQsHT",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "K93CvfunjJMawgURN-sPc",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List a Messages",
+                "id": "IS5fB95ceq5brEFejJ4If"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-a-messages",
+              "legacyHash": "K93Cv"
+            }
+          },
+          {
+            "id": "faAg3ymNaWgWTwHmG7Gev",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a list of all messages, allowing you to view and manage every message within your account.",
+                "id": "Q_ObEo8OkGKgGnp6HdQhH"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "X6IOXWcyjhIkku7LB_GLC",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "u5-3PNEfQrKg3H226F5fv",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Send a Message",
+                "id": "3Uy3VIFTBSdopDAYFKy99"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "send-a-message",
+              "legacyHash": "u5-3P"
+            }
+          },
+          {
+            "id": "r71oHd7nXb_rKTyDRRlrb",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sure! Please provide the original text or module description you'd like me to rephrase.",
+                "id": "o83r0B-n3g_w3G0XlknmN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BCiIbqhnDUB8OHA6SkKlW",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Nb7RgUzw2MJhvDttvgMpD",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Conversation",
+                "id": "ymbu4LR47NiUKkuf_mno2"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-conversation",
+              "legacyHash": "Nb7Rg"
+            }
+          },
+          {
+            "id": "288JuKsifDzQqQD56d8V6",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Update the details of an existing conversation using its unique ID. This module lets you modify specific information within a conversation, ensuring your records stay accurate and up to date.",
+                "id": "1ieGcY-L1p5PjmatQw-im"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "OQSw8xQJ9kQeM9FaveMxT",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "GlptumZuzEzRlrEIJZYhC",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Folder",
+                "id": "ev9Kz_eBIfB0HCQIXnUg8"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-folder",
+              "legacyHash": "Glptu"
+            }
+          },
+          {
+            "id": "Z8nlvLKj0BxkDUVwQcKMj",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Update the details of a specific folder using its unique ID.",
+                "id": "aOW6C0kz0gEJBuWsFVZRL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oWAFt-zm6R8KUt-SjsTC4",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "owHcpcxsYtdwV-BUAO2GR"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "oWAFt"
+        }
+      },
+      {
+        "id": "rrgs65K7yUMRaoUrZlu_7",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "PF9Djfbdi03Gy8bytmnZH"
+          },
+          {
+            "id": "OcaXnVfBucjOObS20mDtv",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "iMeVgxKTXp_-iTofwuO6C"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "By5UgnQyr9Fb2iUX4AIDB"
+          },
+          {
+            "id": "lVg8qBov7hRxxTqOBS3hJ",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "HdsgUHPRH-sMvCi3pFnlh"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "XjoIlpHhZfgKESyIE-hYe"
+          }
+        ]
+      },
+      {
+        "id": "CaEbiptqkiN4anLzC56kl",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Cody AI resources ",
+            "id": "T0533ntqylJ3I6li_Qe0y"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "cody-ai-resources",
+          "legacyHash": "CaEbi"
+        }
+      },
+      {
+        "id": "Lqyo50-egi42Hy4xuI81F",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "HPRP8c0x-Y-NPqx81AaSq",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "qA_qrO0LIGnrVfCCWMv07",
+            "data": {
+              "href": "https://community.make.com/search?q=Cody%20AI",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "XCsVSSn6loK-DF8zWxPuw",
+                "text": "Cody AI topics on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "f6GrEwQQoAWIGyj4rNaFg",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "60cAjAbc2jrsor2nZj4Pw",
+            "data": {
+              "href": "https://meetcody.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "HInXdijI8dy2XjMgv7snG",
+                "text": "Cody AI website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "brEZnFvtQHPR03Y5HAWCv",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "W2pfJucnpZcqzhSU2pAdL",
+            "data": {
+              "href": "https://intercom.help/cody/en/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "MvWkI7M5x6wLSwIzu1poj",
+                "text": "Cody AI documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "LZDZGVqHjXWC1R9SE3lHP",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "HaJ9-xR1OvVG1DsCBTu7i",
+            "data": {
+              "href": "https://developers.meetcody.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "pBdIaDWwbkvckm_Rdmbes",
+                "text": "Cody AI API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "VvuH7y_VJ4Xt1MudGmDaQ",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "QE1sSl2sHQrRppsYMqvdj",
+            "data": {
+              "href": "https://www.make.com/en/integrations/cody-ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "d-rjDVDAz8bpzXDZ_uaSy",
+                "text": "Cody AI page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "608j6ccSa74J2wS1RG5QA",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "tqKCaDgUMtKwqFrdRBHTD",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "kxGp3By1p7sGlOByl7a8N",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "jCAzW4XUMs76TCjm3jwjK",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:21:36.371Z",
+  "createdAt": "2025-10-31T11:55:27.037Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED--Y_-CK8U334yh6O_SAiNr",
+    "children": [],
+    "isHidden": false,
+    "name": "Cmercury by Codex Solutions International",
+    "urlKey": "cmercury-qqeb4h",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-vIrgXudxxlRfrtw_Hjxi5",
+    "isCategory": false,
+    "categoryName": "cohere",
+    "children": [],
+    "name": "Cohere",
+    "urlKey": "cohere",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

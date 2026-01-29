@@ -1,0 +1,1231 @@
+{
+  "id": "PUBLISHED--2xFH6-WxiVNZHNNYV8UP",
+  "name": "Clipdrop by Synergetic",
+  "icon": "",
+  "title": "Clipdrop by Synergetic",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_clipdrop.png",
+  "summary": null,
+  "urlKey": "clipdrop-ijniu4",
+  "description": "How to integrate Clipdrop with Make.com",
+  "urlAlias": "apps.make.com/clipdrop-synergetic",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-03T05:00:20.205Z"
+    },
+    "nodes": [
+      {
+        "id": "tFVdN8nFRRPudjxUG7xrh",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "YKIAc6n6Yx5USUG9yqek0",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "yLHCMlXgXQldJDTVWH4Nc",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "TbQ2-55fLK0U-EZ7Vt_Ni",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/clipdrop.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "xIPn83sviqs5U0587urnX",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "DP9iHACcZ0RAjCq8DMdkB",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "MVzVkttMS8LMWYRbWGcxK",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "wAAxdnhkcCAw8FiexSvrp",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "ClipDrop is an AI-powered platform for creating, editing, and enhancing images. Integrating it with Make.com enables automated image processing workflows, streamlining content creation and boosting productivity for users needing fast, high-quality visual assets."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xvPCf5Dnsg7PEIeaHkG67",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "e5Xumt92s3tMISyjggg3k",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Clipdrop documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "UeugpWVHQfjfYc4cWtWw9",
+                "type": "link",
+                "data": {
+                  "href": "https://clipdrop.co",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Clipdrop"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cgp8PUTykf8aPyAiJZZ9w",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Clipdrop"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-clipdrop",
+          "legacyHash": "cgp8P"
+        }
+      },
+      {
+        "id": "d1ElS2tT_M_uThCTIVS9e",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Clipdrop is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Clipdrop&app_slug=clipdrop&app_unique_id=clipdrop-ijniu4."
+          }
+        ]
+      },
+      {
+        "id": "NKmHKHtYDpE0R_OuYRJ2q",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "d_PNvHcB0wQZab5GWo1W8"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "NKmHK"
+        }
+      },
+      {
+        "id": "IeqLldHclmq2VMzflvPP-",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Clipdrop app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key, ",
+            "id": "SJZu0mV2L7nm4yHN6AzTD"
+          },
+          {
+            "id": "8c8ZbOXrzQLtLULMBuk0d",
+            "type": "link",
+            "data": {
+              "href": "null",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "8Xdl9wTr3oKgQO-VBT6I8",
+                "text": "create your account on Clipdrop."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "N6fm-iMcldvXShkMUR81S",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "N6fm-"
+        }
+      },
+      {
+        "id": "qmBVmsNpFWgFzgG7zOPKs",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "qx7Bn5Qd3VnVIc-rnigiw",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "mqenybERzeHjW2CPR6pqt",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "WiD0Lzgcozv9rshLCtY0B",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "_Jn0NDqwXZLijRwJkCUHr",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "61rekKuwDvhNyhp1He4pU",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "D2N3vkvRUdhckqAROyIY0",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "xI6VDKgc9n16lOGQOaDTg",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/clipdrop/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "DcoOPVgaNhW-5wRkBtYJs",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "5ROG2jZWp27r6o7T_RvnM",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "YCge87zRkXJJruX-kiyiB",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "JrbZpfNRh4PSfrQsjoX0Q",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "orq2EQa1-YPn8lblNAnoU",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "jxwcyo8wnC86cBg5N8RHc",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "QI2KHfTmkUdu2LGTpnoVa",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Clipdrop and ",
+            "id": "LpbEw1xZX9-Cs2mbqWbQo"
+          },
+          {
+            "id": "CaA2vthY2SUb2nnaLQyeI",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "qeP7pw0sYXwQObcxTTrNU"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "HW7iv7clkcZGoaVX4nxtW"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-clipdrop-and",
+          "legacyHash": "QI2KH"
+        }
+      },
+      {
+        "id": "RWeyp3dCc1fA0dy7isfQD",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Clipdrop and ",
+            "id": "BPEfEQO-dZMALyF8x1ZXU"
+          },
+          {
+            "id": "VrfHFMMDdwD9H2wGV3oJE",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "LafBE3M8MFnvBisfWYgZF"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "K8f4aLg_LhzfyymMvkaYH"
+          }
+        ]
+      },
+      {
+        "id": "YjDjiG-OpfUw9OQ4MPhoo",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "xjWx6P76r6DCrulbupOOF",
+            "text": "You can connect using the following method: API Key."
+          }
+        ]
+      },
+      {
+        "id": "G8FB-B-08Oa50QJiQEUVY",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "G8FB-"
+        }
+      },
+      {
+        "id": "Cz9g6ECnSRhpS0_dKr1oi",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "nWlY2QDeGZ6Mzo9sQCA1w",
+            "text": "You need to obtain your API key."
+          }
+        ]
+      },
+      {
+        "id": "8siLTf8FO-9UikESoGD7T",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "i3uxfVGNUQeNcOhMue-PJ",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "FqPYx5BT_jpW_gZBnG8pq",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "jlCgoouhpDDsiuZSy-q2S",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "J5WG_hyTTJX_iHQDp9guB",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to your account page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "d0-BWd8pNFuQ2KHyh471b",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "zW9jxMesxJkhi86ngny_8",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate your API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Gv1UhT6GcVp5_Alo-Njq-",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "yE07I13W32OcJ2BLbc-fu",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "If your API key has leaked, revoke it and request a new one in your account page."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "K2C1mtdsUMPAFH6aRMxbS",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "egGPelto2mw5aChTe8pkE",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "_vJ1dGDEykn3lGrah-gnf",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Clipdrop&app_slug=clipdrop&app_unique_id=clipdrop-ijniu4."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "LIKafHwyNBMnG6gyaJCUX",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "qF0mzKLA7mOvoBG0KoHp9",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "LIKaf"
+        }
+      },
+      {
+        "id": "8RtVtWRNjfrnnebhEqUbR",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "wfuAVEFK36xiZWysOr2R-",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "OJMHi2W3O_Ou34HSM5nLr",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "f3rpPObXDzUfkfFs0HtBk",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "OJ9LXrvowP8fIWGcQbuxf",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "NdfR9XLY1m7uoUZO6WDfT"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "CLsrUVmPWGnBSeEhUdgNt",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "QxRHi-JWBB3cd4A5MwxIg",
+                    "text": ", add the Clipdrop module to your "
+                  },
+                  {
+                    "id": "-DHUB9q2I-feMNyFBec7q",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "MflK5shAXLDsBBh7YBXZg",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "MierQbngDdYc3bywND9l1",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "ySny7-uGYh2biGCsM_aeh",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "2tv0lgRetk0_IbYTgqCeg",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "6pGVX3xQTXzh2fKO9EGqP",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "bnerxvEO_z4bATNjBy_B3",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "u8FveG6x_uKsacHdDzXAQ",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "Pe_GOlCTiD264JOoLzT2C"
+                  },
+                  {
+                    "id": "yoonSrrheKDmv5wGa2Vih",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "Hi0tDOKych7IQ9ujTwpv7"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "KZeHmqC-pYIUFbKVB1Lzj",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "gis1XUy5cOaV889AXYe5I",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Clipdrop or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Pq8s_wo7fOhUFthW9iWk4",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "T5tG9_h9MmxmjtR3l5RNl",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "PjVRNRwtqH0IvxMUxCfjc",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Clipdrop modules",
+            "id": "sIjokQyNa3vMITqV5FxTW"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "clipdrop-modules",
+          "legacyHash": "PjVRN"
+        }
+      },
+      {
+        "id": "6MiPjUVK3PMtbNtG92Lv2",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Clipdrop app, you can choose from a list of available modules to build your ",
+            "id": "Cpy5GXFPy-w0ASOWQ9EA1"
+          },
+          {
+            "id": "XMF7pRT676coRVQsUQLq5",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "tnt2jS7buD347vfNojMr1"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "JzdGZb8rAoXjNrMZeympu"
+          }
+        ]
+      },
+      {
+        "id": "4T8SManz09fShwh357W1b",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "F5OI6pEXB1XzIMenUTdeo",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "ZqCY0i9SQtJXO72apKdyj"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "F5OI6"
+            }
+          },
+          {
+            "id": "u3Ldz7bV_sFpo6JwXkX-y",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom, authorized API request to the connected service, enabling you to access specific features or data not covered by the standard modules.",
+                "id": "0r5Koq3JZWVFhYza2JKbc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MnTwSjk5JansU3JKGegil",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "meFuPYi0xnjZZ61O3PWr6",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Remove Background",
+                "id": "5NF4VPpXUJEy1AA4OCDLA"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "remove-background",
+              "legacyHash": "meFuP"
+            }
+          },
+          {
+            "id": "LsbcbQ1JaeiTQgav6K-KQ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Removes the background from an image, leaving just the main subject and making it transparent.",
+                "id": "AG2h7brnfH6lqKEfo27Nl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "o9zQOvCc704T47OeJUmeV",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "xIVeAm1XG8g0lwEv5gczk",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Replace Background",
+                "id": "d316FWYLoGzcBnTBEhYzs"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "replace-background",
+              "legacyHash": "xIVeA"
+            }
+          },
+          {
+            "id": "KDuOYwpSJ0OhQHNDpCqua",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module lets you change the background of an image by replacing it with a new one of your choice.",
+                "id": "d-2KKAPCohavrqvVXM4hE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9D_uJDVAFQU5KpyBLaSuj",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "1ze8UiA9c9OTcPDivUu4R",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Upscale Image",
+                "id": "B_yeMmeSWs4U4oyIFwr0X"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "upscale-image",
+              "legacyHash": "1ze8U"
+            }
+          },
+          {
+            "id": "uz_eR30oXoGxUyOevbrjY",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Enhances the quality of an image by increasing its resolution, making it appear clearer and more detailed.",
+                "id": "7vAaJz_EGkpHEN7wXH80n"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XKTpcrGxHp5VeKMdQnD6D",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "4nU-yGqGulaKE5tPKXAbZ"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "XKTpc"
+        }
+      },
+      {
+        "id": "SIoviI13K4vJ-Ahn-KND1",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "EfZoDmytu8B11g3fqX7q8"
+          },
+          {
+            "id": "jLEtVZOYMAoGwO29AUhVm",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "0L3nVkMnyMTXRN0TuyLwQ"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "PZH8deFnbrF--D2IyNwB-"
+          },
+          {
+            "id": "NLKIfGCW3KViQx6Q0AXUv",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "mvuf3LcOMPQ4c4w1S_TIp"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "6FKsnxNLT7AlZ-WUMzsc5"
+          }
+        ]
+      },
+      {
+        "id": "4bA6OoEUQWqwsJc-2Ks5J",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Clipdrop resources ",
+            "id": "3wpggkWRzrwXT0ig9wO7c"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "clipdrop-resources",
+          "legacyHash": "4bA6O"
+        }
+      },
+      {
+        "id": "m7tehfDsFplbPo-0ihh_s",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "0Zo8qfogXWeNHY8vZYWwW",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "EGZVXEl_VNnjsLf7CP3qr",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "lfopuwqWDQq67_9pbJVgk",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "MZY3peneVE0bPRsb-QsaM",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "N5Rrszs8zBOiSGdJ5OlIV",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:44.604Z",
+  "createdAt": "2025-11-03T05:00:20.208Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-9RTD-l1SvGSPFbOstfJ_D",
+    "children": [],
+    "isHidden": false,
+    "name": "ClipDrop by Codex Solutions",
+    "urlKey": "clipdrop-co-mh29fv",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-0MAk7XwohAxU39TPpJ580",
+    "children": [],
+    "name": "CloneByMe",
+    "urlKey": "clone-by-me",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

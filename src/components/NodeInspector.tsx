@@ -8,7 +8,7 @@ import { OutputMapper } from './ui/OutputMapper';
 import { ErrorBouncer } from './ui/ErrorBouncer';
 import { IconResolver } from './ui/IconResolver';
 import { useState, useEffect } from 'react';
-import registryData from '../../module_registry_backup.json'; // Restore backup
+import registryData from '../data/module_registry.json';
 
 
 

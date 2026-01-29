@@ -1,0 +1,1380 @@
+{
+  "id": "PUBLISHED-JUPZsUFFl_23bTri3xj_K",
+  "name": "AgentX by Codex Solutions International",
+  "icon": "",
+  "title": "AgentX by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_agentx-community.png",
+  "summary": null,
+  "urlKey": "agentx-o1bmt2",
+  "description": "How to integrate AgentX with Make.com",
+  "urlAlias": "apps.make.com/agentx-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-11T19:05:27.313Z"
+    },
+    "nodes": [
+      {
+        "id": "cg3Q_1bUOWawd3d0UfABQ",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "uOJbrBWjiBzJs5qUunEzR",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "3SWxsbTvN6DY--kDHafbB",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "w8kV4ju5DCgRPAcemx80T",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/agentx-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "My4wtZGr4-lhN8SnF-QoP",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "ZdEg-s8h9BlrH8cgaJwj9",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "IAwjXwg4mLleSftx2a3Yf",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "sa7uLrcdZnXxjsBl58EDC",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "AgentX provides customizable AI agents with advanced knowledge management, automation, and deployment across multiple platforms. Integrating AgentX with Make.com enables users to automate workflows, leverage AI-driven tasks, and connect AgentX agents with other apps seamlessly."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ENxYI4fruGVWMEg9LKaLn",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "62--PUx96FpQrQhVpSpcn",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official AgentX documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "Ue0hs9N6ctXuGY8IuWIuO",
+                "type": "link",
+                "data": {
+                  "href": "https://www.agentx.so/contact-us",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "AgentX"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ptD605YOoUbNqvKfMS_C6",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on AgentX"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-agentx",
+          "legacyHash": "ptD60"
+        }
+      },
+      {
+        "id": "xGJdt43_VXR8tHlRJZixu",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "AgentX is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=AgentX&app_slug=agentx-community&app_unique_id=agentx-o1bmt2."
+          }
+        ]
+      },
+      {
+        "id": "O-9gStKzGSFTQ5FRFm54v",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "5JTUW7BseLQ0kwX0wso2e"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "O-9gS"
+        }
+      },
+      {
+        "id": "vtFJL1wMmFCOUPjw7X0yQ",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the AgentX app in Make, "
+          },
+          {
+            "text": "you must have an active AgentX account and an API key, ",
+            "id": "G46Srhc3Mj_Io0w5vWxwS"
+          },
+          {
+            "id": "Q_3xBscH3o-tnkFQZCvLV",
+            "type": "link",
+            "data": {
+              "href": "https://www.agentx.so/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "CHV1LrpJStxvFIPmaqCOQ",
+                "text": "create your account on AgentX."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "I4_6RKjdvTgEm5rGZC3Ag",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "I4_6R"
+        }
+      },
+      {
+        "id": "gCZhUGXkKxmtznMPDFxX1",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "CeTmPeB924ti7nfXPtCVa",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "kd9iy7QZWTYuRTcvC-yGV",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8LJKGXYuCJzZFOQPnq_Js",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "ZqnvKE-xOFDt7OaVQNMSz",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "z7feppAJsul_MRwyofmh0",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "5X-ulYhqIq5uWRcelLFpz",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "HmOv260ktJSmIqPfJMpO1",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/agentx-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "mv2v4cigwONxbH64c3sxc",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "9Fl2aNy1injis0V0eoGGg",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "83SrKINci8ilGR9Hjt63b",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "NIU4qSQf-Xtx2GASrAZkl",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "M2fTOVsuWuIgwhSJluAq1",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "QKQyzuMyV3SO_CPIRY21P",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "C5K7A3H9kYOsFf2JSjGCE",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect AgentX and ",
+            "id": "4m2xhxKQPg6sEdnKZOd8C"
+          },
+          {
+            "id": "_a-OTy8wjUgAa0pKlQS-Q",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "Xs4VcLLgK5GU95Uy_fs6t"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "3iJmsnUAakYRdWUIRJA2s"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-agentx-and",
+          "legacyHash": "C5K7A"
+        }
+      },
+      {
+        "id": "9BK9NVaerEOeXIW6kJQ-C",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between AgentX and ",
+            "id": "06buHRsBimasCuGDs-ptM"
+          },
+          {
+            "id": "7GJ6zFqrRr4mcbMN5hhin",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "BDk1QhlRLCA5wkmNcE6o9"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "gH4N--T-Lb4Rpgptngr63"
+          }
+        ]
+      },
+      {
+        "id": "lOHlkkuqbce1reo5aQz7k",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "OtB8Rn_rQeXM-PZVQFzd3",
+            "text": "You can connect using the following method: API Key."
+          }
+        ]
+      },
+      {
+        "id": "lLbo2oD80xz1qd1U3NMRc",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "lLbo2"
+        }
+      },
+      {
+        "id": "QywEzwmNlgfQmYcaUGhzH",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "4TcdAH_OWvSfs6TG67aCs",
+            "text": "You need to retrieve your AgentX API key."
+          }
+        ]
+      },
+      {
+        "id": "4NKuTHM4y1tt0BJYpBMnB",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "VMr8bftGy8a6kqxil4OVT",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "KgAYj8TRpAYqMFO_Oa8lf",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Log in to your AgentX account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zYbumvv_YiHOwK5OyW0-g",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "5Bnd9-PnsVYQ4pe3JqdDD",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the top right corner and click your avatar."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "IU7yhU4Yf3dNg0Q3KDPEz",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Ur5lPE1el4BaraOLDl73k",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate your AgentX API key in the pop up."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "5U7lAzURnN-pJNuD3HuSI",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "zKjasEBBqtgrexi4CJP-K",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy and securely store your AgentX API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eG5Fu_36evJ8fUJASFl3_",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "hMo08ZT8vxckLIiowtwOq",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "FTbC8Uhyc3EX-49jEqAod",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=AgentX&app_slug=agentx-community&app_unique_id=agentx-o1bmt2."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xw5L2lp2D7xlur13gaHKr",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "PoE9VkVaheMS3y5FcHC-T",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "xw5L2"
+        }
+      },
+      {
+        "id": "HUm_d8sp8I7nQ-DYlMEVr",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "MEJ9sDAPGhGtPnl0d0xej",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "pKSGzbs83zQgYu6DyrBNW",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "2I33LHwWSsvvsYGiLw4cP",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "xJzjyraqd8NEIXeX2rsfZ",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "_4rmMKcBH31UgYbobK_qw"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "zM6Uv5MTI5YDc3fGaeytH",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7qWgizT9ThuH8iMxIWZJV",
+                    "text": ", add the AgentX module to your "
+                  },
+                  {
+                    "id": "bc0FvrSx_SIqsTaDJR772",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "F4MK61LGSi5MxHnRXciUp",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "Dhezgo6fPQwHu9Nz9hLNU",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "XaYMh5YHT5YDQfTKs79Ve",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "NvCZ-4mlZtS14wJIUPLXt",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "quV1RUjxQ6nQ6wg7XxMY4",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "4znOM88PXQumTNVzLrLNA",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "sljdrWUZWmI-SyXrSr8nN",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "aODO9wbWHCSR2H-bKBwhw"
+                  },
+                  {
+                    "id": "wTPzV4IbKRuFE5rVsNJSh",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "xp0bNshwh0bed7G7wTQQN"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "zPi1rezPPs37XlotE60jP",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "XHlR68E2uXIdxi0ML2A4r",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your AgentX or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u1XYefAENZj0ZteAyVtM-",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "KPrt5j0eoqUYeY4sS1-0b",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "0maCKqDfhLsMKCQ032B7W",
+        "type": "h1",
+        "children": [
+          {
+            "text": "AgentX modules",
+            "id": "tP-h7kraZpRvrkT5We0vh"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "agentx-modules",
+          "legacyHash": "0maCK"
+        }
+      },
+      {
+        "id": "QxnhRR54OhRNa0T64SuiJ",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the AgentX app, you can choose from a list of available modules to build your ",
+            "id": "X2_UC9YP7zwk5blpp4U1p"
+          },
+          {
+            "id": "FhDvJZvmdT-kTngGRSI8q",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "fXeu-isxiGAzNMlpoh8i1"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "Ht4aaMdZrALRBhY_hpSrO"
+          }
+        ]
+      },
+      {
+        "id": "nNpnxWOoo2N-pAPn_IoK0",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "kmdIhZUV4hN6SfhbhXO_y",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Conversation Detail",
+                "id": "80zL6x-L4vj1AfVs1kEC5"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "conversation-detail",
+              "legacyHash": "kmdIh"
+            }
+          },
+          {
+            "id": "swfmG7LXhrl39dtq2BkJb",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sure! This module lets you access detailed information about a specific conversation, so you can review all the messages and participants involved in that conversation.",
+                "id": "iBBg3Gtc3mj0-foP9FeRY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oh9Xuk-fT-SkR2sfnThf5",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "sB7cbLIL2x9zIRjk2QG-W",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List All agents",
+                "id": "7-kWlswCUF7h4KbdX1IxR"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-agents",
+              "legacyHash": "sB7cb"
+            }
+          },
+          {
+            "id": "Zk-3kPB8GxJjxpubFjLk-",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Returns a list of agents, allowing you to view and manage all agents currently available in your system.",
+                "id": "ByyF69AEVjFKCK14ql4lc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MuZ9bHuxp6mMQiZOZ7xjd",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "AvGyZwP9S40XlSJtpcKJz",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List of Conversations",
+                "id": "KWQ0Y3rH7iCV8330wUV09"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-of-conversations",
+              "legacyHash": "AvGyZ"
+            }
+          },
+          {
+            "id": "uVZhd_xGz4VpgQBCK4xIA",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Displays a list of all the conversations, allowing you to view and manage your existing chats.",
+                "id": "HqjMsIUQuF9Vq9Tf-r6JN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bgKMKK4qKnyDNh3mRLGeF",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "HTQP5M8kkhY9zLqNJmzTx",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Send a Message to a Conversation",
+                "id": "WfVA7rRJpg2CMdVkle5wB"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "send-a-message-to-a-conversation",
+              "legacyHash": "HTQP5"
+            }
+          },
+          {
+            "id": "4ANj57F_dBLj9OAuORRCy",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sends a message within a specific conversation, allowing you to communicate directly with participants in that chat.",
+                "id": "kWjb8bxTbVcvr598XXGpp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oO8YeEGz-shMmH-lvnR-4",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "QBjB4Ajv1OcBPZkYUiZG8",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Send a Message to a Conversation (SSE)",
+                "id": "cyuuuijLpVPHM8nzjL9Ii"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "send-a-message-to-a-conversation-sse",
+              "legacyHash": "QBjB4"
+            }
+          },
+          {
+            "id": "zZVz1zgBbGEEytyCwYrZA",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Send a message to an ongoing conversation using Server-Sent Events (SSE). This module allows you to deliver real-time updates or notifications directly within a specific chat or conversation thread.",
+                "id": "XaqfBuYV5hs3HdNysx6bi"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CHG8PlXu6A8u-kaVRBPkk",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "4MTxYYJL1vjT3RkXCa-_z",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Send a Message to a Conversation with Attachment",
+                "id": "Pazk2TK4jesF4Ru_NudLp"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "send-a-message-to-a-conversation-with-attachment",
+              "legacyHash": "4MTxY"
+            }
+          },
+          {
+            "id": "RUnxRKwMTleXsqpYBL3OS",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Send a message to a conversation and include an attachment. This module lets you add a file or document to your message, making it easy to share important information or resources directly within the conversation.",
+                "id": "0kTiAznemUilH3tACQX9H"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zfbQcU2z2VePNXZKjjUjt",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "6iAnOhSIAHZeIOfY91dci"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "zfbQc"
+        }
+      },
+      {
+        "id": "bnY-hXywynon9T2uvWhiB",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "KP7GHCeU43q9fpF_Dn2ve"
+          },
+          {
+            "id": "YUkDg3oWz_j5pANmTgMbX",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "lbA194mChNkhwFDWu9Y7A"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "fIKOHbA33lBE0bH7tgzPX"
+          },
+          {
+            "id": "UHbj_XLtQbhc_uJYNRcTk",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "kdLGJmeenKwJdvjbvVga4"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "nma9hk87IxKFAKG1d-ZUX"
+          }
+        ]
+      },
+      {
+        "id": "dghZnwZSu5ASEk_SVQb0F",
+        "type": "h1",
+        "children": [
+          {
+            "text": "AgentX resources ",
+            "id": "WeuUnoz9ch5XH6vDLZYro"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "agentx-resources",
+          "legacyHash": "dghZn"
+        }
+      },
+      {
+        "id": "Mh8q0gxpcIWbiQ3kDoK4y",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "X2EMoGYJesTGIyPOU42r8",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "dhwLnCzBiaKHGtDrT4Kcl",
+            "data": {
+              "href": "https://www.agentx.so/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "9qCeSBQjY0RgDvA6eenbB",
+                "text": "AgentX website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "yNGtAHTHr0HawrG23iQp6",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "NT-6NtNXkABPvpkuSrRC2",
+            "data": {
+              "href": "https://docs.agentx.so",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "TuqUfkcuwKm3EwT8iGIEJ",
+                "text": "AgentX documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "IUqoV5FlDlN_8UlqH9pAc",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "sBD80kpW1vg3sLHFc-Uj4",
+            "data": {
+              "href": "https://docs.agentx.so/reference/get_api-v1-access-agents-1",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "_ks_KbiQGwfdCrbFJuff7",
+                "text": "AgentX API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "8N3x0Fd_e6JwxE9KDQvVB",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "LnUjFL9vxpN15AG6-7fSS",
+            "data": {
+              "href": "https://www.make.com/en/integrations/agentx-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "P_jKSfGw5FBee0rOHCSTE",
+                "text": "AgentX page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "okwbOZV82cIIlObfxooNl",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "eTCEjbBOcJgjaGBqTcCg4",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "_t1XDIE2LbGounVd3giNq",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "bs3L0bu38x80fN5jGFbbM",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:21:09.704Z",
+  "createdAt": "2025-11-11T19:05:27.316Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-3pXtaUCM5-QgTKE6agvQE",
+    "children": [],
+    "name": "Agentalk",
+    "urlKey": "agentalk",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-SBIi6KoFc0DiNF1XlkJVm",
+    "children": [],
+    "isHidden": false,
+    "name": "AI Scraper by Parsera",
+    "urlKey": "ai-scraper-by-parsera",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

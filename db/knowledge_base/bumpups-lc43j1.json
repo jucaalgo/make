@@ -1,0 +1,1428 @@
+{
+  "id": "PUBLISHED-1sr2V6HOOLWc9E5eT5exa",
+  "name": "Bumpups by Maxmel Tech",
+  "icon": "",
+  "title": "Bumpups by Maxmel Tech",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_bumpups-community.png",
+  "summary": null,
+  "urlKey": "bumpups-lc43j1",
+  "description": "How to integrate Bumpups with Make.com",
+  "urlAlias": "apps.make.com/bumpups-community-maxmel-tech",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-17T17:37:08.576Z"
+    },
+    "nodes": [
+      {
+        "id": "2O_-xuQ1z_tEAdBr2KBxD",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "oyFUVixEdTUt3E2eUlZU5",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "wJnU1hk0iDJsuAACk_ERS",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "q2-_0TzbL9yzkl3Lx6d-C",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/bumpups-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "K82blUSt0S43tKOPgrtvw",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "n83o_0ocfjudSBjPy0mDK",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "VN02nMQCV5k22JNCKSYB5",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "g-uJkuMN5adFr13CP1p_4",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Bumpups is an API that transforms videos into interactive outputs with features like automatic summaries and key moment timestamping. Integrating with Make.com enables users to automate video analysis and enhance workflows with actionable, context-aware video data."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "o0bfumjJygnZqc24ucOvf",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "rK3zvgcwMPfVflxE2NvH4",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Bumpups documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "HDCSn-JF6FMBQgR7SjVT_",
+                "type": "link",
+                "data": {
+                  "href": "https://docs.bumpups.com/docs/getting-started",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Bumpups"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1VV38TxDorUrK0ZaLzb4F",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Bumpups"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-bumpups",
+          "legacyHash": "1VV38"
+        }
+      },
+      {
+        "id": "4U5QyxR35erv1jkrhXsdn",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Bumpups is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Bumpups&app_slug=bumpups-community&app_unique_id=bumpups-lc43j1."
+          }
+        ]
+      },
+      {
+        "id": "MiukCoaAl26KFOEtGyUb0",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "-EUXXACteWqgfB-V7w5Dz"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "MiukC"
+        }
+      },
+      {
+        "id": "83XPk7yrB3CEyujztLPhE",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Bumpups app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key, ",
+            "id": "umbfB-7dm5XOPZpNAIglr"
+          },
+          {
+            "id": "VLVJjmAH97ziDby__-bh1",
+            "type": "link",
+            "data": {
+              "href": "https://bumpups.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "5H-sdyPyCbE0keXzWyECl",
+                "text": "create your account on Bumpups."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "1C7s5jBrKv2-cWfmG9E5o",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "1C7s5"
+        }
+      },
+      {
+        "id": "L_VJ6hXXirSbjcNQIOkeB",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "kscLy2wewnWwlOzNQWJwn",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "lm6kiGT4T59cbJwoCAR3X",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0SbmoIn7FO0ItCN46HjbJ",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "7o2O9UGkk6QoenzMfSBaM",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "SFLFgVxx9a5DBDsGT1CDz",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "Ck_AC-LOI6LgR5r7rshN1",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "Du3f8hsUyor92iWKztpYi",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/bumpups-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "Q9T81hclzdCAcMHOsYtBx",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "2cNQc_V-T8r1MftpuTYkh",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "xrZn01RYNmhGxNQZ5fc4f",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "siUtuJdt-oucsFGozmqwA",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "okWFB6QpjivGt8_sDxi7A",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "DVB7Xb2ArH3THd9FgOaLh",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zpojgKgWhJn0H_Q8SLVrg",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Bumpups and ",
+            "id": "2ZglSRsMpeTyjTAc_8mu6"
+          },
+          {
+            "id": "oypxT3Fj1QsehGcSmv5Lb",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "MMpdFhX52mi34ZltcVKuF"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "M3RueYduOuxOQb2DpWRIY"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-bumpups-and",
+          "legacyHash": "zpojg"
+        }
+      },
+      {
+        "id": "OXRxMB6qIGhY_8yyI1imX",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Bumpups and ",
+            "id": "krDYKrLCAyBVast0Z0e6I"
+          },
+          {
+            "id": "v8-VpV7d3WChO-eaFkmBT",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "VQU2aCWV3YSkqNzRqFVrE"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "b53HVSwene-fPZ1Q_7ELA"
+          }
+        ]
+      },
+      {
+        "id": "oLBNghMMaB1Nw53aRKJZx",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "8r8QCg3A2ur_h3ZYFaqhO",
+            "text": "You can connect using the following method: API Key."
+          }
+        ]
+      },
+      {
+        "id": "7BJfhonhWW8nuCGRquylm",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "7BJfh"
+        }
+      },
+      {
+        "id": "LSb4nnOFsD2chspTiR5wy",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "vZGAPyQqqVMdERzCeE4UW",
+            "text": "You need to generate your API Key."
+          }
+        ]
+      },
+      {
+        "id": "AFAWsE8DNWLPkIZL1n3KB",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "ApjxY3WsGhugtWStul2iF",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "cOuho4sURUdSIC8Z7NrDI",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your Bumpups account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "aNXWX5wJeCZryyaZkFUhL",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "afhec6KBnWI18F8K88kGm",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Go to the Settings section."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "0kGPwVVcCaJtHdFkNBnuj",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "xtMhMZjoKPueZV25PBl8c",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the API tab."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "A9S-oqJ4Wcd_0CNk46iBc",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "GjGTJSN-_wYzEFaB9yLFb",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click on the Enable API button to generate your pay-per-use API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "QzBeFKg-OQao3x10zC_zo",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "aZeRcCf9IfQkq_UXIyvtv",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Retrieve your API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Wg7saZtGbelKWBfbo-JHk",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "MVtabp4EyqPaRWUWjWmdJ",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "zFIE3Fpx0g9eJxbBL_NJO",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Bumpups&app_slug=bumpups-community&app_unique_id=bumpups-lc43j1."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wONWa2K3KsNG88E1BBif4",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "dLHqrAgdpa3OUzTp4Apof",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "wONWa"
+        }
+      },
+      {
+        "id": "uKaufGnlzXkEvYJDeGZeI",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "rUJ95ccERwuGs5BqdCnEF",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "4k5R945RmKx-pOmwp1FvS",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "sP1xB83Q0JdVRYZ06eTNY",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "uIydsdiY5iU6RgCBtu5xR",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "PykJt_IDGLlVj9QC2KLgq"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "c5eFoJHNuI5MZ6Ia3Do9E",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "fVl5nqNiVAcFeXDqM7-Xz",
+                    "text": ", add the Bumpups module to your "
+                  },
+                  {
+                    "id": "MydNB5XwmKk6JSWJQ8fh2",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "8woHNDr21gtvmHLSb1bDQ",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "mz3l0UfbQQmxtkYq-_gH0",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "FoBdA5tvodXt4L1AeB5gk",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "6vEvvgFZVu2TbirplUvhQ",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p7X5-Y6Ro0uLyIQuGPjLO",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "LPLT32qhTMV2jHT_IRs9B",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "J0-uHnH4WHHmX6-9mj6ie",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "M2axiXB_sO5OFj-m12Jox"
+                  },
+                  {
+                    "id": "_arRx4D6yuVdxj872Fbs9",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "LgN6mDq8hf1bOKmkz-7N3"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "xz1iTQIgzu1BnbMziOHSu",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "4OXHB9ygXkvNsWFIm2U0e",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Bumpups or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CgOwv8ltZB5kjLQ07wXRu",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "05VQ0qQ-Xj4CknuiiCcG3",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "-TWGGjGx9wu5x4F_sbk8X",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Bumpups modules",
+            "id": "VLBp50cuFPjBNh2n1ECw6"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "bumpups-modules",
+          "legacyHash": "-TWGG"
+        }
+      },
+      {
+        "id": "fJ-TLqHM1fZUxo56U3bBB",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Bumpups app, you can choose from a list of available modules to build your ",
+            "id": "WNocA4RLYU5_1zKFhPA_e"
+          },
+          {
+            "id": "8sLzoMlmM7l8VTFIJ9-5L",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "TlU2Sn9RFc_XPjI8R-TbR"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "3Y207e_N4ZLIt2GmqTC_7"
+          }
+        ]
+      },
+      {
+        "id": "BpUVrdKepxxDIeI414Qld",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Eth_wFnoHLbhN7JwKtLQw",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Chat Response",
+                "id": "9m_c44a55ZocSd-_NyZNv"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-chat-response",
+              "legacyHash": "Eth_w"
+            }
+          },
+          {
+            "id": "e6z3zDLnglTDp1Bzr7-sQ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Generates an interactive chat reply based on the content of a specific YouTube video using the bump-1.0 model, allowing you to engage with viewers in a more dynamic and personalized way.",
+                "id": "A4uq8Zu3foAs3jY6FG1d9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_INJ6buhqZvzQzjpqsqJV",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "3PW7J9BlMIp5ghoiPAzcd",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate Hashtags",
+                "id": "AfSJO0jeAFzjKPDXDI-gR"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-hashtags",
+              "legacyHash": "3PW7J"
+            }
+          },
+          {
+            "id": "mRdKdPXCwew7SdH4fVdx0",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates relevant hashtags for a specific YouTube video by analyzing its content with the bump-1.0 model, helping you boost your video's visibility and reach.",
+                "id": "0BH91f-V6NhZV1Q9CI6CZ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "J9lN8m4CSUkLKiRAy-agi",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "X6l-XdpSK1Z95QSpe0kva",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate Key Takeaways",
+                "id": "Qv8vN47NU4sZh7SRI4Ykt"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-key-takeaways",
+              "legacyHash": "X6l-X"
+            }
+          },
+          {
+            "id": "tBZWVPOQq7deyrRiWfJf2",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module uses the bump-1.0 model to analyze a specified YouTube video and generate a summary of its main points or key takeaways.",
+                "id": "Plxud4EKcTDmNKHALMUQ5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lBATPtUed7XrA2uL8JaSj",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "lWJtIjQSgSXKgEOalac1u",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate Timestamps",
+                "id": "33_GQiNkPSZb8k9XgORGQ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-timestamps",
+              "legacyHash": "lWJtI"
+            }
+          },
+          {
+            "id": "mWNl2a1Dv0HwWbJrZWYN1",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates detailed timestamps for specific moments in a YouTube video using the bump-1.0 model, helping you easily identify and navigate key sections within the video.",
+                "id": "tdDM6Erf5GcIPEuwhSlPa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yDBJgE_fYDHs8LATHcDQ0",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "IeyTvHMgkiU3MkaLW1pfh",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate Video Titles",
+                "id": "AcPRq4AEe_GwBn9SR4uk9"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-video-titles",
+              "legacyHash": "IeyTv"
+            }
+          },
+          {
+            "id": "7IGwnIVdF6n5K2JGXRgXN",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates tailored suggestions for a specific YouTube video by using the bump-1.0 model to analyze its content.",
+                "id": "548Zb-UaFSwp_EBEpPY0T"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zesEe96bG83TiouBaCZZ8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "kxLUXoKZ6m6UHj8z7Pwmr",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate a Description",
+                "id": "m1tsbWhcHzWLbSx9QmvyA"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-a-description",
+              "legacyHash": "kxLUX"
+            }
+          },
+          {
+            "id": "4jp2w_ufkWz-iuxLMinJG",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module creates a detailed description for any YouTube video you provide by analyzing its URL with the bump-1.0 model. Just enter the video link, and you'll receive an informative summary generated automatically.",
+                "id": "P14uYS0AUzF7D8eYbOJxz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KpvGjmA4LC5F1XfEGUFly",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "KqUXW7OYQPZIH6f-k9DMQ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Perform an API Call",
+                "id": "9Q0eeXTWCFl226zyuGt-a"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "perform-an-api-call",
+              "legacyHash": "KqUXW"
+            }
+          },
+          {
+            "id": "pOwfFgzFlQ_TLzoE4DKwz",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Executes a custom API request to the connected service, allowing you to interact with any supported endpoint using your own parameters and authorization.",
+                "id": "y_4NUmAEbd2-ZAB6CwzWs"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f65qISfKiM0cw5YtzcXEP",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "qge9HLQy-OkltWw4QvQnP"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "f65qI"
+        }
+      },
+      {
+        "id": "OQv8uTl5o0_pj4M10QF3h",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "plgxcKLwNxx70DlkZDEec"
+          },
+          {
+            "id": "NfwFkl2knO3q4-URZeReg",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "ATUv9vrP5EznVq_H1r3PZ"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "Lg4b5y9FTfsfpJtvMoZoH"
+          },
+          {
+            "id": "qfrj-ESAP1JxR0TN6izOU",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "Xsb31w3ADFiiZ3upbe9fK"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "rFoJjgh_cPygkIYeK2y1e"
+          }
+        ]
+      },
+      {
+        "id": "2GYclE2mqSNQXAWzPRVCz",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Bumpups resources ",
+            "id": "cB5WeeT1XrqDOUaVYgg-w"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "bumpups-resources",
+          "legacyHash": "2GYcl"
+        }
+      },
+      {
+        "id": "wzmD90intILSGcEmwWk2a",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "cRjteXC6dORPtk8yNQzlL",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "vSCNsFpFIBKmGYQ309GZa",
+            "data": {
+              "href": "https://bumpups.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "T3HKFcH2FZBQqBOPjVUnR",
+                "text": "Bumpups website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "OVQiz2IWLgBsJmU0FEKYL",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "V-wzhZ9xwbT8gZqLdJKK-",
+            "data": {
+              "href": "https://docs.bumpups.com/docs/getting-started",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Y5oOJJYB1k6iOO7Nexaw-",
+                "text": "Bumpups documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "velZfXh0I3O-vbaMgwiG-",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "nqk5pjZZhGVvj0GaNSfX6",
+            "data": {
+              "href": "https://docs.bumpups.com/api-reference",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "bI04CM4olGP2qU5VzIJpS",
+                "text": "Bumpups API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "TDudQzspN28aJH6ILXgH0",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "atsaAC0BrTgpQGdzzxDxV",
+            "data": {
+              "href": "https://www.make.com/en/integrations/bumpups-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "G9y53-nOWZSLyz10HzADx",
+                "text": "Bumpups page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "bUb8riKW63gYoNocEeePt",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "PlKcb3EBTtgd65gTVEEuZ",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "4U_YuNvbVJQWdXFIEKnP7",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "O_MOWZFsyRSQgnIVLBWwW",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:39.499Z",
+  "createdAt": "2025-11-17T17:37:08.583Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-zHDO3N3UttXaMhWhTam0B",
+    "children": [],
+    "name": "Bumpups by Codex Solutions International",
+    "urlKey": "bumpups-x6fno5",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-b2HpejL6LkERRwCX1Y37a",
+    "children": [],
+    "name": "Camb Ai by Codex Solutions International",
+    "urlKey": "camb-ai-w2jtco",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

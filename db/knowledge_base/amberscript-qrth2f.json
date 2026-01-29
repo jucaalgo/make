@@ -1,0 +1,1594 @@
+{
+  "id": "PUBLISHED-0tzXfcP41Z2A-0FbvSEeY",
+  "name": "Amberscript by Maxmel Tech",
+  "icon": "",
+  "title": "Amberscript by Maxmel Tech",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_amberscript-community.png",
+  "summary": null,
+  "urlKey": "amberscript-qrth2f",
+  "description": "How to integrate Amberscript with Make.com",
+  "urlAlias": "apps.make.com/amberscript-community-maxmel-tech",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-10-31T20:34:53.128Z"
+    },
+    "nodes": [
+      {
+        "id": "gsvOFuYyPwmPYFv4LNtVF",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "EnlqVbI_GMonRuX0u4fHo",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "SMsoHLy4QlNa-1exj8-Y7",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "t4XVP9KlDFOyy8J0L7U_k",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/amberscript-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "XXhE4uzyOlQ2ionXFeaKi",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "b7M7KYrhKZ0FZViGpWBrf",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "b9OcWGVfjlIU_JZZO8P_r",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "8oGIye6K4gnSklpAUS43b",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Amberscript provides AI-powered audio and video transcription and subtitling services. Integrating it with Make.com enables automated transcription workflows, saving time and improving accessibility for users handling multimedia content."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tqPlWQGlEpB0mgiXEobim",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "w4GcMe1gQDowEvQNsQesE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Amberscript documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "LRyX3u7sMEx35pdUQjW4M",
+                "type": "link",
+                "data": {
+                  "href": "https://amberscript.github.io/api-docs/#introduction",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Amberscript"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fITnM398-p-rAIbPzDvHe",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Amberscript"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-amberscript",
+          "legacyHash": "fITnM"
+        }
+      },
+      {
+        "id": "55EoVkLhdmqrzVcOXMuWd",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Amberscript is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Amberscript&app_slug=amberscript-community&app_unique_id=amberscript-qrth2f."
+          }
+        ]
+      },
+      {
+        "id": "9QxpN_ykUt6ghAofxeQ0L",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "drgNlLB0D1MB8D-Huu3FJ"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "9QxpN"
+        }
+      },
+      {
+        "id": "tFSm9SywgCnXIotekjn1e",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Amberscript app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key, ",
+            "id": "pJ2k8HJHKl0uWekXUCb0o"
+          },
+          {
+            "id": "OPLxbTEk2z_BV5wGq9TQm",
+            "type": "link",
+            "data": {
+              "href": "https://www.amberscript.com/en/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "utqSZfjLZaaZgv7VCPKbw",
+                "text": "create your account on Amberscript."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "UEfKpOchHQIi1jFs-ZM7E",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "UEfKp"
+        }
+      },
+      {
+        "id": "RK1e9DV9LKAy-m3-X4p3_",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "JMWeHpGJHcxlxYbmgZApP",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "zBpHIfTS8wZL4Mtjt10pi",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "by4rf-w_OtCr-WQwmG-Hs",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "v-UIFvYzKRB3po9yosSzf",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "moty-5mS4XCHtKPkMjF4M",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "5X4hqUW1iUqkE6ISlbOxN",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "GeO7S7R1nRvX8HKElKOAC",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/amberscript-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "RFzLN8igNrWyvMX7h5Ew7",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "eKK7NR1LHzkVVXUMuAdzG",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "umXku2Jz6SeFa16dSTerB",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "uAsFe32qIE2e6B9S4gQLy",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mZGWaUXZKo-dfOuEMusFF",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "OrvSqFqlXrkzVHrI0UOkc",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "QlNwexMpA3-FseffM2shc",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Amberscript and ",
+            "id": "W1zPBZcAn_Z-rd6Bwfk_I"
+          },
+          {
+            "id": "UKlGFTeGR0llP5BYEN5DO",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "TzkIweSHq9J2c9v-y21zl"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "_nL_RNJIafs-kZxdBRKAb"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-amberscript-and",
+          "legacyHash": "QlNwe"
+        }
+      },
+      {
+        "id": "uco6DqqzJxJeb7VGJpusF",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Amberscript and ",
+            "id": "3bNamJDsV-LWJ5Ylz7Vms"
+          },
+          {
+            "id": "hi4nNFlwzlT7ZoM6-1cZa",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "ZkyEDV8UnatJm20XG7FLc"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "SREZIBVZFt5OtwJAbUuSw"
+          }
+        ]
+      },
+      {
+        "id": "fuU2DMgG6QDyg7gVvv7t-",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "4t-tCqelp7O18oztkiEl2",
+            "text": "You can connect using the following method: API Key."
+          }
+        ]
+      },
+      {
+        "id": "icALNthjtznpWPCULL63w",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "icALN"
+        }
+      },
+      {
+        "id": "4gadbmAfqZk8LQKK_Nqq4",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "M6te007mR_GptO0yoXZwd",
+            "text": "You need to generate your API_KEY."
+          }
+        ]
+      },
+      {
+        "id": "5lRw1UP0TNc3_1ITGBIkd",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "CHJym3KQE7xjPzgRfmdOu",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "VpduA6ozm8mzAi6djuhhO",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ovfVHXkojJAN3Q5Ldwl4F",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "FU7dqB6ldlw5pCKRE47rX",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the Account Page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "eL3WlY2fP4yM7xoho76Oa",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "vSpgx0i1DyvUlyv0T8RtP",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate the section for API Key management."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "IYcP3ojC1e8-4-wZoehJX",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "idmBDT5J9yGJVdAE_WuvD",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Generate a new API_KEY if one does not already exist."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "oV1r__o2oC1J-odHyKJ_R",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "F2JN_zCQ5M27IG8ANzj9w",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy and securely store the generated API_KEY."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sky0ty_6Pi_CclwPEA3_X",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "gZVl9iWdUuajZPfZwPbT2",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "xGF__InI603L6J_Zixd4f",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Amberscript&app_slug=amberscript-community&app_unique_id=amberscript-qrth2f."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1Dy5L5BdE3KX_sGAIwMCL",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "CLcAKdf9ekczCgadiz6jV",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "1Dy5L"
+        }
+      },
+      {
+        "id": "1swe9foWlzEqVMCF3dWoj",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "-nIzlChrSCt5kORDWwZ9K",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "PEYi8wNbyLJcupRXIRGym",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "SAsCZZMbRiMJ-4a8UAuUw",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "I56egyj372dezDuIU8OJH",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "8ncKoNE4zzDjJzHScmzjf"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "pb00QzbWwznsATlJd9uei",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "XT69uSQhJCkWnltIJCZ2x",
+                    "text": ", add the Amberscript module to your "
+                  },
+                  {
+                    "id": "8Lf6osjbHW9cbStycNcmF",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "l8wWhTHtFo-GfXlzvdufA",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "XF23EIOSRd99xm1j2BQ62",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "qPzuG18XWQyADNltLR-LX",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "Rc8pv5nLI53fA-jOKnyZD",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ZLwxeFw8Utf81Yr45z4uJ",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "8azpDgI0cwRsAvkfssJuK",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "UJ__1CKLBHw6j9KoxZrUO",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "62zSG4NIY9lO9XCpkQcAM"
+                  },
+                  {
+                    "id": "8JsYRQPVIDWfKUr0JVgcz",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "rwmbMSC6iPvkcidxIqNFM"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "NjP1X_dCxQLAm4yajTrBv",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "FlmTkPsllZeCwF6-McGTB",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Amberscript or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "LPuJnJIFg1IaegJDyJIyd",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "P5haRlZL57r9w8Q_rLJDU",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "cfLFEtAw_jfyXZf6yfoJD",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Amberscript modules",
+            "id": "l6xs40tQ_sPtnjz4OFhHL"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "amberscript-modules",
+          "legacyHash": "cfLFE"
+        }
+      },
+      {
+        "id": "OtvFuxXUQtWnN_j_i6mUu",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Amberscript app, you can choose from a list of available modules to build your ",
+            "id": "TUL5sU4rd8yQxeUf8agme"
+          },
+          {
+            "id": "W8a7qmBMhYmOKzEGxGJVQ",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "6Vf9XrFHsCgle2GGMLUjG"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "yGUqiMI3I1GYZ0TZH5qFt"
+          }
+        ]
+      },
+      {
+        "id": "OnBH7O67hBS_TzZJAfavs",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "RIJfF2MpfGNPc0F86o0qT",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Job",
+                "id": "HAF6bzMQa9OPVHqxQpzYI"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-job",
+              "legacyHash": "RIJfF"
+            }
+          },
+          {
+            "id": "7I_M5XsGEtbPp6vfyMeHa",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Permanently removes a specific job from your account.",
+                "id": "IbtbOcsET36wu05EbwslT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "j3LJSP7tB31uzXOX9o76O",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "omqgsarMwpZtz8yK7qV9v",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Export to JSON",
+                "id": "eU1X3FlWLRWvcYCnh2kWN"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "export-to-json",
+              "legacyHash": "omqgs"
+            }
+          },
+          {
+            "id": "nuQh6AXanmURQBN8SLlnH",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Converts your transcription into a JSON file, making it easy to use or share the transcribed data in a structured format.",
+                "id": "tcwM5VVhV-F6OAhvFYeVu"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JgbVobGxcBcMfF5ls6Hfg",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "b6cvAzxByskPPYnnDt7ik",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Export to SRT",
+                "id": "pLAGsdv0zewQ9LphEBTgk"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "export-to-srt",
+              "legacyHash": "b6cvA"
+            }
+          },
+          {
+            "id": "VqDwuIM1tzwtIl9qKOXF7",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Converts your transcription into an SRT (SubRip Subtitle) file, making it easy to create subtitles for your videos.",
+                "id": "Sz_o6dzpnj8JGdSv8Fz1I"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "M188gZljTzCDdXICzKei9",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "tdlSWCPtpwTIZVZSeQgoF",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Export to Text",
+                "id": "2jl5mcG_GDu5MWc34bB88"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "export-to-text",
+              "legacyHash": "tdlSW"
+            }
+          },
+          {
+            "id": "4E2u5cuWHkth_QcC3SCZ_",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module allows you to export your transcription as a plain text (TXT) file, making it easy to save or share the transcribed content in a widely compatible format.",
+                "id": "ifJmNXZLzpItgk3Qx7XfP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ATmrWZ95qSaz7BYR2j6hN",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "3NSna9jvNKgzEaSr6Sdw0",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Export to VTT",
+                "id": "ADUyR64p2Ge4C2AvIB4kq"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "export-to-vtt",
+              "legacyHash": "3NSna"
+            }
+          },
+          {
+            "id": "0Imv8Ig_5wJ75cA9OdCtE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Converts your transcription into VTT (Web Video Text Tracks) format, making it easy to add subtitles or captions to your videos.",
+                "id": "f_Q1XWj6R4GgwUDFIeHS2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vYjUD0h0rgIc7i9awswOq",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "C0uoyc4xFUXFhdIyAtttO",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Transcription Status",
+                "id": "4k6OxOI8sj6sKIK2wGlB3"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-transcription-status",
+              "legacyHash": "C0uoy"
+            }
+          },
+          {
+            "id": "nFgGzYD_rxLHrPxQ3N0Eq",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Checks the progress and current status of a specific transcription by using the provided job ID.",
+                "id": "Vca3XmzsTEpV3scZAjB71"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Bg0tPqaLJUPoBguKOzT9f",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Oti3i1aSjFcGLY6piZlz5",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "8Z74WoRuNrBShuNmvw7tT"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "Oti3i"
+            }
+          },
+          {
+            "id": "_957iQaU6D19scQiOfbpb",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Executes a custom API request to the connected service using your authorized account, allowing you to interact with features or endpoints not covered by the standard modules.",
+                "id": "gSBHa6GZpuJvKiUXyndwp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "St2nJJIP1fp8SidxtWI3S",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "mmxEUEai1pe93UP8T08UN",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Request Translated Subtitles",
+                "id": "dpaZoeemN_bVCuR8i9Ogm"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "request-translated-subtitles",
+              "legacyHash": "mmxEU"
+            }
+          },
+          {
+            "id": "6AlL5sgXjUMOgmQeKd4No",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module allows you to upload an audio or video file and request translated subtitles for it.",
+                "id": "p7P8xYRP9LWK3Famh_lnq"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3ChiUunROxStAkOsPKVq1",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "niJlEEznZSbZYr2EH_-oh",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search Jobs",
+                "id": "dD8pc8G6gg5PRMKZa6Ge7"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-jobs",
+              "legacyHash": "niJlE"
+            }
+          },
+          {
+            "id": "_hhnnX-ZkIy90_GcxmFbw",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Searches for available job listings based on your specified criteria.",
+                "id": "thJ_8mCdsgXRfAWBZJV3G"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "o_bNRXQze3fdpD0KhqSi3",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "f1ZNm794nszliqiBuLBwn",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Upload a File",
+                "id": "epvZJA61o0GVA7KXwKZIV"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "upload-a-file",
+              "legacyHash": "f1ZNm"
+            }
+          },
+          {
+            "id": "Ye1M2-2LgV6q-Q-Gn48YZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Uploads a file to your chosen destination by retrieving it directly from a specified URL.",
+                "id": "pTBxJXQRTLJ_1MWMuTX-E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0DWfqEAnL53z6nGpGvvtj",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "uUj_o7Te8s3ME-ZfdLzg_",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Upload a File",
+                "id": "2kUCQIst71X0PBiKHIPS6"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "upload-a-file-1",
+              "legacyHash": "uUj_o"
+            }
+          },
+          {
+            "id": "QriTOWA9Zaf2Wi3gQn844",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Uploads an audio or video file to be transcribed into text.",
+                "id": "PPqWPCP1mIr5i1FcqkgEt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MD6kQH00HamK8yUHW2yVg",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "nfSSxqmXiVy97ZLrVVW8o",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Watch Jobs",
+                "id": "Fzprqw64J_58MH7Mq8cni"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "watch-jobs",
+              "legacyHash": "nfSSx"
+            }
+          },
+          {
+            "id": "vJVlUw2UGL3LT047uSiqX",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Triggers when a job changes to the specific status you’ve selected, allowing you to take action right when that status update happens.",
+                "id": "xpo9950_knA1p0SIQVNdB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "81iztHISJcikmeur-lKF1",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "g9pC5xWejIwZu8ssG6Xqt"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "81izt"
+        }
+      },
+      {
+        "id": "1c6-XU9RqgpHokLtee4Ss",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "_1HLviOLQeEe-jcUX-Bfh"
+          },
+          {
+            "id": "oaOiA-0r0kOyDdI5hm_8j",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "BDuMDau3XdzDI9UVWSypt"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "o66T7_jK7YZRHIzV-0WKG"
+          },
+          {
+            "id": "Pcgso23CPSu8VB6PXl01O",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "Bn4_oYT0AyyElSA985MMS"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "LdP_CFNmDDx9CEAeSqvEC"
+          }
+        ]
+      },
+      {
+        "id": "gAOAf_wyTyO7Z3Psiu_JA",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Amberscript resources ",
+            "id": "BhjZR1QSoyPoD63U1Q53v"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "amberscript-resources",
+          "legacyHash": "gAOAf"
+        }
+      },
+      {
+        "id": "I3xglKJuy176llPM1_EV1",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "oPSrYB60D9PYbpDOSzqj5",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "ZB5mZCupuK82Y-mKDvxXk",
+            "data": {
+              "href": "https://www.amberscript.com/en/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "oBPeWRyFm0QOHIBB9IXfh",
+                "text": "Amberscript website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "xlrOBiz8DM7wD3xcHehcw",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "GWEg_VPSJLX2KcCQVwBih",
+            "data": {
+              "href": "https://helpdesk.amberscript.com/en",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "SieZ8BkG60DiDDO7my-N5",
+                "text": "Amberscript documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "fhOT6na9aKrD-Sa8H2Bk9",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "Z3LZEfQW5EZVYYKL16SEA",
+            "data": {
+              "href": "https://amberscript.github.io/api-docs/#introduction",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "kw59rhDcRBWcDN6w1hg_J",
+                "text": "Amberscript API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "K9tK9iZdclL2Os6XX6PIS",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "NZPY9XyORDnedCU_nxTqt",
+            "data": {
+              "href": "https://www.make.com/en/integrations/amberscript-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "sFgwzK1m_whjiKZr39HZ3",
+                "text": "Amberscript page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "5ZtO1KHiRkPlXuaIE7euX",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "evVL29B_MBCNCZVvh3yxb",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "bgawDlXUpqLxwvR0wT33r",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "M91C5jGQnpB6TgUObqTSn",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:26.862Z",
+  "createdAt": "2025-10-31T20:34:53.130Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-q-JJmTGW5zgfmW3h_Js9q",
+    "children": [],
+    "name": "Amazon Rekognition",
+    "urlKey": "amazon-rekognition",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-Jq7jn5R78jT0vJ7k2cVY9",
+    "children": [],
+    "isHidden": false,
+    "name": "Amplemarket by Codex Solutions",
+    "urlKey": "amplemarket-71dtoq",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

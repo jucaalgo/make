@@ -1,0 +1,3091 @@
+{
+  "code": "OK",
+  "response": {
+    "blueprint": {
+      "flow": [
+        {
+          "id": 32,
+          "mapper": {
+            "from": "drive",
+            "limit": "1",
+            "filter": [
+              [
+                {
+                  "a": "L",
+                  "b": "Pendiente",
+                  "o": "text:equal"
+                },
+                {
+                  "a": "K",
+                  "b": "",
+                  "o": "text:notequal"
+                }
+              ]
+            ],
+            "orderBy": "__ROW_NUMBER__",
+            "sheetId": "Automatización Instagram con IA y Sheets",
+            "fieldType": "date",
+            "sortOrder": "asc",
+            "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+            "tableFirstRow": "A1:CZ1",
+            "includesHeaders": true,
+            "valueRenderOption": "FORMATTED_VALUE",
+            "dateTimeRenderOption": "FORMATTED_STRING"
+          },
+          "module": "google-sheets:filterRows",
+          "version": 2,
+          "metadata": {
+            "expect": [
+              {
+                "name": "from",
+                "type": "select",
+                "label": "Search Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share"
+                  ]
+                }
+              },
+              {
+                "name": "valueRenderOption",
+                "type": "select",
+                "label": "Value render option",
+                "validate": {
+                  "enum": [
+                    "FORMATTED_VALUE",
+                    "UNFORMATTED_VALUE",
+                    "FORMULA"
+                  ]
+                }
+              },
+              {
+                "name": "dateTimeRenderOption",
+                "type": "select",
+                "label": "Date and time render option",
+                "validate": {
+                  "enum": [
+                    "SERIAL_NUMBER",
+                    "FORMATTED_STRING"
+                  ]
+                }
+              },
+              {
+                "name": "limit",
+                "type": "uinteger",
+                "label": "Limit"
+              },
+              {
+                "name": "spreadsheetId",
+                "type": "select",
+                "label": "Spreadsheet ID",
+                "required": true
+              },
+              {
+                "name": "sheetId",
+                "type": "select",
+                "label": "Sheet Name",
+                "required": true
+              },
+              {
+                "name": "includesHeaders",
+                "type": "select",
+                "label": "Table contains headers",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    true,
+                    false
+                  ]
+                }
+              },
+              {
+                "name": "tableFirstRow",
+                "type": "select",
+                "label": "Column range",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "A1:Z1",
+                    "A1:BZ1",
+                    "A1:CZ1",
+                    "A1:DZ1",
+                    "A1:MZ1",
+                    "A1:ZZ1",
+                    "A1:AZZ1",
+                    "A1:BZZ1",
+                    "A1:CZZ1",
+                    "A1:DZZ1",
+                    "A1:MZZ1",
+                    "A1:ZZZ1"
+                  ]
+                }
+              },
+              {
+                "name": "filter",
+                "type": "filter",
+                "label": "Filter",
+                "options": "rpc://google-sheets/2/rpcGetFilterKeys?includesHeaders=true"
+              },
+              {
+                "name": "orderBy",
+                "type": "select",
+                "label": "Order by"
+              },
+              {
+                "name": "sortOrder",
+                "type": "select",
+                "label": "Sort order",
+                "validate": {
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ]
+                }
+              },
+              {
+                "name": "fieldType",
+                "type": "select",
+                "label": "Field Type",
+                "validate": {
+                  "enum": [
+                    "string",
+                    "number",
+                    "date"
+                  ]
+                }
+              }
+            ],
+            "restore": {
+              "expect": {
+                "from": {
+                  "label": "Select from My Drive"
+                },
+                "orderBy": {
+                  "mode": "chose",
+                  "label": "Row number"
+                },
+                "sheetId": {
+                  "mode": "chose",
+                  "label": "Automatización Instagram con IA y Sheets"
+                },
+                "fieldType": {
+                  "mode": "chose",
+                  "label": "Date"
+                },
+                "sortOrder": {
+                  "mode": "chose",
+                  "label": "Ascending"
+                },
+                "spreadsheetId": {
+                  "mode": "chose",
+                  "label": "Planner Instagram"
+                },
+                "tableFirstRow": {
+                  "label": "A-CZ"
+                },
+                "includesHeaders": {
+                  "mode": "chose",
+                  "label": "Yes"
+                },
+                "valueRenderOption": {
+                  "mode": "chose",
+                  "label": "Formatted value"
+                },
+                "dateTimeRenderOption": {
+                  "mode": "chose",
+                  "label": "Formatted string"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google"
+                  },
+                  "label": "My Google connection (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 0,
+              "y": 450
+            },
+            "interface": [
+              {
+                "name": "__IMTLENGTH__",
+                "type": "uinteger",
+                "label": "Total number of bundles"
+              },
+              {
+                "name": "__IMTINDEX__",
+                "type": "uinteger",
+                "label": "Bundle order position"
+              },
+              {
+                "name": "__ROW_NUMBER__",
+                "type": "number",
+                "label": "Row number"
+              },
+              {
+                "name": "__SPREADSHEET_ID__",
+                "type": "text",
+                "label": "Spreadsheet ID"
+              },
+              {
+                "name": "__SHEET__",
+                "type": "text",
+                "label": "Sheet"
+              },
+              {
+                "name": "0",
+                "type": "text",
+                "label": "ID_Drive (A)"
+              },
+              {
+                "name": "1",
+                "type": "text",
+                "label": "Nombre_Archivo (B)"
+              },
+              {
+                "name": "2",
+                "type": "text",
+                "label": "Creditos (C)"
+              },
+              {
+                "name": "3",
+                "type": "text",
+                "label": "Link_Visual (D)"
+              },
+              {
+                "name": "4",
+                "type": "text",
+                "label": "Opcion_1 (E)"
+              },
+              {
+                "name": "5",
+                "type": "text",
+                "label": "Opcion_2 (F)"
+              },
+              {
+                "name": "6",
+                "type": "text",
+                "label": "Opcion_3 (G)"
+              },
+              {
+                "name": "7",
+                "type": "text",
+                "label": "Opcion_4 (H)"
+              },
+              {
+                "name": "8",
+                "type": "text",
+                "label": "Opcion_5 (I)"
+              },
+              {
+                "name": "9",
+                "type": "text",
+                "label": "Opcion_6 (J)"
+              },
+              {
+                "name": "10",
+                "type": "text",
+                "label": "Seleccion (K)"
+              },
+              {
+                "name": "11",
+                "type": "text",
+                "label": "Estado (L)"
+              },
+              {
+                "name": "12",
+                "type": "text",
+                "label": "Fecha (M)"
+              },
+              {
+                "name": "13",
+                "type": "text",
+                "label": "(N)"
+              },
+              {
+                "name": "14",
+                "type": "text",
+                "label": "(O)"
+              },
+              {
+                "name": "15",
+                "type": "text",
+                "label": "(P)"
+              },
+              {
+                "name": "16",
+                "type": "text",
+                "label": "(Q)"
+              },
+              {
+                "name": "17",
+                "type": "text",
+                "label": "(R)"
+              },
+              {
+                "name": "18",
+                "type": "text",
+                "label": "(S)"
+              },
+              {
+                "name": "19",
+                "type": "text",
+                "label": "(T)"
+              },
+              {
+                "name": "20",
+                "type": "text",
+                "label": "(U)"
+              },
+              {
+                "name": "21",
+                "type": "text",
+                "label": "(V)"
+              },
+              {
+                "name": "22",
+                "type": "text",
+                "label": "(W)"
+              },
+              {
+                "name": "23",
+                "type": "text",
+                "label": "(X)"
+              },
+              {
+                "name": "24",
+                "type": "text",
+                "label": "(Y)"
+              },
+              {
+                "name": "25",
+                "type": "text",
+                "label": "(Z)"
+              },
+              {
+                "name": "26",
+                "type": "text",
+                "label": "(AA)"
+              },
+              {
+                "name": "27",
+                "type": "text",
+                "label": "(AB)"
+              },
+              {
+                "name": "28",
+                "type": "text",
+                "label": "(AC)"
+              },
+              {
+                "name": "29",
+                "type": "text",
+                "label": "(AD)"
+              },
+              {
+                "name": "30",
+                "type": "text",
+                "label": "(AE)"
+              },
+              {
+                "name": "31",
+                "type": "text",
+                "label": "(AF)"
+              },
+              {
+                "name": "32",
+                "type": "text",
+                "label": "(AG)"
+              },
+              {
+                "name": "33",
+                "type": "text",
+                "label": "(AH)"
+              },
+              {
+                "name": "34",
+                "type": "text",
+                "label": "(AI)"
+              },
+              {
+                "name": "35",
+                "type": "text",
+                "label": "(AJ)"
+              },
+              {
+                "name": "36",
+                "type": "text",
+                "label": "(AK)"
+              },
+              {
+                "name": "37",
+                "type": "text",
+                "label": "(AL)"
+              },
+              {
+                "name": "38",
+                "type": "text",
+                "label": "(AM)"
+              },
+              {
+                "name": "39",
+                "type": "text",
+                "label": "(AN)"
+              },
+              {
+                "name": "40",
+                "type": "text",
+                "label": "(AO)"
+              },
+              {
+                "name": "41",
+                "type": "text",
+                "label": "(AP)"
+              },
+              {
+                "name": "42",
+                "type": "text",
+                "label": "(AQ)"
+              },
+              {
+                "name": "43",
+                "type": "text",
+                "label": "(AR)"
+              },
+              {
+                "name": "44",
+                "type": "text",
+                "label": "(AS)"
+              },
+              {
+                "name": "45",
+                "type": "text",
+                "label": "(AT)"
+              },
+              {
+                "name": "46",
+                "type": "text",
+                "label": "(AU)"
+              },
+              {
+                "name": "47",
+                "type": "text",
+                "label": "(AV)"
+              },
+              {
+                "name": "48",
+                "type": "text",
+                "label": "(AW)"
+              },
+              {
+                "name": "49",
+                "type": "text",
+                "label": "(AX)"
+              },
+              {
+                "name": "50",
+                "type": "text",
+                "label": "(AY)"
+              },
+              {
+                "name": "51",
+                "type": "text",
+                "label": "(AZ)"
+              },
+              {
+                "name": "52",
+                "type": "text",
+                "label": "(BA)"
+              },
+              {
+                "name": "53",
+                "type": "text",
+                "label": "(BB)"
+              },
+              {
+                "name": "54",
+                "type": "text",
+                "label": "(BC)"
+              },
+              {
+                "name": "55",
+                "type": "text",
+                "label": "(BD)"
+              },
+              {
+                "name": "56",
+                "type": "text",
+                "label": "(BE)"
+              },
+              {
+                "name": "57",
+                "type": "text",
+                "label": "(BF)"
+              },
+              {
+                "name": "58",
+                "type": "text",
+                "label": "(BG)"
+              },
+              {
+                "name": "59",
+                "type": "text",
+                "label": "(BH)"
+              },
+              {
+                "name": "60",
+                "type": "text",
+                "label": "(BI)"
+              },
+              {
+                "name": "61",
+                "type": "text",
+                "label": "(BJ)"
+              },
+              {
+                "name": "62",
+                "type": "text",
+                "label": "(BK)"
+              },
+              {
+                "name": "63",
+                "type": "text",
+                "label": "(BL)"
+              },
+              {
+                "name": "64",
+                "type": "text",
+                "label": "(BM)"
+              },
+              {
+                "name": "65",
+                "type": "text",
+                "label": "(BN)"
+              },
+              {
+                "name": "66",
+                "type": "text",
+                "label": "(BO)"
+              },
+              {
+                "name": "67",
+                "type": "text",
+                "label": "(BP)"
+              },
+              {
+                "name": "68",
+                "type": "text",
+                "label": "(BQ)"
+              },
+              {
+                "name": "69",
+                "type": "text",
+                "label": "(BR)"
+              },
+              {
+                "name": "70",
+                "type": "text",
+                "label": "(BS)"
+              },
+              {
+                "name": "71",
+                "type": "text",
+                "label": "(BT)"
+              },
+              {
+                "name": "72",
+                "type": "text",
+                "label": "(BU)"
+              },
+              {
+                "name": "73",
+                "type": "text",
+                "label": "(BV)"
+              },
+              {
+                "name": "74",
+                "type": "text",
+                "label": "(BW)"
+              },
+              {
+                "name": "75",
+                "type": "text",
+                "label": "(BX)"
+              },
+              {
+                "name": "76",
+                "type": "text",
+                "label": "(BY)"
+              },
+              {
+                "name": "77",
+                "type": "text",
+                "label": "(BZ)"
+              },
+              {
+                "name": "78",
+                "type": "text",
+                "label": "(CA)"
+              },
+              {
+                "name": "79",
+                "type": "text",
+                "label": "(CB)"
+              },
+              {
+                "name": "80",
+                "type": "text",
+                "label": "(CC)"
+              },
+              {
+                "name": "81",
+                "type": "text",
+                "label": "(CD)"
+              },
+              {
+                "name": "82",
+                "type": "text",
+                "label": "(CE)"
+              },
+              {
+                "name": "83",
+                "type": "text",
+                "label": "(CF)"
+              },
+              {
+                "name": "84",
+                "type": "text",
+                "label": "(CG)"
+              },
+              {
+                "name": "85",
+                "type": "text",
+                "label": "(CH)"
+              },
+              {
+                "name": "86",
+                "type": "text",
+                "label": "(CI)"
+              },
+              {
+                "name": "87",
+                "type": "text",
+                "label": "(CJ)"
+              },
+              {
+                "name": "88",
+                "type": "text",
+                "label": "(CK)"
+              },
+              {
+                "name": "89",
+                "type": "text",
+                "label": "(CL)"
+              },
+              {
+                "name": "90",
+                "type": "text",
+                "label": "(CM)"
+              },
+              {
+                "name": "91",
+                "type": "text",
+                "label": "(CN)"
+              },
+              {
+                "name": "92",
+                "type": "text",
+                "label": "(CO)"
+              },
+              {
+                "name": "93",
+                "type": "text",
+                "label": "(CP)"
+              },
+              {
+                "name": "94",
+                "type": "text",
+                "label": "(CQ)"
+              },
+              {
+                "name": "95",
+                "type": "text",
+                "label": "(CR)"
+              },
+              {
+                "name": "96",
+                "type": "text",
+                "label": "(CS)"
+              },
+              {
+                "name": "97",
+                "type": "text",
+                "label": "(CT)"
+              },
+              {
+                "name": "98",
+                "type": "text",
+                "label": "(CU)"
+              },
+              {
+                "name": "99",
+                "type": "text",
+                "label": "(CV)"
+              },
+              {
+                "name": "100",
+                "type": "text",
+                "label": "(CW)"
+              },
+              {
+                "name": "101",
+                "type": "text",
+                "label": "(CX)"
+              },
+              {
+                "name": "102",
+                "type": "text",
+                "label": "(CY)"
+              },
+              {
+                "name": "103",
+                "type": "text",
+                "label": "(CZ)"
+              }
+            ],
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7054313
+          }
+        },
+        {
+          "id": 11,
+          "mapper": {
+            "duration": "{{floor(random * 300)}}"
+          },
+          "module": "util:FunctionSleep",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "duration",
+                "type": "uinteger",
+                "label": "Delay",
+                "required": true,
+                "validate": {
+                  "max": 300,
+                  "min": 1
+                }
+              }
+            ],
+            "restore": {},
+            "designer": {
+              "x": 298,
+              "y": 450,
+              "name": "Temporizador 1"
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 12,
+          "mapper": {
+            "duration": "{{floor(random * 300)}}"
+          },
+          "module": "util:FunctionSleep",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "duration",
+                "type": "uinteger",
+                "label": "Delay",
+                "required": true,
+                "validate": {
+                  "max": 300,
+                  "min": 1
+                }
+              }
+            ],
+            "restore": {},
+            "designer": {
+              "x": 600,
+              "y": 450,
+              "name": "Temporizador 2"
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 13,
+          "mapper": {
+            "duration": "{{floor(random * 300)}}"
+          },
+          "module": "util:FunctionSleep",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "duration",
+                "type": "uinteger",
+                "label": "Delay",
+                "required": true,
+                "validate": {
+                  "max": 300,
+                  "min": 1
+                }
+              }
+            ],
+            "restore": {},
+            "designer": {
+              "x": 900,
+              "y": 450,
+              "name": "Temporizador 3"
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 14,
+          "mapper": {
+            "duration": "{{floor(random * 300)}}"
+          },
+          "module": "util:FunctionSleep",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "duration",
+                "type": "uinteger",
+                "label": "Delay",
+                "required": true,
+                "validate": {
+                  "max": 300,
+                  "min": 1
+                }
+              }
+            ],
+            "restore": {},
+            "designer": {
+              "x": 1200,
+              "y": 450,
+              "name": "Temporizador 4"
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 15,
+          "mapper": {
+            "duration": "{{floor(random * 300)}}"
+          },
+          "module": "util:FunctionSleep",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "duration",
+                "type": "uinteger",
+                "label": "Delay",
+                "required": true,
+                "validate": {
+                  "max": 300,
+                  "min": 1
+                }
+              }
+            ],
+            "restore": {},
+            "designer": {
+              "x": 1500,
+              "y": 450,
+              "name": "Temporizador 5"
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 5,
+          "mapper": {
+            "model": "gemini-2.5-pro",
+            "contents": [
+              {
+                "role": "user",
+                "parts": [
+                  {
+                    "text": "ORDEN ESTRICTA: Actúa como un formateador de texto automático. No saludes, no expliques, no digas \"Aquí tienes\".\n\nTEXTO FUENTE (PROHIBIDO CAMBIAR EL SENTIDO): > {{switch(32.`10`; 1; 32.`4`; 2; 32.`5`; 3; 32.`6`; 4; 32.`7`; 5; 32.`8`; 6; 32.`9`)}}\n\nIncluye estos créditos: \n{{32.`2`}}\n\nINSTRUCCIONES DE FORMATO:\n\nToma el \"TEXTO FUENTE\" y úsalo como la primera frase. Solo puedes añadir emojis.\n\nEn la misma línea o la siguiente, pega los \"CRÉDITOS\".\n\nAñade una sola línea de CTA: \"👉 ¡SÍGUENOS para más!\"\n\nGenera 15 hashtags virales en un solo bloque, sin puntos intermedios.\n\nRESTRICCIÓN MÁXIMA: La salida debe empezar directamente con el texto fuente. Si empiezas con \"Aquí tienes\", el proceso fallará.",
+                    "type": "text"
+                  }
+                ]
+              }
+            ],
+            "generationConfig": {
+              "imageConfig": {},
+              "thinkingConfig": {}
+            },
+            "system_instruction": {}
+          },
+          "module": "gemini-ai:createACompletionGeminiPro",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "model",
+                "type": "select",
+                "label": "AI Model",
+                "required": true
+              },
+              {
+                "name": "contents",
+                "spec": [
+                  {
+                    "name": "role",
+                    "type": "select",
+                    "label": "Role",
+                    "options": [
+                      {
+                        "label": "User",
+                        "value": "user"
+                      },
+                      {
+                        "label": "Model",
+                        "value": "model"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "parts",
+                    "spec": [
+                      {
+                        "name": "type",
+                        "type": "select",
+                        "label": "Message Type",
+                        "options": [
+                          {
+                            "label": "Text",
+                            "value": "text",
+                            "nested": [
+                              {
+                                "name": "text",
+                                "type": "text",
+                                "label": "Text",
+                                "required": false
+                              }
+                            ]
+                          },
+                          {
+                            "label": "File",
+                            "value": "file",
+                            "nested": [
+                              {
+                                "name": "file_data",
+                                "spec": [
+                                  {
+                                    "name": "mime_type",
+                                    "type": "text",
+                                    "label": "Mime Type",
+                                    "required": false
+                                  },
+                                  {
+                                    "help": "You get this from the 'Upload a File' module.",
+                                    "name": "file_uri",
+                                    "type": "text",
+                                    "label": "File URI",
+                                    "required": false
+                                  }
+                                ],
+                                "type": "collection",
+                                "label": "File Data",
+                                "required": false
+                              }
+                            ]
+                          },
+                          {
+                            "label": "Function Call",
+                            "value": "functionCall",
+                            "nested": [
+                              {
+                                "name": "functionCall",
+                                "spec": [
+                                  {
+                                    "help": "The name of the function to call.",
+                                    "name": "name",
+                                    "type": "text",
+                                    "label": "Name",
+                                    "required": true,
+                                    "validate": {
+                                      "max": 64
+                                    }
+                                  },
+                                  {
+                                    "help": "The function parameters and values in JSON object format.",
+                                    "name": "args",
+                                    "type": "json",
+                                    "label": "Arguments"
+                                  },
+                                  {
+                                    "help": "The unique ID of the function call.",
+                                    "name": "id",
+                                    "type": "text",
+                                    "label": "Function Call ID"
+                                  }
+                                ],
+                                "type": "collection",
+                                "label": "Function Call"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "Function Response",
+                            "value": "functionResponse",
+                            "nested": [
+                              {
+                                "name": "functionResponse",
+                                "spec": [
+                                  {
+                                    "help": "The name of the function to call.",
+                                    "name": "name",
+                                    "type": "text",
+                                    "label": "Name",
+                                    "required": true,
+                                    "validate": {
+                                      "max": 64
+                                    }
+                                  },
+                                  {
+                                    "help": "The function response in JSON object format.",
+                                    "name": "response",
+                                    "type": "json",
+                                    "label": "Response",
+                                    "required": true
+                                  }
+                                ],
+                                "type": "collection",
+                                "label": "Function Response"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "thoughtSignature",
+                        "type": "text",
+                        "label": "Thought Signature"
+                      }
+                    ],
+                    "type": "array",
+                    "label": "Parts"
+                  }
+                ],
+                "type": "array",
+                "label": "Messages",
+                "required": true
+              },
+              {
+                "name": "system_instruction",
+                "spec": [
+                  {
+                    "name": "parts",
+                    "spec": {
+                      "name": "value",
+                      "spec": [
+                        {
+                          "name": "text",
+                          "type": "text",
+                          "label": "Value"
+                        }
+                      ],
+                      "type": "collection",
+                      "label": "Prompt"
+                    },
+                    "type": "array",
+                    "label": "Prompts"
+                  }
+                ],
+                "type": "collection",
+                "label": "System Instructions"
+              },
+              {
+                "name": "safetySettings",
+                "spec": [
+                  {
+                    "name": "category",
+                    "type": "select",
+                    "label": "Category",
+                    "options": [
+                      {
+                        "label": "Harassment content",
+                        "value": "HARM_CATEGORY_HARASSMENT"
+                      },
+                      {
+                        "label": "Hate speech and content",
+                        "value": "HARM_CATEGORY_HATE_SPEECH"
+                      },
+                      {
+                        "label": "Sexually explicit content.",
+                        "value": "HARM_CATEGORY_SEXUALLY_EXPLICIT"
+                      },
+                      {
+                        "label": "Dangerous content:",
+                        "value": "HARM_CATEGORY_DANGEROUS_CONTENT"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "threshold",
+                    "type": "select",
+                    "label": "Threshold",
+                    "options": [
+                      {
+                        "label": "Block low and above.",
+                        "value": "BLOCK_LOW_AND_ABOVE"
+                      },
+                      {
+                        "label": "Block medium and above.",
+                        "value": "BLOCK_MEDIUM_AND_ABOVE"
+                      },
+                      {
+                        "label": "Block only high.",
+                        "value": "BLOCK_ONLY_HIGH"
+                      },
+                      {
+                        "label": "Block none.",
+                        "value": "BLOCK_NONE"
+                      }
+                    ]
+                  }
+                ],
+                "type": "array",
+                "label": "Safety Settings"
+              },
+              {
+                "name": "generationConfig",
+                "spec": [
+                  {
+                    "name": "stopSequences",
+                    "spec": {
+                      "name": "value",
+                      "type": "text",
+                      "label": "Stop Sequence"
+                    },
+                    "type": "array",
+                    "label": "Stop Sequences"
+                  },
+                  {
+                    "name": "responseModalities",
+                    "type": "select",
+                    "label": "Response Modalities",
+                    "multiple": true,
+                    "validate": {
+                      "enum": [
+                        "text",
+                        "image"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "maxOutputTokens",
+                    "type": "number",
+                    "label": "Max Output Tokens"
+                  },
+                  {
+                    "name": "temperature",
+                    "type": "number",
+                    "label": "Temperature",
+                    "validate": {
+                      "max": 1,
+                      "min": 0
+                    }
+                  },
+                  {
+                    "name": "topP",
+                    "type": "number",
+                    "label": "Top P",
+                    "validate": {
+                      "max": 1,
+                      "min": 0
+                    }
+                  },
+                  {
+                    "name": "topK",
+                    "type": "number",
+                    "label": "Top K"
+                  },
+                  {
+                    "name": "thinkingConfig",
+                    "spec": [
+                      {
+                        "name": "thinkingBudget",
+                        "type": "number",
+                        "label": "Thinking Budget"
+                      },
+                      {
+                        "name": "include_thoughts",
+                        "type": "boolean",
+                        "label": "Include Thoughts"
+                      },
+                      {
+                        "name": "thinking_level",
+                        "type": "select",
+                        "label": "Thinking Level",
+                        "validate": {
+                          "enum": [
+                            "low",
+                            "high"
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "collection",
+                    "label": "Thinking Config"
+                  },
+                  {
+                    "name": "mediaResolution",
+                    "type": "select",
+                    "label": "Media Resolution",
+                    "validate": {
+                      "enum": [
+                        "media_resolution_low",
+                        "media_resolution_medium",
+                        "media_resolution_high"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "imageConfig",
+                    "spec": [
+                      {
+                        "name": "imageSize",
+                        "type": "select",
+                        "label": "Image Size",
+                        "validate": {
+                          "enum": [
+                            "1K",
+                            "2K",
+                            "4K"
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "collection",
+                    "label": "Image Configuration"
+                  },
+                  {
+                    "name": "responseMimeType",
+                    "type": "select",
+                    "label": "Response Format"
+                  }
+                ],
+                "type": "collection",
+                "label": "Generation configurations"
+              },
+              {
+                "name": "tools",
+                "type": "any",
+                "label": "Tools"
+              },
+              {
+                "name": "tool_config",
+                "type": "any",
+                "label": "Tool Config"
+              },
+              {
+                "name": "function_declarations_context",
+                "type": "boolean",
+                "label": "Function Declarations Grounding"
+              },
+              {
+                "name": "url_context",
+                "type": "boolean",
+                "label": "URL Context"
+              },
+              {
+                "name": "google_search_context",
+                "type": "boolean",
+                "label": "Google Search Grounding"
+              },
+              {
+                "name": "code_execution",
+                "type": "boolean",
+                "label": "Code Execution"
+              },
+              {
+                "name": "google_maps_context",
+                "type": "boolean",
+                "label": "Google Maps Grounding"
+              },
+              {
+                "name": "file_search_store_context",
+                "type": "boolean",
+                "label": "File Search Store Context"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "model": {
+                  "mode": "chose",
+                  "label": "Gemini 2.5 Pro"
+                },
+                "contents": {
+                  "mode": "chose",
+                  "items": [
+                    {
+                      "role": {
+                        "mode": "chose",
+                        "label": "User"
+                      },
+                      "parts": {
+                        "mode": "chose",
+                        "items": [
+                          {
+                            "type": {
+                              "mode": "chose",
+                              "label": "Text"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "url_context": {
+                  "mode": "chose"
+                },
+                "code_execution": {
+                  "mode": "chose"
+                },
+                "safetySettings": {
+                  "mode": "chose"
+                },
+                "generationConfig": {
+                  "nested": {
+                    "imageConfig": {
+                      "nested": {
+                        "imageSize": {
+                          "mode": "chose",
+                          "label": "Empty"
+                        }
+                      }
+                    },
+                    "stopSequences": {
+                      "mode": "chose"
+                    },
+                    "thinkingConfig": {
+                      "nested": {
+                        "thinking_level": {
+                          "mode": "chose",
+                          "label": "Empty"
+                        },
+                        "include_thoughts": {
+                          "mode": "chose"
+                        }
+                      }
+                    },
+                    "mediaResolution": {
+                      "mode": "chose",
+                      "label": "Empty"
+                    },
+                    "responseMimeType": {
+                      "mode": "chose",
+                      "label": "Empty"
+                    },
+                    "responseModalities": {
+                      "mode": "chose"
+                    }
+                  }
+                },
+                "system_instruction": {
+                  "nested": {
+                    "parts": {
+                      "mode": "chose"
+                    }
+                  }
+                },
+                "google_maps_context": {
+                  "mode": "chose"
+                },
+                "google_search_context": {
+                  "mode": "chose"
+                },
+                "file_search_store_context": {
+                  "mode": "chose"
+                },
+                "function_declarations_context": {
+                  "mode": "chose"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "gemini-ai-q9zyjp"
+                  },
+                  "label": "My Gemini AI connection"
+                }
+              }
+            },
+            "designer": {
+              "x": 1810,
+              "y": 435
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:gemini-ai-q9zyjp",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7053345
+          }
+        },
+        {
+          "id": 33,
+          "mapper": {
+            "array": "{{split(32.`3`; \", \")}}"
+          },
+          "module": "builtin:BasicFeeder",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "mode": "edit",
+                "name": "array",
+                "spec": [],
+                "type": "array",
+                "label": "Array"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "array": {
+                  "mode": "edit"
+                }
+              }
+            },
+            "designer": {
+              "x": 2100,
+              "y": 450
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 36,
+          "mapper": {
+            "image_url": "https://lh3.googleusercontent.com/d/{{replace(33.value; \"/https:\\/\\/drive\\.google\\.com\\/file\\/d\\/(.*)\\/view.*/\"; \"$1\")}}",
+            "user_tags": [],
+            "media_type": "IMAGE"
+          },
+          "module": "builtin:BasicAggregator",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "media_type",
+                "type": "select",
+                "label": "Media Type",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "IMAGE",
+                    "VIDEO"
+                  ]
+                }
+              },
+              {
+                "name": "image_url",
+                "type": "url",
+                "label": "Photo URL",
+                "required": true
+              },
+              {
+                "name": "user_tags",
+                "spec": [
+                  {
+                    "name": "username",
+                    "type": "text",
+                    "label": "Username",
+                    "required": true,
+                    "validate": {
+                      "pattern": "^(?!@)"
+                    }
+                  },
+                  {
+                    "name": "x",
+                    "type": "number",
+                    "label": "X position",
+                    "required": true,
+                    "validate": {
+                      "max": 1,
+                      "min": 0
+                    }
+                  },
+                  {
+                    "name": "y",
+                    "type": "number",
+                    "label": "Y position",
+                    "required": true,
+                    "validate": {
+                      "max": 1,
+                      "min": 0
+                    }
+                  }
+                ],
+                "type": "array",
+                "label": "User Tags"
+              }
+            ],
+            "restore": {
+              "extra": {
+                "feeder": {
+                  "label": "Iterator [33]"
+                },
+                "target": {
+                  "label": "Files"
+                }
+              },
+              "expect": {
+                "__IMTTARGET__": {
+                  "nested": {
+                    "user_tags": {
+                      "mode": "chose"
+                    },
+                    "media_type": {
+                      "mode": "edit"
+                    }
+                  }
+                }
+              }
+            },
+            "advanced": true,
+            "designer": {
+              "x": 2400,
+              "y": 450
+            }
+          },
+          "parameters": {
+            "feeder": 33,
+            "target": "29.files"
+          }
+        },
+        {
+          "id": 29,
+          "mapper": {
+            "files": "{{36.array}}",
+            "caption": "{{5.result}}",
+            "accountId": "17841448122590253",
+            "location_id": "1933907943558143"
+          },
+          "module": "instagram-business:CreateCarouselPhoto",
+          "onerror": [
+            {
+              "id": 37,
+              "mapper": null,
+              "module": "builtin:BasicRouter",
+              "routes": [
+                {
+                  "flow": [
+                    {
+                      "id": 38,
+                      "filter": null,
+                      "mapper": {
+                        "text": "❌ ALERTA: FALLO EN PUBLICACIÓN\n\nEl carrusel {{36.array}} no se pudo publicar.\n\nRazón técnica: {{29.error.type}}{{29.error.message}}\n\n\nPor favor, revisa el escenario manualmente.",
+                        "chatId": "1574991960",
+                        "parseMode": "",
+                        "replyMarkup": "",
+                        "messageThreadId": "",
+                        "replyToMessageId": "",
+                        "replyMarkupAssembleType": "reply_markup_enter"
+                      },
+                      "module": "telegram:SendReplyMessage",
+                      "version": 1,
+                      "metadata": {
+                        "expect": [
+                          {
+                            "name": "chatId",
+                            "type": "text",
+                            "label": "Chat ID",
+                            "required": true
+                          },
+                          {
+                            "name": "text",
+                            "type": "text",
+                            "label": "Text",
+                            "required": true
+                          },
+                          {
+                            "name": "messageThreadId",
+                            "type": "number",
+                            "label": "Message Thread ID"
+                          },
+                          {
+                            "name": "parseMode",
+                            "type": "select",
+                            "label": "Parse Mode",
+                            "validate": {
+                              "enum": [
+                                "Markdown",
+                                "HTML"
+                              ]
+                            }
+                          },
+                          {
+                            "name": "disableNotification",
+                            "type": "boolean",
+                            "label": "Disable Notifications"
+                          },
+                          {
+                            "name": "disableWebPagePreview",
+                            "type": "boolean",
+                            "label": "Disable Link Previews"
+                          },
+                          {
+                            "name": "replyToMessageId",
+                            "type": "number",
+                            "label": "Original Message ID"
+                          },
+                          {
+                            "name": "replyMarkupAssembleType",
+                            "type": "select",
+                            "label": "Enter/Assemble the Reply Markup Field",
+                            "validate": {
+                              "enum": [
+                                "reply_markup_enter",
+                                "reply_markup_assemble"
+                              ]
+                            }
+                          },
+                          {
+                            "name": "replyMarkup",
+                            "type": "text",
+                            "label": "Reply Markup"
+                          }
+                        ],
+                        "restore": {
+                          "expect": {
+                            "parseMode": {
+                              "label": "Empty"
+                            },
+                            "disableNotification": {
+                              "mode": "chose"
+                            },
+                            "replyMarkupAssembleType": {
+                              "label": "Enter the Reply Markup"
+                            }
+                          },
+                          "parameters": {
+                            "__IMTCONN__": {
+                              "data": {
+                                "scoped": "true",
+                                "connection": "telegram"
+                              },
+                              "label": "Jonathan Bot"
+                            }
+                          }
+                        },
+                        "designer": {
+                          "x": 3300,
+                          "y": 600
+                        },
+                        "parameters": [
+                          {
+                            "name": "__IMTCONN__",
+                            "type": "account:telegram",
+                            "label": "Connection",
+                            "required": true
+                          }
+                        ]
+                      },
+                      "parameters": {
+                        "__IMTCONN__": 7085758
+                      }
+                    }
+                  ]
+                },
+                {
+                  "flow": [
+                    {
+                      "id": 21,
+                      "mapper": {
+                        "text": "❌ ALERTA: FALLO EN PUBLICACIÓN\n\nEl carrusel {{36.array}} no se pudo publicar.\n\nRazón técnica: {{29.error.type}}{{29.error.message}}\n\n\nPor favor, revisa el escenario manualmente.",
+                        "chatId": "7564066998",
+                        "parseMode": "",
+                        "replyMarkup": "",
+                        "messageThreadId": "",
+                        "replyToMessageId": "",
+                        "replyMarkupAssembleType": "reply_markup_enter"
+                      },
+                      "module": "telegram:SendReplyMessage",
+                      "version": 1,
+                      "metadata": {
+                        "expect": [
+                          {
+                            "name": "chatId",
+                            "type": "text",
+                            "label": "Chat ID",
+                            "required": true
+                          },
+                          {
+                            "name": "text",
+                            "type": "text",
+                            "label": "Text",
+                            "required": true
+                          },
+                          {
+                            "name": "messageThreadId",
+                            "type": "number",
+                            "label": "Message Thread ID"
+                          },
+                          {
+                            "name": "parseMode",
+                            "type": "select",
+                            "label": "Parse Mode",
+                            "validate": {
+                              "enum": [
+                                "Markdown",
+                                "HTML"
+                              ]
+                            }
+                          },
+                          {
+                            "name": "disableNotification",
+                            "type": "boolean",
+                            "label": "Disable Notifications"
+                          },
+                          {
+                            "name": "disableWebPagePreview",
+                            "type": "boolean",
+                            "label": "Disable Link Previews"
+                          },
+                          {
+                            "name": "replyToMessageId",
+                            "type": "number",
+                            "label": "Original Message ID"
+                          },
+                          {
+                            "name": "replyMarkupAssembleType",
+                            "type": "select",
+                            "label": "Enter/Assemble the Reply Markup Field",
+                            "validate": {
+                              "enum": [
+                                "reply_markup_enter",
+                                "reply_markup_assemble"
+                              ]
+                            }
+                          },
+                          {
+                            "name": "replyMarkup",
+                            "type": "text",
+                            "label": "Reply Markup"
+                          }
+                        ],
+                        "restore": {
+                          "expect": {
+                            "parseMode": {
+                              "label": "Empty"
+                            },
+                            "disableNotification": {
+                              "mode": "chose"
+                            },
+                            "replyMarkupAssembleType": {
+                              "label": "Enter the Reply Markup"
+                            }
+                          },
+                          "parameters": {
+                            "__IMTCONN__": {
+                              "data": {
+                                "scoped": "true",
+                                "connection": "telegram"
+                              },
+                              "label": "My Telegram Bot connection"
+                            }
+                          }
+                        },
+                        "designer": {
+                          "x": 3300,
+                          "y": 900
+                        },
+                        "parameters": [
+                          {
+                            "name": "__IMTCONN__",
+                            "type": "account:telegram",
+                            "label": "Connection",
+                            "required": true
+                          }
+                        ]
+                      },
+                      "parameters": {
+                        "__IMTCONN__": 7065553
+                      }
+                    }
+                  ]
+                }
+              ],
+              "version": 1,
+              "metadata": {
+                "designer": {
+                  "x": 3000,
+                  "y": 750
+                }
+              }
+            }
+          ],
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "accountId",
+                "type": "select",
+                "label": "Page",
+                "required": true
+              },
+              {
+                "name": "files",
+                "spec": [
+                  {
+                    "name": "media_type",
+                    "type": "select",
+                    "label": "Media Type",
+                    "options": [
+                      {
+                        "label": "Image",
+                        "value": "IMAGE",
+                        "nested": [
+                          {
+                            "help": "**Photo Requirements**\n- Maximum file size: 8MiB\n- Aspect ratio: Must be within a 4:5 to 1.91:1 range\n- Minimum width: 320 (will be scaled up to the minimum if necessary)\n- Maximum width: 1440 (will be scaled down to the maximum if necessary)\n- Height: Varies, depending on width and aspect ratio\n- Format: JPEG only\n\nPlease note that your image must be hosted on a publicly accessible URL. You cannot use files from Google Drive even if they are shared publicly: the Instagram API is not able to download files from there.\nFor other similar services, you may need to adjust the URL with a `replace` function. You can search the web for `[service name] raw file link` to try to find workarounds.",
+                            "name": "image_url",
+                            "type": "url",
+                            "label": "Photo URL",
+                            "required": true
+                          },
+                          {
+                            "name": "user_tags",
+                            "spec": [
+                              {
+                                "help": "Must not start with `@`. User must have a public Instagram account.",
+                                "name": "username",
+                                "type": "text",
+                                "label": "Username",
+                                "required": true,
+                                "validate": {
+                                  "pattern": "^(?!@)"
+                                }
+                              },
+                              {
+                                "help": "An optional float that indicates percentage distance from left edge of the published media image.",
+                                "name": "x",
+                                "type": "number",
+                                "label": "X position",
+                                "default": "0.0",
+                                "required": true,
+                                "validate": {
+                                  "max": 1,
+                                  "min": 0
+                                }
+                              },
+                              {
+                                "help": "An optional float that indicates percentage distance from top edge of the published media image.",
+                                "name": "y",
+                                "type": "number",
+                                "label": "Y position",
+                                "default": "0.0",
+                                "required": true,
+                                "validate": {
+                                  "max": 1,
+                                  "min": 0
+                                }
+                              }
+                            ],
+                            "type": "array",
+                            "label": "User Tags"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "Video",
+                        "value": "VIDEO",
+                        "nested": [
+                          {
+                            "help": "**Photo Requirements**\n- Maximum file size: 100MiB\n- Picture size:\n  ・ Maximum columns (horizontal pixels): 1920\n  ・ Minimum aspect ratio [cols / rows]: 4 / 5\n  ・ Maximum aspect ratio [cols / rows]: 16 / 9\n- Duration: 60 seconds max, 3 seconds min\n- Container: MOV or MP4 (MPEG-4 Part 14), no edit lists, moov atom at the front of the file\n- Frame rate: 23-60 FPS\n- Video codec: HEVC or H264, progressive scan, closed GOP, 4:2:0 chroma subsampling\n- Video bitrate: VBR, 5Mbps maximum\n- Audio codec: AAC, 48khz sample rate maximum, 1 or 2 channels (mono or stereo)\n- Audio bitrate: 128kbps\n\nPlease note that your video must be hosted on a publicly accessible URL. You cannot use files from Google Drive even if they are shared publicly: the Instagram API is not able to download files from there.\nFor other similar services, you may need to adjust the URL with a `replace` function. You can search the web for `[service name] raw file link` to try to find workarounds.",
+                            "name": "video_url",
+                            "type": "url",
+                            "label": "Video URL",
+                            "required": true
+                          },
+                          {
+                            "help": "Location, in milliseconds, of the reel frame to be used as the cover thumbnail image. The default value is `0`, which is the first frame of the reel.",
+                            "name": "thumb_offset",
+                            "type": "number",
+                            "label": "Cover Frame"
+                          }
+                        ]
+                      }
+                    ],
+                    "required": true
+                  }
+                ],
+                "type": "array",
+                "label": "Files",
+                "required": true,
+                "validate": {
+                  "maxItems": 10,
+                  "minItems": 2
+                }
+              },
+              {
+                "name": "caption",
+                "type": "text",
+                "label": "Caption"
+              },
+              {
+                "name": "location_id",
+                "type": "text",
+                "label": "Location ID"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "files": {
+                  "mode": "edit"
+                },
+                "accountId": {
+                  "mode": "chose",
+                  "label": "JonathanOcampoph (@j_ocampo_ph)"
+                },
+                "location_id": {
+                  "rpcSearch": {
+                    "label": "Madrid, España (Madrid, Spain)",
+                    "value": "1933907943558143"
+                  }
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "facebook"
+                  },
+                  "label": "My Facebook connection (Jonathan Ocampo Yandy)"
+                }
+              }
+            },
+            "designer": {
+              "x": 2700,
+              "y": 450
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:facebook",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7066319
+          }
+        },
+        {
+          "id": 8,
+          "mapper": {
+            "from": "drive",
+            "mode": "select",
+            "values": {
+              "11": "PUBLICADO"
+            },
+            "sheetId": "Automatización Instagram con IA y Sheets",
+            "rowNumber": "{{32.`__ROW_NUMBER__`}}",
+            "spreadsheetId": "/1xSgd1s1DmyDXw7Vhf3ttKvlYoUGPFubw/1K_24Sq36rkClKijWelODujM59ZX1h34W/1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+            "includesHeaders": true,
+            "valueInputOption": "USER_ENTERED"
+          },
+          "module": "google-sheets:updateRow",
+          "version": 2,
+          "metadata": {
+            "expect": [
+              {
+                "name": "mode",
+                "type": "select",
+                "label": "Search Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "select",
+                    "fromAll",
+                    "map"
+                  ]
+                }
+              },
+              {
+                "name": "valueInputOption",
+                "type": "select",
+                "label": "Value input option",
+                "validate": {
+                  "enum": [
+                    "USER_ENTERED",
+                    "RAW"
+                  ]
+                }
+              },
+              {
+                "name": "from",
+                "type": "select",
+                "label": "Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "spreadsheetId",
+                "type": "file",
+                "label": "Spreadsheet ID",
+                "required": true
+              },
+              {
+                "name": "sheetId",
+                "type": "select",
+                "label": "Sheet Name",
+                "required": true
+              },
+              {
+                "name": "rowNumber",
+                "type": "uinteger",
+                "label": "Row number",
+                "required": true
+              },
+              {
+                "name": "includesHeaders",
+                "type": "select",
+                "label": "Table contains headers",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    true,
+                    false
+                  ]
+                }
+              },
+              {
+                "name": "values",
+                "spec": [
+                  {
+                    "name": "0",
+                    "type": "text",
+                    "label": "ID_Drive (A)"
+                  },
+                  {
+                    "name": "1",
+                    "type": "text",
+                    "label": "Nombre_Archivo (B)"
+                  },
+                  {
+                    "name": "2",
+                    "type": "text",
+                    "label": "Contexto (Nombre de la carpeta) (C)"
+                  },
+                  {
+                    "name": "3",
+                    "type": "text",
+                    "label": "Link_Visual (D)"
+                  },
+                  {
+                    "name": "4",
+                    "type": "text",
+                    "label": "Opcion_1_Emocional (E)"
+                  },
+                  {
+                    "name": "5",
+                    "type": "text",
+                    "label": "Opcion_2_Pregunta (F)"
+                  },
+                  {
+                    "name": "6",
+                    "type": "text",
+                    "label": "Opcion_3_Educativo (G)"
+                  },
+                  {
+                    "name": "7",
+                    "type": "text",
+                    "label": "Opcion_4_Minimalista (H)"
+                  },
+                  {
+                    "name": "8",
+                    "type": "text",
+                    "label": "Opcion_5_Venta (I)"
+                  },
+                  {
+                    "name": "9",
+                    "type": "text",
+                    "label": "Opcion_6_Humor (J)"
+                  },
+                  {
+                    "name": "10",
+                    "type": "text",
+                    "label": "Seleccion (K)"
+                  },
+                  {
+                    "name": "11",
+                    "type": "text",
+                    "label": "Estado (L)"
+                  },
+                  {
+                    "name": "12",
+                    "type": "text",
+                    "label": "Fecha (M)"
+                  },
+                  {
+                    "name": "13",
+                    "type": "text",
+                    "label": "(N)"
+                  },
+                  {
+                    "name": "14",
+                    "type": "text",
+                    "label": "(O)"
+                  },
+                  {
+                    "name": "15",
+                    "type": "text",
+                    "label": "(P)"
+                  },
+                  {
+                    "name": "16",
+                    "type": "text",
+                    "label": "(Q)"
+                  },
+                  {
+                    "name": "17",
+                    "type": "text",
+                    "label": "(R)"
+                  },
+                  {
+                    "name": "18",
+                    "type": "text",
+                    "label": "(S)"
+                  },
+                  {
+                    "name": "19",
+                    "type": "text",
+                    "label": "(T)"
+                  },
+                  {
+                    "name": "20",
+                    "type": "text",
+                    "label": "(U)"
+                  },
+                  {
+                    "name": "21",
+                    "type": "text",
+                    "label": "(V)"
+                  },
+                  {
+                    "name": "22",
+                    "type": "text",
+                    "label": "(W)"
+                  },
+                  {
+                    "name": "23",
+                    "type": "text",
+                    "label": "(X)"
+                  }
+                ],
+                "type": "collection",
+                "label": "Values"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "from": {
+                  "label": "My Drive"
+                },
+                "mode": {
+                  "label": "Search by path"
+                },
+                "sheetId": {
+                  "label": "Automatización Instagram con IA y Sheets"
+                },
+                "spreadsheetId": {
+                  "path": [
+                    "Jonathan",
+                    "00_AUTOMATIZACION_IG",
+                    "Planner Instagram"
+                  ]
+                },
+                "includesHeaders": {
+                  "label": "Yes",
+                  "nested": [
+                    {
+                      "name": "values",
+                      "spec": [
+                        {
+                          "name": "0",
+                          "type": "text",
+                          "label": "ID_Drive (A)"
+                        },
+                        {
+                          "name": "1",
+                          "type": "text",
+                          "label": "Nombre_Archivo (B)"
+                        },
+                        {
+                          "name": "2",
+                          "type": "text",
+                          "label": "Contexto (Nombre de la carpeta) (C)"
+                        },
+                        {
+                          "name": "3",
+                          "type": "text",
+                          "label": "Link_Visual (D)"
+                        },
+                        {
+                          "name": "4",
+                          "type": "text",
+                          "label": "Opcion_1_Emocional (E)"
+                        },
+                        {
+                          "name": "5",
+                          "type": "text",
+                          "label": "Opcion_2_Pregunta (F)"
+                        },
+                        {
+                          "name": "6",
+                          "type": "text",
+                          "label": "Opcion_3_Educativo (G)"
+                        },
+                        {
+                          "name": "7",
+                          "type": "text",
+                          "label": "Opcion_4_Minimalista (H)"
+                        },
+                        {
+                          "name": "8",
+                          "type": "text",
+                          "label": "Opcion_5_Venta (I)"
+                        },
+                        {
+                          "name": "9",
+                          "type": "text",
+                          "label": "Opcion_6_Humor (J)"
+                        },
+                        {
+                          "name": "10",
+                          "type": "text",
+                          "label": "Seleccion (K)"
+                        },
+                        {
+                          "name": "11",
+                          "type": "text",
+                          "label": "Estado (L)"
+                        },
+                        {
+                          "name": "12",
+                          "type": "text",
+                          "label": "Fecha (M)"
+                        },
+                        {
+                          "name": "13",
+                          "type": "text",
+                          "label": "(N)"
+                        },
+                        {
+                          "name": "14",
+                          "type": "text",
+                          "label": "(O)"
+                        },
+                        {
+                          "name": "15",
+                          "type": "text",
+                          "label": "(P)"
+                        },
+                        {
+                          "name": "16",
+                          "type": "text",
+                          "label": "(Q)"
+                        },
+                        {
+                          "name": "17",
+                          "type": "text",
+                          "label": "(R)"
+                        },
+                        {
+                          "name": "18",
+                          "type": "text",
+                          "label": "(S)"
+                        },
+                        {
+                          "name": "19",
+                          "type": "text",
+                          "label": "(T)"
+                        },
+                        {
+                          "name": "20",
+                          "type": "text",
+                          "label": "(U)"
+                        },
+                        {
+                          "name": "21",
+                          "type": "text",
+                          "label": "(V)"
+                        },
+                        {
+                          "name": "22",
+                          "type": "text",
+                          "label": "(W)"
+                        },
+                        {
+                          "name": "23",
+                          "type": "text",
+                          "label": "(X)"
+                        }
+                      ],
+                      "type": "collection",
+                      "label": "Values"
+                    }
+                  ]
+                },
+                "valueInputOption": {
+                  "mode": "chose",
+                  "label": "User entered"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google"
+                  },
+                  "label": "My Google connection (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 3000,
+              "y": 150
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7054313
+          }
+        },
+        {
+          "id": 7,
+          "mapper": {
+            "move": "drive",
+            "folder": "{{32.`0`}}",
+            "select": "folder",
+            "folderId": "/1xSgd1s1DmyDXw7Vhf3ttKvlYoUGPFubw/1MSYU-JMx9rRuBSqgNpCgQOyswxloJqqV",
+            "destination": "drive"
+          },
+          "module": "google-drive:moveAFileIntoAFolder",
+          "version": 4,
+          "metadata": {
+            "expect": [
+              {
+                "name": "move",
+                "type": "select",
+                "label": "Choose a Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "destination",
+                "type": "select",
+                "label": "New Drive Location",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "select",
+                "type": "select",
+                "label": "Select File/Folder",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "file",
+                    "folder"
+                  ]
+                }
+              },
+              {
+                "mode": "edit",
+                "name": "folder",
+                "type": "folder",
+                "label": "Folder ID",
+                "required": true
+              },
+              {
+                "name": "folderId",
+                "type": "folder",
+                "label": "New Folder Location",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "move": {
+                  "label": "My Drive"
+                },
+                "folder": {
+                  "mode": "edit",
+                  "path": []
+                },
+                "select": {
+                  "label": "Folder"
+                },
+                "folderId": {
+                  "mode": "chose",
+                  "path": [
+                    "Jonathan",
+                    "99_PUBLICADAS"
+                  ]
+                },
+                "destination": {
+                  "label": "My Drive"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google-restricted"
+                  },
+                  "label": "My Google (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 3300,
+              "y": 150
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google-restricted",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7052685
+          }
+        },
+        {
+          "id": 18,
+          "mapper": null,
+          "module": "builtin:BasicRouter",
+          "routes": [
+            {
+              "flow": [
+                {
+                  "id": 16,
+                  "mapper": {
+                    "text": "Foto publicada: \n{{36.array}}{{5.result}}{{29.id}}",
+                    "chatId": "7564066998",
+                    "parseMode": "",
+                    "replyMarkup": "",
+                    "messageThreadId": "",
+                    "replyToMessageId": "",
+                    "replyMarkupAssembleType": "reply_markup_enter"
+                  },
+                  "module": "telegram:SendReplyMessage",
+                  "version": 1,
+                  "metadata": {
+                    "expect": [
+                      {
+                        "name": "chatId",
+                        "type": "text",
+                        "label": "Chat ID",
+                        "required": true
+                      },
+                      {
+                        "name": "text",
+                        "type": "text",
+                        "label": "Text",
+                        "required": true
+                      },
+                      {
+                        "name": "messageThreadId",
+                        "type": "number",
+                        "label": "Message Thread ID"
+                      },
+                      {
+                        "name": "parseMode",
+                        "type": "select",
+                        "label": "Parse Mode",
+                        "validate": {
+                          "enum": [
+                            "Markdown",
+                            "HTML"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "disableNotification",
+                        "type": "boolean",
+                        "label": "Disable Notifications"
+                      },
+                      {
+                        "name": "disableWebPagePreview",
+                        "type": "boolean",
+                        "label": "Disable Link Previews"
+                      },
+                      {
+                        "name": "replyToMessageId",
+                        "type": "number",
+                        "label": "Original Message ID"
+                      },
+                      {
+                        "name": "replyMarkupAssembleType",
+                        "type": "select",
+                        "label": "Enter/Assemble the Reply Markup Field",
+                        "validate": {
+                          "enum": [
+                            "reply_markup_enter",
+                            "reply_markup_assemble"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "replyMarkup",
+                        "type": "text",
+                        "label": "Reply Markup"
+                      }
+                    ],
+                    "restore": {
+                      "expect": {
+                        "parseMode": {
+                          "label": "Empty"
+                        },
+                        "disableNotification": {
+                          "mode": "chose"
+                        },
+                        "replyMarkupAssembleType": {
+                          "label": "Enter the Reply Markup"
+                        }
+                      },
+                      "parameters": {
+                        "__IMTCONN__": {
+                          "data": {
+                            "scoped": "true",
+                            "connection": "telegram"
+                          },
+                          "label": "My Telegram Bot connection"
+                        }
+                      }
+                    },
+                    "designer": {
+                      "x": 3900,
+                      "y": 0
+                    },
+                    "parameters": [
+                      {
+                        "name": "__IMTCONN__",
+                        "type": "account:telegram",
+                        "label": "Connection",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "parameters": {
+                    "__IMTCONN__": 7065553
+                  }
+                }
+              ]
+            },
+            {
+              "flow": [
+                {
+                  "id": 39,
+                  "mapper": {
+                    "text": "Foto publicada: \n{{36.array}}{{5.result}}{{29.id}}",
+                    "chatId": "1574991960",
+                    "parseMode": "",
+                    "replyMarkup": "",
+                    "messageThreadId": "",
+                    "replyToMessageId": "",
+                    "replyMarkupAssembleType": "reply_markup_enter"
+                  },
+                  "module": "telegram:SendReplyMessage",
+                  "version": 1,
+                  "metadata": {
+                    "expect": [
+                      {
+                        "name": "chatId",
+                        "type": "text",
+                        "label": "Chat ID",
+                        "required": true
+                      },
+                      {
+                        "name": "text",
+                        "type": "text",
+                        "label": "Text",
+                        "required": true
+                      },
+                      {
+                        "name": "messageThreadId",
+                        "type": "number",
+                        "label": "Message Thread ID"
+                      },
+                      {
+                        "name": "parseMode",
+                        "type": "select",
+                        "label": "Parse Mode",
+                        "validate": {
+                          "enum": [
+                            "Markdown",
+                            "HTML"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "disableNotification",
+                        "type": "boolean",
+                        "label": "Disable Notifications"
+                      },
+                      {
+                        "name": "disableWebPagePreview",
+                        "type": "boolean",
+                        "label": "Disable Link Previews"
+                      },
+                      {
+                        "name": "replyToMessageId",
+                        "type": "number",
+                        "label": "Original Message ID"
+                      },
+                      {
+                        "name": "replyMarkupAssembleType",
+                        "type": "select",
+                        "label": "Enter/Assemble the Reply Markup Field",
+                        "validate": {
+                          "enum": [
+                            "reply_markup_enter",
+                            "reply_markup_assemble"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "replyMarkup",
+                        "type": "text",
+                        "label": "Reply Markup"
+                      }
+                    ],
+                    "restore": {
+                      "expect": {
+                        "parseMode": {
+                          "label": "Empty"
+                        },
+                        "disableNotification": {
+                          "mode": "chose"
+                        },
+                        "replyMarkupAssembleType": {
+                          "label": "Enter the Reply Markup"
+                        }
+                      },
+                      "parameters": {
+                        "__IMTCONN__": {
+                          "data": {
+                            "scoped": "true",
+                            "connection": "telegram"
+                          },
+                          "label": "Jonathan Bot"
+                        }
+                      }
+                    },
+                    "designer": {
+                      "x": 3922,
+                      "y": 359
+                    },
+                    "parameters": [
+                      {
+                        "name": "__IMTCONN__",
+                        "type": "account:telegram",
+                        "label": "Connection",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "parameters": {
+                    "__IMTCONN__": 7085758
+                  }
+                }
+              ]
+            }
+          ],
+          "version": 1,
+          "metadata": {
+            "designer": {
+              "x": 3600,
+              "y": 150
+            }
+          }
+        }
+      ],
+      "name": "Exportar Fotos",
+      "metadata": {
+        "instant": false,
+        "version": 1,
+        "designer": {
+          "orphans": [],
+          "samples": {
+            "5": {
+              "result": "Música. Alma. Noche. 🎶✨🌙\n@ninosbravos @inverfest\n\n👉 ¡SÍGUENOS para más!\n\n#Música #Concierto #Músi...",
+              "candidates": [
+                {
+                  "index": 0,
+                  "content": {
+                    "role": "model",
+                    "parts": [
+                      {
+                        "text": "Música. Alma. Noche. 🎶✨🌙\n@ninosbravos @inverfest\n\n👉 ¡SÍGUENOS para más!\n\n#Música #Concierto #Músi..."
+                      }
+                    ]
+                  },
+                  "finishReason": "STOP"
+                }
+              ],
+              "responseId": "ygdxafezCryujrEP_fjriQw",
+              "modelVersion": "gemini-2.5-pro",
+              "usageMetadata": {
+                "totalTokenCount": 1675,
+                "promptTokenCount": 200,
+                "thoughtsTokenCount": 1372,
+                "promptTokensDetails": [
+                  {
+                    "modality": "TEXT",
+                    "tokenCount": 200
+                  }
+                ],
+                "candidatesTokenCount": 103
+              }
+            },
+            "7": {
+              "id": "1iR6UzyixvggsH8c1Vc7OTRS26eE34BTH",
+              "kind": "drive#file",
+              "name": "OK_Publicacion3",
+              "owners": [
+                {
+                  "me": true,
+                  "kind": "drive#user",
+                  "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                  "displayName": "Juan Carlos Alvarado",
+                  "emailAddress": "jucaalgo@gmail.com",
+                  "permissionId": "16601922730504765853"
+                }
+              ],
+              "shared": true,
+              "spaces": [
+                "drive"
+              ],
+              "parents": [
+                "1MSYU-JMx9rRuBSqgNpCgQOyswxloJqqV"
+              ],
+              "starred": false,
+              "trashed": false,
+              "version": "8",
+              "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+48+shared",
+              "mimeType": "application/vnd.google-apps.folder",
+              "ownedByMe": true,
+              "viewedByMe": true,
+              "createdTime": "2026-01-20T21:39:01.510Z",
+              "permissions": [
+                {
+                  "id": "04021799227798587820",
+                  "kind": "drive#permission",
+                  "role": "writer",
+                  "type": "user",
+                  "deleted": null,
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "pendingOwner": null,
+                  "allowFileDiscovery": null
+                }
+              ],
+              "webViewLink": "https://drive.google.com/drive/folders/1iR6UzyixvggsH8c1Vc7OTRS26eE34BTH",
+              "capabilities": {
+                "canCopy": false,
+                "canEdit": true,
+                "canShare": true,
+                "canTrash": true,
+                "canDelete": true,
+                "canRename": true,
+                "canComment": true,
+                "canUntrash": true,
+                "canDownload": true,
+                "canReadLabels": false,
+                "canAddChildren": true,
+                "canListChildren": true,
+                "canModifyLabels": false,
+                "canModifyContent": true,
+                "canReadRevisions": false,
+                "canRemoveChildren": true,
+                "canAcceptOwnership": false,
+                "canAddMyDriveParent": false,
+                "canMoveItemOutOfDrive": true,
+                "canMoveItemWithinDrive": true,
+                "canRemoveMyDriveParent": true,
+                "canMoveItemIntoTeamDrive": true,
+                "canMoveChildrenWithinDrive": true,
+                "canModifyContentRestriction": false,
+                "canRemoveContentRestriction": false,
+                "canEnableInheritedPermissions": true,
+                "canChangeSecurityUpdateEnabled": false,
+                "canChangeViewersCanCopyContent": false,
+                "canDisableInheritedPermissions": true,
+                "canChangeItemDownloadRestriction": false,
+                "canModifyOwnerContentRestriction": false,
+                "canModifyEditorContentRestriction": false,
+                "canChangeCopyRequiresWriterPermission": false
+              },
+              "hasThumbnail": false,
+              "modifiedByMe": true,
+              "modifiedTime": "2026-01-21T16:57:49.696Z",
+              "permissionIds": [
+                "anyoneWithLink"
+              ],
+              "folderColorRgb": "#8f8f8f",
+              "quotaBytesUsed": "0",
+              "viewedByMeTime": "2026-01-20T21:39:01.510Z",
+              "isAppAuthorized": false,
+              "writersCanShare": true,
+              "modifiedByMeTime": "2026-01-21T16:57:49.696Z",
+              "thumbnailVersion": "0",
+              "explicitlyTrashed": false,
+              "lastModifyingUser": {
+                "me": true,
+                "kind": "drive#user",
+                "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                "displayName": "Juan Carlos Alvarado",
+                "emailAddress": "jucaalgo@gmail.com",
+                "permissionId": "16601922730504765853"
+              },
+              "linkShareMetadata": {
+                "securityUpdateEnabled": true,
+                "securityUpdateEligible": false
+              },
+              "downloadRestrictions": {
+                "itemDownloadRestriction": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                },
+                "effectiveDownloadRestrictionWithContext": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                }
+              },
+              "viewersCanCopyContent": true,
+              "copyRequiresWriterPermission": false,
+              "inheritedPermissionsDisabled": false
+            },
+            "8": {
+              "updatedRows": 1,
+              "updatedCells": 1,
+              "updatedRange": "'Automatización Instagram con IA y Sheets'!A2:L2",
+              "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+              "updatedColumns": 1
+            },
+            "16": {
+              "chat": {
+                "id": 7564066998,
+                "type": "private",
+                "first_name": "Juan"
+              },
+              "date": 1769015277,
+              "from": {
+                "id": 8182313393,
+                "is_bot": true,
+                "username": "jucaalgo1bot",
+                "first_name": "Respuestas"
+              },
+              "text": "Foto publicada: {\"id\":\"17958282108044929\"}17958282108044929",
+              "message_id": 14
+            },
+            "21": {
+              "chat": {
+                "id": 7564066998,
+                "type": "private",
+                "first_name": "Juan"
+              },
+              "date": 1769015165,
+              "from": {
+                "id": 8182313393,
+                "is_bot": true,
+                "username": "jucaalgo1bot",
+                "first_name": "Respuestas"
+              },
+              "text": "❌ ALERTA: FALLO EN PUBLICACIÓN\n\nEl carrusel {\"image_url\":\"https://lh3.googleusercontent.com/d/1Xhe7a...",
+              "entities": [
+                {
+                  "type": "url",
+                  "length": 69,
+                  "offset": 304
+                }
+              ],
+              "message_id": 13,
+              "link_preview_options": {
+                "url": "https://lh3.googleusercontent.com/d/1Xhe7avhUn0hFG6TW73sBPMLCjrrEs6u4"
+              }
+            },
+            "29": {
+              "id": "17958282108044929"
+            },
+            "32": {
+              "0": "1iR6UzyixvggsH8c1Vc7OTRS26eE34BTH",
+              "1": "Publicacion3",
+              "2": "@ninosbravos , @inverfest",
+              "3": "https://drive.google.com/file/d/1Xhe7avhUn0hFG6TW73sBPMLCjrrEs6u4/view?usp=drivesdk, https://drive.g...",
+              "4": "Esa conexión mágica con cada acorde. Pura emoción que te eleva en el escenario. Siente la música.",
+              "5": "¡No te quedes fuera! Ven a sentir la vibración en vivo. La música te espera para una noche inolvidab...",
+              "6": "Dominando la Telecaster bajo luces de neón. Técnica y pasión en cada riff. Un sonido impecable que r...",
+              "7": "Música. Alma. Noche.",
+              "8": "¡Cuando el riff te posee! 🔥 ¿Qué canción te hace sentir así? ¡Comenta y comparte tu himno rockero!",
+              "9": "Donde las luces pintan la melodía y el corazón late al ritmo de un solo inolvidable. Sumérgete en la...",
+              "10": "4",
+              "11": "Pendiente",
+              "12": "2026-01-20T21:39:01.510Z",
+              "13": "Madrid ",
+              "__SHEET__": "Automatización Instagram con IA y Sheets",
+              "__IMTINDEX__": 1,
+              "__IMTLENGTH__": 1,
+              "__ROW_NUMBER__": 2,
+              "__SPREADSHEET_ID__": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20"
+            },
+            "33": {
+              "value": "https://drive.google.com/file/d/1Xhe7avhUn0hFG6TW73sBPMLCjrrEs6u4/view?usp=drivesdk",
+              "__IMTINDEX__": 1,
+              "__IMTLENGTH__": 3
+            },
+            "36": {
+              "array": [
+                {
+                  "image_url": "https://lh3.googleusercontent.com/d/1-vnaqlMRmjbqriD5RApsm47cSrbIX8ZY",
+                  "user_tags": [],
+                  "media_type": "IMAGE"
+                }
+              ],
+              "__IMTAGGLENGTH__": 3
+            },
+            "38": {
+              "chat": {
+                "id": 1574991960,
+                "type": "private",
+                "username": "Jonathan_yandy",
+                "last_name": "Ocampo",
+                "first_name": "Jonathan"
+              },
+              "date": 1769015165,
+              "from": {
+                "id": 8520443129,
+                "is_bot": true,
+                "username": "Avisamefoto_bot",
+                "first_name": "Aviso fotos"
+              },
+              "text": "❌ ALERTA: FALLO EN PUBLICACIÓN\n\nEl carrusel {\"image_url\":\"https://lh3.googleusercontent.com/d/1Xhe7a...",
+              "entities": [
+                {
+                  "type": "url",
+                  "length": 69,
+                  "offset": 304
+                }
+              ],
+              "message_id": 4,
+              "link_preview_options": {
+                "url": "https://lh3.googleusercontent.com/d/1Xhe7avhUn0hFG6TW73sBPMLCjrrEs6u4"
+              }
+            },
+            "39": {
+              "chat": {
+                "id": 1574991960,
+                "type": "private",
+                "username": "Jonathan_yandy",
+                "last_name": "Ocampo",
+                "first_name": "Jonathan"
+              },
+              "date": 1769015277,
+              "from": {
+                "id": 8520443129,
+                "is_bot": true,
+                "username": "Avisamefoto_bot",
+                "first_name": "Aviso fotos"
+              },
+              "text": "Foto publicada: {\"id\":\"17958282108044929\"}17958282108044929",
+              "message_id": 5
+            }
+          }
+        },
+        "scenario": {
+          "dlq": false,
+          "slots": null,
+          "dataloss": false,
+          "maxErrors": 3,
+          "autoCommit": true,
+          "roundtrips": 1,
+          "sequential": false,
+          "confidential": false,
+          "freshVariables": false,
+          "autoCommitTriggerLast": true
+        }
+      }
+    },
+    "scheduling": {
+      "days": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "time": "20:00",
+      "type": "weekly"
+    },
+    "concept": false,
+    "created": "2026-01-19T18:52:36.700Z",
+    "last_edit": "2026-01-26T07:13:17.406Z",
+    "metadata": {
+      "input_spec": [],
+      "output_spec": []
+    },
+    "idSequence": 40
+  }
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "id": 3933422,
+    "name": "Exportar Fotos",
+    "teamId": 1788437,
+    "hookId": null,
+    "devices": [],
+    "deviceId": null,
+    "deviceScope": null,
+    "concept": false,
+    "description": "",
+    "folderId": 197921,
+    "slots": null,
+    "isinvalid": false,
+    "islinked": true,
+    "islocked": false,
+    "isPaused": false,
+    "usedPackages": [
+      "google-sheets",
+      "util",
+      "util",
+      "util",
+      "util",
+      "util",
+      "gemini-ai",
+      "builtin",
+      "builtin",
+      "instagram-business",
+      "builtin",
+      "telegram",
+      "telegram",
+      "google-sheets",
+      "google-drive",
+      "builtin",
+      "telegram",
+      "telegram"
+    ],
+    "lastEdit": "2026-01-26T07:13:17.406Z",
+    "scheduling": {
+      "days": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "time": "20:00",
+      "type": "weekly"
+    },
+    "iswaiting": false,
+    "dlqCount": 0,
+    "allDlqCount": 0,
+    "createdByUser": {
+      "id": 3914224,
+      "name": "Juan Carlos Alvarado González",
+      "email": "jucaalgo@gmail.com"
+    },
+    "updatedByUser": {
+      "id": 3914224,
+      "name": "Juan Carlos Alvarado González",
+      "email": "jucaalgo@gmail.com"
+    },
+    "nextExec": "2026-01-28T19:00:00.000Z",
+    "created": "2026-01-19T18:52:36.700Z",
+    "chainingRole": "none",
+    "type": "scenario",
+    "isShared": false,
+    "operations": 346,
+    "centicredits": 34600,
+    "transfer": 19251822,
+    "isActive": true
+  },
+  {
+    "id": 3953253,
+    "name": "Reporte",
+    "teamId": 1788437,
+    "hookId": null,
+    "devices": [],
+    "deviceId": null,
+    "deviceScope": null,
+    "concept": false,
+    "description": "",
+    "folderId": 197921,
+    "slots": null,
+    "isinvalid": false,
+    "islinked": true,
+    "islocked": false,
+    "isPaused": false,
+    "usedPackages": [
+      "instagram-business",
+      "instagram-business",
+      "builtin",
+      "google-sheets",
+      "google-sheets",
+      "builtin",
+      "builtin",
+      "google-sheets",
+      "telegram",
+      "telegram"
+    ],
+    "lastEdit": "2026-01-22T10:21:01.641Z",
+    "scheduling": {
+      "time": "10:00",
+      "type": "daily"
+    },
+    "iswaiting": false,
+    "dlqCount": 0,
+    "allDlqCount": 0,
+    "createdByUser": {
+      "id": 3914224,
+      "name": "Juan Carlos Alvarado González",
+      "email": "jucaalgo@gmail.com"
+    },
+    "updatedByUser": {
+      "id": 3914224,
+      "name": "Juan Carlos Alvarado González",
+      "email": "jucaalgo@gmail.com"
+    },
+    "nextExec": "2026-01-29T09:00:00.000Z",
+    "created": "2026-01-21T23:34:02.053Z",
+    "chainingRole": "none",
+    "type": "scenario",
+    "isShared": false,
+    "operations": 256,
+    "centicredits": 25600,
+    "transfer": 350631,
+    "isActive": true
+  },
+  {
+    "id": 3932125,
+    "name": "RevisionFotos",
+    "teamId": 1788437,
+    "hookId": null,
+    "devices": [],
+    "deviceId": null,
+    "deviceScope": null,
+    "concept": false,
+    "description": "",
+    "folderId": 197921,
+    "slots": null,
+    "isinvalid": false,
+    "islinked": true,
+    "islocked": false,
+    "isPaused": false,
+    "usedPackages": [
+      "google-drive",
+      "google-drive",
+      "google-drive",
+      "builtin",
+      "google-drive",
+      "gemini-ai",
+      "builtin",
+      "gemini-ai",
+      "json",
+      "google-sheets",
+      "google-drive"
+    ],
+    "lastEdit": "2026-01-21T10:59:23.973Z",
+    "scheduling": {
+      "days": [
+        1
+      ],
+      "time": "08:00",
+      "type": "weekly"
+    },
+    "iswaiting": false,
+    "dlqCount": 0,
+    "allDlqCount": 0,
+    "createdByUser": {
+      "id": 3914224,
+      "name": "Juan Carlos Alvarado González",
+      "email": "jucaalgo@gmail.com"
+    },
+    "updatedByUser": {
+      "id": 3914224,
+      "name": "Juan Carlos Alvarado González",
+      "email": "jucaalgo@gmail.com"
+    },
+    "nextExec": "2026-02-02T07:00:00.000Z",
+    "created": "2026-01-19T16:21:23.444Z",
+    "chainingRole": "none",
+    "type": "scenario",
+    "isShared": false,
+    "operations": 1691,
+    "centicredits": 169100,
+    "transfer": 354022382,
+    "isActive": true
+  }
+]

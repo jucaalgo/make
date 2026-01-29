@@ -1,0 +1,1813 @@
+{
+  "id": "PUBLISHED-bHfQiwh9a2RurQ5v-SrKW",
+  "name": "Pipedrive CRM",
+  "icon": "",
+  "title": "Pipedrive CRM",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_pipedrive.png",
+  "summary": null,
+  "urlKey": "pipedrive",
+  "description": "",
+  "urlAlias": "apps.make.com/pipedrive",
+  "data": {
+    "nodes": [
+      {
+        "id": "03XY8tEC7XhV4ShvQypyK",
+        "type": "vertical-split",
+        "data": {
+          "layout": "left"
+        },
+        "children": [
+          {
+            "id": "iav0s_MmPT77Hf4ryvRfP",
+            "type": "vertical-split-item",
+            "data": null,
+            "children": [
+              {
+                "id": "A-3GFDYKPEBhEGIdvPBhv",
+                "type": "image",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "data": {
+                  "src": "https://archbee-image-uploads.s3.amazonaws.com/oAyFj2GHlBeBVWF5OAir2/c3mKLC3Hyhr4p6BZYixkk-20251029-171037.png",
+                  "signedSrc": "",
+                  "size": 60,
+                  "width": 800,
+                  "height": 800,
+                  "position": "center",
+                  "caption": ""
+                }
+              }
+            ]
+          },
+          {
+            "id": "BXuTO2kraZMkgPZABazPA",
+            "type": "vertical-split-item",
+            "data": null,
+            "children": [
+              {
+                "id": "NKSivjD6gUlb3bD4F4CBb",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "With Pipedrive CRM modules in "
+                  },
+                  {
+                    "id": "Rmtnm5BDi4X1a5OSAlX-b",
+                    "type": "variable",
+                    "data": {
+                      "key": "product_name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", you can manage deals, products in deals, persons in deals, participants in deals, files in deals, activities in deals, leads, organizations, products, persons, notes, activities, mails, followers, users, files, subscriptions, filters, pipelines, stages, and items in your Pipedrive CRM account."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "M0QX2YCZ15-UoaT5gGi60",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "IQKDZBy29EBF1s-3nsTtB",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Pipedrive API v1 modules are now deprecated. Existing scenarios using these modules will continue to run until "
+              },
+              {
+                "text": "July 31, 2026",
+                "bold": true
+              },
+              {
+                "text": "."
+              }
+            ]
+          },
+          {
+            "id": "zLK_bX-EZmTiYimc0-x7M",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "For more information, see "
+              },
+              {
+                "id": "VGj_ONLZDlfspCFUwswco",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Pipedrive API v1 to v2 transition by July 31, 2026",
+                  "spaceId": "TDD_JYughqVhdcQ3sZF9_",
+                  "docId": "SNSLRtZu2jzXj5YKGx7Yi",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "dynamic",
+                  "overridedLabel": "Pipedrive API v1 to v2 transition"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "M8lx-VNIY3QZAeve3JVf6",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started with Pipedrive CRM, create an account at "
+          },
+          {
+            "id": "0MbgEbFccRTYA12MF-qoY",
+            "type": "link",
+            "data": {
+              "href": "https://www.pipedrive.com/en/register",
+              "newTab": false
+            },
+            "children": [
+              {
+                "text": "pipedrive.com/register"
+              }
+            ]
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "id": "LM-v3a_8_q8nDH9rmwhV_",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Refer to the "
+          },
+          {
+            "id": "3egn5lcCl58IQgxgx89TC",
+            "type": "link",
+            "data": {
+              "href": "https://developers.pipedrive.com/docs/api/v1",
+              "newTab": false
+            },
+            "children": [
+              {
+                "text": "Pipedrive CRM API documentation"
+              }
+            ]
+          },
+          {
+            "text": " for a list of available endpoints."
+          }
+        ]
+      },
+      {
+        "id": "isOB3rt4Z9n5wJK0MUPRv",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Establish a connection with Pipedrive OAuth"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "establish-a-connection-with-pipedrive-oauth",
+          "legacyHash": "isOB3"
+        }
+      },
+      {
+        "id": "MHFXqxASbJ03-uH3RVIpv",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To establish the connection:"
+          }
+        ]
+      },
+      {
+        "id": "kmnz_3uHdLz_aK8aLBNn2",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Log in to your Make account, add a Pipedrive CRM module to your "
+          },
+          {
+            "id": "tr5bG68Do3guJxEFKnuW3",
+            "type": "variable",
+            "data": {
+              "key": "scenario_singular_lowercase"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ", and click "
+          },
+          {
+            "text": "Create a connection",
+            "bold": true
+          },
+          {
+            "text": "."
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "decimal",
+        "listRestartPolite": 1
+      },
+      {
+        "id": "8e2KM5y-ZW_sFkK2qkULy",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Optional: In the "
+          },
+          {
+            "text": "Connection name",
+            "bold": true
+          },
+          {
+            "text": " field, enter a name for the connection."
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "decimal",
+        "listStart": 2
+      },
+      {
+        "id": "gaZWgOg0X2RzEkP080yP5",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Optional: Click "
+          },
+          {
+            "text": "Show advanced settings",
+            "bold": true
+          },
+          {
+            "text": " and manually add scopes or enter your custom app client credentials. For more information regarding creating a custom app and retrieving client credentials, refer to the "
+          },
+          {
+            "id": "LYv2xciJSarVr5V388R7w",
+            "type": "link",
+            "data": {
+              "href": "https://pipedrive.readme.io/docs/marketplace-creating-a-proper-app",
+              "newTab": false
+            },
+            "children": [
+              {
+                "text": "Pipedrive Creating an app documentation"
+              }
+            ]
+          },
+          {
+            "text": "."
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "decimal",
+        "listStart": 3
+      },
+      {
+        "id": "BDmbzYlCxybTwFN5iqvZh",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "If requested, use the following Redirect URI when creating your custom app: "
+          },
+          {
+            "text": "https://www.integromat.com/oauth/cb/pipedrive-auth",
+            "highlight": true
+          },
+          {
+            "text": "."
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "decimal",
+        "listStart": 4
+      },
+      {
+        "id": "WvTR0cZj-fEjUsfUlaRXH",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Click "
+          },
+          {
+            "text": "Save",
+            "bold": true
+          },
+          {
+            "text": "."
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "decimal",
+        "listStart": 5
+      },
+      {
+        "id": "xBSQyw1EFDn7gGkBLhxjS",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "If prompted, authenticate your account and confirm access."
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "decimal",
+        "listStart": 6
+      },
+      {
+        "id": "uDDDsSPFgze5GATAgch2R",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You have successfully established the connection. You can now edit your "
+          },
+          {
+            "id": "l6pdWHAC8nVqvd73Mg1Y1",
+            "type": "variable",
+            "data": {
+              "key": "scenario_singular_lowercase"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " and add more Pipedrive CRM modules. If your connection requires reauthorization at any point, follow the connection renewal steps "
+          },
+          {
+            "id": "FmFwqbDXGLD0OlL9cfpbb",
+            "type": "mention-doc",
+            "data": {
+              "label": "here",
+              "overridedLabel": "here",
+              "spaceId": "",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "#",
+              "loadingMethod": "static",
+              "newTab": false,
+              "githubPath": "../../connections/connecting-to-services.html",
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "here"
+              }
+            ]
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "id": "UiRb9V3mo9AI3VAGa5mFR",
+        "type": "callout-v2",
+        "children": [
+          {
+            "id": "mYZ9VTM4U9zMsR3T1aV3O",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The date and time values are converted to the UTC time zone for input and returned in output as a value in the user's time zone."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "type": "info"
+        }
+      },
+      {
+        "id": "F4kLgc48l9gHE3woNT_sS",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Build Pipedrive CRM "
+          },
+          {
+            "id": "goMw-JO_AQfGI2LTCX8OI",
+            "type": "variable",
+            "data": {
+              "key": "Scenario_plural"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "build-pipedrive-crm",
+          "legacyHash": "F4kLg"
+        }
+      },
+      {
+        "id": "F26ckLh-4o-tpHqCmXbiS",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting the app, you can perform the following actions:"
+          }
+        ]
+      },
+      {
+        "id": "WrYKtMVdMH2doeKxKAYd5",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Triggers",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "QpJZ6Gq7WwKBhiPfIrv0p",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Watch New Events"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "-Lw9ozlsXuoNutfdIDmnU",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "Watch Deals"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "5v5WwTLloEr4SwiEfK1oA",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Watch Leads"
+          }
+        ]
+      },
+      {
+        "id": "hB_bTjtyan4gSZ_i6Dzb4",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Watch Organizations"
+          }
+        ]
+      },
+      {
+        "id": "tHA4nx-agda-Oho_LQinc",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Watch Persons"
+          }
+        ]
+      },
+      {
+        "id": "9mSHVyXm6e__m-DrKl4R_",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6,
+        "children": [
+          {
+            "text": "Watch Products"
+          }
+        ]
+      },
+      {
+        "id": "2oh6ROpjARN7V1LZi3kGu",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 7,
+        "children": [
+          {
+            "text": "Watch Notes"
+          }
+        ]
+      },
+      {
+        "id": "QUYwq7DN3fF2mddrxkbTb",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 8,
+        "children": [
+          {
+            "text": "Watch Activities"
+          }
+        ]
+      },
+      {
+        "id": "jt6d2Nz0RF7SF0UOUKn6x",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 9,
+        "children": [
+          {
+            "text": "Watch Emails"
+          }
+        ]
+      },
+      {
+        "id": "h3oKxhtfkvrp95pD8xEOZ",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Deals",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "2xEkKD1WRxXf5sfc__s2n",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Search Deals"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "pj9qeLLqutaQs66beo1ja",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Deals"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "9phutFzSMLZ3XXaHHEyKN",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "List Deals for a Product"
+          }
+        ]
+      },
+      {
+        "id": "ZxWaaGTQmyKdoKLUGaCHZ",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "List Deal Fields"
+          }
+        ]
+      },
+      {
+        "id": "enSp4zxfy1367meBqQHF9",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Get a Deal"
+          }
+        ]
+      },
+      {
+        "id": "-pzCXq5gjyp26BDGBjUeI",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6,
+        "children": [
+          {
+            "text": "Get a Deal Field"
+          }
+        ]
+      },
+      {
+        "id": "wPjnBoFu3adaIXchquMLA",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 7,
+        "children": [
+          {
+            "text": "Get Deals Summary"
+          }
+        ]
+      },
+      {
+        "id": "0663nlAF-h7s-O-9gxI8S",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 8,
+        "children": [
+          {
+            "text": "Create a Deal Field"
+          }
+        ]
+      },
+      {
+        "id": "QirLexL6j_auyFytk6z73",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 9,
+        "children": [
+          {
+            "text": "Create a Deal"
+          }
+        ]
+      },
+      {
+        "id": "eyEbwNR4QdpxdzCWwWp-v",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 10,
+        "children": [
+          {
+            "text": "Update a Deal"
+          }
+        ]
+      },
+      {
+        "id": "5-ijJRkNOk0mIPZVvm808",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 11,
+        "children": [
+          {
+            "text": "Update a Deal Field"
+          }
+        ]
+      },
+      {
+        "id": "XWoNtnlkqQudZB5dyXJfI",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 12,
+        "children": [
+          {
+            "text": "Delete a Deal Field"
+          }
+        ]
+      },
+      {
+        "id": "eYXOzORHIsOlH-vUySudh",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 13,
+        "children": [
+          {
+            "text": "Delete a Deal"
+          }
+        ]
+      },
+      {
+        "id": "jGm4ih2G-GCt4p92aTCfL",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Leads",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "h-IEzA694mlymrqJD5QKU",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Search Leads"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "2jwh5r63mbvSJ0tDPW-fh",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Leads"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "u5zuuT-1_IFEZArdhoNRn",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Get a Lead"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3
+      },
+      {
+        "id": "i4L7cTQ1VaTGdlXAG8JkA",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Create a Lead"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4
+      },
+      {
+        "id": "7PERyQ3I0Vf8qIB-_jv38",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Update a Lead"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5
+      },
+      {
+        "id": "VS9yuanyW7OkrNn6Cm9cC",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Delete a Lead"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6
+      },
+      {
+        "id": "uElw-Iam7F4yrFcwbKpiw",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Lead Labels",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "u3TukLlYMlP2TDgiH11dv",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Lead Labels"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "IY8QfDt2u9uWxR4_Tl8qD",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Create a Lead Label"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "i3dHkIJt8AjOXu5adld-L",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Update a Lead Label"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3
+      },
+      {
+        "id": "vmKbnax18rsjknyuwo7Ne",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Delete a Lead Label"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4
+      },
+      {
+        "id": "_ICTmYIxHPoeHfYAi7EuH",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Products in a Deal",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "ku99w0loXFJvVDzxrqmXz",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Add a Product to a Deal"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "Wzfu7auFbgnF6PbPdWtNw",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Update Product Attachment Details"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "HRM3nFvq2gQpBgIEMgtEp",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Delete an Attached Product"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3
+      },
+      {
+        "id": "DnYB15XEBA_76pr0qfcZK",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Products in a Deal"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4
+      },
+      {
+        "id": "o0_ifHpCcH1Sz4ju63DXa",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Participants in a Deal",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "VzZeH002vaqGp60zWmqCU",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Participants of a Deal"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "NnQwVh4VPwYTCcY4N-jlu",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Add a Participant to a Deal"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "QQSH2IryVD2cZLhWiPgMG",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Files in a Deal",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "v-2jSxqYoCj8GXXcV_LNx",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Files in a Deal"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "Ih6pBg8Pi6g652P1sG38-",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Organizations",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "TLuuXvikISlv75WsKxSnf",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Search Organizations"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "NlUeQsNAPfYib4NpEqzqp",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "List Organizations"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "0y7j6O0u4bSFfBBfB4yY5",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Get an Organization"
+          }
+        ]
+      },
+      {
+        "id": "L-zbw4GDoORkTMGBwbIDC",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Create an Organization"
+          }
+        ]
+      },
+      {
+        "id": "acyAG7RUs_Lj-cUNO0ky9",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Update an Organization"
+          }
+        ]
+      },
+      {
+        "id": "TNuan7pGriFNbIMghsXpP",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6,
+        "children": [
+          {
+            "text": "Update an Organization Field Value"
+          }
+        ]
+      },
+      {
+        "id": "iQGW6zE0p7qNASqACiYHG",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 7,
+        "children": [
+          {
+            "text": "Delete an Organization"
+          }
+        ]
+      },
+      {
+        "id": "eVRTTHUF3E2oa6KlaGFrq",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Persons",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "Om28Dc1Y-4CG72F7URkoO",
+        "type": "callout-v2",
+        "children": [
+          {
+            "id": "gxu230kcBmtV6dWiJvO3L",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Persons are the customers you are doing deals with — not users."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "type": "warning"
+        }
+      },
+      {
+        "id": "wJMvEsN4pNzq6R31ZwsF-",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Search Persons"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "m4JajFvamJz-KDRt7cAWd",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "List Persons"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "mwQK4BnJAgbJf5kKMFzXz",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Get a Person"
+          }
+        ]
+      },
+      {
+        "id": "Xu03ZrSquVhdswyDSrUlt",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Create a Person"
+          }
+        ]
+      },
+      {
+        "id": "NAVYargwMmiCT5rvSg5yd",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Update a Person"
+          }
+        ]
+      },
+      {
+        "id": "-bJ_p61fFVAsGcGA2QpF3",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6,
+        "children": [
+          {
+            "text": "Delete a Person"
+          }
+        ]
+      },
+      {
+        "id": "X_bkRb5Pfn1yCToV5vaqk",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Products",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "aOHMKXYMuBLqauSbkmqfn",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Search Products"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "LdOt6xeAWk8ufeY5hI4a3",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "List Products"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "8MS1N7wY_RiLkGrS6Zn08",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Get a Product"
+          }
+        ]
+      },
+      {
+        "id": "1bsVTmZNkWuJ1mrptALFG",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Create a Product"
+          }
+        ]
+      },
+      {
+        "id": "Wi72GIN3wHuHaqgp_MOq7",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Update a Product"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5
+      },
+      {
+        "id": "qst-KlkVCegcciRG3EsTO",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Delete a Product"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6
+      },
+      {
+        "id": "q3qp10t2A7uCYgVlXa0xv",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Notes",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "dG1b6oorAT1_InbiqFHW9",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Notes"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "RS9Zv5ITAk0Q9Mrn5ek_x",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "Get a Note"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "A6odYQdClqlYo74NbZpCp",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Create a Note"
+          }
+        ]
+      },
+      {
+        "id": "SZV22nvJjmM0-GFZ5AhOR",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Update a Note"
+          }
+        ]
+      },
+      {
+        "id": "A6SNYPUQogspaOscMuanO",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Delete a Note"
+          }
+        ]
+      },
+      {
+        "id": "TyFA6cmaRilCMHGrfWji6",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Activities",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "yWX701sJYNHyaBDVI2pO0",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Activities"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "XEptaoNNTziAzXnj3kcdR",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "Get an Activity"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "xoQDDMSRtn9sgH2t0Ief2",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Create an Activity"
+          }
+        ]
+      },
+      {
+        "id": "MYrLe5wHx7zvkKrlhxdEE",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Update an Activity"
+          }
+        ]
+      },
+      {
+        "id": "GyRqiBY-e4MAjiZPuij53",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Delete an Activity"
+          }
+        ]
+      },
+      {
+        "id": "fX1hce7KFdZqz6W1QuXsX",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Mail",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "kUek9yjrfo9A789QwzagP",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Mail Threads"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "a_6ajyZoU-jrb6iMDWjYH",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Messages in a Thread"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "NwWpDnLz3FE3kAFKbXThX",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "Get a Mail Thread"
+          }
+        ]
+      },
+      {
+        "id": "-2t25ONgih6DqSkYcw7D9",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "Get a Message"
+          }
+        ]
+      },
+      {
+        "id": "ut9_F5G21u0Ex5kLhLZgp",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 5,
+        "children": [
+          {
+            "text": "Update a Mail Thread Details"
+          }
+        ]
+      },
+      {
+        "id": "U10uM2ubePhHcGznpIQFo",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 6,
+        "children": [
+          {
+            "text": "Delete a Mail Thread"
+          }
+        ]
+      },
+      {
+        "id": "rKIAv4FE7LtgfEzCxlpxI",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Followers",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "J5xY3ragqkpK80FpxXyHW",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Followers"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "CFBfGSsohRdUrup-bF5Zl",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Add a Follower"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "UiY4y9NVecLybGqmElcQv",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Delete a Follower"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3
+      },
+      {
+        "id": "_6pOkF4eNosy0_lD64Rkm",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Users",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "l-gifHuWJI4CZIRB1zLO6",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Get a User"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "3mTogz-89hx0JVbrmlAbg",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Search Users"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "m5oYAFod4-AEN4SxNrvfh",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Files",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "d4EWK-SUJpZ2xhIdRtcku",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Upload a File"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "IuftmGBw0YbGOPrJzOc48",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Download a File"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 2
+      },
+      {
+        "id": "vxF7lzSDW1TNR_fqYTklM",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Filter",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "QyN0yfSTkF2I8yXmr3W-z",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "List Filters"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "i-u2bVoJ9IWn1c_Ln_IiT",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "Get a Filter"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "4fYPBYYcnyumdEXZ7d4Px",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Other",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "id": "a4DMyAaR5L1M316TSJuLF",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Make an API Call"
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "EJIuzN5Qljj1j3ZjScbzX",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "children": [
+          {
+            "text": "Search for Items"
+          }
+        ],
+        "listStart": 2
+      },
+      {
+        "id": "ricyroWsj0LbcXN0fGKKM",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 3,
+        "children": [
+          {
+            "text": "List Pipelines"
+          }
+        ]
+      },
+      {
+        "id": "sXA_9BftPX6M6vSuMQltL",
+        "type": "paragraph",
+        "indent": 1,
+        "listStyleType": "disc",
+        "listStart": 4,
+        "children": [
+          {
+            "text": "List Stages"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-02-03T13:27:51.097Z"
+    }
+  },
+  "version": 287,
+  "privacy": "shared with team",
+  "shareableToken": "PraFTT1UnnxuwLG33n7v_",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "iPjXPPf1hRq91kld-u8rb",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "4CkrlJIBl1di_p1x71ery",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2026-01-20T10:33:39.882Z",
+  "createdAt": "2025-02-03T13:28:36.235Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-e2W1rBd-Lam5wEcly47IK",
+    "children": [],
+    "name": "Pike13 by Maxmel Tech",
+    "urlKey": "pike-13-c6hcfm",
+    "icon": "",
+    "parentDocId": "PUBLISHED-fqgAYhM_P3lcEWnqZVJ6E",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-oDTm8XeQeVMBQhN5ot8Gr",
+    "isCategory": false,
+    "categoryName": "pipedrive-resellers-portal",
+    "children": [],
+    "name": "Pipedrive Resellers Portal",
+    "urlKey": "pipedrive-resellers",
+    "icon": "",
+    "parentDocId": "PUBLISHED-fqgAYhM_P3lcEWnqZVJ6E",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

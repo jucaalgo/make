@@ -4,7 +4,7 @@ import { useGraphStore } from '../store/useGraphStore';
 import { useShallow } from 'zustand/react/shallow';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import registryData from '../../module_registry_backup.json';
+import registryData from '../data/module_registry.json';
 import knowledgeData from '../data/static-knowledge.json';
 import { useState, useMemo } from 'react';
 
@@ -12,26 +12,64 @@ import { useState, useMemo } from 'react';
 const RAW_REGISTRY = { ...registryData, ...knowledgeData } as Record<string, any>;
 
 // Aggregate Apps
+// Helper to clean app names
+const cleanAppName = (rawId: string) => {
+    if (rawId === 'knowledge-base') return 'Knowledge Base';
+
+    // Remove make-like suffix (e.g. -1kv763)
+    let name = rawId.replace(/-[a-z0-9]{6,}$/i, '');
+
+    // Remove specific prefixes if needed
+    name = name.replace(/^google-/, 'Google ');
+    name = name.replace(/^aws-/, 'AWS ');
+    name = name.replace(/^microsoft-/, 'Microsoft ');
+
+    // Standard formatting
+    return name
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+};
+
+// Priority Apps List
+const PRIORITY_APPS = [
+    'google-sheets', 'google-drive', 'gmail',
+    'slack', 'telegram', 'openai-gpt-4', 'openai', 'webhook',
+    'make', 'notion', 'airtable'
+];
+
 const UNIQUE_APPS = Object.values(RAW_REGISTRY).reduce((acc: any[], module: any) => {
+    // ... (existing reduce logic) ...
     if (!acc.find((a: any) => a.id === module.app)) {
         const isKnowledge = module.app === 'knowledge-base';
         let color = 'bg-indigo-500';
         if (isKnowledge) color = 'bg-amber-500';
-        else if (module.app === 'google-sheets') color = 'bg-green-600';
-        else if (module.app === 'google-drive') color = 'bg-blue-600';
-        else if (module.app === 'slack') color = 'bg-purple-600';
-        else if (module.app === 'gmail') color = 'bg-red-500';
+        else if (module.app.includes('google')) color = 'bg-blue-600';
+        else if (module.app.includes('sheet')) color = 'bg-green-600';
+        else if (module.app.includes('slack')) color = 'bg-purple-600';
+        else if (module.app.includes('mail')) color = 'bg-red-500';
+        else if (module.app.includes('gpt') || module.app.includes('ai')) color = 'bg-emerald-600';
 
         acc.push({
             id: module.app,
-            name: isKnowledge ? 'Knowledge Base' : (module.app.charAt(0).toUpperCase() + module.app.slice(1).replace(/-/g, ' ')),
+            name: cleanAppName(module.app),
             icon: module.app.charAt(0).toUpperCase(),
             color,
             moduleCount: Object.values(RAW_REGISTRY).filter((m: any) => m.app === module.app).length
         });
     }
     return acc;
-}, []).sort((a: any, b: any) => a.name.localeCompare(b.name));
+}, []).sort((a: any, b: any) => {
+    // Custom Sort: Priority Apps First, then Alphabetical
+    const indexA = PRIORITY_APPS.findIndex(p => a.id.includes(p));
+    const indexB = PRIORITY_APPS.findIndex(p => b.id.includes(p));
+
+    if (indexA !== -1 && indexB !== -1) return indexA - indexB; // Both in priority, maintain order
+    if (indexA !== -1) return -1; // A is priority
+    if (indexB !== -1) return 1; // B is priority
+
+    return a.name.localeCompare(b.name); // Default alphabetical
+});
 
 export const AddAppPanel = () => {
     const addModule = useGraphStore(useShallow(state => state.addModule));

@@ -1,0 +1,2284 @@
+{
+  "code": "OK",
+  "response": {
+    "blueprint": {
+      "flow": [
+        {
+          "id": 7,
+          "mapper": {
+            "username": "j_ocampo_ph",
+            "accountId": "17841448122590253"
+          },
+          "module": "instagram-business:GetUserData",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "accountId",
+                "type": "select",
+                "label": "Page",
+                "required": true
+              },
+              {
+                "name": "username",
+                "type": "text",
+                "label": "Username",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "accountId": {
+                  "mode": "chose",
+                  "label": "JonathanOcampoph (@j_ocampo_ph)"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "facebook"
+                  },
+                  "label": "My Facebook connection (Jonathan Ocampo Yandy)"
+                }
+              }
+            },
+            "designer": {
+              "x": 0,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:facebook",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7066319
+          }
+        },
+        {
+          "id": 6,
+          "mapper": {
+            "metric": [
+              "reach",
+              "total_interactions",
+              "accounts_engaged",
+              "likes",
+              "comments",
+              "saves",
+              "shares",
+              "replies",
+              "follows_and_unfollows",
+              "profile_links_taps",
+              "website_clicks",
+              "profile_views"
+            ],
+            "period": "day",
+            "accountId": "17841448122590253",
+            "metric_type": "total_value"
+          },
+          "module": "instagram-business:GetUserInsights2",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "accountId",
+                "type": "select",
+                "label": "Page",
+                "required": true
+              },
+              {
+                "name": "period",
+                "type": "select",
+                "label": "Period",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "day",
+                    "lifetime"
+                  ]
+                }
+              },
+              {
+                "name": "metric",
+                "type": "select",
+                "label": "Metric",
+                "multiple": true,
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "reach",
+                    "total_interactions",
+                    "accounts_engaged",
+                    "likes",
+                    "comments",
+                    "saves",
+                    "shares",
+                    "replies",
+                    "follows_and_unfollows",
+                    "profile_links_taps",
+                    "website_clicks",
+                    "profile_views"
+                  ]
+                }
+              },
+              {
+                "name": "metric_type",
+                "type": "select",
+                "label": "Metric type",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "total_value",
+                    "time_series"
+                  ]
+                }
+              },
+              {
+                "name": "breakdown",
+                "type": "select",
+                "label": "Breakdown",
+                "validate": {
+                  "enum": [
+                    "contact_button_type",
+                    "follow_type",
+                    "media_product_type"
+                  ]
+                }
+              }
+            ],
+            "restore": {
+              "expect": {
+                "metric": {
+                  "mode": "chose"
+                },
+                "period": {
+                  "mode": "chose",
+                  "label": "Day"
+                },
+                "accountId": {
+                  "mode": "chose",
+                  "label": "JonathanOcampoph (@j_ocampo_ph)"
+                },
+                "breakdown": {
+                  "mode": "chose",
+                  "label": "Empty"
+                },
+                "metric_type": {
+                  "mode": "chose",
+                  "label": "Total value"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "facebook"
+                  },
+                  "label": "My Facebook connection (Jonathan Ocampo Yandy)"
+                }
+              }
+            },
+            "designer": {
+              "x": 300,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:facebook",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7066319
+          }
+        },
+        {
+          "id": 13,
+          "mapper": {
+            "name": "{{6.name}}",
+            "total_value": "{{6.total_value}}"
+          },
+          "module": "builtin:BasicAggregator",
+          "version": 1,
+          "metadata": {
+            "restore": {
+              "extra": {
+                "feeder": {
+                  "label": "Instagram for Business (Facebook login) - Get user insights [6]"
+                },
+                "target": {
+                  "label": "Custom"
+                }
+              }
+            },
+            "designer": {
+              "x": 600,
+              "y": 0
+            }
+          },
+          "parameters": {
+            "feeder": 6
+          }
+        },
+        {
+          "id": 8,
+          "mapper": {
+            "from": "drive",
+            "mode": "select",
+            "values": {
+              "0": "{{now}}",
+              "1": "{{7.followers_count}}",
+              "2": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"reach\"); 1)}}",
+              "3": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"total_interactions\"); 1)}}",
+              "4": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"engagement\"); 1)}}",
+              "5": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"likes\"); 1)}}",
+              "6": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"comments\"); 1)}}",
+              "7": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"saves\"); 1)}}",
+              "8": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"shares\"); 1)}}",
+              "9": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"replies\"); 1)}}",
+              "10": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"website_clicks\"); 1)}}",
+              "11": "{{get(map(13.array; \"total_value.value\"; \"name\"; \"profile_views\"); 1)}}"
+            },
+            "sheetId": "Metricas_IG",
+            "spreadsheetId": "/1xSgd1s1DmyDXw7Vhf3ttKvlYoUGPFubw/1K_24Sq36rkClKijWelODujM59ZX1h34W/1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+            "includesHeaders": true,
+            "insertDataOption": "INSERT_ROWS",
+            "valueInputOption": "USER_ENTERED",
+            "insertUnformatted": false
+          },
+          "module": "google-sheets:addRow",
+          "version": 2,
+          "metadata": {
+            "expect": [
+              {
+                "name": "mode",
+                "type": "select",
+                "label": "Search Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "select",
+                    "fromAll",
+                    "map"
+                  ]
+                }
+              },
+              {
+                "name": "insertUnformatted",
+                "type": "boolean",
+                "label": "Unformatted",
+                "required": true
+              },
+              {
+                "name": "valueInputOption",
+                "type": "select",
+                "label": "Value input option",
+                "validate": {
+                  "enum": [
+                    "USER_ENTERED",
+                    "RAW"
+                  ]
+                }
+              },
+              {
+                "name": "insertDataOption",
+                "type": "select",
+                "label": "Insert data option",
+                "validate": {
+                  "enum": [
+                    "INSERT_ROWS",
+                    "OVERWRITE"
+                  ]
+                }
+              },
+              {
+                "name": "from",
+                "type": "select",
+                "label": "Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "spreadsheetId",
+                "type": "file",
+                "label": "Spreadsheet ID",
+                "required": true
+              },
+              {
+                "name": "sheetId",
+                "type": "select",
+                "label": "Sheet Name",
+                "required": true
+              },
+              {
+                "name": "includesHeaders",
+                "type": "select",
+                "label": "Table contains headers",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    true,
+                    false
+                  ]
+                }
+              },
+              {
+                "name": "values",
+                "spec": [
+                  {
+                    "name": "0",
+                    "type": "text",
+                    "label": "Fecha (A)"
+                  },
+                  {
+                    "name": "1",
+                    "type": "text",
+                    "label": "Seguidores (B)"
+                  },
+                  {
+                    "name": "2",
+                    "type": "text",
+                    "label": "Alcance (C)"
+                  },
+                  {
+                    "name": "3",
+                    "type": "text",
+                    "label": "Interacciones (D)"
+                  },
+                  {
+                    "name": "4",
+                    "type": "text",
+                    "label": "Engagement (E)"
+                  },
+                  {
+                    "name": "5",
+                    "type": "text",
+                    "label": "Likes (F)"
+                  },
+                  {
+                    "name": "6",
+                    "type": "text",
+                    "label": "Comments (G)"
+                  },
+                  {
+                    "name": "7",
+                    "type": "text",
+                    "label": "Saves (H)"
+                  },
+                  {
+                    "name": "8",
+                    "type": "text",
+                    "label": "Shares (I)"
+                  },
+                  {
+                    "name": "9",
+                    "type": "text",
+                    "label": "Replies (J)"
+                  },
+                  {
+                    "name": "10",
+                    "type": "text",
+                    "label": "Follows/Unfollows (K)"
+                  },
+                  {
+                    "name": "11",
+                    "type": "text",
+                    "label": "Taps (L)"
+                  },
+                  {
+                    "name": "12",
+                    "type": "text",
+                    "label": "Web Clicks (M)"
+                  },
+                  {
+                    "name": "13",
+                    "type": "text",
+                    "label": "Profile Views (N)"
+                  },
+                  {
+                    "name": "14",
+                    "type": "text",
+                    "label": "(O)"
+                  },
+                  {
+                    "name": "15",
+                    "type": "text",
+                    "label": "(P)"
+                  },
+                  {
+                    "name": "16",
+                    "type": "text",
+                    "label": "(Q)"
+                  },
+                  {
+                    "name": "17",
+                    "type": "text",
+                    "label": "(R)"
+                  },
+                  {
+                    "name": "18",
+                    "type": "text",
+                    "label": "(S)"
+                  },
+                  {
+                    "name": "19",
+                    "type": "text",
+                    "label": "(T)"
+                  },
+                  {
+                    "name": "20",
+                    "type": "text",
+                    "label": "(U)"
+                  },
+                  {
+                    "name": "21",
+                    "type": "text",
+                    "label": "(V)"
+                  },
+                  {
+                    "name": "22",
+                    "type": "text",
+                    "label": "(W)"
+                  },
+                  {
+                    "name": "23",
+                    "type": "text",
+                    "label": "(X)"
+                  },
+                  {
+                    "name": "24",
+                    "type": "text",
+                    "label": "(Y)"
+                  }
+                ],
+                "type": "collection",
+                "label": "Values"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "from": {
+                  "label": "My Drive"
+                },
+                "mode": {
+                  "label": "Search by path"
+                },
+                "sheetId": {
+                  "label": "Metricas_IG"
+                },
+                "spreadsheetId": {
+                  "path": [
+                    "Jonathan",
+                    "00_AUTOMATIZACION_IG",
+                    "Planner Instagram"
+                  ]
+                },
+                "includesHeaders": {
+                  "label": "Yes",
+                  "nested": [
+                    {
+                      "name": "values",
+                      "spec": [
+                        {
+                          "name": "0",
+                          "type": "text",
+                          "label": "Fecha (A)"
+                        },
+                        {
+                          "name": "1",
+                          "type": "text",
+                          "label": "Seguidores (B)"
+                        },
+                        {
+                          "name": "2",
+                          "type": "text",
+                          "label": "Alcance (C)"
+                        },
+                        {
+                          "name": "3",
+                          "type": "text",
+                          "label": "Interacciones (D)"
+                        },
+                        {
+                          "name": "4",
+                          "type": "text",
+                          "label": "Engagement (E)"
+                        },
+                        {
+                          "name": "5",
+                          "type": "text",
+                          "label": "Likes (F)"
+                        },
+                        {
+                          "name": "6",
+                          "type": "text",
+                          "label": "Comments (G)"
+                        },
+                        {
+                          "name": "7",
+                          "type": "text",
+                          "label": "Saves (H)"
+                        },
+                        {
+                          "name": "8",
+                          "type": "text",
+                          "label": "Shares (I)"
+                        },
+                        {
+                          "name": "9",
+                          "type": "text",
+                          "label": "Replies (J)"
+                        },
+                        {
+                          "name": "10",
+                          "type": "text",
+                          "label": "Follows/Unfollows (K)"
+                        },
+                        {
+                          "name": "11",
+                          "type": "text",
+                          "label": "Taps (L)"
+                        },
+                        {
+                          "name": "12",
+                          "type": "text",
+                          "label": "Web Clicks (M)"
+                        },
+                        {
+                          "name": "13",
+                          "type": "text",
+                          "label": "Profile Views (N)"
+                        },
+                        {
+                          "name": "14",
+                          "type": "text",
+                          "label": "(O)"
+                        },
+                        {
+                          "name": "15",
+                          "type": "text",
+                          "label": "(P)"
+                        },
+                        {
+                          "name": "16",
+                          "type": "text",
+                          "label": "(Q)"
+                        },
+                        {
+                          "name": "17",
+                          "type": "text",
+                          "label": "(R)"
+                        },
+                        {
+                          "name": "18",
+                          "type": "text",
+                          "label": "(S)"
+                        },
+                        {
+                          "name": "19",
+                          "type": "text",
+                          "label": "(T)"
+                        },
+                        {
+                          "name": "20",
+                          "type": "text",
+                          "label": "(U)"
+                        },
+                        {
+                          "name": "21",
+                          "type": "text",
+                          "label": "(V)"
+                        },
+                        {
+                          "name": "22",
+                          "type": "text",
+                          "label": "(W)"
+                        },
+                        {
+                          "name": "23",
+                          "type": "text",
+                          "label": "(X)"
+                        },
+                        {
+                          "name": "24",
+                          "type": "text",
+                          "label": "(Y)"
+                        }
+                      ],
+                      "type": "collection",
+                      "label": "Values"
+                    }
+                  ]
+                },
+                "insertDataOption": {
+                  "mode": "chose",
+                  "label": "Insert rows"
+                },
+                "valueInputOption": {
+                  "mode": "chose",
+                  "label": "User entered"
+                },
+                "insertUnformatted": {
+                  "mode": "chose"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google"
+                  },
+                  "label": "My Google connection (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 900,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7054313
+          }
+        },
+        {
+          "id": 15,
+          "filter": {
+            "name": "Viernes",
+            "conditions": [
+              [
+                {
+                  "a": "{{formatDate(now; \"dddd\")}}",
+                  "b": "Friday",
+                  "o": "text:equal"
+                }
+              ]
+            ]
+          },
+          "mapper": {
+            "from": "drive",
+            "limit": "7",
+            "orderBy": "A",
+            "sheetId": "Metricas_IG",
+            "fieldType": "date",
+            "sortOrder": "desc",
+            "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+            "tableFirstRow": "A1:CZ1",
+            "includesHeaders": true,
+            "valueRenderOption": "FORMATTED_VALUE",
+            "dateTimeRenderOption": "FORMATTED_STRING"
+          },
+          "module": "google-sheets:filterRows",
+          "version": 2,
+          "metadata": {
+            "expect": [
+              {
+                "name": "from",
+                "type": "select",
+                "label": "Search Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share"
+                  ]
+                }
+              },
+              {
+                "name": "valueRenderOption",
+                "type": "select",
+                "label": "Value render option",
+                "validate": {
+                  "enum": [
+                    "FORMATTED_VALUE",
+                    "UNFORMATTED_VALUE",
+                    "FORMULA"
+                  ]
+                }
+              },
+              {
+                "name": "dateTimeRenderOption",
+                "type": "select",
+                "label": "Date and time render option",
+                "validate": {
+                  "enum": [
+                    "SERIAL_NUMBER",
+                    "FORMATTED_STRING"
+                  ]
+                }
+              },
+              {
+                "name": "limit",
+                "type": "uinteger",
+                "label": "Limit"
+              },
+              {
+                "name": "spreadsheetId",
+                "type": "select",
+                "label": "Spreadsheet ID",
+                "required": true
+              },
+              {
+                "name": "sheetId",
+                "type": "select",
+                "label": "Sheet Name",
+                "required": true
+              },
+              {
+                "name": "includesHeaders",
+                "type": "select",
+                "label": "Table contains headers",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    true,
+                    false
+                  ]
+                }
+              },
+              {
+                "name": "tableFirstRow",
+                "type": "select",
+                "label": "Column range",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "A1:Z1",
+                    "A1:BZ1",
+                    "A1:CZ1",
+                    "A1:DZ1",
+                    "A1:MZ1",
+                    "A1:ZZ1",
+                    "A1:AZZ1",
+                    "A1:BZZ1",
+                    "A1:CZZ1",
+                    "A1:DZZ1",
+                    "A1:MZZ1",
+                    "A1:ZZZ1"
+                  ]
+                }
+              },
+              {
+                "name": "filter",
+                "type": "filter",
+                "label": "Filter",
+                "options": "rpc://google-sheets/2/rpcGetFilterKeys?includesHeaders=true"
+              },
+              {
+                "name": "orderBy",
+                "type": "select",
+                "label": "Order by"
+              },
+              {
+                "name": "sortOrder",
+                "type": "select",
+                "label": "Sort order",
+                "validate": {
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ]
+                }
+              },
+              {
+                "name": "fieldType",
+                "type": "select",
+                "label": "Field Type",
+                "validate": {
+                  "enum": [
+                    "string",
+                    "number",
+                    "date"
+                  ]
+                }
+              }
+            ],
+            "restore": {
+              "expect": {
+                "from": {
+                  "label": "Select from My Drive"
+                },
+                "orderBy": {
+                  "mode": "chose",
+                  "label": "Fecha (A)"
+                },
+                "sheetId": {
+                  "mode": "chose",
+                  "label": "Metricas_IG"
+                },
+                "fieldType": {
+                  "mode": "chose",
+                  "label": "Date"
+                },
+                "sortOrder": {
+                  "mode": "chose",
+                  "label": "Descending"
+                },
+                "spreadsheetId": {
+                  "mode": "chose",
+                  "label": "Planner Instagram"
+                },
+                "tableFirstRow": {
+                  "label": "A-CZ"
+                },
+                "includesHeaders": {
+                  "mode": "chose",
+                  "label": "Yes"
+                },
+                "valueRenderOption": {
+                  "mode": "chose",
+                  "label": "Formatted value"
+                },
+                "dateTimeRenderOption": {
+                  "mode": "chose",
+                  "label": "Formatted string"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google"
+                  },
+                  "label": "My Google connection (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 1200,
+              "y": 0
+            },
+            "interface": [
+              {
+                "name": "__IMTLENGTH__",
+                "type": "uinteger",
+                "label": "Total number of bundles"
+              },
+              {
+                "name": "__IMTINDEX__",
+                "type": "uinteger",
+                "label": "Bundle order position"
+              },
+              {
+                "name": "__ROW_NUMBER__",
+                "type": "number",
+                "label": "Row number"
+              },
+              {
+                "name": "__SPREADSHEET_ID__",
+                "type": "text",
+                "label": "Spreadsheet ID"
+              },
+              {
+                "name": "__SHEET__",
+                "type": "text",
+                "label": "Sheet"
+              },
+              {
+                "name": "0",
+                "type": "text",
+                "label": "Fecha (A)"
+              },
+              {
+                "name": "1",
+                "type": "text",
+                "label": "Seguidores (B)"
+              },
+              {
+                "name": "2",
+                "type": "text",
+                "label": "Alcance (C)"
+              },
+              {
+                "name": "3",
+                "type": "text",
+                "label": "Interacciones (D)"
+              },
+              {
+                "name": "4",
+                "type": "text",
+                "label": "Engagement (E)"
+              },
+              {
+                "name": "5",
+                "type": "text",
+                "label": "Likes (F)"
+              },
+              {
+                "name": "6",
+                "type": "text",
+                "label": "Comments (G)"
+              },
+              {
+                "name": "7",
+                "type": "text",
+                "label": "Saves (H)"
+              },
+              {
+                "name": "8",
+                "type": "text",
+                "label": "Shares (I)"
+              },
+              {
+                "name": "9",
+                "type": "text",
+                "label": "Replies (J)"
+              },
+              {
+                "name": "10",
+                "type": "text",
+                "label": "Web Clicks (K)"
+              },
+              {
+                "name": "11",
+                "type": "text",
+                "label": "Profile Views (L)"
+              },
+              {
+                "name": "12",
+                "type": "text",
+                "label": "(M)"
+              },
+              {
+                "name": "13",
+                "type": "text",
+                "label": "(N)"
+              },
+              {
+                "name": "14",
+                "type": "text",
+                "label": "(O)"
+              },
+              {
+                "name": "15",
+                "type": "text",
+                "label": "(P)"
+              },
+              {
+                "name": "16",
+                "type": "text",
+                "label": "(Q)"
+              },
+              {
+                "name": "17",
+                "type": "text",
+                "label": "(R)"
+              },
+              {
+                "name": "18",
+                "type": "text",
+                "label": "(S)"
+              },
+              {
+                "name": "19",
+                "type": "text",
+                "label": "(T)"
+              },
+              {
+                "name": "20",
+                "type": "text",
+                "label": "(U)"
+              },
+              {
+                "name": "21",
+                "type": "text",
+                "label": "(V)"
+              },
+              {
+                "name": "22",
+                "type": "text",
+                "label": "(W)"
+              },
+              {
+                "name": "23",
+                "type": "text",
+                "label": "(X)"
+              },
+              {
+                "name": "24",
+                "type": "text",
+                "label": "(Y)"
+              },
+              {
+                "name": "25",
+                "type": "text",
+                "label": "(Z)"
+              },
+              {
+                "name": "26",
+                "type": "text",
+                "label": "(AA)"
+              },
+              {
+                "name": "27",
+                "type": "text",
+                "label": "(AB)"
+              },
+              {
+                "name": "28",
+                "type": "text",
+                "label": "(AC)"
+              },
+              {
+                "name": "29",
+                "type": "text",
+                "label": "(AD)"
+              },
+              {
+                "name": "30",
+                "type": "text",
+                "label": "(AE)"
+              },
+              {
+                "name": "31",
+                "type": "text",
+                "label": "(AF)"
+              },
+              {
+                "name": "32",
+                "type": "text",
+                "label": "(AG)"
+              },
+              {
+                "name": "33",
+                "type": "text",
+                "label": "(AH)"
+              },
+              {
+                "name": "34",
+                "type": "text",
+                "label": "(AI)"
+              },
+              {
+                "name": "35",
+                "type": "text",
+                "label": "(AJ)"
+              },
+              {
+                "name": "36",
+                "type": "text",
+                "label": "(AK)"
+              },
+              {
+                "name": "37",
+                "type": "text",
+                "label": "(AL)"
+              },
+              {
+                "name": "38",
+                "type": "text",
+                "label": "(AM)"
+              },
+              {
+                "name": "39",
+                "type": "text",
+                "label": "(AN)"
+              },
+              {
+                "name": "40",
+                "type": "text",
+                "label": "(AO)"
+              },
+              {
+                "name": "41",
+                "type": "text",
+                "label": "(AP)"
+              },
+              {
+                "name": "42",
+                "type": "text",
+                "label": "(AQ)"
+              },
+              {
+                "name": "43",
+                "type": "text",
+                "label": "(AR)"
+              },
+              {
+                "name": "44",
+                "type": "text",
+                "label": "(AS)"
+              },
+              {
+                "name": "45",
+                "type": "text",
+                "label": "(AT)"
+              },
+              {
+                "name": "46",
+                "type": "text",
+                "label": "(AU)"
+              },
+              {
+                "name": "47",
+                "type": "text",
+                "label": "(AV)"
+              },
+              {
+                "name": "48",
+                "type": "text",
+                "label": "(AW)"
+              },
+              {
+                "name": "49",
+                "type": "text",
+                "label": "(AX)"
+              },
+              {
+                "name": "50",
+                "type": "text",
+                "label": "(AY)"
+              },
+              {
+                "name": "51",
+                "type": "text",
+                "label": "(AZ)"
+              },
+              {
+                "name": "52",
+                "type": "text",
+                "label": "(BA)"
+              },
+              {
+                "name": "53",
+                "type": "text",
+                "label": "(BB)"
+              },
+              {
+                "name": "54",
+                "type": "text",
+                "label": "(BC)"
+              },
+              {
+                "name": "55",
+                "type": "text",
+                "label": "(BD)"
+              },
+              {
+                "name": "56",
+                "type": "text",
+                "label": "(BE)"
+              },
+              {
+                "name": "57",
+                "type": "text",
+                "label": "(BF)"
+              },
+              {
+                "name": "58",
+                "type": "text",
+                "label": "(BG)"
+              },
+              {
+                "name": "59",
+                "type": "text",
+                "label": "(BH)"
+              },
+              {
+                "name": "60",
+                "type": "text",
+                "label": "(BI)"
+              },
+              {
+                "name": "61",
+                "type": "text",
+                "label": "(BJ)"
+              },
+              {
+                "name": "62",
+                "type": "text",
+                "label": "(BK)"
+              },
+              {
+                "name": "63",
+                "type": "text",
+                "label": "(BL)"
+              },
+              {
+                "name": "64",
+                "type": "text",
+                "label": "(BM)"
+              },
+              {
+                "name": "65",
+                "type": "text",
+                "label": "(BN)"
+              },
+              {
+                "name": "66",
+                "type": "text",
+                "label": "(BO)"
+              },
+              {
+                "name": "67",
+                "type": "text",
+                "label": "(BP)"
+              },
+              {
+                "name": "68",
+                "type": "text",
+                "label": "(BQ)"
+              },
+              {
+                "name": "69",
+                "type": "text",
+                "label": "(BR)"
+              },
+              {
+                "name": "70",
+                "type": "text",
+                "label": "(BS)"
+              },
+              {
+                "name": "71",
+                "type": "text",
+                "label": "(BT)"
+              },
+              {
+                "name": "72",
+                "type": "text",
+                "label": "(BU)"
+              },
+              {
+                "name": "73",
+                "type": "text",
+                "label": "(BV)"
+              },
+              {
+                "name": "74",
+                "type": "text",
+                "label": "(BW)"
+              },
+              {
+                "name": "75",
+                "type": "text",
+                "label": "(BX)"
+              },
+              {
+                "name": "76",
+                "type": "text",
+                "label": "(BY)"
+              },
+              {
+                "name": "77",
+                "type": "text",
+                "label": "(BZ)"
+              },
+              {
+                "name": "78",
+                "type": "text",
+                "label": "(CA)"
+              },
+              {
+                "name": "79",
+                "type": "text",
+                "label": "(CB)"
+              },
+              {
+                "name": "80",
+                "type": "text",
+                "label": "(CC)"
+              },
+              {
+                "name": "81",
+                "type": "text",
+                "label": "(CD)"
+              },
+              {
+                "name": "82",
+                "type": "text",
+                "label": "(CE)"
+              },
+              {
+                "name": "83",
+                "type": "text",
+                "label": "(CF)"
+              },
+              {
+                "name": "84",
+                "type": "text",
+                "label": "(CG)"
+              },
+              {
+                "name": "85",
+                "type": "text",
+                "label": "(CH)"
+              },
+              {
+                "name": "86",
+                "type": "text",
+                "label": "(CI)"
+              },
+              {
+                "name": "87",
+                "type": "text",
+                "label": "(CJ)"
+              },
+              {
+                "name": "88",
+                "type": "text",
+                "label": "(CK)"
+              },
+              {
+                "name": "89",
+                "type": "text",
+                "label": "(CL)"
+              },
+              {
+                "name": "90",
+                "type": "text",
+                "label": "(CM)"
+              },
+              {
+                "name": "91",
+                "type": "text",
+                "label": "(CN)"
+              },
+              {
+                "name": "92",
+                "type": "text",
+                "label": "(CO)"
+              },
+              {
+                "name": "93",
+                "type": "text",
+                "label": "(CP)"
+              },
+              {
+                "name": "94",
+                "type": "text",
+                "label": "(CQ)"
+              },
+              {
+                "name": "95",
+                "type": "text",
+                "label": "(CR)"
+              },
+              {
+                "name": "96",
+                "type": "text",
+                "label": "(CS)"
+              },
+              {
+                "name": "97",
+                "type": "text",
+                "label": "(CT)"
+              },
+              {
+                "name": "98",
+                "type": "text",
+                "label": "(CU)"
+              },
+              {
+                "name": "99",
+                "type": "text",
+                "label": "(CV)"
+              },
+              {
+                "name": "100",
+                "type": "text",
+                "label": "(CW)"
+              },
+              {
+                "name": "101",
+                "type": "text",
+                "label": "(CX)"
+              },
+              {
+                "name": "102",
+                "type": "text",
+                "label": "(CY)"
+              },
+              {
+                "name": "103",
+                "type": "text",
+                "label": "(CZ)"
+              }
+            ],
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7054313
+          }
+        },
+        {
+          "id": 16,
+          "mapper": {
+            "1": "{{15.`1`}}",
+            "2": "{{15.`2`}}",
+            "5": "{{15.`5`}}"
+          },
+          "module": "builtin:BasicAggregator",
+          "version": 1,
+          "metadata": {
+            "restore": {
+              "extra": {
+                "feeder": {
+                  "label": "Google Sheets - Search Rows [15]"
+                },
+                "target": {
+                  "label": "Custom"
+                }
+              }
+            },
+            "designer": {
+              "x": 1500,
+              "y": 0
+            }
+          },
+          "parameters": {
+            "feeder": 15
+          }
+        },
+        {
+          "id": 19,
+          "mapper": null,
+          "module": "builtin:BasicRouter",
+          "routes": [
+            {
+              "flow": [
+                {
+                  "id": 18,
+                  "mapper": {
+                    "from": "drive",
+                    "mode": "select",
+                    "values": {
+                      "0": "{{now}}",
+                      "1": "{{get(map(16.array; 1); 1)}}",
+                      "2": "{{get(map(16.array; 1); 1) - get(map(16.array; 1); 7)}}",
+                      "3": "{{sum(map(16.array; 2))}}",
+                      "4": "{{sum(map(16.array; 5))}}"
+                    },
+                    "sheetId": "Reporte Semanal",
+                    "spreadsheetId": "/1xSgd1s1DmyDXw7Vhf3ttKvlYoUGPFubw/1K_24Sq36rkClKijWelODujM59ZX1h34W/1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+                    "includesHeaders": true,
+                    "insertDataOption": "INSERT_ROWS",
+                    "valueInputOption": "USER_ENTERED",
+                    "insertUnformatted": false
+                  },
+                  "module": "google-sheets:addRow",
+                  "version": 2,
+                  "metadata": {
+                    "expect": [
+                      {
+                        "name": "mode",
+                        "type": "select",
+                        "label": "Search Method",
+                        "required": true,
+                        "validate": {
+                          "enum": [
+                            "select",
+                            "fromAll",
+                            "map"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "insertUnformatted",
+                        "type": "boolean",
+                        "label": "Unformatted",
+                        "required": true
+                      },
+                      {
+                        "name": "valueInputOption",
+                        "type": "select",
+                        "label": "Value input option",
+                        "validate": {
+                          "enum": [
+                            "USER_ENTERED",
+                            "RAW"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "insertDataOption",
+                        "type": "select",
+                        "label": "Insert data option",
+                        "validate": {
+                          "enum": [
+                            "INSERT_ROWS",
+                            "OVERWRITE"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "from",
+                        "type": "select",
+                        "label": "Drive",
+                        "required": true,
+                        "validate": {
+                          "enum": [
+                            "drive",
+                            "share",
+                            "team"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "spreadsheetId",
+                        "type": "file",
+                        "label": "Spreadsheet ID",
+                        "required": true
+                      },
+                      {
+                        "name": "sheetId",
+                        "type": "select",
+                        "label": "Sheet Name",
+                        "required": true
+                      },
+                      {
+                        "name": "includesHeaders",
+                        "type": "select",
+                        "label": "Table contains headers",
+                        "required": true,
+                        "validate": {
+                          "enum": [
+                            true,
+                            false
+                          ]
+                        }
+                      },
+                      {
+                        "name": "values",
+                        "spec": [
+                          {
+                            "name": "0",
+                            "type": "text",
+                            "label": "Fecha (A)"
+                          },
+                          {
+                            "name": "1",
+                            "type": "text",
+                            "label": "Seguidores Totales (B)"
+                          },
+                          {
+                            "name": "2",
+                            "type": "text",
+                            "label": "Variacion Seguidores (C)"
+                          },
+                          {
+                            "name": "3",
+                            "type": "text",
+                            "label": "Alcance Total (Suma) (D)"
+                          },
+                          {
+                            "name": "4",
+                            "type": "text",
+                            "label": "Likes Totales (Suma): (E)"
+                          },
+                          {
+                            "name": "5",
+                            "type": "text",
+                            "label": "(F)"
+                          },
+                          {
+                            "name": "6",
+                            "type": "text",
+                            "label": "(G)"
+                          },
+                          {
+                            "name": "7",
+                            "type": "text",
+                            "label": "(H)"
+                          },
+                          {
+                            "name": "8",
+                            "type": "text",
+                            "label": "(I)"
+                          },
+                          {
+                            "name": "9",
+                            "type": "text",
+                            "label": "(J)"
+                          },
+                          {
+                            "name": "10",
+                            "type": "text",
+                            "label": "(K)"
+                          },
+                          {
+                            "name": "11",
+                            "type": "text",
+                            "label": "(L)"
+                          },
+                          {
+                            "name": "12",
+                            "type": "text",
+                            "label": "(M)"
+                          },
+                          {
+                            "name": "13",
+                            "type": "text",
+                            "label": "(N)"
+                          },
+                          {
+                            "name": "14",
+                            "type": "text",
+                            "label": "(O)"
+                          },
+                          {
+                            "name": "15",
+                            "type": "text",
+                            "label": "(P)"
+                          },
+                          {
+                            "name": "16",
+                            "type": "text",
+                            "label": "(Q)"
+                          },
+                          {
+                            "name": "17",
+                            "type": "text",
+                            "label": "(R)"
+                          },
+                          {
+                            "name": "18",
+                            "type": "text",
+                            "label": "(S)"
+                          },
+                          {
+                            "name": "19",
+                            "type": "text",
+                            "label": "(T)"
+                          },
+                          {
+                            "name": "20",
+                            "type": "text",
+                            "label": "(U)"
+                          },
+                          {
+                            "name": "21",
+                            "type": "text",
+                            "label": "(V)"
+                          },
+                          {
+                            "name": "22",
+                            "type": "text",
+                            "label": "(W)"
+                          },
+                          {
+                            "name": "23",
+                            "type": "text",
+                            "label": "(X)"
+                          },
+                          {
+                            "name": "24",
+                            "type": "text",
+                            "label": "(Y)"
+                          },
+                          {
+                            "name": "25",
+                            "type": "text",
+                            "label": "(Z)"
+                          }
+                        ],
+                        "type": "collection",
+                        "label": "Values"
+                      }
+                    ],
+                    "restore": {
+                      "expect": {
+                        "from": {
+                          "label": "My Drive"
+                        },
+                        "mode": {
+                          "label": "Search by path"
+                        },
+                        "sheetId": {
+                          "label": "Reporte Semanal"
+                        },
+                        "spreadsheetId": {
+                          "path": [
+                            "Jonathan",
+                            "00_AUTOMATIZACION_IG",
+                            "Planner Instagram"
+                          ]
+                        },
+                        "includesHeaders": {
+                          "label": "Yes",
+                          "nested": [
+                            {
+                              "name": "values",
+                              "spec": [
+                                {
+                                  "name": "0",
+                                  "type": "text",
+                                  "label": "Fecha (A)"
+                                },
+                                {
+                                  "name": "1",
+                                  "type": "text",
+                                  "label": "Seguidores Totales (B)"
+                                },
+                                {
+                                  "name": "2",
+                                  "type": "text",
+                                  "label": "Variacion Seguidores (C)"
+                                },
+                                {
+                                  "name": "3",
+                                  "type": "text",
+                                  "label": "Alcance Total (Suma) (D)"
+                                },
+                                {
+                                  "name": "4",
+                                  "type": "text",
+                                  "label": "Likes Totales (Suma): (E)"
+                                },
+                                {
+                                  "name": "5",
+                                  "type": "text",
+                                  "label": "(F)"
+                                },
+                                {
+                                  "name": "6",
+                                  "type": "text",
+                                  "label": "(G)"
+                                },
+                                {
+                                  "name": "7",
+                                  "type": "text",
+                                  "label": "(H)"
+                                },
+                                {
+                                  "name": "8",
+                                  "type": "text",
+                                  "label": "(I)"
+                                },
+                                {
+                                  "name": "9",
+                                  "type": "text",
+                                  "label": "(J)"
+                                },
+                                {
+                                  "name": "10",
+                                  "type": "text",
+                                  "label": "(K)"
+                                },
+                                {
+                                  "name": "11",
+                                  "type": "text",
+                                  "label": "(L)"
+                                },
+                                {
+                                  "name": "12",
+                                  "type": "text",
+                                  "label": "(M)"
+                                },
+                                {
+                                  "name": "13",
+                                  "type": "text",
+                                  "label": "(N)"
+                                },
+                                {
+                                  "name": "14",
+                                  "type": "text",
+                                  "label": "(O)"
+                                },
+                                {
+                                  "name": "15",
+                                  "type": "text",
+                                  "label": "(P)"
+                                },
+                                {
+                                  "name": "16",
+                                  "type": "text",
+                                  "label": "(Q)"
+                                },
+                                {
+                                  "name": "17",
+                                  "type": "text",
+                                  "label": "(R)"
+                                },
+                                {
+                                  "name": "18",
+                                  "type": "text",
+                                  "label": "(S)"
+                                },
+                                {
+                                  "name": "19",
+                                  "type": "text",
+                                  "label": "(T)"
+                                },
+                                {
+                                  "name": "20",
+                                  "type": "text",
+                                  "label": "(U)"
+                                },
+                                {
+                                  "name": "21",
+                                  "type": "text",
+                                  "label": "(V)"
+                                },
+                                {
+                                  "name": "22",
+                                  "type": "text",
+                                  "label": "(W)"
+                                },
+                                {
+                                  "name": "23",
+                                  "type": "text",
+                                  "label": "(X)"
+                                },
+                                {
+                                  "name": "24",
+                                  "type": "text",
+                                  "label": "(Y)"
+                                },
+                                {
+                                  "name": "25",
+                                  "type": "text",
+                                  "label": "(Z)"
+                                }
+                              ],
+                              "type": "collection",
+                              "label": "Values"
+                            }
+                          ]
+                        },
+                        "insertDataOption": {
+                          "mode": "chose",
+                          "label": "Insert rows"
+                        },
+                        "valueInputOption": {
+                          "mode": "chose",
+                          "label": "User entered"
+                        },
+                        "insertUnformatted": {
+                          "mode": "chose"
+                        }
+                      },
+                      "parameters": {
+                        "__IMTCONN__": {
+                          "data": {
+                            "scoped": "true",
+                            "connection": "google"
+                          },
+                          "label": "My Google connection (jucaalgo@gmail.com)"
+                        }
+                      }
+                    },
+                    "designer": {
+                      "x": 2100,
+                      "y": -300
+                    },
+                    "parameters": [
+                      {
+                        "name": "__IMTCONN__",
+                        "type": "account:google",
+                        "label": "Connection",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "parameters": {
+                    "__IMTCONN__": 7054313
+                  }
+                }
+              ]
+            },
+            {
+              "flow": [
+                {
+                  "id": 17,
+                  "mapper": {
+                    "text": "📊 *REPORTE SEMANAL DE INSTAGRAM* 📊\r\n_Periodo: Últimos 7 días_\r\n\r\n🚀 *RENDIMIENTO TOTAL*\r\n• Alcance Semanal: {{sum(map(16.array; 2))}}\r\n• Likes Semanales: {{sum(map(16.array; 5))}}\r\n\r\n👥 *COMUNIDAD*\r\n• Seguidores Actuales: {{get(map(16.array; 1); 1)}}\r\n• Crecimiento Neto: +{{get(map(16.array; 1); 1) - get(map(16.array; 1); 7)}} seguidores\r\n\r\n📅 *FECHA DEL REPORTE*\r\n{{now}}\r\n\r\n✅ _Los datos han sido procesados y archivados en Google Sheets automáticamente._",
+                    "chatId": "7564066998",
+                    "parseMode": "",
+                    "replyMarkup": "",
+                    "messageThreadId": "",
+                    "replyToMessageId": "",
+                    "replyMarkupAssembleType": "reply_markup_enter"
+                  },
+                  "module": "telegram:SendReplyMessage",
+                  "version": 1,
+                  "metadata": {
+                    "expect": [
+                      {
+                        "name": "chatId",
+                        "type": "text",
+                        "label": "Chat ID",
+                        "required": true
+                      },
+                      {
+                        "name": "text",
+                        "type": "text",
+                        "label": "Text",
+                        "required": true
+                      },
+                      {
+                        "name": "messageThreadId",
+                        "type": "number",
+                        "label": "Message Thread ID"
+                      },
+                      {
+                        "name": "parseMode",
+                        "type": "select",
+                        "label": "Parse Mode",
+                        "validate": {
+                          "enum": [
+                            "Markdown",
+                            "HTML"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "disableNotification",
+                        "type": "boolean",
+                        "label": "Disable Notifications"
+                      },
+                      {
+                        "name": "disableWebPagePreview",
+                        "type": "boolean",
+                        "label": "Disable Link Previews"
+                      },
+                      {
+                        "name": "replyToMessageId",
+                        "type": "number",
+                        "label": "Original Message ID"
+                      },
+                      {
+                        "name": "replyMarkupAssembleType",
+                        "type": "select",
+                        "label": "Enter/Assemble the Reply Markup Field",
+                        "validate": {
+                          "enum": [
+                            "reply_markup_enter",
+                            "reply_markup_assemble"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "replyMarkup",
+                        "type": "text",
+                        "label": "Reply Markup"
+                      }
+                    ],
+                    "restore": {
+                      "expect": {
+                        "parseMode": {
+                          "label": "Empty"
+                        },
+                        "disableNotification": {
+                          "mode": "chose"
+                        },
+                        "replyMarkupAssembleType": {
+                          "label": "Enter the Reply Markup"
+                        }
+                      },
+                      "parameters": {
+                        "__IMTCONN__": {
+                          "data": {
+                            "scoped": "true",
+                            "connection": "telegram"
+                          },
+                          "label": "My Telegram Bot connection"
+                        }
+                      }
+                    },
+                    "designer": {
+                      "x": 2347,
+                      "y": 5
+                    },
+                    "parameters": [
+                      {
+                        "name": "__IMTCONN__",
+                        "type": "account:telegram",
+                        "label": "Connection",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "parameters": {
+                    "__IMTCONN__": 7065553
+                  }
+                }
+              ]
+            },
+            {
+              "flow": [
+                {
+                  "id": 20,
+                  "mapper": {
+                    "text": "📊 *REPORTE SEMANAL DE INSTAGRAM* 📊\r\n_Periodo: Últimos 7 días_\r\n\r\n🚀 *RENDIMIENTO TOTAL*\r\n• Alcance Semanal: {{sum(map(16.array; 2))}}\r\n• Likes Semanales: {{sum(map(16.array; 5))}}\r\n\r\n👥 *COMUNIDAD*\r\n• Seguidores Actuales: {{get(map(16.array; 1); 1)}}\r\n• Crecimiento Neto: +{{get(map(16.array; 1); 1) - get(map(16.array; 1); 7)}} seguidores\r\n\r\n📅 *FECHA DEL REPORTE*\r\n{{now}}\r\n\r\n✅ _Los datos han sido procesados y archivados en Google Sheets automáticamente._",
+                    "chatId": "1574991960",
+                    "parseMode": "",
+                    "replyMarkup": "",
+                    "messageThreadId": "",
+                    "replyToMessageId": "",
+                    "replyMarkupAssembleType": "reply_markup_enter"
+                  },
+                  "module": "telegram:SendReplyMessage",
+                  "version": 1,
+                  "metadata": {
+                    "expect": [
+                      {
+                        "name": "chatId",
+                        "type": "text",
+                        "label": "Chat ID",
+                        "required": true
+                      },
+                      {
+                        "name": "text",
+                        "type": "text",
+                        "label": "Text",
+                        "required": true
+                      },
+                      {
+                        "name": "messageThreadId",
+                        "type": "number",
+                        "label": "Message Thread ID"
+                      },
+                      {
+                        "name": "parseMode",
+                        "type": "select",
+                        "label": "Parse Mode",
+                        "validate": {
+                          "enum": [
+                            "Markdown",
+                            "HTML"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "disableNotification",
+                        "type": "boolean",
+                        "label": "Disable Notifications"
+                      },
+                      {
+                        "name": "disableWebPagePreview",
+                        "type": "boolean",
+                        "label": "Disable Link Previews"
+                      },
+                      {
+                        "name": "replyToMessageId",
+                        "type": "number",
+                        "label": "Original Message ID"
+                      },
+                      {
+                        "name": "replyMarkupAssembleType",
+                        "type": "select",
+                        "label": "Enter/Assemble the Reply Markup Field",
+                        "validate": {
+                          "enum": [
+                            "reply_markup_enter",
+                            "reply_markup_assemble"
+                          ]
+                        }
+                      },
+                      {
+                        "name": "replyMarkup",
+                        "type": "text",
+                        "label": "Reply Markup"
+                      }
+                    ],
+                    "restore": {
+                      "expect": {
+                        "parseMode": {
+                          "label": "Empty"
+                        },
+                        "disableNotification": {
+                          "mode": "chose"
+                        },
+                        "replyMarkupAssembleType": {
+                          "label": "Enter the Reply Markup"
+                        }
+                      },
+                      "parameters": {
+                        "__IMTCONN__": {
+                          "data": {
+                            "scoped": "true",
+                            "connection": "telegram"
+                          },
+                          "label": "Jonathan Bot"
+                        }
+                      }
+                    },
+                    "designer": {
+                      "x": 2100,
+                      "y": 300
+                    },
+                    "parameters": [
+                      {
+                        "name": "__IMTCONN__",
+                        "type": "account:telegram",
+                        "label": "Connection",
+                        "required": true
+                      }
+                    ]
+                  },
+                  "parameters": {
+                    "__IMTCONN__": 7085758
+                  }
+                }
+              ]
+            }
+          ],
+          "version": 1,
+          "metadata": {
+            "designer": {
+              "x": 1800,
+              "y": 0
+            }
+          }
+        }
+      ],
+      "name": "Reporte",
+      "metadata": {
+        "instant": false,
+        "version": 1,
+        "designer": {
+          "orphans": [],
+          "samples": {
+            "6": {
+              "id": "17841448122590253/insights/reach/day",
+              "name": "reach",
+              "title": "Cuentas alcanzadas",
+              "period": "day",
+              "description": "Número de cuentas únicas que han visto tu contenido al menos una vez, incluidos los anuncios. El con...",
+              "total_value": {
+                "value": 218
+              },
+              "__IMTINDEX__": 1,
+              "__IMTLENGTH__": 12
+            },
+            "7": {
+              "id": "17841448122590253",
+              "name": "Jonathan",
+              "ig_id": 48082028086,
+              "website": "http://vsco.co/jocampoyandy",
+              "username": "j_ocampo_ph",
+              "biography": "Personal @jonathan_yandy",
+              "media_count": 22,
+              "follows_count": 393,
+              "followers_count": 294,
+              "profile_picture_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/603088518_18074850236604087_1355610061977634927_..."
+            },
+            "8": {
+              "updates": {
+                "updatedRows": 1,
+                "updatedCells": 11,
+                "updatedRange": "Metricas_IG!A9:L9",
+                "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+                "updatedColumns": 11
+              },
+              "rowNumber": 9,
+              "sheetName": "Metricas_IG",
+              "tableRange": "Metricas_IG!A1:L8",
+              "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20"
+            },
+            "13": {
+              "array": [
+                {
+                  "name": "profile_views",
+                  "total_value": {
+                    "value": 24
+                  }
+                }
+              ],
+              "__IMTAGGLENGTH__": 12
+            },
+            "15": {
+              "0": "2026-01-22T10:11:23.596Z",
+              "1": "294",
+              "2": "218",
+              "3": "30",
+              "4": "",
+              "5": "21",
+              "6": "1",
+              "7": "0",
+              "8": "2",
+              "9": "0",
+              "10": "0",
+              "11": "24",
+              "__SHEET__": "Metricas_IG",
+              "__IMTINDEX__": 1,
+              "__IMTLENGTH__": 7,
+              "__ROW_NUMBER__": 9,
+              "__SPREADSHEET_ID__": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20"
+            },
+            "16": {
+              "array": [
+                {
+                  "1": "294",
+                  "2": "738",
+                  "5": "31"
+                }
+              ],
+              "__IMTAGGLENGTH__": 7
+            },
+            "17": {
+              "chat": {
+                "id": 7564066998,
+                "type": "private",
+                "first_name": "Juan"
+              },
+              "date": 1769076684,
+              "from": {
+                "id": 8182313393,
+                "is_bot": true,
+                "username": "jucaalgo1bot",
+                "first_name": "Respuestas"
+              },
+              "text": "📊 *REPORTE SEMANAL DE INSTAGRAM* 📊\n_Periodo: Últimos 7 días_\n\n🚀 *RENDIMIENTO TOTAL*\n• Alcance Sem...",
+              "message_id": 38
+            }
+          }
+        },
+        "scenario": {
+          "dlq": false,
+          "slots": null,
+          "dataloss": false,
+          "maxErrors": 3,
+          "autoCommit": true,
+          "roundtrips": 1,
+          "sequential": false,
+          "confidential": false,
+          "freshVariables": false,
+          "autoCommitTriggerLast": true
+        }
+      }
+    },
+    "scheduling": {
+      "time": "10:00",
+      "type": "daily"
+    },
+    "concept": false,
+    "created": "2026-01-21T23:34:02.053Z",
+    "last_edit": "2026-01-22T10:21:01.641Z",
+    "metadata": {
+      "input_spec": [],
+      "output_spec": []
+    },
+    "idSequence": 21
+  }
+}

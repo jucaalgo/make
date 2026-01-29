@@ -1,0 +1,1539 @@
+{
+  "id": "PUBLISHED-5HE4le6fZ_xpaW3IT1Pes",
+  "name": "Aragon AI by Codex Solutions International",
+  "icon": "",
+  "title": "Aragon AI by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_aragon-ai-community.png",
+  "summary": null,
+  "urlKey": "aragon-ai-3r71qj",
+  "description": "How to integrate Aragon AI with Make.com",
+  "urlAlias": "apps.make.com/aragon-ai-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-02T22:21:59.576Z"
+    },
+    "nodes": [
+      {
+        "id": "58xLuquAWm7uN3kMqdHWJ",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "-GDq3ejxAHlOxf5Qx24qE",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "EN1zi_AnhEYhfuBi0ym2j",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "e18PRHQG5CBjeR_lROVKx",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/aragon-ai-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "ACZ1xNsZwezH055eqqu8u",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "ORG2JsAdi59EkGHfiqWpe",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ZEozwTID85hh70s-8Iqp-",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "DK1husv5afZMzYfJHYh67",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Aragon AI provides advanced AI-powered tools for generating professional headshots and portraits. Integrating it with Make.com enables automated workflows for image creation, editing, and delivery, streamlining photo management for businesses and individuals."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-TK0jTJrvvIXFgfHfWGvf",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "_ho2mX3YGVjujUxy7pevQ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Aragon AI documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "MACMuReWYH41nO1Ekb776",
+                "type": "link",
+                "data": {
+                  "href": "https://www.aragon.ai/",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Aragon AI"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "X_EX6Xsy09henPKrTVmxa",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Aragon AI"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-aragon-ai",
+          "legacyHash": "X_EX6"
+        }
+      },
+      {
+        "id": "s7lbVUx97EcjZBiRz9FIm",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Aragon AI is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Aragon%20AI&app_slug=aragon-ai-community&app_unique_id=aragon-ai-3r71qj."
+          }
+        ]
+      },
+      {
+        "id": "H75B6H94iYWDRrQJ1i_yx",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "mgtsjb2r34TdFoPV5r7h1"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "H75B6"
+        }
+      },
+      {
+        "id": "Drr80itR2cQsHXcexh4IB",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Aragon AI app in Make, "
+          },
+          {
+            "text": "you must be an admin with access to the Teams dashboard and have a generated API Key, ",
+            "id": "cDY6nLk07p7MFmKPrYsGh"
+          },
+          {
+            "id": "6UM1eWe_JEuIhlqvQZnzb",
+            "type": "link",
+            "data": {
+              "href": "https://www.aragon.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "g78qfiKG1aKVm4dwuUWKn",
+                "text": "create your account on Aragon AI."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "O2mv1-UkQe2pY51DBxjkd",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "O2mv1"
+        }
+      },
+      {
+        "id": "tpYNuKfb2Qae0BBhz9JF7",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "j-lnRm7QYbGc5ojatn_2_",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "kdbYk-UczaQTMk6MFJukF",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JoRj6CPqx7r0qoWFwh5fM",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "aCeuas7BBEbFTCYkk8C_s",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "W7VqJY8b6mRzV6UobGwLu",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "SEnxJjg0kkLdmvrhm_t3r",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "5MaSTPVSXclS6mPntt6i1",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/aragon-ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "5gQTx6qHXVWRmL_o4I97d",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "4zXuOrZwVNvFEbp5PQktW",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2xpVhWmwmzBZz__O4xeml",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "ylLglTDIUYjKakOcYubFQ",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "DXyvFOyZfX40WOTP1FxXq",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "P7iav5qJzQ6_s_QSqyKqL",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8uBfB5huRK1FtRJdLSqLk",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Aragon AI and ",
+            "id": "sjEb77lb0jTFNuvbgUY-S"
+          },
+          {
+            "id": "_MInSMLOBpCnVjI4CWwqZ",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "vjVkBVSZqmDAKgw7_n0K_"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "Ai58q5WLVgdcIw_4_vH8E"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-aragon-ai-and",
+          "legacyHash": "8uBfB"
+        }
+      },
+      {
+        "id": "42FbqisupV_HHbaIgsBLi",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Aragon AI and ",
+            "id": "HVmcvDBv6wO1nDL29Dlv6"
+          },
+          {
+            "id": "LkNyS8SBHeF815KhgBKQL",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "hL6jdyC741pXGKL6fTA5U"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "0rn1Bvqsih2O4ff-0WaEj"
+          }
+        ]
+      },
+      {
+        "id": "pL_w_zr4tgR6ADfxRqOD5",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "HxMlVAgwukFFJuELaw1Ar",
+            "text": "You can connect using the following method: API Keys."
+          }
+        ]
+      },
+      {
+        "id": "YsneN-xcmuUhRNz0AP4AU",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Keys Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-keys-instructions",
+          "legacyHash": "YsneN"
+        }
+      },
+      {
+        "id": "BO-RKWuRlatMNCHpO_z1a",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "xcgsvV1sAkYgvpXWHRK0z",
+            "text": "You need to generate your API Key from the Teams dashboard."
+          }
+        ]
+      },
+      {
+        "id": "DgWU1J_BbpeGsPdFx6J87",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "UZ326inFym6LJB_QcjnEN",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "DG7PjVM4SEfcTzMXKaGej",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "m-6wyHerZXg5yh03bOjDO",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "pX1WRSBgKAQg4rom54E1G",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the Teams dashboard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "wcu89ndP7fbFeQe1ySOZM",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "SRo_Hk6xU1Ft9_AWOA42O",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate the API section within the Teams dashboard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "osaKl6nudxraBQv526zhQ",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Utf8WPLlyegqWepsNFz6v",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Generate a new API Key using the API management page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "7KlJGMD1oDAlKHl918PAL",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "rDkmPsAFR1ZwgY8hzbOnt",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy the generated API Key for use."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BSo2gGhLcWAslzFkPHKri",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "9xjn_pLvZVPZ34kwAO1GA",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "KEeEsFdtP19jyjFjaOA8i",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Aragon%20AI&app_slug=aragon-ai-community&app_unique_id=aragon-ai-3r71qj."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0PrVUJfMBD4m20UnrvbIA",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "-NbV_W_N-druwguSyk_Mq",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "0PrVU"
+        }
+      },
+      {
+        "id": "6C9bS5MKrrsSvJheZ0IZi",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "_GO9P0VFD7K7bd-EEKeBH",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "EBJMqNbhIhRRcZnGDvEkU",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "ZS_AIb5mMjfNAjKqkCkjv",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "ps60R2b76NTIeEh3XLlNP",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "6r_D56fp_ov-mG05DpN7J"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "9DU13zgzJuSQpXwrAOF1I",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "RbIToQ46labX2pq5SXZ7k",
+                    "text": ", add the Aragon AI module to your "
+                  },
+                  {
+                    "id": "7l5GssYCZOYQp91MPDblu",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "JAVvpEQsdaG4cHvaabpou",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "-uSItWc2EctR-Z1RXVEac",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "jwDRf28K8GxbQQX0tXU8k",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "UA8JHvPOzvtx9wGbOw8j5",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "7DvLeujgYeOIQP4VC3XFT",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Li9dkMAesyuEyxvIBaFd_",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "Xb1AuKHaRIPbYafLAzJ_4",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "du3YNYmzhYvOA7U-VbVBN"
+                  },
+                  {
+                    "id": "Nyfz9NfUMYEASTcz8HIdw",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "qX_Y18yvjsYuD4LXPXMzz"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "Ju4CE7IDRx4F_rUY93aTC",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "nK-bD5JeV6ar2ZMu8_fU0",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Aragon AI or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rudLvE43jO-vNVqVwyoVn",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "INOMPeNC0JRXsG5MRaYwf",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "9aMIc2plmHlrxUWbSokBc",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Aragon AI modules",
+            "id": "o18TdMqCqhA1TKJ1iDiEL"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "aragon-ai-modules",
+          "legacyHash": "9aMIc"
+        }
+      },
+      {
+        "id": "EuKFaye5Qafj_T7SAQzxT",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Aragon AI app, you can choose from a list of available modules to build your ",
+            "id": "vNg9kz51BPdE9dNeZ1tIa"
+          },
+          {
+            "id": "v3XKSYJGRZYVej6RGCZyr",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "nEMlQr-Hts1GCv2EkCgll"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "Ok0chWoXTWjO_4Bw6msY3"
+          }
+        ]
+      },
+      {
+        "id": "rVCVUwonemBQzIelSY78S",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "xxI9P7GmInOKXD_69bE3S",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Invite",
+                "id": "56qpJq6eMLiq6o9jcOO0c"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-invite",
+              "legacyHash": "xxI9P"
+            }
+          },
+          {
+            "id": "W4uGPSKw5bl3p1Zqp0X0S",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module allows you to send one or more invitations to join a team, making it easy to add new members quickly.",
+                "id": "4sv5liYLjinywewoSng78"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7CH-B8T8pCw_nVikf2G77",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Ea3v4UeCOztCpPwFlUzgv",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Invite",
+                "id": "3jRV5YsU8TlYDcul0htQh"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-invite",
+              "legacyHash": "Ea3v4"
+            }
+          },
+          {
+            "id": "vNDm7AffPCGAvi9GXusLp",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Removes a pending invitation that hasn’t been accepted yet, helping you manage and clean up outstanding invites.",
+                "id": "M004GKzadiCFZ1atZ2-qJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ANCkdW1mdVRymGAhujkO9",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "k0GI9hwQSVEhYP68wZ4_A",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Album",
+                "id": "2urN8m3shtLu_uXIN2IX_"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-album",
+              "legacyHash": "k0GI9"
+            }
+          },
+          {
+            "id": "cBDrD0iZYZVWfFeFfqILI",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about a specific album using its unique ID.",
+                "id": "XEQWHr8LaYhpaQhgyjqk_"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AdjiZyN7v40XeAZZ_J3ag",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ingHWOR-vWJebJo1VP_mR",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Album Images",
+                "id": "c8235Av3cc0mQ_lJgbKzb"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-album-images",
+              "legacyHash": "ingHW"
+            }
+          },
+          {
+            "id": "8lzjCUocOhYbOlsqFq9EZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches every image contained within a specified album, allowing you to access and use all the photos stored in that album.",
+                "id": "-9pMUiCeDuMBTvRnkQVpF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qDGl4jiyL21Rj0WB-X7M8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "emdia15tmsVSMtRaECbx_",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Invite",
+                "id": "tda-GpNm5r2VF8aAoSlfu"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-invite",
+              "legacyHash": "emdia"
+            }
+          },
+          {
+            "id": "V_oDPq2Dd7PdDNs7FCNqx",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about a specific invite using its unique ID.",
+                "id": "n9NkXm_k86eLHnUMsQM26"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6aBxojOJ1_4F_0kZ-Cyri",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ZujKA8HhoN0PkyBVxCZWR",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Team Details",
+                "id": "SLq50AINdm5czBZajlmr2"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-team-details",
+              "legacyHash": "ZujKA"
+            }
+          },
+          {
+            "id": "jsLz2DMvjqG3b37BhC5v3",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves key details about your team, such as its name, description, and other essential information.",
+                "id": "rmWmiRbj6MFD19m9sy9DC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XYPo2yyEhiTq8Fr_zw5RU",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "OCVnowPMpgTwofB0iQagq",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Invites",
+                "id": "pkrRObKEcFkczNEvmczLC"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-invites",
+              "legacyHash": "OCVno"
+            }
+          },
+          {
+            "id": "3o6OUgG7u0ocKH1ZFFA09",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a detailed list of all the invitations that have been sent, allowing you to view and manage each invitation individually.",
+                "id": "VIdKrwR9Uck7uDSYYsgpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scfVQqisvcIlyIh48a6n7",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "zw2iuPqNoZgpypvGGOBxf",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Team Album",
+                "id": "Uw2PbAuBmhbz9agIDapFt"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-team-album",
+              "legacyHash": "zw2iu"
+            }
+          },
+          {
+            "id": "yVXW5FWO246xp-w7SxJ2p",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all albums that belong to your team, allowing you to view and manage your team’s album collection.",
+                "id": "4ZVxfxJQ-7RAO8s46eO_i"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bAdHHKoud_c7RbZLCKwK4",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "7BjXzzRFev3AChiJOrZVf",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "x05iJyqcNWBP94m2eSc2D"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "7BjXz"
+            }
+          },
+          {
+            "id": "2RKNCZClvj5Y8NRLfd3AN",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom API request to the service, enabling you to access features or data not covered by the standard modules.",
+                "id": "Zy_P8Qum-kQS2xPDv2Fqn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tljvGRhmjrbinDHydNy5b",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "OmNZtylqg2Hc5JaGGnx1b",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Resend a Invite",
+                "id": "xjU04dgJVI4eUK1GYskgw"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "resend-a-invite",
+              "legacyHash": "OmNZt"
+            }
+          },
+          {
+            "id": "jUR09HNLdRSvpP11k8xHZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Send a new invitation to a user, allowing them to join or access your platform or service again.",
+                "id": "bj13LT6lxZcYiC_WdEtT9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gzv0_gQixJzjiCXsjdCQx",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Toa7nO7q7nAMw-Tueyrzm",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Team",
+                "id": "O75QIvM0pbLqF1CI0WKmi"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-team",
+              "legacyHash": "Toa7n"
+            }
+          },
+          {
+            "id": "4EWxEOoqczvg11cQGMqdS",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to update and modify the information or settings related to your team.",
+                "id": "154OLptKRzCRT7-M1j9Bv"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6prFKMj787KYSnZEiu2EV",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "bRpZikZCcPulcJwJIC7cA"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "6prFK"
+        }
+      },
+      {
+        "id": "q-5M_crOwKHdSyrdcxBHb",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "l7-vjiBwss7en3KG8VjE0"
+          },
+          {
+            "id": "-mwlLwFifhElw7nEvrAFI",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "Hv7Ce_wyDVLsKPbO9ag8m"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "pNMAV5TuD8Z1D0Ab_Yc0Y"
+          },
+          {
+            "id": "-XaHhRWoPdhkAQiYLt7tU",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "EKHu-OedzgIlhdKr4s8cp"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "rjCa1RRZsdjcjFNwA3-OZ"
+          }
+        ]
+      },
+      {
+        "id": "SvHE-Y3VCTdyME0O3DG77",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Aragon AI resources ",
+            "id": "ybgdCumZNUecdjqM-D_3c"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "aragon-ai-resources",
+          "legacyHash": "SvHE-"
+        }
+      },
+      {
+        "id": "00jh3_OUbjFeGCHKB0KFI",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "_-YK9Ofgwnfwp7Pff62h7",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "3_pOC0bHSQfbx4_W0W7dU",
+            "data": {
+              "href": "https://www.aragon.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "uoM0QN_BSV1nA-EmZZHLb",
+                "text": "Aragon AI website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "TG6o0uVArWMy-bjU_Rp0a",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "gFuj2TIsWIeIfVsACuZCj",
+            "data": {
+              "href": "https://www.aragon.ai/changelog/api-access-zapier-integration",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "JVD1RplLu-k96DHDmU8sv",
+                "text": "Aragon AI API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "_fWWoLozPhz0dyX7H4It6",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "5USqzd64xj5rCLfYWgbVj",
+            "data": {
+              "href": "https://www.make.com/en/integrations/aragon-ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "xqGq826ILmc3PYrrYFPNE",
+                "text": "Aragon AI page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "9Lk8V4Jt1us_kogNVSfl0",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "Bvx_sI7ClX7Ybcw3FHbLz",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "ROOLfDWeh4sUxAcUa6YGZ",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "NqAVyquNfKsRZJIFVh2zC",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:19:04.832Z",
+  "createdAt": "2025-11-02T22:21:59.579Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-9TIxo3-CXqoq2GZVElLUI",
+    "children": [],
+    "name": "Apiframe",
+    "urlKey": "apiframe",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-UqTTKc1Ori6yLn_hofDGr",
+    "isCategory": false,
+    "categoryName": "artibot-ai",
+    "children": [],
+    "name": "ArtiBot.ai",
+    "urlKey": "artibot-ai",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

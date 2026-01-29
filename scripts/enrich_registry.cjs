@@ -85,23 +85,104 @@ const SCHEMAS = {
         }
     },
 
-    // --- BUILT-IN TOOLS ---
+    // --- GOOGLE SHEETS EXPANSION ---
+    'google-sheets:searchRows': {
+        app: 'google-sheets',
+        label: 'Search Rows',
+        parameters: {
+            spreadsheetId: { type: 'string', label: 'Spreadsheet ID', required: true },
+            sheetName: { type: 'string', label: 'Sheet Name', required: true },
+            filter: { type: 'string', label: 'Filter Formula', description: 'e.g. A = "Paid"' }
+        },
+        // DEFINED OUTPUT SCHEMA (The "Mapper" replacement)
+        output: {
+            type: 'bundle',
+            spec: {
+                row_number: { type: 'number', label: 'Row Number' },
+                '0': { type: 'string', label: 'Column A' },
+                '1': { type: 'string', label: 'Column B' }
+                // Dynamic headers would be injected at runtime
+            }
+        }
+    },
+
+    // --- GOOGLE DRIVE EXPANSION ---
+    'google-drive:getAFile': {
+        app: 'google-drive',
+        label: 'Get a File',
+        parameters: {
+            fileId: { type: 'string', label: 'File ID', required: true }
+        },
+        output: {
+            type: 'bundle',
+            spec: {
+                id: { type: 'string', label: 'File ID' },
+                name: { type: 'string', label: 'Filename' },
+                mimeType: { type: 'string', label: 'MIME Type' },
+                size: { type: 'number', label: 'Size (Bytes)' },
+                data: { type: 'buffer', label: 'File Content' }
+            }
+        }
+    },
+
+    // --- SLACK EXPANSION ---
+    'slack:postMessage': {
+        app: 'slack',
+        label: 'Create a Message',
+        parameters: {
+            channelId: { type: 'string', label: 'Channel ID / User ID', required: true },
+            text: { type: 'string', label: 'Text', multiline: true, required: true }
+        },
+        output: {
+            type: 'bundle',
+            spec: {
+                ok: { type: 'boolean', label: 'Success' },
+                ts: { type: 'string', label: 'Timestamp' },
+                channel: { type: 'string', label: 'Channel ID' },
+                message: {
+                    type: 'collection',
+                    label: 'Message Object',
+                    spec: {
+                        text: { type: 'string', label: 'Message Text' },
+                        user: { type: 'string', label: 'User ID' }
+                    }
+                }
+            }
+        }
+    },
+
+    // --- FLOW CONTROL (CORE LOGIC) ---
     'builtin:BasicRouter': {
         parameters: {
             routes: { type: 'array', label: 'Routes', description: 'Define conditions for each path' }
-        }
+        },
+        output: { type: 'bundle', spec: {} } // Passthrough
     },
     'builtin:Iterator': {
         app: 'builtin',
         label: 'Iterator',
         parameters: {
             array: { type: 'array', label: 'Array', required: true, description: 'The array to iterate over' }
+        },
+        output: {
+            type: 'bundle', // Emits 1 bundle per item
+            spec: {
+                value: { type: 'any', label: 'Item Value' },
+                index: { type: 'number', label: 'Loop Index' },
+                total: { type: 'number', label: 'Total Items' }
+            }
         }
     },
     'builtin:BasicAggregator': {
         parameters: {
             sourceModule: { type: 'string', label: 'Source Module', required: true },
             targetField: { type: 'string', label: 'Target Field' }
+        },
+        output: {
+            type: 'bundle',
+            spec: {
+                array: { type: 'array', label: 'Aggregated Array', spec: { type: 'any' } }
+            }
         }
     }
 };

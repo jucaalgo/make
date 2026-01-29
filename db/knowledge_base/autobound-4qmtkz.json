@@ -1,0 +1,1248 @@
+{
+  "id": "PUBLISHED-iP3ibB7UGaFnYhzdU2J3k",
+  "name": "Autobound AI by Codex Solutions International",
+  "icon": "",
+  "title": "Autobound AI by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_autobound-ai-community.png",
+  "summary": null,
+  "urlKey": "autobound-4qmtkz",
+  "description": "How to integrate Autobound AI with Make.com",
+  "urlAlias": "apps.make.com/autobound-ai-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-17T20:41:14.846Z"
+    },
+    "nodes": [
+      {
+        "id": "Bo5UHrdTOanWndWu7L8d4",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "dPIldybnVjJbR39SdwXtk",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "vOBOU1iMESnfvICsvwZ11",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "tCNz1gZkimBlZo7tTt7qL",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/autobound-ai-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "vU_py8Zb5OFW5HJofeNiY",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "SB_n1rEuWKphBhmTXSdRM",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "dE-OxmVFXl872hMJJXOpR",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "n1d9vYX0E77mYMUbuUZt0",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Autobound is an AI-powered sales email personalization platform that helps users create tailored outreach messages. Integrating with Make.com enables automated, personalized sales communication workflows, saving time and increasing outreach effectiveness for sales teams."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "NEuevDZMrinYWOtbBbw8o",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "YeWIUAoBbg3_yYZ5BN7kW",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Autobound AI documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "CbLkmUG_cQ2HJb0-9QcSL",
+                "type": "link",
+                "data": {
+                  "href": "https://help.autobound.ai/en/articles/10546719-faq",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Autobound AI"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "suVdOvVXdUFXlz0DxGx6Z",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Autobound AI"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-autobound-ai",
+          "legacyHash": "suVdO"
+        }
+      },
+      {
+        "id": "1cucxy9tKMftxN8AnXjuf",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Autobound AI is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Autobound%20AI&app_slug=autobound-ai-community&app_unique_id=autobound-4qmtkz."
+          }
+        ]
+      },
+      {
+        "id": "dql3Jj9TtD7A27C1UgMYO",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "3PZc83df5eIsJlDJBpUSt"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "dql3J"
+        }
+      },
+      {
+        "id": "JOAlEBOdHMVWX4EX0G49D",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Autobound AI app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key, ",
+            "id": "alNsN273evJKHibhSBSlk"
+          },
+          {
+            "id": "LHS1HuoXWRnPEMiCPzBQu",
+            "type": "link",
+            "data": {
+              "href": "https://www.autobound.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "-l7_eXlaaPQ3OM-KMUsCs",
+                "text": "create your account on Autobound AI."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "CLVcvUhaLOFhdyVmuIvbP",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "CLVcv"
+        }
+      },
+      {
+        "id": "rp76Eh0AcD6ql4iTNu_Si",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "RK0qTKiGpR2j-7yuivv5H",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "oxa0ZIqCJ6bH8rszj2rbe",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "H-6qwgxarsuzu4TVk7GJA",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "RoPq0Im-L1FRBQhlQ5z-R",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "GcqLEwUHGqb4Aqwvtm1-Q",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "gdBxVZRt4aA8-1r7urFcM",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "BJIzFEd_inHskCCxPZ2or",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/autobound-ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "wOyBbxZXg8zLly6jIPmm1",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "moz3SXBaLaf8SO_SZMX0z",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "NBKzHdunTYtbdprbUFrrt",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "qm5TyfILu-ZfSkcKBUUSX",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bu_gHeDIVq49Lp91Drm2x",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "YQdfHX63uBMB9kWphjELg",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rHBRkOVU2ONTSEwEDVFX-",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Autobound AI and ",
+            "id": "B_xvuAvgYfVJI7HDTYXBv"
+          },
+          {
+            "id": "TZ3tfowfQoD7Dv3_erL28",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "qTR3D1qCI8P4G9eqeaRAu"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "FOYwDP_A3nHTyEzCaeZ6Q"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-autobound-ai-and",
+          "legacyHash": "rHBRk"
+        }
+      },
+      {
+        "id": "yrL6yZspjNNeO5f2ntnx2",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Autobound AI and ",
+            "id": "8AfasY21oymkSaLPA8h88"
+          },
+          {
+            "id": "jiSsE6MBGniBFLF6GgvIO",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "3XQPldAmMhoKxA23fJDPT"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "o-Ary5dBdtf8aeee5rBCx"
+          }
+        ]
+      },
+      {
+        "id": "laSN_QnDrcBmINYwZ0PCE",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "7ovdBIzuuVUD0YSRxYfSh",
+            "text": "You can connect using the following method: API Key."
+          }
+        ]
+      },
+      {
+        "id": "ikGpxzK5EzeJcOQ3Kj2qJ",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "ikGpx"
+        }
+      },
+      {
+        "id": "jvNk95xM9IaOgM4FTCQIW",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "vSZ5IdGVd3p22enoCcAKs",
+            "text": "You need to generate your API key."
+          }
+        ]
+      },
+      {
+        "id": "rUDkfN5b3UnzH3VsgIsbJ",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "H5eBh0rWnMhduPp4TFgRi",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "-q19ns4DDNhqfGFxrQ2-k",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "FUz5Hi3algZ0_U0zSGfrY",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "XcUlwL3wPtR9aegUcDzZd",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the section labeled Get API Key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bMJ0DeMYoe4ssHBgchp-Q",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "NCqhIJ2ISzghWygTy_yiN",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Generate a new API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "WO9_9cG7r9QMnBU1_85op",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "AuHc1FbJH8T0bASVje2mu",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy and securely store your API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gbw31-Qip5lFlOipIzXCH",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "kbRbgYPdHs5ASJ2sR-Tlz",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "j0EvQrUExPQmolS5D7qNm",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Autobound%20AI&app_slug=autobound-ai-community&app_unique_id=autobound-4qmtkz."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iVm6EY2iQsn2MxZ8vOfOJ",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "UDanS86bKvnKYLnjdbhFf",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "iVm6E"
+        }
+      },
+      {
+        "id": "b9R5kwmk2tNmpMUC3OzFD",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "qsRzLNhp8mLLlgc9JslTs",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "ejBBlC_yj8pz9VB_9zysg",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "favSQcAIbPKU8t2n-ZvJF",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "6HOdt8nl_ehus3WobmXOX",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "ol2ACrzldSvA_1BdEPMII"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "z5dJJ728dZkqJMoiQsXE8",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "Nt6BKwgSahmUifMhsUQ3E",
+                    "text": ", add the Autobound AI module to your "
+                  },
+                  {
+                    "id": "q7om2j0b1j0ru6_XHC_LE",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "YaDS0vmXpxvxp3d03y8qI",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "-7RBmtW4KR82WLRJwqvbw",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "r88h0v8-NtiTooIaE8fvH",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "_RZHoYGHw3vtj3fNbvF6s",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "D7RJUablc5WY7vMajTiqm",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "0hz3Yg77l63Ee_GoefmAP",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "DACSvTqGQGpBe6DUaxoRF",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "BITTi8_EI10dCJJ80pku5"
+                  },
+                  {
+                    "id": "vGerO93hQIJb1yK36bwD5",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "CQpiDZ_IMniq1gbqH-vnu"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "NWPpSNy46FBdCDVanpUop",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "XJyxBRCdDJy8SwGMZ42mX",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Autobound AI or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dMTySCc5j8HZyDCAPgv86",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "O8swEB8ExHg0yi_fHfJht",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "jLVwFpcIDyq0UOwqLbAG6",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Autobound AI modules",
+            "id": "JPMhvPzqmjlVFr0Wfdglr"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "autobound-ai-modules",
+          "legacyHash": "jLVwF"
+        }
+      },
+      {
+        "id": "tX-iRytxOD0CojZzc37ke",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Autobound AI app, you can choose from a list of available modules to build your ",
+            "id": "iuO9us6prGc2o38iDNrf3"
+          },
+          {
+            "id": "dUKc9M0JferhQXOTyfXu6",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "QsLUalJuo9qjeGLD_T9AK"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "eKzK9DYRLNsYmy3GatQi_"
+          }
+        ]
+      },
+      {
+        "id": "JODhLIFpCDrmoP1V5JU8d",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Q_r-SNyGS6Y5FsTSjeVlg",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate Insights",
+                "id": "ePQuhmiMOxAGgqithJ0Ai"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-insights",
+              "legacyHash": "Q_r-S"
+            }
+          },
+          {
+            "id": "l4vaUvRmDnUB6t5zKXxzx",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve comprehensive information about any contact or company simply by providing their email address, LinkedIn profile URL, or company website URL. This module helps you gain valuable insights, such as professional details and company background, to better understand your leads or prospects.",
+                "id": "VHZW35hby4tUw0MqdfIWT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4sxjHjrcspLQgpp2BpQZ8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "UcXNaoGQlm9MZ-muzXqgz",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate Personalized Content",
+                "id": "YKf3qaol_px4Es4zZi5qW"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-personalized-content",
+              "legacyHash": "UcXNa"
+            }
+          },
+          {
+            "id": "m098OPGmuitkm8J2w77-V",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module handles everything from identifying and resolving contact details to ranking insights and generating tailored content, making it easy to create highly personalized outreach for your audience.",
+                "id": "4YZo9NxQKQbXu3FttwCuU"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "huRsrp9niXAyAl1xxrwBi",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "BMsDlAeD-zesrPRdnBLEj"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "huRsr"
+        }
+      },
+      {
+        "id": "K3x2Q7bWfMus6NJUqAHc5",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "O9bV5PbG65RnMpf_vj8RK"
+          },
+          {
+            "id": "cwjbkiohlUUEWzuBZrNzH",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "Dz79l63V3OFWLSwTx5-7b"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "_ngSzB_PQ9575c8YPgyG7"
+          },
+          {
+            "id": "9otinBdwNqcCrwd9Tev5m",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "nLaExjAbzT5SyZ_e5gg6W"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "_JXjXCaWtc_0WxezURoAG"
+          }
+        ]
+      },
+      {
+        "id": "VZgOiEbpmBcpkQc3myvS4",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Autobound AI resources ",
+            "id": "Ds72Q1sedEm4gb8eG-kbm"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "autobound-ai-resources",
+          "legacyHash": "VZgOi"
+        }
+      },
+      {
+        "id": "W-_FhOEBdOZA8nZYJ7otz",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "5UjyKJWUfTovHYzUnBL2A",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "vRwVNPZb6VHSnIp7yiHfh",
+            "data": {
+              "href": "https://www.autobound.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "dWYIcSnY9twwrU60O66OR",
+                "text": "Autobound AI website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "MLRH-ZhVcW4VLmB7eMnY-",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "TNxoZ2S9lMmEUfgmjvaft",
+            "data": {
+              "href": "https://help.autobound.ai/en/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "aCWEInW_QQWvE2CJ5UnFd",
+                "text": "Autobound AI documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "S7cCvbmBS5TQLhv7j5oUC",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "peEoqqj18GCrF3A4eSwss",
+            "data": {
+              "href": "https://autobound-api.readme.io/docs/introduction",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "0yhYeDcUP1F-suJHW1A6P",
+                "text": "Autobound AI API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "FZ-6vVEHXHiI_KywtWzyi",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "OG68fRE3NmZaJn12gL3R7",
+            "data": {
+              "href": "https://www.make.com/en/integrations/autobound-ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "U5ZEo1wHXPd1J22cIms5d",
+                "text": "Autobound AI page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "OAmPRyuzaF7tIQv_dMFFg",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "Y4TRjGhh_Geu8JCCPBJ2o",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "oiwUiDMSXZY6oK9ugLWny",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "gLu4vW6KwnHfxrYf3kNQe",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:21:07.149Z",
+  "createdAt": "2025-11-17T20:41:14.848Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-ETIqJvrS8MObQIarzCXo1",
+    "children": [],
+    "isHidden": false,
+    "name": "Attendu by Codex Solutions International",
+    "urlKey": "attendu-uxusel",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-ckRqpuNpttBg9ea3fmgE7",
+    "children": [],
+    "name": "AutoContent API",
+    "urlKey": "auto-content-api",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

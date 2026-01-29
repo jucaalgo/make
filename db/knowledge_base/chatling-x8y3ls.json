@@ -1,0 +1,1628 @@
+{
+  "id": "PUBLISHED-8tVZjWnZohkEJwDaBOmt5",
+  "name": "Chatling Ai by Codex Solutions International",
+  "icon": "",
+  "title": "Chatling Ai by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_chatling-ai-community.png",
+  "summary": null,
+  "urlKey": "chatling-x8y3ls",
+  "description": "How to integrate Chatling Ai with Make.com",
+  "urlAlias": "apps.make.com/chatling-ai-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-11T17:50:06.772Z"
+    },
+    "nodes": [
+      {
+        "id": "C2gxu52MbAJcjpLl1Kvwp",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "9xXhuNwZYT2q587FAXUNt",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "nh_eE6qaQxjB8HvgZQ_qN",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "WNiEoczpaYNiutMhfbK37",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/chatling-ai-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "mlEM0zawnIbLpMDpcwUH2",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "uejYqL5q8JmulkbqQYEaD",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "kepN6xa_vEqntVgNeTTbz",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "LsTO77RXLr5JHlSnEOa05",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Chatling is a no-code AI chatbot platform for building and deploying customizable chatbots on websites and WhatsApp, offering multilingual support and analytics. Integrating with Make.com enables automated workflows, enhanced lead capture, and seamless data exchange between Chatling and other apps."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XIXAwXI7wXj3714XUiRN6",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "KN1lq29F14y9NwUIWeT-4",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Chatling Ai documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "4tE7hwl9m-PjkNElkGwtP",
+                "type": "link",
+                "data": {
+                  "href": "https://chatling.ai/",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Chatling Ai"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ubDh_JE2E1t9OhmB-G6dj",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Chatling Ai"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-chatling-ai",
+          "legacyHash": "ubDh_"
+        }
+      },
+      {
+        "id": "FvRvRRC02Kvwx_hD2sr9s",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Chatling Ai is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Chatling%20Ai&app_slug=chatling-ai-community&app_unique_id=chatling-x8y3ls."
+          }
+        ]
+      },
+      {
+        "id": "8CM6IMg69rrCvZpp5X_CE",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "VExamhzUsHmocGPoYs8QU"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "8CM6I"
+        }
+      },
+      {
+        "id": "OlzsiEonDL7qDgRdPi8ud",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Chatling Ai app in Make, "
+          },
+          {
+            "text": "you must have an active Chatling account and an API Key, ",
+            "id": "TGrKzdzv7kxHt6yv0c-h4"
+          },
+          {
+            "id": "yF2hBpKknoMUM-dHGz5Lg",
+            "type": "link",
+            "data": {
+              "href": "https://chatling.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "JPt4vQBjW6_o3qB7nxowQ",
+                "text": "create your account on Chatling Ai."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "pd02Pl8y59ezlUu8voz9W",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "pd02P"
+        }
+      },
+      {
+        "id": "Gr3fYuLSElaY9AT7cHaG1",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "J7SrXHNsOVa3eCyqcjlr0",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "JPYWP-pWTvF88Y5bAfth6",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4dw-OESy3reowt_wRLa37",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "0anEvTme0Ow6orrTCIfb-",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Od8DHhrig0s0L-9sDBb9J",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "YOC7ZC0k5eWxD_VJjRp-M",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "-jlDDi2MICGwC4UWdXDLz",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/chatling-ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "pTFLtGkRkpwpOEa4TRQKr",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7bDIdeyvm9-MpeD0-iuXr",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "RGsOCIulvSjVxq6iPJtOk",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Gp3C1N_n6A3ZJK0UdpC83",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "D0eVO7jFZNhafcqC8MPGl",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Acv6Ogx-fBfB_e8qca7O1",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uNESIRl8kcjkjGUAQr73W",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Chatling Ai and ",
+            "id": "DhaA3aet8D1oApO1DQmvQ"
+          },
+          {
+            "id": "DXm4l3jwxhqp6ygez7Umd",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "Ur7Zq-31Xg3-IRiXcedsQ"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "FDK6fnHUaVfbzMU8619YG"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-chatling-ai-and",
+          "legacyHash": "uNESI"
+        }
+      },
+      {
+        "id": "TRFAQGfZwBkRMd-Lc_PWQ",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Chatling Ai and ",
+            "id": "uQUvhDfmkSFnNVSlBfUT9"
+          },
+          {
+            "id": "bZN5DpSCZfOx4olQ3EQpI",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "KjYq8Uy1hJF8A2jY3sopl"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "u9sLK5hq_xY_BXzBJ7QSm"
+          }
+        ]
+      },
+      {
+        "id": "WPV2h-89SOuAY0YN0YW5c",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "LxVV-3uetGq9PIxbt0ZSu",
+            "text": "You can connect using the following method: API Keys."
+          }
+        ]
+      },
+      {
+        "id": "c8y2iEFVwAZt7FjLy1PzP",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Keys Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-keys-instructions",
+          "legacyHash": "c8y2i"
+        }
+      },
+      {
+        "id": "07_i84LtMomIWvP02TjwW",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "WAiUcU_vMMfE0OV-lyv5F",
+            "text": "You need to generate your API key."
+          }
+        ]
+      },
+      {
+        "id": "NhPOdHOIDHqez2FhHGe-W",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "NjszMoaLgLlYI2-a3AMHQ",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "niWJz8zl2NdCx1MlOzcS9",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Go to your Chatling account and open the Project Settings."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "20c3PJFlfLlVWmKuhU5bO",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "DRQCclI-QOZ-98Nq9AAJd",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the API Keys tab."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p4-oloIIFRuImC6KsAfoX",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "B6CUu6o6tPkHrRAiqOkLS",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Press the New API key button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "WMas7HnpPnVZkQobPIFLI",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "eAMIIm4-eoH61JjA6Whxh",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter a name for the key and press Generate key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Gsyvk-rbxIv8W34lI5TpF",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "jVkuIVVA6uIrhUXr6Gwk8",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy the newly created key. The API key will be displayed once only, so note it down and store it in a secure place."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iyK-nGRvgSD8oTAS8QHbD",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "v9L7MI5NaE2-noIHKUeeA",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "iH5YDXVUFWDMCND1Ozn61",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Chatling%20Ai&app_slug=chatling-ai-community&app_unique_id=chatling-x8y3ls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lw2u-HzTVja5KbWV3ub_U",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "THHPCTwSz7mkFZvGZQ5ta",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "lw2u-"
+        }
+      },
+      {
+        "id": "JZzK_XB-XlgUHNPNFcYhw",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "-hQqgNKiwVMht0Baeb7QB",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "RS_3vViCXT43dHZi2sE59",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "5YF_M95cIb7XnwHfGnTfO",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "YpYuP-1-lDGYpIFgKgIlx",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "k1yToLxGJvCnfSSG-fotr"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "GTjRAJ3aK_0KEI2WwvHcn",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "GVF-O3juOfpK5CAVj4cbF",
+                    "text": ", add the Chatling Ai module to your "
+                  },
+                  {
+                    "id": "hntbzKOPt8TZCv6p8j9CH",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "CjMie0ocVNHgrCWLo9KSM",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "vgP8_JeXiU76Uygiyoa-3",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "-1Si3GHeFkBhYGEOrRjrw",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "mtgy7xhZjptDBOvNQVFzW",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "lZO86gFV4qtEsDuty3qyO",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "DFdzAl0YTXlw7SXxyr7Bn",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "YWToQ6kuVUt13oqz2ovKH",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "5dwxZK_G9_f5lZfrB93S3"
+                  },
+                  {
+                    "id": "D6FwgKkn2zLNZw21oz8WB",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "J-aRPmZID3OK71WG9SbJI"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "i4epVzG6-YX_GCob0jOSa",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "aiqhqUXWAgfnCcngJUcn1",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Chatling Ai or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aLNKHLWuCx3m4aQyxlEtq",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "OSLqUeluX5Fs9nVcs3ogT",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "kHQmcG9ANPFpMNIzmofbj",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Chatling Ai modules",
+            "id": "1Spd2MvEgmO-YfCtWWDDQ"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "chatling-ai-modules",
+          "legacyHash": "kHQmc"
+        }
+      },
+      {
+        "id": "0xRhaMK-jIikfiwd2tzjE",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Chatling Ai app, you can choose from a list of available modules to build your ",
+            "id": "wGMkwp2Dou8OvKe7iMVGy"
+          },
+          {
+            "id": "chqAxmbbvVHGhyqJaViUu",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "kGxK-q_HONJH11gQ0yuEn"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "UHjxQG1cg4LLIZDtBAeEX"
+          }
+        ]
+      },
+      {
+        "id": "UlxNMSdosvwr5-hZssPJO",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "m03vwXDmxn-Co4aJOZCce",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Add a Link",
+                "id": "vXLSfGY8B5FKNJbi1wH3H"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "add-a-link",
+              "legacyHash": "m03vw"
+            }
+          },
+          {
+            "id": "kjOReoikgy233j9-ZcJk5",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module lets you add new link data sources directly to your knowledge base, making it easy to expand and organize your collection of valuable resources.",
+                "id": "nmNiM1OyPu6_GcJDJu6OJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "TZ4CemNtO2IFw9ba-pBtd",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "iFNhgp6uri6jVvIW07jNr",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Add a Text",
+                "id": "hhEzAxpJF11xMoshV-v2T"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "add-a-text",
+              "legacyHash": "iFNhg"
+            }
+          },
+          {
+            "id": "mju8vL86rMiUOovVtXT-C",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Add new text data sources to your knowledge base, enabling you to expand and enrich the information your system can access and utilize.",
+                "id": "nbTKcvdKKUsR1kdlBT3m0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p_IkdeZYcGV0ev9m6cIbu",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ZjPe3WgwYwvmqJD0HSMPH",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Chat with Knowledge Base AI",
+                "id": "dFmekoMWm8hMDoUqGBQvP"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "chat-with-knowledge-base-ai",
+              "legacyHash": "ZjPe3"
+            }
+          },
+          {
+            "id": "ngkFuOZ_SMd-zBtU_VfTm",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Chat with the AI using information from your knowledge base to get helpful, accurate responses to your questions. This module allows you to interact with the AI, which uses your stored data to provide tailored answers and support.",
+                "id": "p8WWZDEs6Tv_CgWC0MJ4j"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "YvUUByuNq__rS_Y_k-Oz2",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "4rDquzatTi10FEWTxPPzi",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Chatbot",
+                "id": "PaBmOquhlM7j729rm1D16"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-chatbot",
+              "legacyHash": "4rDqu"
+            }
+          },
+          {
+            "id": "IYyJBhFL33q5Q1F4ebie1",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to create a brand new chatbot, either by starting from scratch or by using a pre-designed template to help you get started quickly.",
+                "id": "WuQ391jrDIUsirSrCHM7a"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pkBVOr4veS17BDEXQWj5P",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "HCNtnSnmUBmciuIPwCndd",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Duplicate a Chatbot",
+                "id": "fx8VZ6McTy6H1CzBE7qqZ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "duplicate-a-chatbot",
+              "legacyHash": "HCNtn"
+            }
+          },
+          {
+            "id": "9GwpPasWkEp7a3vZNtfWR",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates an exact copy of a specific chatbot using its unique ID, allowing you to easily replicate an existing chatbot and its settings.",
+                "id": "mhO9UNNI-Z2aWibba-nUb"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "C1qVjyOlR8QAH_DFtpncB",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "cZoWI4UxQ03r18YQ4M0UF",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get an Chatbot",
+                "id": "umE24xnhVhP5htJLW-jV4"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-an-chatbot",
+              "legacyHash": "cZoWI"
+            }
+          },
+          {
+            "id": "Azn7AGA4DGnMaCK2-iT3a",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches detailed information about a specific chatbot using its unique ID.",
+                "id": "XfoAnSKlDnHFHaPQ9FjuR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wwcEuBuIOdpgPaxNJiFOW",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "wbyVcowAVo8vvJC4Achv4",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Ai Languages",
+                "id": "oYQiDmg0EqXoNl4PVDhAU"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-ai-languages",
+              "legacyHash": "wbyVc"
+            }
+          },
+          {
+            "id": "VO0F95QO6yr-z3z5M2cWI",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a comprehensive list of all AI languages currently supported by the service, helping you see which languages you can use for your AI-powered tasks.",
+                "id": "JYdw5hxhlhaNb25hVFW8T"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "e7RAV-rRrUFaS8K0YHc5w",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Vr0_-ToZ8gIchokPPcARI",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Ai Models",
+                "id": "h8cH3G0zslbHhgFGxfHRV"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-ai-models",
+              "legacyHash": "Vr0_-"
+            }
+          },
+          {
+            "id": "qMEkwGq81z_Nh7vaHP-C3",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a comprehensive list of all AI models that are currently supported by the service.",
+                "id": "8F9zSUnNM-nqTbyRZxRGM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tUiIXTD6OBM1J80Io70tN",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "dCUcnKKST0Y8_RBOR8ekP",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Chatbot Templates",
+                "id": "bqthfHMBVuZbpHAl1D8jX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-chatbot-templates",
+              "legacyHash": "dCUcn"
+            }
+          },
+          {
+            "id": "f4q3QFPOtKYZgNvfy44bC",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a comprehensive list of all chatbot templates that are currently available for you to use or customize.",
+                "id": "Ft0-GiJMBryLpIyPVYC4_"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oQvJRdeqwmDJXpDJP7xRj",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "2Z7RfSAFwxqHRaoJGDXDy",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Chatbots",
+                "id": "X8EirapBZ8zhjhFsRaK3r"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-chatbots",
+              "legacyHash": "2Z7Rf"
+            }
+          },
+          {
+            "id": "5uiBoJxxcWUfQDHWhRq1p",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all chatbots that are part of your project, making it easy to view and manage each one.",
+                "id": "WNNmvdDJb5BrUPtwZS8Wn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XMd3EeJj_HP8GzWmDBd4V",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "bk-TM1dcSZwatUTkAgMvn",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Data Sources",
+                "id": "N_rtiOQpk6TUSqG8SY69t"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-data-sources",
+              "legacyHash": "bk-TM"
+            }
+          },
+          {
+            "id": "X5lJpIVUSdDqCgo3oyQmo",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a detailed list of all the data sources that have been added to your knowledge base, helping you keep track of the information connected to your system.",
+                "id": "Z4iyww9IUQ9lr5ZKF_XOd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "InMNl9sVV4F5nH2LQt8NM",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "PqUlV5-yboHaL2yiHBbv_",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Members",
+                "id": "HzjVTs_TYA0e91lZVkyQg"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-members",
+              "legacyHash": "PqUlV"
+            }
+          },
+          {
+            "id": "eu1BJcNa7KW8YcSiCxD6M",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve a complete list of every member who is part of the specified project.",
+                "id": "Avt1XzTJD4ScwCW_SbE52"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ysYe-p3PuYpovFAVo5wMo",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "cNJU7CvabjRPlF3-LC__U",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "U360EH3lFQMv7kAeqQcae"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "cNJU7"
+            }
+          },
+          {
+            "id": "O2W_0i1iLYl_KWCWkDNmr",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Perform a custom API request to the connected service, allowing you to interact with specific endpoints and access or send data that may not be available through the standard modules.",
+                "id": "QrR7_3P5LWvRLgqoKZD7y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-uJuHM9adbfzsrU3nhJ0v",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "WfkAKtxNQk7jrwtMG8lA2"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "-uJuH"
+        }
+      },
+      {
+        "id": "3ojd3FhGuvCo8mwq-RGjS",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "2ZrHir3xGHiAjQLxPkDyV"
+          },
+          {
+            "id": "Kjp7-RJcLSs8iEBYTWfT_",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "gYwKjiwrbFY23_HHSCBzY"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "UxPerCAxk73qFdwIM0ckK"
+          },
+          {
+            "id": "iYnvnvdCzXYKJypnN3PZs",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "jPLQhG2J_j437ViflQJKb"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "CzCdaEZF1guX89ZXg46qA"
+          }
+        ]
+      },
+      {
+        "id": "9GmUwehVHEaG7i8ggQY4V",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Chatling Ai resources ",
+            "id": "jwasbqHoaWrH_MSgPxTVV"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "chatling-ai-resources",
+          "legacyHash": "9GmUw"
+        }
+      },
+      {
+        "id": "TyqBF56cL-ypH9njhEETH",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "fOBW7s6IkmNGD5P21R54W",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "AKpPO6AdQ65EHv5Ku4IJP",
+            "data": {
+              "href": "https://chatling.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "-cZAR2_C2cgz-NeqHgROD",
+                "text": "Chatling Ai website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "4AMOulegElhwSIeNeaTb4",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "--MvLFTeEoLNOsWRgDlzH",
+            "data": {
+              "href": "https://docs.chatling.ai",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "tw5tO_tBH5EIRXnnay142",
+                "text": "Chatling Ai documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "VMU7EIm1CovmMd5WnJb1m",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "jx0P0Fj5tLNbiwK-HxU34",
+            "data": {
+              "href": "https://docs.chatling.ai/api-reference/v2/intro",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "q6F5tt2OH1EHBbbdZ0zJd",
+                "text": "Chatling Ai API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "rHVZYXrX-znsnmucwa8hV",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "cSmk6dhEjuIUNCQDVu32p",
+            "data": {
+              "href": "https://www.make.com/en/integrations/chatling-ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "7XmDGlNh3v92NsKIRdkS4",
+                "text": "Chatling Ai page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "8dVfl8TDm7iNC0hUeQRxO",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "Yvm8xSJ80Tn5C5Dn1_opF",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "3lL-hmnYSu2IOrCS4XbPl",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "7dQSo4LHoULPnZf_PD5no",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:21:18.619Z",
+  "createdAt": "2025-11-11T17:50:06.775Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-6xmzGtdug2h4v9pIdY1NK",
+    "isCategory": false,
+    "categoryName": "chatbase",
+    "children": [],
+    "name": "Chatbase",
+    "urlKey": "6xmz-chatbase",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-9Lz_pruuCEDe80Vq-h6nM",
+    "children": [],
+    "name": "ChatMaven.ai",
+    "urlKey": "chatmaven-ai",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

@@ -1,0 +1,1098 @@
+{
+  "id": "PUBLISHED-ETIqJvrS8MObQIarzCXo1",
+  "name": "Attendu by Codex Solutions International",
+  "icon": "",
+  "title": "Attendu by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_attendu-community.png",
+  "summary": null,
+  "urlKey": "attendu-uxusel",
+  "description": "How to integrate Attendu with Make.com",
+  "urlAlias": "apps.make.com/attendu-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-11T18:43:18.991Z"
+    },
+    "nodes": [
+      {
+        "id": "6iYjdzA2S3NI34oUG7Sxt",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "bLN8R2KwLzjFuAOQW1ReZ",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "7-AMF3sNp0FYO5XVcYAl4",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "vIFAwsIwV92LxrnInpgBn",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/attendu-uxusel.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": "",
+                      "alt": "Attendu logo"
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "QWHFX0oAJrqfCIzaoL25a",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "6IOij0InGL-rPIqbtwgqG",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "1EUoeHjCarc9hx1nlwEdN",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "hs9JXlSp_W_hVrVyPEbsh",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Attendu is an all-in-one event management platform offering tools for registration, ticketing, payments, check-in, and analytics. Integrating with Make.com enables automated workflows for event operations, guest management, and real-time data synchronization across business tools."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0UrTZliZ95y5MY1zOgQ_s",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "gPDPdgU5vyROx2ERK35U9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Limited documentation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "id": "Vwk99fZd_FWbVShoR135z",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "We currently can't provide complete documentation for Attendu because there isn't enough publicly available information about this app. Our AI-powered documentation system relies on comprehensive data from Attendu and public sources to create detailed guides."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "children": [
+          {
+            "text": "About Attendu"
+          }
+        ],
+        "type": "h1",
+        "id": "O3lxeA8c1ZrViuV2lKIcm",
+        "data": {
+          "autoGeneratedAnchorSlug": "about-attendu",
+          "legacyHash": "O3lxe"
+        }
+      },
+      {
+        "id": "doqjhSRMnQfb9rjaErSNU",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Attendu is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Attendu&app_slug=attendu-community&app_unique_id=attendu-uxusel."
+          }
+        ]
+      },
+      {
+        "id": "21O3xnSYVU9BeyFk9KK81",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "21O3x"
+        }
+      },
+      {
+        "id": "iN0caY-0w68rbuw4SXnif",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "KO8LdXgv_zNyfX9Y8hX8h",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "pJOCmvgMaX8PFpQTdOkQX",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pQRrWXdn9BY4QO_Pnm_cf",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "f4AwhBtzvpoR0Ml6gzMf4",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "QfF-A89HAPvQ1_0o5AV6d",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "hNd2bzqUPjD4686ObiwFH",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "tG2R7YXHgxMd1LT6XnQUQ",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/attendu-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "zrn58KB-zb9tIPWBtaw5f",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7Yj0AePq0VlZlhJzKPDPX",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "BwpdY3VZgacKJF_AP8w1J",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "e_AOEJ6ISUeFR11NWyPfn",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "neGXNS1EaghzXWqPYes96",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "hDlUhGg3qkQkyAti3gAbx",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sr4nls3zi1q_kw2b7AKRy",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Attendu modules",
+            "id": "UV7LP3WXdJVbq1ZTA0R0q"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "attendu-modules",
+          "legacyHash": "sr4nl"
+        }
+      },
+      {
+        "id": "jQPfTz_KfqEQUeyD4JstR",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Y"
+          },
+          {
+            "text": "ou can choose from a list of available modules to build your ",
+            "id": "1tnm1gs5Yi1CjhjlkZnxZ"
+          },
+          {
+            "id": "7idBRzsL7n_bPoT1m9AQG",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "52TvcUrsr3reRmxbfa6jr"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "4v38twGaM8DJe5eyA7mdX"
+          }
+        ]
+      },
+      {
+        "id": "EXXqWpCaCqVGLsaOUJYfv",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "u2E4l7MppxApDnoZC1mP6",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Check In a Guest",
+                "id": "sUjLLGdTkzkPHLuEFPle7"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "check-in-a-guest",
+              "legacyHash": "u2E4l"
+            }
+          },
+          {
+            "id": "VGgcRSHB5-DoB_MNajsbq",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Easily check a guest into your system, updating their status and recording their arrival details.",
+                "id": "20e0pMvXGFvzyunsK8Woy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Mjii6_28YTHSNLdqIb18g",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "1BGJ6YMnhun7pNv9TFykz",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Guest",
+                "id": "sDg1T1DsgeJAqB_k_GQ9U"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-guest",
+              "legacyHash": "1BGJ6"
+            }
+          },
+          {
+            "id": "w_PaCnJ2FL8qZHS6fudNA",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Adds a new guest to your system.",
+                "id": "jVk1udjoKu7_Q63xP6Pqz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "YowZHi_7sv1Rh6iUY8NPh",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "EdMqiZ0qTirxm0tuiFaP4",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Guest ",
+                "id": "FcG9pnd9XVDC_tjwKa45I"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-guest",
+              "legacyHash": "EdMqi"
+            }
+          },
+          {
+            "id": "yuxDPiHRvGfbLxg3z2ZjE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a guest using their unique ID.",
+                "id": "Ab2WO6wMUhirtn-utd38k"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Vpq_Pl9Q6FocV7j5Ap9v6",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "sfibekEud40CYetcdvCYb",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get an Event",
+                "id": "uE_lMtCL6N8BboAKI0ljX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-an-event",
+              "legacyHash": "sfibe"
+            }
+          },
+          {
+            "id": "6JxBXZsl8WFHrvPabyBQZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a specific event using its ID.",
+                "id": "dfG-8tcXxLxGVCkZwtdJi"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rMMr4Y2aRDrR1af-oJT68",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "EHQH4JN2f70GINE6ZMePG",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Events",
+                "id": "QHeUtUsNvG5dq_8q0m0KI"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-events",
+              "legacyHash": "EHQH4"
+            }
+          },
+          {
+            "id": "_pcvDy8eNifhETaHmUVSq",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all events.",
+                "id": "rC7auW64xNovUjN5Z4Nko"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZFSBrZEhOkmWJ9_uj9vQ0",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "8nJ1AHK0Q4Pfuq9HNVgpj",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Guests",
+                "id": "sR5b1cSDwttW-3v1q0Pi9"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-guests",
+              "legacyHash": "8nJ1A"
+            }
+          },
+          {
+            "id": "rTr3lXh2Kvca4hkFY5qn9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a list of all guests in your account.",
+                "id": "UXv-BBHUsloWAyOf_MRpC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "z_KUzvTxMCqigZcgdv0LP",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "YhGTVGa5ZIAUFOmnqSj9H",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "udYYudSB57p2YfOJXPLXT"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "YhGTV"
+            }
+          },
+          {
+            "id": "tYB_cAhNfkCXdOpVX99d9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Send a custom API request to connect with your chosen service and retrieve or update data as needed.",
+                "id": "RTkNZeR2JTLH83vPhgHrn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_oHYiQW5XVXRS5jhazJQ3",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "3NA0mv1zKgTXLMxoUZjf-",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Register a Guest",
+                "id": "m-NlG0zJK8axUYV8Ocobl"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "register-a-guest",
+              "legacyHash": "3NA0m"
+            }
+          },
+          {
+            "id": "RYLQylU4asrKpgkSrBLQZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Add a new guest to your system",
+                "id": "vhaKU1Pk5bTjpZDaBGaxl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dFjmfB6wTT8FkAjOrCIcx",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Ff3E3LjIctGxc0AFkwk4M",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Remove a Guest Check in",
+                "id": "yvKeh3MPO4JE-NOdwIQgy"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "remove-a-guest-check-in",
+              "legacyHash": "Ff3E3"
+            }
+          },
+          {
+            "id": "MezmwkMynGjyV9t4D9XGt",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Deletes a guest's check-in record, removing their check-in details from the system.",
+                "id": "QZaydHklkVSQUMVrgAt9P"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "759WBOI7xIxHxTbuQuyUo",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "GGOot8MSkMpjeVJzIJI_2"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "759WB"
+        }
+      },
+      {
+        "id": "jmir6Zm7llcOpQ3DmdYqm",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "A26oqWGsdqA2bWmpmDgfD"
+          },
+          {
+            "id": "a0emu_MhFji7G6EkVtu63",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "DVD4U-9qiOaZlkGAWTRNH"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "JuDS3FtVGshZMeQuh49cj"
+          },
+          {
+            "id": "jox7ynFXUMQY4OftXc3mJ",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "Ydoui4al0T4lTqzMAa1KN"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "ME_zJ5W6sHY83m--eSaVG"
+          }
+        ]
+      },
+      {
+        "id": "f-IALLcxbgM7yyWWh47Ve",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Attendu resources ",
+            "id": "XyyjpCBt7TX-D3fMHL1Vw"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "attendu-resources",
+          "legacyHash": "f-IAL"
+        }
+      },
+      {
+        "id": "VZ8y2-uvoQNx9YAP7_qOh",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "dl-WeNnxfrG0dChd_B_nt",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "epBuLGdPr8kCk9Ethg2A3",
+            "data": {
+              "href": "https://community.make.com/search?q=Attendu",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "bbgXcDM-dnXgLfiRIEvtt",
+                "text": "Join discussions about  Attendu on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "kKBRMjlL9talcTXf97Eai",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "wlGCY1cwff17blp8x1WvL",
+            "data": {
+              "href": "https://www.attendu.com/en/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Tm42wEuvEfHDYtvdEwCf0",
+                "text": "Visit Attendu website "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "DmemEmviLz99lRed8Pbjb",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "QxTYmt8LL8BJNhTHN3Q5i",
+            "data": {
+              "href": "https://attendu.notion.site/Attendu-Knowledge-Base-aed8566c7295438d84dc33ff7e8372c4",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "F6QlDRFg9OcPI9Gv_xTf2",
+                "text": "Access Attendu help documentation "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "cvZRNuCF_QC80GkP_QNmR",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "CSSbzlBrSdMSFlNevfkfB",
+            "data": {
+              "href": "https://docs.attendu.com/introduction",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "L11dWV2UuzQH4QmfoMmQU",
+                "text": "View Attendu API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "PeheM9FhNpWzBIIaEeopk",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "Th1JFAxM7_KKifEzzVL8B",
+            "data": {
+              "href": "https://www.make.com/en/integrations/attendu-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Q-PPsvInsQyXHXZ8eRMSw",
+                "text": "Visit Attendu page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "DJYeaXMyt_fXUs1teIQrC",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Help us improve this documentation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "help-us-improve-this-documentation",
+          "legacyHash": "DJYea"
+        }
+      },
+      {
+        "children": [
+          {
+            "text": "Have experience with Attendu? We'd love to hear from you. If you have insights, use cases, or technical details that could help other users, please consider:"
+          }
+        ],
+        "type": "paragraph",
+        "id": "JxiGes22i0cUjVl_mD7Jd"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Using the feedback widget at the bottom of the page"
+          }
+        ],
+        "id": "1XCrDB3tdQ4NAVN1x5ls9"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Contacting the developer to request public documentation - https://f.make.com/r/reachout?app_name=Attendu&app_slug=attendu-community&app_unique_id=attendu-uxusel"
+          }
+        ],
+        "id": "YteVZmCQa5as79F3tUhEl",
+        "listStart": 2
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Sharing your knowledge in the "
+          },
+          {
+            "id": "ORFw5HA-NNKhbwRpEi3h5",
+            "type": "link",
+            "data": {
+              "href": "https://community.make.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make community"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "id": "YT7ZQn3LUHsnuehTvbiS9",
+        "listStart": 3
+      },
+      {
+        "children": [
+          {
+            "text": "Your feedback helps us create better documentation for everyone."
+          }
+        ],
+        "type": "paragraph",
+        "id": "zScBAN4W-chqFec8Saiqc"
+      },
+      {
+        "id": "quUSiqDp2-XYcNfU9j9X3",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "31chMA6B3Xc_xJAvcHbZO",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "vbcHZP0syIYCsPSmgTxn9",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "scxAjwAEsxdSXYZezE5Zk",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:36.984Z",
+  "createdAt": "2025-11-11T18:43:18.994Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-ihOGiADCoPGnHFI3FW17p",
+    "children": [],
+    "name": "Atlas",
+    "urlKey": "aqx",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-iP3ibB7UGaFnYhzdU2J3k",
+    "children": [],
+    "isHidden": false,
+    "name": "Autobound AI by Codex Solutions International",
+    "urlKey": "autobound-4qmtkz",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

@@ -1,0 +1,1678 @@
+{
+  "id": "PUBLISHED-nUmGIvULaeCZ9UHNaaVMQ",
+  "name": "Convert by Codex Solutions",
+  "icon": "",
+  "title": "Convert by Codex Solutions",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_convert-community.png",
+  "summary": null,
+  "urlKey": "convert-sgwsz6",
+  "description": "How to integrate Convert with Make.com",
+  "urlAlias": "apps.make.com/convert-community-codex-solutions",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-10T07:07:16.194Z"
+    },
+    "nodes": [
+      {
+        "id": "jBy0siA4Z_OnLcb1fxjBO",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "ShNcaHXbXphrXbo0lH5C2",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "TTsoTfGtqL56e0yUo2pV8",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "g3XFG-NfEVGfOy5_-4c2o",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/convert-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "XC4ijdgSwPiDwoH288ZxD",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "nTuOGEgP3-EegIgkXsXkJ",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "yXEUaN8jECFhrnByZ454-",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "fpTyekygOkyaCYOjYwrHa",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Convert.com is a web-based A/B testing and experimentation platform focused on optimizing website and app conversion rates with advanced targeting, privacy compliance, and robust analytics. Integrating with Make.com enables automated workflows for experiment management, reporting, and personalized user experiences."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aGlsWxvHaJOyWOXRvZagI",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "VoEm64C2TqKaN73REeG0N",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Convert documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "EKaSbZm_9ZCnJhB0l3FSP",
+                "type": "link",
+                "data": {
+                  "href": "https://support.convert.com/hc/en-us/articles/how-do-i-contact-convert",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Convert"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "p16M2A-4xDIC209dizn5h",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Convert"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-convert",
+          "legacyHash": "p16M2"
+        }
+      },
+      {
+        "id": "pre4TKCivuiq6qaIFst9w",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Convert is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Convert&app_slug=convert-community&app_unique_id=convert-sgwsz6."
+          }
+        ]
+      },
+      {
+        "id": "Mra1hmXCmAxRW23l0q8od",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "C8gleZoD3xalCdD0x1Mci"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "Mra1h"
+        }
+      },
+      {
+        "id": "PtgHnJBQSy5mWFyniRV0N",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Convert app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key or SDK Key, ",
+            "id": "1VHjoNUFi-tLXWa8sPi0U"
+          },
+          {
+            "id": "gHypbluHb-0fjbpQR0Q4n",
+            "type": "link",
+            "data": {
+              "href": "https://www.convert.com/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "w2KaJMqYKoTKBR-D9246v",
+                "text": "create your account on Convert."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "2NmmbXOhH7jJ_Ln22mDgP",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "2Nmmb"
+        }
+      },
+      {
+        "id": "aXmtTXKIP8hPiWJ9jJpSo",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "V7YLGzWITauIXAWWYc54Z",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "3RA1MAxIY2kWDECEijWRF",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "OkKcHAxAB8Hi-V_2tek5i",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "dSXaVXHpsxRPFzFEIGGm8",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "m9cBdd6AJdL8RdSbrQOwU",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "WyBKCPLgD4GbYpGdJe_J0",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "00GXkPtq-MTWhEmHJpEOV",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/convert-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "hZoxQzobIFrBs3ruKKjP1",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "vFePkWwVSsv6GDuWgSkpC",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4x_T3N4ctLzNQV3NAoOSS",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "DX7-C3e36SPWwPnKPpyCw",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "_GuXcg_0O-aeVc0EAwsOl",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "QLY54KFWqyJCmZy8eA_lx",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "RtTeGiQmD52M7sFWyXWf7",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Convert and ",
+            "id": "4eTH9cJT5n1sWxxVKT5Jw"
+          },
+          {
+            "id": "a9tzJEcUjVoxNsFVv84OX",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "4zSo3RlYCtBgrxSWCmnXV"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "ID7rl_uJKI7QMnjznf4XV"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-convert-and",
+          "legacyHash": "RtTeG"
+        }
+      },
+      {
+        "id": "ZXqWd3ytfuBAs1V5w87_b",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Convert and ",
+            "id": "tgeJ4JJeBt9fSKyh8r9cl"
+          },
+          {
+            "id": "3iTI9XsKNISfLsgk88vkl",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "WTRvkI2B8CqsrVw38z3C9"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "D5aGqcQJD3M5aJqEFYQRe"
+          }
+        ]
+      },
+      {
+        "id": "4tyix1ZJm2w5r-D7KGzSj",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "3V7UfIKTCb5ISzEHKUfN8",
+            "text": "You can connect using the following method: API Key,Bearer Token."
+          }
+        ]
+      },
+      {
+        "id": "RAkcSmDFFsX1Evn0tC79e",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "RAkcS"
+        }
+      },
+      {
+        "id": "zB8B0McLzAx2O62fEZ61N",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "O31SZJ4Cr0ETCnMz5Lfc1",
+            "text": "You need to generate an API key and secret for your account."
+          }
+        ]
+      },
+      {
+        "id": "qC2fma_qAH70H0M7rGYNF",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "hjZyq3d6JVXyYUu4fAemD",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "6jnd9dmrGUfM0mYdfpKYP",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pL7P7_-ns7iOqIP3xGdl5",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Y4U_i9O9L7OAzqlYLF08X",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the section where you can manage API keys for your account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4Bf7n2TPCP-ZJgjkAOw-z",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "nADbNAYvq-62p4T6Z8Xha",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose the option to create a new API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "jiiRAs9qnwbTX9BSTk7Cc",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "joxVq-Zowls87mdpCeNhJ",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Provide a name for the API key for identification purposes."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Ok-v3TND_V1ywdWedlR9H",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "o-19yMLUpEnWgnMJqZLVm",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Optionally, specify the list of projects this API key should have access to, or leave blank to allow access to all projects."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "M7fC-e7ln8wKroLgHZJIy",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Uybf2xCI-VlWoSN1gcOdw",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the authentication type, either requestSigning or secretKey."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "p_EdwKoY30PKBm-I0vD9G",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "zn_1V2d7BfjEJR3ZjIG8f",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "After creation, note the generated key_id and key_secret. The key_secret will only be shown at the time of creation and should be stored securely."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "J0OpItKiJjLI98bI9BBtN",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "Bearer Token Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "bearer-token-instructions",
+          "legacyHash": "J0OpI"
+        }
+      },
+      {
+        "id": "lvz7qb5hVU-1xuYkyhbfv",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "a-nLUhZXQSxDmVdw_BRjX",
+            "text": "You need to generate an API key and secret for your account."
+          }
+        ]
+      },
+      {
+        "id": "B80DXI9sjRfe-va3E7sne",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "9e33RaA-TWdERhc1G8NaI",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "4-rCZvW6WY7vry7jUUYOG",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zu_xk4AjmN6qkwFE6HNih",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "WBUg_f_qqv9m5wtF-rLOf",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the API Keys section for your account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "7ErKRf7G_vyjEXq2c-U2R",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "eoimbvASaw83QzbSWhN08",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Create a new API key by providing a name and optionally specifying the projects it should have access to."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "DA-7xalh-nkNG4l3qYMho",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "pz--fM7i3DCbtpZq-th1a",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note the generated key_id and key_secret. These are required for Bearer Token authentication."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DzbxtHV9-qFjZXlUgMMhj",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "w26AVw6RiPZ9sM8JyjMxY",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "Ia1O7X7f-z-DjLhE3xVV3",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Convert&app_slug=convert-community&app_unique_id=convert-sgwsz6."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4RZndaJMFwwP5q-Qb8ccZ",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "cmXcmThutjP3jRlPIeejy",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "4RZnd"
+        }
+      },
+      {
+        "id": "gHRTSUUSA4rbxqPKIuJBh",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "fkKF4_bPmAyYFaZSNcLTA",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "-8sQTko498AMkp61XOpRQ",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "tjTpq4apBgxqN5tdmmj6n",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "PJedW0L4Vf1AWuUZohjlP",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "b8AW9JWSup_E4eboTfgFl"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "vH8Ox7fe76fh_xGKQoQNp",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "KTaedPztiLndNU0OiI6f0",
+                    "text": ", add the Convert module to your "
+                  },
+                  {
+                    "id": "RzoduHppTSBLgjStJ0M_j",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "SzQgE48bSSTNHPuTslQMZ",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "HifWTicbEqxNxvzz7LIUx",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "N6ohpANPswzcEdeDvqj37",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "b3-zGD9a8OCDiPnGBJ6Wd",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "_JoB8tUvYx8lzw_Lgtu_U",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "GvOpjnTlDPFg3vgblnY2x",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "cZSFLDBJCmDbwRgR6fBoC",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "P-JEB3wrPCX6gcA-Ot3tx"
+                  },
+                  {
+                    "id": "OR-HuPj5ugYL4yW5aUfUw",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "U4M0-X0bk_eljfwbub6Ig"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "paHUmTSyzNdb2G8rf3iqP",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "648qD3_DOZnttwOxTAaYB",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Convert or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wyNlOcbaMVSxMYMHjEeQc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "nnb0q8xbCz3mFFqi1GzIW",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "JNZu6Ovr9gvAhb-gv4Y3K",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Convert modules",
+            "id": "p7kDkoE_RMIDQnrRMe8tQ"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "convert-modules",
+          "legacyHash": "JNZu6"
+        }
+      },
+      {
+        "id": "wTGCu4U90LPA8LubkJfMo",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Convert app, you can choose from a list of available modules to build your ",
+            "id": "Nje0aSz7S-cpRR-DSU5nf"
+          },
+          {
+            "id": "tfB4rta9Hh992l1T4FitY",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "WO0yVyWo-X16KEt142LVC"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "-K5cItssWMQp_59Jsridg"
+          }
+        ]
+      },
+      {
+        "id": "SpERlGxr3yWkmn0L1Klzn",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "hl8H--Ih2qr2NtHvynA_N",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Account Addons",
+                "id": "xWwOACzlisOvy_2tnfgxZ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "account-addons",
+              "legacyHash": "hl8H-"
+            }
+          },
+          {
+            "id": "zIst8cVAzp6MrqD4iyiRE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The \"Account Addons\" module allows you to manage and customize additional features or services linked to your account. With this module, you can easily add, view, or modify the extra options available for your account, helping you tailor your experience to better fit your needs.",
+                "id": "hbTZqYOOnPUOa3yMFlsMk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oWpl26SrCQRKhcRIHT1N8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "JPU6KYH7rq1wcc2LCxsgp",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Aggregated Report",
+                "id": "dH3rW3KhrF8o2vRxiI5cd"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "aggregated-report",
+              "legacyHash": "JPU6K"
+            }
+          },
+          {
+            "id": "0j8LVB4akl9uFL1Shkjdt",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The Aggregated Report module allows you to collect and summarize data from multiple sources, giving you a comprehensive overview in a single, easy-to-understand report.",
+                "id": "r7HS3KmN7COyKVT_TpM8L"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ZOTM5WVe6RYc_HtAneRR7",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Vu-Zk2tYiSk_rvA8JRxr3",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Billing Plans List",
+                "id": "O5lNroxBUFzkkbPz5E95j"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "billing-plans-list",
+              "legacyHash": "Vu-Zk"
+            }
+          },
+          {
+            "id": "YgGUzMRcJIKJNbezLYN3i",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a detailed list of all available billing plans, including their features and pricing options.",
+                "id": "0eAmomgrkIb2BYTgV5mP8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-DLFTl-n5wNZG7BQEvySj",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "_K63qQxc1Z45rRmTOPaT6",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create Account By Live Data",
+                "id": "--uhWazAkZ-qJe2N0CVkY"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-account-by-live-data",
+              "legacyHash": "_K63q"
+            }
+          },
+          {
+            "id": "5mrIXMmPv57yBHn3o9ae9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The \"Account Live Data\" module lets you access and view real-time information about your account, such as current balances, recent activity, and other up-to-date account details.",
+                "id": "lZOpSq3p9dfl92Gd2Wmm7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xBEEvcRtC9h9cZK_2a7Jv",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "eencF_Bb9ZmJYd_vHhiMk",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Experiences List",
+                "id": "bAI0L6gxb7c5HsZhwuygW"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "experiences-list",
+              "legacyHash": "eencF"
+            }
+          },
+          {
+            "id": "auZJ3opz8tWNnWem56hwF",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Returns a list of experiences from your account, including details such as experience names, IDs, and other relevant information.",
+                "id": "Ro7X_ksVoS7hB0l-Rux3K"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Imk4t-W4TvBHyT6pQ0ARd",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "EJviLtiosvFxndCxv0Qz7",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Account Details",
+                "id": "y47ZQZgnUU2zVq9-A_Jw8"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-account-details",
+              "legacyHash": "EJviL"
+            }
+          },
+          {
+            "id": "nlkLtBnlBGeEHvlN35I4t",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about a specific account, such as its name, status, and other related attributes.",
+                "id": "1qlogvJwpGuobXzwkeaB6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0Q_XC2EnAPwqwVexFnjUx",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "NEWPeltv4T0xW5YKPIN2a",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Project",
+                "id": "aMvlU0LkYe7DdJrzIQs2S"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-project",
+              "legacyHash": "NEWPe"
+            }
+          },
+          {
+            "id": "GHFtZOdqKnhgE-bpYtEya",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a specific project.",
+                "id": "EsDCJFFQ6rcydS7cNh22I"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tmkrK610cMkUuGWrV3zXc",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ns-cE-ohMWc4rTODBlrh-",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List All AccessRoles",
+                "id": "fTqjt_aTCkt_40nafm9GK"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-accessroles",
+              "legacyHash": "ns-cE"
+            }
+          },
+          {
+            "id": "5RCg-_qk4Ci3bYgi3MpjD",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The \"AccessRoles List\" module retrieves a detailed list of all access roles available in your system, helping you view and manage user permissions more effectively.",
+                "id": "YbSXO6RdamLQVTMcMPAXt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lLsb2gVY4ir-uyCku3zEb",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Fd3s__LLnfaMDwEG9LiKW",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List All Projects",
+                "id": "ITAa6NC0J--UoqMlj064r"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-projects",
+              "legacyHash": "Fd3s_"
+            }
+          },
+          {
+            "id": "dxRe7jvgu_Se-6GgljS9Q",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The \"Projects List\" module retrieves a detailed list of all your projects, allowing you to view and manage the different projects within your account.",
+                "id": "O2N4BAlYk33RZflljXjzx"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "F4pZBgR4AkiYqGQJb2dxc",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "SKMfm07AfUiq3ELEkym6U",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List of Accounts",
+                "id": "WU9lujee1xGBCGYrRp3rX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-of-accounts",
+              "legacyHash": "SKMfm"
+            }
+          },
+          {
+            "id": "SfTQDkawczGTCH5is27Yn",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a detailed list of all accounts connected to your service, allowing you to view and manage each account’s information easily.",
+                "id": "i7LVb8xjxXTRKKvL669vo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nKGsiNFrBQE7Eq2EiDteD",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "3QkkV371CJKqGUGKWEfMZ"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "nKGsi"
+        }
+      },
+      {
+        "id": "9BKAeVXWkS8yJQJAKO86W",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "Yc7jeznGjwRjbnSEOPqdY"
+          },
+          {
+            "id": "F8EnaE3CmgeAOrNODMFkI",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "5vPeEkYW64lO3MWIt62eA"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "-c-r_R9IRxfYXVlKtjxUU"
+          },
+          {
+            "id": "JKVdkw-YAELYFWv715c4Q",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "88UUZHmmU2UupOtK0MQSC"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "Xzs0DIdMBV7_iuOjipTRt"
+          }
+        ]
+      },
+      {
+        "id": "qPf957-ScDEFbI0pAboH2",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Convert resources ",
+            "id": "-YsE27mjIbZ4v3a7gy4Iw"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "convert-resources",
+          "legacyHash": "qPf95"
+        }
+      },
+      {
+        "id": "kAdQy4yWYT_b4ojV2WtgN",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "jFKg5_Y1KEbuJoJBRVXjv",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "ezUTsTklF4MOE1aiOz91H",
+            "data": {
+              "href": "https://community.make.com/search?q=Convert",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "g07sMDK7UjMgOUNscFP5V",
+                "text": "Convert topics on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "URUcO9vj5qJ6Y4Xrz7WbS",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "_TDQmpPpw12TG7JWlymdy",
+            "data": {
+              "href": "https://www.convert.com/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "NTkj4MOKNMU8Co9J8gZiX",
+                "text": "Convert website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "VR4WGlqEvyNxlJnNEW_CB",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "dNtdr2KnD3DPciDd_6LGe",
+            "data": {
+              "href": "https://support.convert.com/hc/en-us/articles",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "YJc_bncXBfZJ0vFFAWXQ_",
+                "text": "Convert documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "s7LdwtUfseXFFlxAIcRty",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "eOJrg4AT9m4Xpb9tvfBWa",
+            "data": {
+              "href": "https://support.convert.com/hc/en-us/articles/convert-api-documentation-overview",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "tk2JHHvZ64FckMv5h2Q5I",
+                "text": "Convert API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "F0Slly8n9POrDg3nHVQ80",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "0ZUnBJ73tgooYwEnU57VW",
+            "data": {
+              "href": "https://www.make.com/en/integrations/convert-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "8jksqLz1KyzmOKHnuGzIv",
+                "text": "Convert page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "noXCdqdOR14jYKW0BHvnA",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "8a5pAgkfIQSifj2arD89T",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "5oV24PmPQLwXglVQuIa69",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "7am37XLdnjMA1WrmHdZj8",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:55.146Z",
+  "createdAt": "2025-11-10T07:07:16.198Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-TVvHNkocaXEXHbj8k05BD",
+    "children": [],
+    "isHidden": false,
+    "name": "CometAPI",
+    "urlKey": "cometapi",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-v5BBQpj8nDK4yOkDaUiOI",
+    "children": [],
+    "name": "Copy AI by Maxmel Tech",
+    "urlKey": "copy-ai-nhon5h",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

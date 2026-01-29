@@ -1,0 +1,1198 @@
+{
+  "id": "PUBLISHED-b2HpejL6LkERRwCX1Y37a",
+  "name": "Camb Ai by Codex Solutions International",
+  "icon": "",
+  "title": "Camb Ai by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_camb-ai-community.png",
+  "summary": null,
+  "urlKey": "camb-ai-w2jtco",
+  "description": "How to integrate Camb Ai with Make.com",
+  "urlAlias": "apps.make.com/camb-ai-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-10-21T14:17:22.142Z"
+    },
+    "nodes": [
+      {
+        "id": "9UunO-88JsHWyPZOX7yee",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "JX0Y0F5keDQZ8_B2xdbAs",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "mRlLcmy6LlCKrthe32Sqd",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "m1W77ygLZRjqObSQtbd6I",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/camb-ai-w2jtco.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": "",
+                      "alt": "Camb Ai logo"
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "2rQMpXPCsW4OQnL0k4sdy",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "vCMcpcQjY56G8RiR3LUgJ",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "dIYTjU94_z8hCNscOlIU5",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "bG8maoYZicTrGYTur3Edk",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Camb.ai is an AI-powered dubbing platform that enables real-time, multilingual voice translation for videos. Integrating with Make.com streamlines automated video localization workflows, enhancing content accessibility and audience reach across different languages."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "J5E70xn6EDchFf4lIlr6Q",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "BPOfWe32aXP0UOApHIQ6u",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Limited documentation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "id": "Oa99y_4jE1G3P75ELnduW",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "We currently can't provide complete documentation for Camb Ai because there isn't enough publicly available information about this app. Our AI-powered documentation system relies on comprehensive data from Camb Ai and public sources to create detailed guides."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "children": [
+          {
+            "text": "About Camb Ai"
+          }
+        ],
+        "type": "h1",
+        "id": "kPs1GAg_J8Z-PZlz0mn2D",
+        "data": {
+          "autoGeneratedAnchorSlug": "about-camb-ai",
+          "legacyHash": "kPs1G"
+        }
+      },
+      {
+        "id": "zmJauTVLbjG3X8McPzbFi",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Camb Ai is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Camb%20Ai&app_slug=camb-ai-community&app_unique_id=camb-ai-w2jtco."
+          }
+        ]
+      },
+      {
+        "id": "9ifYXeHHUiTllhLB7xUiY",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "9ifYX"
+        }
+      },
+      {
+        "id": "84shx0HhigOMNNt63lhUo",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "muYif9kNc6FP0qgLXR-2z",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "AMnv3Xb9penIWTDPsR_F2",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JWd4J95RLHCcM3xDgA8rB",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "wTREFv7JTzDGNxw-IZrq8",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "eX5Y-DdlXVgeSHCcliWsh",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "U-ErKUzDYjG5izWpqgPUE",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "6udwCDmTjv49Pc7oTZh_t",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/camb-ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "iQeIuozDRwLDRLVpjjWtS",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "dxpvR27dMThUii9PlJcAJ",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rqREAnDx7brwlILAMKFJt",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "jSG01TbR0caUKL1hRQaQv",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ugapxDfGfuNSIhK-Yz0uI",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "1uLv0AvemfriRJdYowuvk",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D-Tf1L4G-05OiFworIgch",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Camb Ai modules",
+            "id": "ygbV9nkg3E_nC_GWU9Guw"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "camb-ai-modules",
+          "legacyHash": "D-Tf1"
+        }
+      },
+      {
+        "id": "w6OahWkJ5UTBAIzIrB97u",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Y"
+          },
+          {
+            "text": "ou can choose from a list of available modules to build your ",
+            "id": "EKb9AW8KeVde4SGN0AgbX"
+          },
+          {
+            "id": "ZmPiEA7WfOuDNpu-BNviw",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "PcOxk3KBpuSarHFYvcHJ3"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "T5UX8XTUs7gJG1BWTGwS9"
+          }
+        ]
+      },
+      {
+        "id": "VrS0NcREuSa4xOOVyMt88",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "BKKEvY_QymkLS_gfL-gwY",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create End to End Dubbing",
+                "id": "LNbMzWkitM4vIrVzi2UN6"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-end-to-end-dubbing",
+              "legacyHash": "BKKEv"
+            }
+          },
+          {
+            "id": "eaJF81RzMQyCXIJIAvhzK",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Start a complete dubbing process from beginning to end.",
+                "id": "IuBcj8rMXmqJ8A7CjFwqy"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ir9KBm02i7RZ3XrH2QH0d",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "vtNNTssmGL0Wl0ZuNPiBF",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Text to Speach",
+                "id": "OaYx8A2uit8Y2pJ2kBbqX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-text-to-speach",
+              "legacyHash": "vtNNT"
+            }
+          },
+          {
+            "id": "uXhoOgyLagjQWNQQ2o3xE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Start a Text to Speech task by entering your desired text, and the module will convert it into spoken audio for you.",
+                "id": "DpyhfS1MahnD-gwKJRMIc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "se1CcfdtxHAmCiizX_9l7",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "x4U-52GtWcxgGKWT-l0Bp",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Translation",
+                "id": "6iu0KCI3yDHSyVUz5014I"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-translation",
+              "legacyHash": "x4U-5"
+            }
+          },
+          {
+            "id": "jeD4kCkoF0EE-or-4VZYx",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a translation task that takes a list of texts and translates them into the language you choose.",
+                "id": "p3o3uYkDMdH9PJfZSrueJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sbTUTmXWVFau42YDcgCn6",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "A9OUxC4iYp12fseMbU_N5",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get End to End Dubbing Task Status",
+                "id": "KdrO8WDEWjOtBTRSMSKgn"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-end-to-end-dubbing-task-status",
+              "legacyHash": "A9OUx"
+            }
+          },
+          {
+            "id": "sSoHJmYn9Ua2TKwfk57Xr",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Checks and displays the latest status of a Dubbing task based on the task ID you provide.",
+                "id": "U-UqIjWgkJecuDN0cW-iM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5QYuFEC-mENjedNm-d9Je",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "L1Z8Ll2ojv_Hkl3KEOVoB",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Text to Speech Result",
+                "id": "X-x3tYjk7cCl8eose5cNN"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-text-to-speech-result",
+              "legacyHash": "L1Z8L"
+            }
+          },
+          {
+            "id": "gOvy0ziifvVS4JZtUDPy-",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Gets the outcome of a particular Text to Speech conversion by using the provided run ID.",
+                "id": "KLKMG9i7BFnRqdmqCDvO2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2h3vxiUZq1Xbo6qvWy6uz",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ktMgpLX380DgCpEwDsuNJ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Text to Speech Task Status",
+                "id": "B4JaDgPR4abgd_nLJCEk4"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-text-to-speech-task-status",
+              "legacyHash": "ktMgp"
+            }
+          },
+          {
+            "id": "bDqLo__0H1Hn-iSQ8Bl8K",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Checks and displays the current progress or result of a Text to Speech task based on the task ID you provide.",
+                "id": "g_A-EJnpM1HXDE3CEiim3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DAEhv6-1zwrG_YTxrRRBQ",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "5Q1VTj6tMz4smtDdY-FsZ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Dubbing Result",
+                "id": "lDPXY5V4wWP65kEGR_ZSQ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-dubbing-result",
+              "legacyHash": "5Q1VT"
+            }
+          },
+          {
+            "id": "UxtZctrmOgvoJb2oSAkDe",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches the detailed results of a specific end-to-end dubbing process using the provided run ID.",
+                "id": "Oyy3YNw9qza_cdCloehH1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zj_NmqfLUr6-jNwvASzE0",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "VvPvDGqOwk5vhlYex61yU",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Translation Result",
+                "id": "M6LeeUAAFlnypR75v-t2i"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-translation-result",
+              "legacyHash": "VvPvD"
+            }
+          },
+          {
+            "id": "h6VZ9-nK7gStQ9ptAXrqV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches the translated content for a specific translation run using the provided run ID.",
+                "id": "6ghNcgteigmnZqtSgxHyz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xA8nVX8qB7NdlGJw_kwkD",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "g397WwZL8Wfe-pAXf_H1x",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Translation Task Status",
+                "id": "zCiBHArn8RD6T3rNgOSNs"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-translation-task-status",
+              "legacyHash": "g397W"
+            }
+          },
+          {
+            "id": "qfx83dnDNnVbghyZJeGc0",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve the latest status and details about your ongoing translation task.",
+                "id": "lVnAdjZJCTX-ecBTQczRL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xFTSIeqGGGY2JfQrAvnd_",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "RNE1XazbwHxPOPFXEBxuE",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Source Languages",
+                "id": "ANTNhpMErWwCj0hYk-nXw"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-source-languages",
+              "legacyHash": "RNE1X"
+            }
+          },
+          {
+            "id": "DNXffr6tmrKU23ww4kkaW",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches a complete list of all the source languages that are supported, so you can see which languages you can translate from.",
+                "id": "e8dLowDejlIQQl0WjD0mQ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O1jpJuVevEn2O8q9X_k0b",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "XxyMmk6IPYBH8NJBrQqds",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Target Languages",
+                "id": "ki8dwHDOenxkhatRdceI_"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-target-languages",
+              "legacyHash": "XxyMm"
+            }
+          },
+          {
+            "id": "k0KK38x27OMIXfIE19ft0",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Gets a complete list of all the languages you can translate into.",
+                "id": "7Jv0YwDjqd5D9yZP1mHG8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "TTriGmW15ehJq8Vu28M2f",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "LTh5qDtwuqvHKcCjncqZt",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "hKT8dxWfcjwJ_ANaHTZv6"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "LTh5q"
+            }
+          },
+          {
+            "id": "xtvLSfytAyt671c5dLMmy",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom API request to the service using your own parameters and authorization.",
+                "id": "AKouFC0PHVEJPJhMlXj1Q"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "G45avVbm36t73fGp0eYnJ",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "GIWccc4xLjniv4Vw2dF72"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "G45av"
+        }
+      },
+      {
+        "id": "kgGqNGhpwcPqHYHm-zYo8",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "7uKZysLuISTyvYanUszKE"
+          },
+          {
+            "id": "49SkUYOfaVrHD1daD4Har",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "WL6QzsJ2_7EU2gNqrG1S_"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "TPnW_LYSfzGEc18OQFuQL"
+          },
+          {
+            "id": "rDnSBla85ELAz3QEQ2x5G",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "DPGhW50dzIIPdm52wM_fm"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "-uoCOMJy2zMbpAx8yaYKU"
+          }
+        ]
+      },
+      {
+        "id": "LaH4BAL3-h-Tg354_yFpB",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Camb Ai resources ",
+            "id": "-QGmH8ILBD_fj974zuSbn"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "camb-ai-resources",
+          "legacyHash": "LaH4B"
+        }
+      },
+      {
+        "id": "Jcawijk_nBLXIkaqvWoW8",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "9FO9GX1wHx1FSmekz0h_u",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "x7HKP1lOno2R7PwptENnw",
+            "data": {
+              "href": "https://community.make.com/search?q=Camb%20Ai",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "QHcRtpY-y6MGAjQDi4svX",
+                "text": "Join discussions about  Camb Ai on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "NRI0mF0HWpNYXhzgTEntA",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "eD_dsmEjkyFhq6DUlcPhl",
+            "data": {
+              "href": "https://www.camb.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "xsFO8_QKB5mh1G5WEhrdT",
+                "text": "Visit Camb Ai website "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "EuOtNzzrQxQUlG9KN5JNm",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "bGcsMShQgwum6mwBvw8gd",
+            "data": {
+              "href": "https://help.camb.ai/en/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "LDg2Kk77ZSvHqYAZUFfYK",
+                "text": "Access Camb Ai help documentation "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "HF6ds2apzTQBLKLUjvWQ0",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "dCCv73OnNAnW3ZIrT7D3u",
+            "data": {
+              "href": "https://docs.camb.ai/introduction",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "WxikCLzmSTicRa4GO24qh",
+                "text": "View Camb Ai API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "PxnON7UkADe--tPH0P1gc",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "-edLoPJBx53zvzJakeok6",
+            "data": {
+              "href": "https://www.make.com/en/integrations/camb-ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "STSSNwfc_cyHZ4PqRVz-w",
+                "text": "Visit Camb Ai page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "7uiR_HuGJuUrEN2IMn_WV",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Help us improve this documentation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "help-us-improve-this-documentation",
+          "legacyHash": "7uiR_"
+        }
+      },
+      {
+        "children": [
+          {
+            "text": "Have experience with Camb Ai? We'd love to hear from you. If you have insights, use cases, or technical details that could help other users, please consider:"
+          }
+        ],
+        "type": "paragraph",
+        "id": "JhHl6Uen9GFEiWACkHC-N"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Using the feedback widget at the bottom of the page"
+          }
+        ],
+        "id": "finURlYFwiKMHo9KSGk2Q"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Contacting the developer to request public documentation - https://f.make.com/r/reachout?app_name=Camb%20Ai&app_slug=camb-ai-community&app_unique_id=camb-ai-w2jtco"
+          }
+        ],
+        "id": "lvTK3Ra9qIwQij8YixJMi",
+        "listStart": 2
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Sharing your knowledge in the "
+          },
+          {
+            "id": "YoPeXp4NoyOv4VJobTo23",
+            "type": "link",
+            "data": {
+              "href": "https://community.make.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make community"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "id": "WpSj3ZTF4CJEbGrCV1zDY",
+        "listStart": 3
+      },
+      {
+        "children": [
+          {
+            "text": "Your feedback helps us create better documentation for everyone."
+          }
+        ],
+        "type": "paragraph",
+        "id": "UYsxRwVByBfTG33i_rtuk"
+      },
+      {
+        "id": "P_-LfVSYuZhZC7_YMLiPM",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "vHX-2C9zDkp-k7Wahoe-5",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "n-wg0f1dubaSq2g8LaZFs",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 8,
+  "privacy": "shared with team",
+  "shareableToken": "pyRnuLMptbLqUgvlhDE_u",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "2_XuI8XkshGrZ1UEVW8JY",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:28.794Z",
+  "createdAt": "2025-10-21T14:17:22.146Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-1sr2V6HOOLWc9E5eT5exa",
+    "children": [],
+    "isHidden": false,
+    "name": "Bumpups by Maxmel Tech",
+    "urlKey": "bumpups-lc43j1",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-5vJZThNJ-I84Ou9o0eE3-",
+    "children": [],
+    "isHidden": false,
+    "name": "Camb AI by Maxmel Tech",
+    "urlKey": "camb-ai-obny42",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

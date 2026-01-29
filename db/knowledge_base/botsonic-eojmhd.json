@@ -1,0 +1,1563 @@
+{
+  "id": "PUBLISHED-Sz-ZUEr9n-VCexY0ZaSKb",
+  "name": "Botsonic by Maxmel Tech",
+  "icon": "",
+  "title": "Botsonic by Maxmel Tech",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_botsonic-community.png",
+  "summary": null,
+  "urlKey": "botsonic-eojmhd",
+  "description": "How to integrate Botsonic with Make.com",
+  "urlAlias": "apps.make.com/botsonic-community-maxmel-tech",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-03T03:28:57.810Z"
+    },
+    "nodes": [
+      {
+        "id": "W1NO2yVCzG3bfDh0Iytp0",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "5RyRWlQo1NC7r3_wIzm6S",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "MA_yp1FPzZKA9nk2xDm2e",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "6zNluKLWZxxXOJx248K2K",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/botsonic-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "ZJ2LT-RT1ZueegysOrMLy",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "HbY9Xn0igLVeGwrIwufY0",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "i8_HKX4mvKIzjd5uzqMEO",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "qgHaynhHnkrUvxyqa1oM0",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Botsonic is an AI chatbot platform that enables businesses to create custom chatbots for customer support and engagement. Integrating with Make.com allows users to automate workflows and enhance customer interactions across multiple channels."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3FsLPjJloXXWZxQSS6vc-",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "ZdmHIT1OT1qNht1tUfEjd",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Botsonic documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "S0Bsc5ySdQD3EEabGl4tS",
+                "type": "link",
+                "data": {
+                  "href": "https://botsonic.com/get-a-demo",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Botsonic"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bOoaoCchx2tEKxopcuB1Z",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Botsonic"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-botsonic",
+          "legacyHash": "bOoao"
+        }
+      },
+      {
+        "id": "pk2vNnF5CkyQtPSQXzesr",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Botsonic is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Botsonic&app_slug=botsonic-community&app_unique_id=botsonic-eojmhd."
+          }
+        ]
+      },
+      {
+        "id": "4d2Rqu-OkaCfpzB6Gh2Q_",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "5vgXCLkgU-7i8cGCgEGWr"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "4d2Rq"
+        }
+      },
+      {
+        "id": "yBglKSE2D45g-aW-GAWBS",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Botsonic app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Token, ",
+            "id": "_SUrd5hUu-sDvtPzlzaV7"
+          },
+          {
+            "id": "RoxKWnvP91Cqi4evkz9yV",
+            "type": "link",
+            "data": {
+              "href": "https://botsonic.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "0cAlmUIlRRvtzIv9hKj1v",
+                "text": "create your account on Botsonic."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "PGWqlkp_F3CZO_q8l40Bk",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "PGWql"
+        }
+      },
+      {
+        "id": "vZpqayv1qY76llo8Fkl33",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "YpYZCUI5AAHcYsOvT6tju",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "hKcP7naTD_AME8IBY3t_i",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MmuXCEGfc5gSds0BD4XEh",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "zGk5vYMLdSptcGBchS3Kf",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "otB3eYE8xQGueH1FQQYzM",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "u4Qx4cNbtnroaLYJ5Uv_-",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "VpW75NdK1YhfoNA2YASPk",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/botsonic-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "ru6EELH5U1WvTkqhW9QtQ",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "oCvqOylWXwq36J-YE449k",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "YOShEZ7qNsOIVH_kESOuf",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "k-kc5BX-P5wByWJGveXDt",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bzJWikFl9QYqSr143tS8U",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "UFbBm7Y4TKRxP5ASNZXpm",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Fjn-tmuxzDEnqiK-VCeT-",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Botsonic and ",
+            "id": "AiL-lMWkGSxWY0GVf30wz"
+          },
+          {
+            "id": "3XujOfW-JaWSU-HANkNC2",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "0GL4cGVuqPIXhixpCBkYx"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "sXIHHWc0VkjIhZYPC4cD9"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-botsonic-and",
+          "legacyHash": "Fjn-t"
+        }
+      },
+      {
+        "id": "XUKT0VzI4edyjlQV1pBQt",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Botsonic and ",
+            "id": "P0wvbs-vEnnDxpc3n1XSA"
+          },
+          {
+            "id": "ALnNPh3H1GPwgAVI3nc65",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "8rxunJIxTfjBiARyf1jfG"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "dsxJTFLdRqzMWavo7_U3Z"
+          }
+        ]
+      },
+      {
+        "id": "RjOevqQUMobDd9o_K9YxW",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "I0hpG17oXedVzZU0019A5",
+            "text": "You can connect using the following method: API Keys."
+          }
+        ]
+      },
+      {
+        "id": "gjFIgRiPmAtJJB9-4UoJr",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Keys Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-keys-instructions",
+          "legacyHash": "gjFIg"
+        }
+      },
+      {
+        "id": "EXzr5gOUjBayaUVE4fkou",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "BA9biVWDJw_JYbfVDZODj",
+            "text": "You need to obtain your API Token from the Botsonic Dashboard."
+          }
+        ]
+      },
+      {
+        "id": "zmPjxxn1K2WI6_EBduVtL",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "7z_I6PtAmYD7YJqmS0yPU",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "qhV2OG-pG6BDVdvymfzkw",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to your Botsonic Dashboard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mkf0CFv6u-bToCujs2r17",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "C8J4CrPh1s5Pse99X60h3",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click and open the Bot you want to connect."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Qet-S0gzksK0T-_wM4lWY",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "FW3W4xxiTGA4qhGi1mhEf",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Go to the chatbot's Integration Page."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "eK73GdvAFRviynT3MrqMw",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "eJZZ45IuTVgRCeOV7sfXX",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the REST API section."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "XzoHsHNIxVTcwoxTFNTxp",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Kz48F17UJmkRQWmbZkfNA",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy the API Token."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "wuKlKJGON378I57pi-wyk",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "sePqtmGf88aNsrJEDD9UB",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "2xIwruuuY8onxVvengmGI",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Botsonic&app_slug=botsonic-community&app_unique_id=botsonic-eojmhd."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "GLYFhJsJ-X18nv1ikXNaB",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "vVlPjg0K7cy4VMWKXM8CY",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "GLYFh"
+        }
+      },
+      {
+        "id": "F2Ni2ljLxiXJDoaOikQIU",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "7AmGSO94o-iDad_DoERtU",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "bBJPqNhenHeYVNcnPGdaT",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "JYI0SVf4fVGGFFzH6mDP6",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "ZTU6jy8aJp5txC5Wv3YFx",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "A3_44_QdaFmeiTsYjIoPN"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "rZcGIpcCF-Ofx1P50f_Wd",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "-1RxjAs5hOL8_zyNm5tXs",
+                    "text": ", add the Botsonic module to your "
+                  },
+                  {
+                    "id": "OzZuoHJA1VmZJSS9zxdcu",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "G8bzZ0qFlhSSi1WEhs15_",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "jrAzUR9Em5TxNcHUYnWJk",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "SNUhHutDR4uiigpm10uMu",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "8d3DbAU4hsqT3JNKrCGAJ",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "IsSIECAIRiWCW9xjh8o7t",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "LsdBxgqTl4O1c57I5Ai3p",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "P88hCWgNOK0Oh61eBU9Wt",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "EUXi6-Mu8DhXKRfnCCAzj"
+                  },
+                  {
+                    "id": "IJZhbvi_-gFHeAsqoIjWY",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "SfLXvyIT_pmr2926Hsyzp"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "4OZRiOQGLc3cX4Xfe7fl6",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Rra3bhUVEtEIytzJRpFmI",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Botsonic or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S7Ae32j7beXigDQHqC3xd",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "6Wg70QAvAOKrwFTOKySVw",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "L4RJvTDMXucVh-D7AwOSP",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Botsonic modules",
+            "id": "646pDKXtvBu-merWCcYeY"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "botsonic-modules",
+          "legacyHash": "L4RJv"
+        }
+      },
+      {
+        "id": "-B7TJl9v-0eqepN1uc2q7",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Botsonic app, you can choose from a list of available modules to build your ",
+            "id": "PoRn6dONZWcYEjJ9uIAsY"
+          },
+          {
+            "id": "-2y7Xmm_SSuRF6Wpku4CB",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "NSHL3QNPG-GSeQjpciH6r"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "KVt9yyNUq3WqxoliUfmOQ"
+          }
+        ]
+      },
+      {
+        "id": "EiX07dXuLfahdVxUapzeQ",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "_sJ7vdgUSkRxnb4vVHgpb",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Starter Question",
+                "id": "o9gT6RrJmckCTrC5LVH4l"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-starter-question",
+              "legacyHash": "_sJ7v"
+            }
+          },
+          {
+            "id": "0GEcRpq8REvyykSK_GmEe",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a brand new starter question to help kick off a conversation or process.",
+                "id": "wlpDB1xttlHQ8XSbAH6k1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xuiKkLSxiH2c1qcBNs0GG",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "JR55ijgO3QvLwZqJICZoQ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create an FAQ Item",
+                "id": "0SeJvGdqOOfC66H4Lywjp"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-an-faq-item",
+              "legacyHash": "JR55i"
+            }
+          },
+          {
+            "id": "IUwiH3BycTssG_nLQ2PcX",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Adds a new question-and-answer pair to your bot’s FAQ, making it easier for your bot to respond to common user inquiries.",
+                "id": "gv2COeewaJnx1XFESR0c2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nyR4iNPqWk-7FIM9grTcA",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "jcyHmszKs0GOA8TOm_Eg9",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Starter Question",
+                "id": "3Re8VmiMAMq3TdC1xdmmF"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-starter-question",
+              "legacyHash": "jcyHm"
+            }
+          },
+          {
+            "id": "GznvkXAdXnKI4g-9NSYVD",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Removes a selected starter question from your list, helping you keep your collection organized and up to date.",
+                "id": "6mpqngTLvtlr2eRRoHiPT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ipV8LbBL97PFfGdd8lc13",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "hT366Ke1QbKSM-MHjEZZF",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete an FAQ Item",
+                "id": "GtYe2oLHfeDQDOifDiS1z"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-an-faq-item",
+              "legacyHash": "hT366"
+            }
+          },
+          {
+            "id": "C-deodf7RZ9Ujmfb-E8Lq",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Removes a specific FAQ entry from your list, helping you keep your FAQ section up to date.",
+                "id": "wJ97anpvSVsJimA8j_OON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "I-iQJcuVtBpVsuKM3EOrz",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "0mypLdTZseHfI6iUnl9RA",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate a Response",
+                "id": "VHqH_oq9pofb0oD9G2N1J"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-a-response",
+              "legacyHash": "0mypL"
+            }
+          },
+          {
+            "id": "GMMK3f9ohRsk4jHuh6CzX",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a tailored answer to a user’s question by analyzing the input and generating a relevant, helpful response.",
+                "id": "xOSWCkhHUEk-3Nt3qxIBD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jQULvIupNevyC3_mVdUjj",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "rdmTmhe8_d9aQL0gLuWzQ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List Bot Data",
+                "id": "oDGfqKZ6U5FVmkLDkDBnI"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-bot-data",
+              "legacyHash": "rdmTm"
+            }
+          },
+          {
+            "id": "rLSVKCZ5bUPQfTWOWN3XV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches and displays a list of information about your bots, allowing you to view details and manage your bot data easily.",
+                "id": "dmmZk9bD9xkcHFi4qklXE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Ne3Zl901pOPrcq0CDTJLk",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Rqtu_Z2nR4KRzlvT0u-v4",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List Starter Questions",
+                "id": "OF74D0RrUOgRl6e49J-3R"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-starter-questions",
+              "legacyHash": "Rqtu_"
+            }
+          },
+          {
+            "id": "q8Vsdcv3rNi6FpVx4cpGj",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches a list of introductory questions that a bot can use to start conversations with users.",
+                "id": "In2BRWdr9l-94SiDcQE7-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yjlAHtlo2DdQhTcJ8a_IP",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "JQI1pPkjRwY8fbJwBRFT-",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "U07WebxLe_IScMrwWa0YH"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "JQI1p"
+            }
+          },
+          {
+            "id": "5OiebO_8vAwSZuQAxF_AV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom, authorized API request to the service, enabling you to access endpoints or features not covered by the standard modules.",
+                "id": "TaDKQLAzqKfh2NGp8thLl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "0G7YyUMt-pwPNAqGRLjb8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "9sWpVgRRMgmV0GBpXxnRZ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search Conversations",
+                "id": "lMGFw2eyxPS1I6TczuYiN"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-conversations",
+              "legacyHash": "9sWpV"
+            }
+          },
+          {
+            "id": "hXxFkF2zkWigtBELZtPyT",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Finds and retrieves conversations that match your specified search criteria.",
+                "id": "2YHh5Ktszp80pCBe3e2vZ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MoXRK6cBOdOvAs5rag_0M",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "r_WIwed5mkPbP2JSIiunk",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search FAQs",
+                "id": "3ZqajHKxqSOOxPlFpROSF"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-faqs",
+              "legacyHash": "r_WIw"
+            }
+          },
+          {
+            "id": "1Ar0Bg3dXHuex30SAAoLs",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Searches for frequently asked questions (FAQs) related to your bot, helping you quickly find answers or information stored in your bot's knowledge base.",
+                "id": "weAwYI_wHsLT1JFa3bIci"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-xQ7v0V9Pu3O93qIeqwQ6",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "x__N8ROSM-XHLF_5HhEsW",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Watch Conversation Messages",
+                "id": "d95xmK4dWGEVDC_IsbZuO"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "watch-conversation-messages",
+              "legacyHash": "x__N8"
+            }
+          },
+          {
+            "id": "OSCaJEYzs-l_9xleXqr90",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Triggers whenever a new message is added to an existing conversation, allowing you to take action each time a conversation receives an update.",
+                "id": "qTPDzcLeko-V2Jf1pv1ys"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2Pbc0IFZHRwz_QOBBdD3X",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "uLMWDGdUnKXzxvJhje1mU"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "2Pbc0"
+        }
+      },
+      {
+        "id": "0CWbVg9UOHY_PDUkDPLoK",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "qL89PxNgrRoJw50YTAUz7"
+          },
+          {
+            "id": "QbMrhJgLO3CNW3aOlzV3z",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "fZtVdTn8BNJRew8x8FTEQ"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "Rwne4Xem8kKEBKnwYD_NV"
+          },
+          {
+            "id": "G5CJIGppJYxp2JUA3Mj84",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "hvuwaMgeT59H1RW16Bvsz"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "By1YQBgz-6IwMn_n4K6C6"
+          }
+        ]
+      },
+      {
+        "id": "FRBhtz7at6O9KJxYhrbPt",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Botsonic resources ",
+            "id": "7TkCkzJaudrIP0xWoiq_a"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "botsonic-resources",
+          "legacyHash": "FRBht"
+        }
+      },
+      {
+        "id": "Rpr4ioat0ebfQH7_Kn6bJ",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "KzjPdsZRUmT6H5uQFXJ1X",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "0L3nBQUybUgwJ4UVeprlG",
+            "data": {
+              "href": "https://botsonic.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "jA4WT3Uz27P0NKM_UhEqp",
+                "text": "Botsonic website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "4qg_T3kKBvKvHjH3R9sj5",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "QtckhupIbbwNqoKxigI3K",
+            "data": {
+              "href": "https://docs.botsonic.com/docs/getting-started",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "QxELBbYg88xwle3HcQPNq",
+                "text": "Botsonic documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "MrMqVuNtchVVlGqf5K98A",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "VyW6-C6iCMZ77PXqYzTlT",
+            "data": {
+              "href": "https://docs.botsonic.com/reference/botsonic_api_v1_botsonic_generate_post",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Whr2KwPjwTwDmeFzFW3Yi",
+                "text": "Botsonic API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "ZitJ6FWlgotNSYmN6gnpx",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "pBGM1axSsV7ikQ-PZ0YXO",
+            "data": {
+              "href": "https://www.make.com/en/integrations/botsonic-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "TalJGo9LJmD9E8Mm-3m16",
+                "text": "Botsonic page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "sUVooSolCXCZpC8z4dh8H",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "P7F7cg32L0tweIDITptAr",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "OZY4DrLUrJTnWI-MlHPue",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "SbJmlYVsI-HS6ULWVNJLh",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:20:55.494Z",
+  "createdAt": "2025-11-03T03:28:57.815Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-b0kzPr6Mby0Ts7uS-lNfU",
+    "children": [],
+    "isHidden": false,
+    "name": "Botsonic by Codex Solutions International",
+    "urlKey": "botsonic-g6853t",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-frVHt2bNVZUK6xsFH-khi",
+    "isCategory": false,
+    "categoryName": "brain-pod-ai",
+    "children": [],
+    "name": "Brain Pod AI",
+    "urlKey": "brain-pod-ai",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

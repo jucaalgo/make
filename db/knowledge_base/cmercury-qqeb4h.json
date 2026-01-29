@@ -1,0 +1,1446 @@
+{
+  "id": "PUBLISHED--Y_-CK8U334yh6O_SAiNr",
+  "name": "Cmercury by Codex Solutions International",
+  "icon": "",
+  "title": "Cmercury by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_cmercury-community.png",
+  "summary": null,
+  "urlKey": "cmercury-qqeb4h",
+  "description": "How to integrate Cmercury with Make.com",
+  "urlAlias": "apps.make.com/cmercury-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-10T12:54:57.516Z"
+    },
+    "nodes": [
+      {
+        "id": "nbVnf0zxD_EnkBnWC7G1E",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "OVawuHqFgjgXzVoJdSQR-",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "FKf8p52ZeZdjjnvqdAELs",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "QpxU-AzxvDvlCCUTkuBkb",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/cmercury-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "dADuToo27Dm6FUSjg7s3p",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "5YbPE5U8lX4IrWf4d6rMG",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "CR92KKHLY4kligJmG-mje",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "vwK_9HGSLVz7hsBm0cu-v",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "cmercury is an email marketing platform offering campaign creation, AI-driven subject lines, segmentation, analytics, and an email API. Integrating it with Make.com enables users to automate and optimize email workflows across their business tools and processes."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "UZnYjD74ONhph58Y-EF-Q",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "1kNfV_NC_23nkutbz94VY",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Cmercury documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "sqtNPNRV4invVIacQv-bp",
+                "type": "link",
+                "data": {
+                  "href": "https://cmercury.com/",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Cmercury"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2HkoKmZhq9jw1quzrnDnX",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Cmercury"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-cmercury",
+          "legacyHash": "2HkoK"
+        }
+      },
+      {
+        "id": "VCigPbWrdQkVtISQ2BwN1",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Cmercury is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Cmercury&app_slug=cmercury-community&app_unique_id=cmercury-qqeb4h."
+          }
+        ]
+      },
+      {
+        "id": "BZSri47BYp_UX5MeTBzvs",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "grQhho46k60Lk0LbtRkNT"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "BZSri"
+        }
+      },
+      {
+        "id": "C7dlwGUZx6-eLQG2VKQQ3",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Cmercury app in Make, "
+          },
+          {
+            "text": "you must have an active cmercury account and an API Key, ",
+            "id": "XObmZLCfqCC6662KjHzlW"
+          },
+          {
+            "id": "cyIWtwrviKSTTgN8_TgYK",
+            "type": "link",
+            "data": {
+              "href": "https://cmercury.com/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "EImZxnpsCLAj8dFbVgqVR",
+                "text": "create your account on Cmercury."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "MJmU3uEZam43XOqPivglZ",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "MJmU3"
+        }
+      },
+      {
+        "id": "4Scf4BdgFTOuxciB3xcPd",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "TXXMEfv6MySCh1YD7xEh_",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "okravRBFWkXvmbkGk7fce",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i0vKUSV_qPeg1vojrKq6u",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "0K6fodSzD_a4bmQ_wuJMW",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "8sSJcERaDl3DNO5p0yuFV",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "aTVzaDQR6KhkocLqfDPlf",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "aZ7tIi2uX0yeXPGp8T3ow",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/cmercury-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "kYeytPR5a1kQjxiPKAk30",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "wGfqG4iWz5r3DCD4Sepd6",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "MBSnmx0IGG_nlSs3PwvNX",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "b8cgy1Pk9AAk2WDFg_yxR",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "W4Dvw7tWxMXfkWXVnodV7",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "nDw-OSPJxMhRDVo90WT2g",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2RDLhzhiYyEi7jaTZiPzW",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Cmercury and ",
+            "id": "3lLk71oPm7mtm4H--8co2"
+          },
+          {
+            "id": "u1gLPT5TsMKCjK1piLoPi",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "jL89DHBemRVB4PAshHm4K"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "v49yKEzu-N4uTFjzfBX3w"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-cmercury-and",
+          "legacyHash": "2RDLh"
+        }
+      },
+      {
+        "id": "pBFmc1GR0Pvf51Yj0AsGc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Cmercury and ",
+            "id": "dBQ4IgATX1rXI4t7R7ZEL"
+          },
+          {
+            "id": "shajW4Q1z8xrUwUkaRU1D",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "j0SnW6AazQ7RL08ZYvAss"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "fqv9OMp9aZK_3ZWGMbPUg"
+          }
+        ]
+      },
+      {
+        "id": "xjRA59-COW-4Di1BM3h_z",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "5u66Xz3mQxgqJFCugQygQ",
+            "text": "You can connect using the following method: API Key."
+          }
+        ]
+      },
+      {
+        "id": "r2SlQuHZyH1J7nf9xlvIs",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Key Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-key-instructions",
+          "legacyHash": "r2SlQ"
+        }
+      },
+      {
+        "id": "8ncaJbGIeS8EPNt71nmfm",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "SS3kygdStNmTkolM1Wkv7",
+            "text": "You need to generate your API key."
+          }
+        ]
+      },
+      {
+        "id": "QDeZQIGWUsccQEQuMkZrQ",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "jKnRWG7PxTlXMkFc1uh14",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "dzEODbFkq8-3FjqW3ToEj",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to Account Settings from the left menu."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "0ASsKvMifp0BedC06CsZd",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "uYohxhR6u6brQh-GqCu4g",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click on the API Key Tab."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "aDxPHi3OQmGX5q-sbeHJl",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "3oXn9svFWDdBqfiyquX5D",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click on the Create API Key button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ak1kJboR7IK4KYOIiT9sf",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "52sD-8sAdiYuRoRLiY-59",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Give a name to identify your API Key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "40-8W6EkA6UutjMVtYN0E",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "yhmmh3LiZ9P3rrpuH3rmo",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click on Generate button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "xXZtbIFZaeeGj_Zcxr5xM",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "OfJP-1BDRZHJporPM2N9W",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy the generated API key displayed in the table."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_DtlUghkxjXDhutJXYtna",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "Z7k5DzxXpqIT0hZmhYcqe",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "kQOeUqvep0imOkNKkbuS6",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Cmercury&app_slug=cmercury-community&app_unique_id=cmercury-qqeb4h."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DcBFKd28LnpJ96VFhuN-3",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "znfHg7JSGcb6Ve9iWVdDa",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "DcBFK"
+        }
+      },
+      {
+        "id": "_UQVYjdCBOkzDiwXqggnj",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "ait7EDtoN0Q7kjhY1i4wY",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "0UAfWJjnPQKPwBuWFUkGV",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "v1OfetoSkyuI9bONIOVd6",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "-4fcTa54vEs267VZKZx4h",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "UBAkYBDrQP3ukT7JM_-Xj"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "TxXzUMHGkgdljHlnYuvRz",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "lJ414bAAU9agHM-fjfw-j",
+                    "text": ", add the Cmercury module to your "
+                  },
+                  {
+                    "id": "fqxgbKxidfdPoOwojyEcJ",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "kY0AD66WH8q_ic0qLCLoM",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "KLD4Li-s0CNe7Phf8JJN4",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "iCd_PEfACS-gh-O3aaMbX",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "7BUK3JlJ6z-UsX4skBg0v",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "kZDi4yqUYN0xT_xyFBv4Q",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "kzGPZsCVAAUxvrcx9vcKE",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "6wlUEqQJkhzTapZytH9nm",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "Uuu7y9XzaL5jrqYIwne_W"
+                  },
+                  {
+                    "id": "u3OWYgweRU1yAJLzmy7s3",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "IGMErj-9epjqlDiBHyQbk"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "sUAVhP6DyiTZljqLvQkpn",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "SJrpCzOg-fg0ak_zukYu5",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Cmercury or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "i_cIxprjVKCAaVutFPFRI",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "tauYO6waEEkEArx4Nhkf1",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "ge6tLMt3OHRTtomkQqe_o",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Cmercury modules",
+            "id": "cONzWC08opTXFcMiELWHl"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "cmercury-modules",
+          "legacyHash": "ge6tL"
+        }
+      },
+      {
+        "id": "FUZfS2ihyQW2K_KxKGg5a",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Cmercury app, you can choose from a list of available modules to build your ",
+            "id": "bpnPLC_LN_kq5DLXCjTnS"
+          },
+          {
+            "id": "kvcmLu1hqtDBlnz6M4JjW",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "ClWQengYk25RQ_qUNnw27"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "gURSa9YP6JHx0Not05lna"
+          }
+        ]
+      },
+      {
+        "id": "G1Bd01y_FF7tP_1AM2O7P",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "9J9JS3yXoD8T_dQXNEHEk",
+            "type": "h3",
+            "children": [
+              {
+                "text": " Create a Mailing List",
+                "id": "5CFCxCa6_bnNvx3NU22tz"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-mailing-list",
+              "legacyHash": "9J9JS"
+            }
+          },
+          {
+            "id": "n2RNRQGeAaO7Zhhaqdubl",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a brand new mailing list, allowing you to organize and manage your email subscribers more efficiently.",
+                "id": "EM0eFfDEB6joHOXOCVoVq"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "UhK0m2kTbkehNhwFuOwWn",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "sSYt2tmMa1oFT9HAR2b8p",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Add a Contact",
+                "id": "xowJ0yA-Cx8xeWefy_z43"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "add-a-contact",
+              "legacyHash": "sSYt2"
+            }
+          },
+          {
+            "id": "fb0vcTU4BDYWZVtilYugM",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Add a contact to your mailing list by using this module. It lets you easily add a new subscriber to your chosen mailing list, helping you grow your audience and keep your contacts up to date.",
+                "id": "-cLtYVyTKUzVCMbGTpedx"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "KfNHgvpnuSfT3xovrh-oX",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "m1JHeKuK7MGp0uCswbVdq",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Add a Message",
+                "id": "PxDoEIUJWg6kjQYjqIAkK"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "add-a-message",
+              "legacyHash": "m1JHe"
+            }
+          },
+          {
+            "id": "ryavo-BRYJUMrgWVrUr8N",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Sure! Could you please provide the original text or module description you'd like me to rephrase?",
+                "id": "ldM61GBIteCth1Os-O2qg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "s7c2kgsOK51ST3jpw9IJ7",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "gnSnXC1mtqSQuTjFJd2QS",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Add a Phone Number",
+                "id": "qb_WaYMk0aeDt3HS_Pu-D"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "add-a-phone-number",
+              "legacyHash": "gnSnX"
+            }
+          },
+          {
+            "id": "epN6CSYDQ0i2a3HRGpV9V",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Adds a specified phone number to your SMS contact list, allowing you to send text messages to that number through your SMS service.",
+                "id": "gOCELRccCyAGyeRnVxlvP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "RIS9gSafkFmi14YywaMFP",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "nivCFmu0Axx86nVZD4mKd",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Suppression List",
+                "id": "1BxiS0JMwMOPqlhYeHCEC"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-suppression-list",
+              "legacyHash": "nivCF"
+            }
+          },
+          {
+            "id": "toiI5Xi8IwxSfIXxKLsOc",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a new suppression list, allowing you to specify email addresses or domains that should be excluded from future email communications.",
+                "id": "2N_2JWz-TMMmDlSc-PAqx"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1r7p2qgYX0vOtvM_yMMIB",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Tq6-fuHedNMLjaPa4sa0C",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Contact",
+                "id": "8xuxQz8F7EPRfxQQj4MJD"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-contact",
+              "legacyHash": "Tq6-f"
+            }
+          },
+          {
+            "id": "xjSRKDG0H18muc3kZ7OSJ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Update a contact’s details in a specific mailing list.",
+                "id": "aS-tacqHLpO8_y2bI0Hjt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "52QHPJJJ-mOnlSXj_mh88",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "y5Ik5I00HeJ0HUf2bnheL",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Mailing List",
+                "id": "Y-2okKNWPWqAKwutWFUNW"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-mailing-list",
+              "legacyHash": "y5Ik5"
+            }
+          },
+          {
+            "id": "VTJkZ0upF-shDYu_bR57-",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Modify the details of an existing mailing list, such as its name or settings, to keep your contact information up to date.",
+                "id": "4m8ZeylSssgfukbMTjkzZ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DxuhgP0WrIZFRbSKyebiw",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "ET1GF748Ph7JWt-ZYGAdG"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "Dxuhg"
+        }
+      },
+      {
+        "id": "E0mHIUE8pmDPCrx57x1Yg",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "jV8b5Xu5WXKJG9_jH3hs3"
+          },
+          {
+            "id": "tY3KRkNIMc-aruqI4Y6EF",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "nHL3-bWahC8vEhJY28y3S"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "v5HLAZnVEeTOQhxTOFoEH"
+          },
+          {
+            "id": "j_vokfpA_8usvjbBf5VKy",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "YrGL9ATBvO2av6AIBm19e"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "mL2y_HjwJ066s-yeH94qG"
+          }
+        ]
+      },
+      {
+        "id": "1v_6V6w84LH0wexUGJ7G7",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Cmercury resources ",
+            "id": "60mZrgQzN1xugB0yJL_iF"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "cmercury-resources",
+          "legacyHash": "1v_6V"
+        }
+      },
+      {
+        "id": "Ooou1tQc7zGzhenyFOTAj",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "FDDQQ8yjbg2rLHgosgrCv",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "-PykHYqltP_D8Zh8AhmVu",
+            "data": {
+              "href": "https://cmercury.com/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "RBtMCXKbHs76RBVnXKLAb",
+                "text": "Cmercury website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "_sBGrgpgzNJ9dZKYHqxlv",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "RLc1dXkaoC5wRe7Av50hK",
+            "data": {
+              "href": "https://help.cmercury.com/docs/getting-started-with-cmercury/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "VQbBM2P7XXkfNLay1x6EM",
+                "text": "Cmercury documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "J9Pxt_PRO-eNyVLO88ZLy",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "ul9Ni96qVtGSwDM65DPF0",
+            "data": {
+              "href": "https://cmercuryapi.readme.io/reference/getting-started-with-your-api",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "1qHPv0y2e_KHG2J08tFgG",
+                "text": "Cmercury API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "e2PQ6FSXk6wZ7DDcAmaS_",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "bQnx95pB6nx7zX0MN9O1P",
+            "data": {
+              "href": "https://www.make.com/en/integrations/cmercury-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "isiCRcgH9TKZ57Kvq38Ar",
+                "text": "Cmercury page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "PDUxKpUybRK3p6kxGQkHH",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "sFM2oV6ULcHAyWwxxElBv",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "IlsyXAbsNmRurO9mNRBhs",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "jW5I0uj8Vc9f5l7LRW5ds",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:51.917Z",
+  "createdAt": "2025-11-10T12:54:57.519Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-2LINs9VG_kCk897CwuYA0",
+    "isCategory": false,
+    "categoryName": "cloudinary",
+    "children": [],
+    "name": "Cloudinary",
+    "urlKey": "cloudinary",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-3HnjUHNoTYcBMAhx9V7WZ",
+    "children": [],
+    "name": "Cody AI by Codex Solutions",
+    "urlKey": "codyai-je0du0",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

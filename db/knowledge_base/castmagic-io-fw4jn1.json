@@ -1,0 +1,901 @@
+{
+  "id": "PUBLISHED-3cdBd_MsHCKjrWd0G-ITF",
+  "name": "Castmagic by Codex Solutions International",
+  "icon": "",
+  "title": "Castmagic by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_castmagic-community.png",
+  "summary": null,
+  "urlKey": "castmagic-io-fw4jn1",
+  "description": "How to integrate Castmagic with Make.com",
+  "urlAlias": "apps.make.com/castmagic-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-03T00:31:16.084Z"
+    },
+    "nodes": [
+      {
+        "id": "UwmVshlmgnTmV9FnJfeN4",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "oF5JEH7fDVWZNWh2TsAeF",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "tBRIDuX5UoD9x_Z_Ae03d",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "Cnn11NQK_36cnxVxXaVNv",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/castmagic-io-fw4jn1.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": "",
+                      "alt": "Castmagic logo"
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "V1-kmrmoAwMEFPvgEiJys",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "KSJLHwG_pPDf5i2XC6LDh",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ieU7WFihPkiK_xVvzd8qA",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "jo_dNmcYDVNSfqjhf2rOa",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Castmagic is an AI-powered platform that transforms audio content into transcripts, summaries, and ready-to-use assets, streamlining content creation. Integrating it with Make.com enables automated workflows for content repurposing, saving time for creators and businesses."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8jY-1YJJF0HDLGpG6PvgD",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "04FO7p-epjmgqvzdW3blP",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Limited documentation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "id": "NQ0_rikiCTgf0WoU4VbIK",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "We currently can't provide complete documentation for Castmagic because there isn't enough publicly available information about this app. Our AI-powered documentation system relies on comprehensive data from Castmagic and public sources to create detailed guides."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "children": [
+          {
+            "text": "About Castmagic"
+          }
+        ],
+        "type": "h1",
+        "id": "ja7eoLnsuV15Y_xx0WHfe",
+        "data": {
+          "autoGeneratedAnchorSlug": "about-castmagic",
+          "legacyHash": "ja7eo"
+        }
+      },
+      {
+        "id": "NhJJvAYlaoefXNaT0Y7dT",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Castmagic is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Castmagic&app_slug=castmagic-community&app_unique_id=castmagic-io-fw4jn1."
+          }
+        ]
+      },
+      {
+        "id": "o4lKtvEAeICKVucR8VufR",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "o4lKt"
+        }
+      },
+      {
+        "id": "jKRwfco4rlimBgMYI7Fmg",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "HwTh-iPjoFY6apqV52brJ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "eAv1F1kZYmRPlIAR-I35z",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XQD8VFkkkZc21L4vZC_xD",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "6kElvaudJDWsZbhvgoRZK",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Q-HAHAh5H9vrsOlYKZtNy",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "GMOqB5Divrp_FdaCNl97Z",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "rzqXpDVU8tiWorzLE8085",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/castmagic-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "HpRb9WApLv2dqt6xp3PbP",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "gvzb1g_dBwsxJuFxBy8Ki",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "aiECh1bZWxqq7sKfvbV0R",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "SPNKBWKTwZVb1_ro_cCVm",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "6xSOUrIChplaKAgHpglL8",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "XYUE9KsWTbmDFWEerZ7AU",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t3BKGILZjJm3fHIlDqf1F",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Castmagic modules",
+            "id": "vBk5-3KdTvsY6_5WKR8Qm"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "castmagic-modules",
+          "legacyHash": "t3BKG"
+        }
+      },
+      {
+        "id": "_ybpmWYk1rKSYcAgtwoY9",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Y"
+          },
+          {
+            "text": "ou can choose from a list of available modules to build your ",
+            "id": "hoNunflWLvJkcMAT5SiQk"
+          },
+          {
+            "id": "954OUyzi2h87sTg5OpJhn",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "9_yqTakvEl_xZS7j2oI_M"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "nG5xK6uNwHqCR-lLLaDP8"
+          }
+        ]
+      },
+      {
+        "id": "k8y4E1Re3er3b-aQCdshe",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "z75OhcyEYz8Q_j3vW8Goz",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Transcript",
+                "id": "tBWy0yV5D3kOh1HtaNDvZ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-transcript",
+              "legacyHash": "z75Oh"
+            }
+          },
+          {
+            "id": "nI90YntbzkqJcz9Q5iwuZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Transcribes the audio or video content from a file located at the specified URL.",
+                "id": "eKKcn13AtDD6-nL_kGUNV"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AkexyALRTNAlDKui6XkOi",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "nXTikVe0dGDIlMZsP2XxN",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Transcript",
+                "id": "d7MCbH1QKQ-JKm80MaWUe"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-transcript",
+              "legacyHash": "nXTik"
+            }
+          },
+          {
+            "id": "Ma6nRuLxSJdJdiQrNZZlA",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches the transcript associated with the specified ID.",
+                "id": "YkpvqfWbF_T0YAE1g6FXe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "QSysSzbwW_fpt3FjsPrZ_",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "oiZijyVzlMhIG6p4WWVDZ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "sDsbvXPxddXokU6wvMAnL"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "oiZij"
+            }
+          },
+          {
+            "id": "Wi4XHQMoFz9xDRvKARRRv",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom API request to the service using your own parameters and authorization.",
+                "id": "FXBO2EOWd-r0666YedzFR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "VTnr8u4sGW8xeAmsb-ZzU",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "DFdEpfC_1PiSQ4clfyxXB"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "VTnr8"
+        }
+      },
+      {
+        "id": "IczMFIb2-OszrwQMRIs4i",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "N34dTxh2qGQwATYS1sH8-"
+          },
+          {
+            "id": "8a7JMK7w8v404-ApPQITw",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "sOuuo6kZrp2a7FMRzg17w"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "5vsPSImoEmM5lcAFmzrLe"
+          },
+          {
+            "id": "mRJvCfNvaKEJUyvdEWKnh",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "8f6f-ZuU51kf5hh_dkEAl"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "M5lpr46AoyJu0fH5v3iUF"
+          }
+        ]
+      },
+      {
+        "id": "iBiv-u9DYjxZMFPLn1Xiy",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Castmagic resources ",
+            "id": "A9lZblIPu8rbphgts6QAd"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "castmagic-resources",
+          "legacyHash": "iBiv-"
+        }
+      },
+      {
+        "id": "rpe9sMFPjGWQuDPMcRpkb",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "zfiFsxLMcWZtgYpW50SWx",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "GYpsWVKcka1gzZHaYVDaQ",
+            "data": {
+              "href": "https://community.make.com/search?q=Castmagic",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "FWNrnKUuVzpD0tcZzMIL8",
+                "text": "Join discussions about  Castmagic on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "CXnLzxQQtf2nb4z3BZCWr",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "mTgiPrqbsVSNLd3u5pOA7",
+            "data": {
+              "href": "https://www.castmagic.io/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "i1uM1cYcPFhY95YdGEFoL",
+                "text": "Visit Castmagic website "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "_1xFwmY7jshGQExPKUvFe",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "XexXt1g_cJ57w0zsU0-bH",
+            "data": {
+              "href": "https://codexsolutionsint.com/castmagic",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "aWdRwROzKOPZx9UFcOLPs",
+                "text": "Access Castmagic help documentation "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "wCA-cisGHgBWvtnCZMvdU",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "87g5jVetJkRnlCZEAYs-g",
+            "data": {
+              "href": "https://www.make.com/en/hq/app-invitation/c5691ffc87a686f34c2052a8894c1513",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "5-dvCiZNvWeWHO-m9kCqN",
+                "text": "View Castmagic API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "e5vxna81VvMe-ErGKJUEU",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "5NhcaxfbRxwA95EX3cvyn",
+            "data": {
+              "href": "https://www.make.com/en/integrations/castmagic-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "F-o6ykZK3tifyMb0WA0C_",
+                "text": "Visit Castmagic page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "prHTQ1nfpl30JTaDt4DK8",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Help us improve this documentation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "help-us-improve-this-documentation",
+          "legacyHash": "prHTQ"
+        }
+      },
+      {
+        "children": [
+          {
+            "text": "Have experience with Castmagic? We'd love to hear from you. If you have insights, use cases, or technical details that could help other users, please consider:"
+          }
+        ],
+        "type": "paragraph",
+        "id": "BZTe8h5E5925gWt33urs9"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Using the feedback widget at the bottom of the page"
+          }
+        ],
+        "id": "E6pBwrVzCX9glDBezI_sZ"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Contacting the developer to request public documentation - https://f.make.com/r/reachout?app_name=Castmagic&app_slug=castmagic-community&app_unique_id=castmagic-io-fw4jn1"
+          }
+        ],
+        "id": "lGrPyn4hbJjBtQI5VKZ_H",
+        "listStart": 2
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Sharing your knowledge in the "
+          },
+          {
+            "id": "k_SAV4Cw0Kvv4757nPaMI",
+            "type": "link",
+            "data": {
+              "href": "https://community.make.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make community"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "id": "S4C3dzOkkCI7rCXtNe2LF",
+        "listStart": 3
+      },
+      {
+        "children": [
+          {
+            "text": "Your feedback helps us create better documentation for everyone."
+          }
+        ],
+        "type": "paragraph",
+        "id": "sVxOdubCPgC98zm9Fqlpj"
+      },
+      {
+        "id": "aeglnujJkDipQH2W2q6qB",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "-y75mio1LoaqWa2sFE6Tt",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "zscIs9jZBlXJCh5aWlBPf",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "aTS-Z1dId6DunzBmFkcwy",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:20:52.149Z",
+  "createdAt": "2025-11-03T00:31:16.089Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-iujusDAcx5gM5q8ZYQdWu",
+    "children": [],
+    "isHidden": false,
+    "name": "Cambrion",
+    "urlKey": "cambrion",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-XdxnUcbgBKu1Fu7hvorqI",
+    "children": [],
+    "isHidden": false,
+    "name": "CastMagic by Maxmel Tech",
+    "urlKey": "castmagic-4bsual",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

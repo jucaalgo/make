@@ -1,0 +1,1448 @@
+{
+  "id": "PUBLISHED-86WO3rbB7mGyb92m1VOOH",
+  "name": "Bot9 by Codex Solutions International",
+  "icon": "",
+  "title": "Bot9 by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_bot9-community.png",
+  "summary": null,
+  "urlKey": "bot9-nbv54e",
+  "description": "How to integrate Bot9 with Make.com",
+  "urlAlias": "apps.make.com/bot9-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-11T19:09:48.615Z"
+    },
+    "nodes": [
+      {
+        "id": "t6BauKOlAfdDiSl9ZVnN0",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "WMYp9nGp-_RCMxSUpbN8b",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "4kNxD0D8SXvDBJcvjuCCn",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "pQsISvEINymQ7hw-rXAka",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/bot9-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "MdsEvsNshhb0rU3pR9TBo",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "KEQ0DM_0rO_6j8z5kQ2Z_",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "vUPUlwNu5V86egzGdjtb6",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "fnajfCBa52eZKtVPfV4NB",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Bot9 is a no-code AI chatbot builder that automates customer support and sales by training on company resources, offering multilingual support and analytics. Integrating with Make.com enables seamless workflow automation and enhanced customer engagement across multiple platforms."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tBiQljtnvsTGNghQltjHL",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "2kKXWdeSVkuOyVai3os_X",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Bot9 documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "friEap6fT9Uof0Zg-qUAA",
+                "type": "link",
+                "data": {
+                  "href": "https://bot9.ai/",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Bot9"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6O5giVeRYmeXtlHaCOgcs",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Bot9"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-bot9",
+          "legacyHash": "6O5gi"
+        }
+      },
+      {
+        "id": "-kQodeu-WkEcugO-NJ8EM",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Bot9 is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Bot9&app_slug=bot9-community&app_unique_id=bot9-nbv54e."
+          }
+        ]
+      },
+      {
+        "id": "ph09Z0Q4TptTsdYa_sKTa",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "KF9DWUiW1Ixm7zPM6gZbN"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "ph09Z"
+        }
+      },
+      {
+        "id": "w4XDusemzeEO9gGgq3GRS",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Bot9 app in Make, "
+          },
+          {
+            "text": "you must have an active account and an API Key, ",
+            "id": "OHVu4nqEuOkGEeEZ1uHaq"
+          },
+          {
+            "id": "0qziXUVpwD51yqORIEh56",
+            "type": "link",
+            "data": {
+              "href": "https://bot9.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "0oMzEQ8fzyAcj2cmsKIdH",
+                "text": "create your account on Bot9."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "GZZPgqK0Ww0vBPVHeXu47",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "GZZPg"
+        }
+      },
+      {
+        "id": "-7kMobXqZQ22S1cYAst3P",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "C-ouF5UwjRTKOIfyv2i8W",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "8oyLtSWw6OK6xO2BVWX_L",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D2Qp33KAp2-YCmvwKqxND",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "6K4jGkYBF4lGg08gBqvNL",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "RYI1q1HKd9WBRAVUh-nE-",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "3w9ppPJHfv0RxcdcnZ8Cq",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "FB3nVQECUWiYfrw1mKaU7",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/bot9-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "FN9ftL8neW28C_b6wumrw",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "7cy9bqFzE2DMmEsfuDNp_",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "3QhM6KTy6eXvC9EUFiZJI",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "iQFPr24G-4XaYJfkGcxc7",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "7---ezThtUk3tDTVDN5W-",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "JL_0RC8HU289MS4yGCkZE",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "19wImsc4ztracvb41WZj5",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Bot9 and ",
+            "id": "clNHM7dElGrcLb403YkKH"
+          },
+          {
+            "id": "fHOTmi7hcvt_JEwwEcPy3",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "p4Vh7MTkrpOb6YhHv2uN-"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "oQrIniThaBLjyxrzX22kU"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-bot9-and",
+          "legacyHash": "19wIm"
+        }
+      },
+      {
+        "id": "8c9s_ZveeCJmu6IfnAUMR",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Bot9 and ",
+            "id": "bVsGKkD2ptRpRKhwe1opC"
+          },
+          {
+            "id": "8E51ujfSGeCMilMMmDMpm",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "h2bBmeEjuANfWLx6XZl_1"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "cklideRxCbQZtRHB_mUV4"
+          }
+        ]
+      },
+      {
+        "id": "Z7N9cFUs-GgCRnZGwshUg",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "CpvhJkh81c1BRaydHsJdx",
+            "text": "You can connect using the following method: API Keys."
+          }
+        ]
+      },
+      {
+        "id": "Yvc2prTxkSSbZr5jBCeP1",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Keys Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-keys-instructions",
+          "legacyHash": "Yvc2p"
+        }
+      },
+      {
+        "id": "TjgE0z7bk3GCe0Is1vbYV",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "uFeskVaKEM82EBtRZYHUs",
+            "text": "You need to retrieve your API key from the dashboard."
+          }
+        ]
+      },
+      {
+        "id": "Hu6m0zn4qNQPROZl9DCal",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "4AxXKLPzOUxAu0mENyAVO",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "5CN1wbJtfAtvgXCyWFzje",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your Bot9 account using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sBuZwBOPhUK2-gmDwNLnp",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "mVy5kF9Clo4u-oQCXEPO0",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Access the dashboard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ZGz4Ez2O8IEs_XWP9HMiu",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "2vCZDWAzQu1yQ3vk-6vvp",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the 'API' option on the dashboard."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "-dJZ8MWWkiwn8Z-66Mtq4",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "zl5pp2sIJKqPQsZg1llIE",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate your API key in the API settings section."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DBvMSRKh8qZ7hzsxy6qF1",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "AqSANTPaxNE9abJ42nIN4",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "XKBtOG9uIc4_MA2nzzPvi",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Bot9&app_slug=bot9-community&app_unique_id=bot9-nbv54e."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "I24J_hkunlkHJC4px2KD6",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "vQRMbKJ77nKBEJUtqn24e",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "I24J_"
+        }
+      },
+      {
+        "id": "IPazpiuEASqW56n-zKVQn",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "i5qXzcyrBnzKU6dxZUFYh",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "8YFAMShWXyQEHRNXvASNu",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "dlyuL9SRoyw65MJeo0yZA",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "zFj8eF5PqrLbRoWL7XlmA",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "wS9F9i8ljkkIwAnzvNjUA"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "JmaSRqm4OnHLl8fAyJnIp",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "rbhuDlQHh2Ztl1-N4FMbF",
+                    "text": ", add the Bot9 module to your "
+                  },
+                  {
+                    "id": "8NhUp8mN_NittNZRPEYY4",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "v-PqwgLN7tqT1WxN2BIF1",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "YRY5oVFRr93Q3ihPlx-PL",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "gCJetmhq-IKvu1k1AAzbT",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "Bd01LmAzmCIQE8ure_LOl",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "_P7n0GzMOv5xWLPM0try7",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "rbTraMx5Kgtm6lSv4j0Fd",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "-47OBZdJo28eCC9naMLzD",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "RrG4YKnQqO6T7uo0VMnbz"
+                  },
+                  {
+                    "id": "yfCYiM7G4WO-lzQGfAZ6h",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "V-PGKCeLBozUeJvO5l0nc"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "8v5eagMUxN-g_ajL-WVH-",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "DNG9tXL6iDclq_TSqTH5C",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Bot9 or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "uU1RPyljWj0d0lyk7OHGl",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "3QJBg8v_bqIQHpolKAkT9",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "WT46itvhjVnnbCUJILwX9",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Bot9 modules",
+            "id": "_cKDrjs_nnXgnFbP1zHUV"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "bot9-modules",
+          "legacyHash": "WT46i"
+        }
+      },
+      {
+        "id": "LW8RtfutEbx9Qk_XksOxT",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Bot9 app, you can choose from a list of available modules to build your ",
+            "id": "D3vILg4Y6Ky4EA2tVlbSk"
+          },
+          {
+            "id": "lItSUQf-2hyCU5UqrIsif",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "0cV6_53t853jKPH1drkBR"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "7lhvxi3MVHY4oo0QZfok3"
+          }
+        ]
+      },
+      {
+        "id": "-hcEVet85l5qh76LmT2F8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "-VcwhUSNj_NmaSpc461XU",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create New Content",
+                "id": "yVTUoiOPlJI1xvN2aDLSC"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-new-content",
+              "legacyHash": "-Vcwh"
+            }
+          },
+          {
+            "id": "jzk-T8aVYb7oSRUfBqfeW",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module lets you easily create brand new content within your chosen platform or app. Just provide the necessary details, and the module will generate the content for you automatically.",
+                "id": "B3pgGJMtsHMKGWnkmWH7k"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5q_997i3xh3yQNVUdyPGR",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "gHIp5NY7AR4FtX5g5kFOn",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create Notes for Conversation",
+                "id": "i8RMFcueZ4N-kky9hv1WK"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-notes-for-conversation",
+              "legacyHash": "gHIp5"
+            }
+          },
+          {
+            "id": "ZEiD_oINe1sRKq0HUVsc0",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a new note within a specific conversation, allowing you to add important details or updates to ongoing discussions.",
+                "id": "SUDaslkHwJKvjOi93PJJD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FhSOeUNH-BZxrfpnQNZUI",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "f_ZSt-TiLZigCwqAM7_ws",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Bot Details",
+                "id": "PqV_pGnaDtDF3eRI-yAy0"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-bot-details",
+              "legacyHash": "f_ZSt"
+            }
+          },
+          {
+            "id": "GkemWgBlpiZndQOMOR5Cl",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a specific bot, such as its name, status, and configuration settings.",
+                "id": "yegKul4qHnJrXhkz4IkfC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "LD3wl6fjbWTmnNEWZCZrw",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "FoQHqZ3c-n0jeS2hzama_",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Chat Messeges",
+                "id": "DEX7F6EXHix8lwQvcl9y7"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-chat-messeges",
+              "legacyHash": "FoQHq"
+            }
+          },
+          {
+            "id": "mcWsU3xJfpDyCnhJaqYeK",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve chat messages from your selected chat, allowing you to view the conversation history and details.",
+                "id": "SXIs-_tpCQxII44-QC8vf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "R4-qn9cER3rB6x1S7snkx",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "R0-3Tza1SVztG5SchfwGX",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Chats",
+                "id": "RC4UtaKqrsC9uhaKzS_2O"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-chats",
+              "legacyHash": "R0-3T"
+            }
+          },
+          {
+            "id": "1a8BG3WqhyG_9C3rZGfNW",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a list of chat conversations, allowing you to view and manage all your existing chats.",
+                "id": "PSXjtKGn5QM6c0GuHvcaA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "otupXNGTcmSEcYKuR5FLM",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "N7kd9RSP8Vy6pwdAAyDGP",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Chats Analytics",
+                "id": "I5ueDK9TfG1fs8P9Lwhz0"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-chats-analytics",
+              "legacyHash": "N7kd9"
+            }
+          },
+          {
+            "id": "FZVUBXX3LIu1XNUSEtfzm",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed analytics about your chats, such as message counts, participant activity, and engagement metrics.",
+                "id": "v6DyTpuGphVpZRs24OF8p"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mBcJ0eXexDarB67bZSqEN",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "MXGWBTBzXKoE16A4V3fUt",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Contents",
+                "id": "0UL5av_FKQ6xcQImmUWGk"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-contents",
+              "legacyHash": "MXGWB"
+            }
+          },
+          {
+            "id": "hgYuByJVVOh7Vw9DXs4ZM",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves and displays the contents of a selected file or folder, allowing you to view or use the data within your scenarios.",
+                "id": "BHUgXBgWLcyc5k5iibyd0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cJ7usYT70IncjnIReFDv-",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "AeD_WydaQz5zyazcPo1jk",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update Bot",
+                "id": "jBXUnpcoq-NRFSzlcs0bN"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-bot",
+              "legacyHash": "AeD_W"
+            }
+          },
+          {
+            "id": "n3KRm3FwPJANJt3T__7EI",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "The \"Update Bot\" module lets you modify the details or settings of an existing bot in your chosen platform. This can include updating the bot's name, description, configuration, or other specific attributes to keep your bot up-to-date and functioning as needed.",
+                "id": "aldC-LnI7M5lECO31FXE4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "UT6qRFpb1_dqdsq4T3as9",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "rxoMkccns-YA5c04E0yAP"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "UT6qR"
+        }
+      },
+      {
+        "id": "5lsIDjb-0Hy8A1EWQYaVA",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "DGYmpwlsZU7mvKna9Swph"
+          },
+          {
+            "id": "FSN4G7LeB-L4-8DaaYO62",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "hniFB3cgcGMMUfj49MHpT"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "tSlFRnSagVY7J3LSU8JOb"
+          },
+          {
+            "id": "3xueccWBGdfUzhWOwFf9G",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "TtkBJ8rHHlxKxMn5ZhCql"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "T_6rYjUpyDzsvBo69v2Uq"
+          }
+        ]
+      },
+      {
+        "id": "U5TVKA3kzMPwwQ11x91am",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Bot9 resources ",
+            "id": "WZCbO6aFsMQ0-tTv-DYX-"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "bot9-resources",
+          "legacyHash": "U5TVK"
+        }
+      },
+      {
+        "id": "1V0qsTI7MagWxINPCoB3Z",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "mkgd1XVyROClkXNFRz9GP",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "Pj6NdWBjt9y4C4z1qJfi_",
+            "data": {
+              "href": "https://bot9.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "efKn_gvUffnH97kUg858c",
+                "text": "Bot9 website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "dvZcYQSCmDuvPCQCoAapI",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "b5k3i0OZBxaUl79TLwrci",
+            "data": {
+              "href": "https://bot9.help.center/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "9FZ2yyqJZ6Dduw4Ugq2Z1",
+                "text": "Bot9 documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "wv8uxL9aPzQOrMft8IIWO",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "f60YfGIr9o9hZfpRMyBeL",
+            "data": {
+              "href": "https://bot9ai.apimatic.dev/v/1_0#/rest",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "C81pwtHu9CmLrq_0uA3ot",
+                "text": "Bot9 API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "sXd38A3AVPM5yvA1RU0fE",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "Qe_g_bnstN3dvkPceRhf1",
+            "data": {
+              "href": "https://www.make.com/en/integrations/bot9-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Ai4FqnGP7q0cLEKnHYB-D",
+                "text": "Bot9 page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "r8-alLWE3IZQBP1_NMqQJ",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "B2Sx0D5okhFDqYd1AzY3r",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "8Z7YLMv6VGdkw-w7RMvLe",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "zKloWD8VZWLKUEqn4fElN",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:57.766Z",
+  "createdAt": "2025-11-11T19:09:48.618Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-1fDqSpCt0lwiEOfIIJdZ_",
+    "isCategory": false,
+    "categoryName": "bigml",
+    "children": [],
+    "name": "BigML",
+    "urlKey": "1fDq-bigml",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-vQ8ieiTyw3IiD7ua8dlQj",
+    "children": [],
+    "isHidden": false,
+    "name": "Botpress by Synergetic",
+    "urlKey": "botpress-hqxfkb",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

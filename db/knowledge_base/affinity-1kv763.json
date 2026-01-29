@@ -1,0 +1,2322 @@
+{
+  "id": "PUBLISHED-Wsq5cd7oSJVDqdF1jolqb",
+  "name": "Affinity by Maxmel Tech",
+  "icon": "",
+  "title": "Affinity by Maxmel Tech",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_affinity-community.png",
+  "summary": null,
+  "urlKey": "affinity-1kv763",
+  "description": "How to integrate Affinity with Make.com",
+  "urlAlias": "apps.make.com/affinity-community-maxmel-tech",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-10-30T18:10:16.228Z"
+    },
+    "nodes": [
+      {
+        "id": "oBUvf-6FOwUT9FypqQ728",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "LUMvzd-UAh0brcAlGqQIZ",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "1K-cNgaf9tXSraDdY54Q5",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "ZrFPpyJ4ivdVsIZgGbqPV",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/affinity-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "9JpRpqnOp4yFS10BQjDMI",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "HUaVJ4grHI7taPS_KuOWO",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "Q3SrIhrHYxKAVHUNEaRTx",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "qYm3rUhap-CIgfV2_q0Qn",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Affinity is a relationship intelligence and deal management platform for private capital firms, offering AI-driven CRM and data enrichment. Integrating with Make.com enables automated workflows, streamlined deal tracking, and enhanced data connectivity across investment and CRM tools."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9GwYpvnw7DHULa5q3KQDD",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "wVq3yu2U0M3ueOEiXjK8I",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Affinity documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "af03PmxmV9aUP8Ure7ATD",
+                "type": "link",
+                "data": {
+                  "href": "https://www.affinity.co/contact-us?hsLang=en",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Affinity"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rSRg0wXLzglCuQU9oldvN",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Affinity"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-affinity",
+          "legacyHash": "rSRg0"
+        }
+      },
+      {
+        "id": "klPPxcUKi3ted7rPc-BSg",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Affinity is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Affinity&app_slug=affinity-community&app_unique_id=affinity-1kv763."
+          }
+        ]
+      },
+      {
+        "id": "E-0FNOHi-NzFS4N-5ZXiq",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "RubzNlruYl9kMlRQZZDXj"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "E-0FN"
+        }
+      },
+      {
+        "id": "nVvXjHkL38fO8anFjDLSb",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Affinity app in Make, "
+          },
+          {
+            "text": "you must have an active Affinity account with a supported paid plan and the necessary permissions to generate an API key, ",
+            "id": "gpPWtp9Gk0c_iYxKqQ_id"
+          },
+          {
+            "id": "0DvyfYGU-Kx38EnUlZSUR",
+            "type": "link",
+            "data": {
+              "href": "https://affinity.co",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "U1To_h2HD18jlywKuBIyj",
+                "text": "create your account on Affinity."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "NR18_pKMRcE-APXwsTWr7",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "NR18_"
+        }
+      },
+      {
+        "id": "6OH7QKIRh8LgCIznNlQav",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "MIF_ddCQKSiQLFzy4NW55",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "uKhYRoDZSkDEfSvTkWrv3",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9h5KHsc7z5NFY3zg479sI",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "J4GngObAqFsMX2mjza45E",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "Qd19jnH9PhPBXbp6TZzfj",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "3VM_u6Hqts7bZugizpZ1i",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "ONCHLF95S-3zaNp293pNJ",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/affinity-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "lhCNO-YOzIKbuQaWbditU",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "K9RvM_0dc5CfInvcSAzS4",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "KojtDoTcnSC6H0Q8cpteb",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "hLs_B5nkWps5VQ0LA3d9D",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "AkiejYOuB-V0gERjewvko",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "yGakLBiVmjYeuPIfQ0LI8",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "yznyRRZADPOV_x2l23HHV",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Affinity and ",
+            "id": "squ1nIHinjYqy285ojZnM"
+          },
+          {
+            "id": "SZ14A5vC2gJJ3LmQF8Kfv",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "z5uQfDe-_zpetgez4FVUd"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "im-s7Ma6QWNcYaXnrsvNU"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-affinity-and",
+          "legacyHash": "yznyR"
+        }
+      },
+      {
+        "id": "4kMAyYPswkRqJpfkW4dxn",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Affinity and ",
+            "id": "tby8b9dV61GE4VsHJGSxQ"
+          },
+          {
+            "id": "zjnpG5qqUVPSatc4H0JCq",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "LSVQaGCWAM1Dzteou1jGj"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "C0pKrnLvQj0v5wIdLJrX4"
+          }
+        ]
+      },
+      {
+        "id": "_UhUaRdUWU7plCmNjJ1WX",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "BaCylkLzd7PnIn7s-h95W",
+            "text": "You can connect using the following method: API Keys,Bearer Authentication."
+          }
+        ]
+      },
+      {
+        "id": "MCdPt_LItajJ1PFLOQnc0",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "API Keys Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "api-keys-instructions",
+          "legacyHash": "MCdPt"
+        }
+      },
+      {
+        "id": "t8kkDfnQDmqBgy4MgBkUf",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "2jMaShqTI9FFMFS4jQMqY",
+            "text": "You need to generate your API key."
+          }
+        ]
+      },
+      {
+        "id": "Ou3kPa2FtV5EliQMXO2nm",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "svro5s3MwlBK-q8piNMVq",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "z__ppVzG1yiFb6WecsK9F",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your Affinity account using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "awsHodRdns0Tgs1-TZCEj",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "6Dl0mhMuM9GLZT69twzaY",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the Settings page in the Affinity web app."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "S-Mgd0yiOf3PX4ndrkh9s",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Xj242_c-hNEPlIaBpMaIM",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Ensure you have the Generate an API key role-based permission. If you do not, contact your Affinity admin."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "M8A7Mc4bGt80K9HITTOp7",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "HhjZIwF0RQ2WI0OOpoVM3",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate the section to generate an API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ERTPtUiQnZ1GQ0U76IJfr",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "8BRZS8UvOj02GrPR-1I3D",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Generate your API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ZJGExMIofBoOcBWzQbBvP",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "g8gKzhcRSph7A0ztMt4zq",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note and securely store your API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "O36p3RYeL4l4koCL0wfsm",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "Bearer Authentication Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "bearer-authentication-instructions",
+          "legacyHash": "O36p3"
+        }
+      },
+      {
+        "id": "N1f4P6DvuxKYnv139pyUt",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "gSqNCzpiCiraMSi71_K4U",
+            "text": "You need to generate your API key."
+          }
+        ]
+      },
+      {
+        "id": "-M1hxMZR4015S_l0iX0mg",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "NaIrSK2BL_vkbWbbFZ3Ec",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "jLdDLH9dfyubyzSPlO4Lx",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Login to your platform using your credentials."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bq9swC5muX_4BtYXYDH3e",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "wGT5jPRUg5hpcgMrZiW6O",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the Settings page in the Affinity web app."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "eUQdf4gLrYk5l0-ymw4ra",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "Ybk1FODzUs0cTCTYKj6xE",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Ensure you have the Generate an API key role-based permission. If you do not have this permission, contact your Affinity admin."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "3MwfG2ziJ3Sj5vmE4Krdo",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "XE3hcA7F2CuyxSnt09y0P",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Locate the option to generate an API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "4Ow6cUWnmmWC0oJoQSQRT",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "4jpaW5PPKEfvrYei3gRPD",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Generate your API key."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "qZoyguDDoXqWLgcTWMg5t",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "qBwszXBaASx99w040leiP",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Note and securely store the generated API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2L-63mj7v3HdoFiFmgxoV",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "rYK4MoIhQASKVENkuYbGl",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "BPRwhY-AMI_xBZPAMIGtC",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Affinity&app_slug=affinity-community&app_unique_id=affinity-1kv763."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "o68r2cNmgZzgb540xSlRU",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "jmr7TFIjjHIHmCbZPHUdx",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "o68r2"
+        }
+      },
+      {
+        "id": "YDzw1eAHZ__hWaunTytvH",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "YEYv_znMAgNAf-Qh-q75G",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "_G6kXXv4uhag4RzRs_YhD",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "DMJ-GhPnnBfkZ7b_bYtSL",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "uT7Q10UhJd3m4J-kwZ5UE",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "47QhhurmN8X4Hsan8dl46"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "q1Sqy1Jmrqq3oTzehU0ia",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "upvYZhxJd97ZFcG5nMfKn",
+                    "text": ", add the Affinity module to your "
+                  },
+                  {
+                    "id": "YchrKcuQIZvKjjnRB1IVH",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "xyeAMbHfT-9N2jbR90-SY",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "RuTjKE5zYTfkQKJz6iF4h",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "QALSYrAiJXiBBPqt15YpE",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "b4jOyGXeANWCI_PHZdfUj",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "XrUdxYSXCXfr005j2p3t6",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "vnLMQ1kJY--B4oaaAH5Yw",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "gdQtXmyZvU3Dm5NkTCMHu",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "UHgtBwD9OjKciZNAbrbHi"
+                  },
+                  {
+                    "id": "D7wgr4xKxbTts-mjzZKaH",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "6brvN0OlOlbLbYUmNSpKm"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "0onDdwat1rGi5i069GRTm",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "sOjaT7-6KbE51UT50uAAl",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Affinity or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "W9CtgOh0E05HRAzzkvW_A",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "JAphZfiqNmZTqGH0SaZ8o",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "XZdj_lx3SAqkppteaDpEP",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Affinity modules",
+            "id": "9-NQWkFXqPd3CF5iiJF8f"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "affinity-modules",
+          "legacyHash": "XZdj_"
+        }
+      },
+      {
+        "id": "6cqANbcYb_SYlZHIz6onz",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Affinity app, you can choose from a list of available modules to build your ",
+            "id": "vZa5rTq3ktRD3SUnqL9St"
+          },
+          {
+            "id": "vSeaEPS_ZU9OkuGOckHPc",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "yk-GbtIRV6PF4ZFuy-3Oa"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "gsxv_0sJvhC20C-kEfm4v"
+          }
+        ]
+      },
+      {
+        "id": "hBfdL4v-W5FGerLBIg_C7",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "AvlRWcsJbi0lNj9h7-ISd",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Note",
+                "id": "S8mBTDTO46VKxKzgt5JYr"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-note",
+              "legacyHash": "AvlRW"
+            }
+          },
+          {
+            "id": "GutcWbISrv-hY06dxRy84",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a brand new note, allowing you to quickly capture and save your ideas or information.",
+                "id": "TKoWXT73J_FHDkPI0tdXk"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "kiMnhjnVuqByhhFLb6T7O",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "tCZq5QGOmvFXlb5RSYaS0",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create a Person",
+                "id": "aKW_ZIfU4MeIs0cbntiEt"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-a-person",
+              "legacyHash": "tCZq5"
+            }
+          },
+          {
+            "id": "eQUUnFc861HRJzBafVfI-",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Adds a new person to your database, allowing you to store and manage their details for future reference.",
+                "id": "6GV8QSSc8erpPjGbO2GXQ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "skCShQCDtmx5N4IxceHMc",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "qCJANbAZz83nTltN4-Iy1",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create an Opportunity",
+                "id": "gSaYJrkaVzqVmGpqJ1dZh"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-an-opportunity",
+              "legacyHash": "qCJAN"
+            }
+          },
+          {
+            "id": "8IDQHgGgOkg37ViNMlvTV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a brand new sales opportunity, allowing you to track and manage potential deals from the very beginning.",
+                "id": "e8KjfPLZ4weWBVAr9GtQe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4982Gm_qylvwO3ePaim52",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "XI7BPVMf796s0gA3RbN_3",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create an Organization",
+                "id": "EtM6uO_QLtjHGlcR6b-zZ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-an-organization",
+              "legacyHash": "XI7BP"
+            }
+          },
+          {
+            "id": "QVHaVJ-d9PIVuIT7N-0IN",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a brand new organization in your account, allowing you to manage teams, projects, or resources under this new organizational structure.",
+                "id": "m2oegsTVo7vqXX_ZSBM4q"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9TVtHoVboSuIVLZtJcBQu",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "LGIWLcdKgR8xUtTWvJLhA",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Note",
+                "id": "OVtYqWuHgD7AnbbjQHvx0"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-note",
+              "legacyHash": "LGIWL"
+            }
+          },
+          {
+            "id": "4fKKJ_clBwm5e38Cj_jyp",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Permanently removes a specific note from your account using its unique ID.",
+                "id": "PZQ3T5Cb3zQEvsDEQOIrf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FVFiXSgOTib3_nGqfApsV",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "kMNaWQ4GJ3gcY4JxuUUr3",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Person",
+                "id": "ddmK4D1aezNl3fTMT2O2x"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-person",
+              "legacyHash": "kMNaW"
+            }
+          },
+          {
+            "id": "2hu9crvcXN_giZxv1zdpQ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Permanently removes a specific person from your records using their unique ID.",
+                "id": "Fbmpcd4NscaZaV7z2vQmE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ca4i9q-XaD06MytD3Miug",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "YQfedOAAkqRdkgxqRICra",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete an Opportunity",
+                "id": "n76jUXq06-EYBVD-lVtqB"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-an-opportunity",
+              "legacyHash": "YQfed"
+            }
+          },
+          {
+            "id": "QToQLHD450Gm6Id32yYE2",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Permanently removes a specific opportunity from your account using its unique ID.",
+                "id": "zLAW6S8S4Ndh5Zj3AUru_"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ec6fVxbJA74HnefkU_bls",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "_NJj66JFlvybNTI4zfkkc",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Company Lists",
+                "id": "yyweoss2GrI7JWe60Sjma"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-company-lists",
+              "legacyHash": "_NJj6"
+            }
+          },
+          {
+            "id": "cH8NQY0UUxYVJwi5trKml",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves all lists associated with a specific company, allowing you to view and manage the lists linked to that company.",
+                "id": "0Tw7KWu7ItGXY5y3LFMtJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PryvQ5bI4kOFuWN0SAHyb",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "JdutBxnkAZqEj2lUQurJG",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Company Lists Entries",
+                "id": "Jj61TDD9-eQG__KuGRsZI"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-company-lists-entries",
+              "legacyHash": "JdutB"
+            }
+          },
+          {
+            "id": "3FvMiWVInZOmRi8BqKdsa",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a list of all entries associated with a specific company, allowing you to view and manage detailed information for that company.",
+                "id": "S6JNdU5DhChN34NCJRIhD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "NVeyfXkHpOTZ3h9rY-fp4",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "4VSUqWxVOFoU7DOKWe3fb",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Lists",
+                "id": "YR1Bwj__tt9hh7yUbE9vC"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-lists",
+              "legacyHash": "4VSUq"
+            }
+          },
+          {
+            "id": "1ByMaZhghe3fdKIS8dk1K",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches detailed information about every list in your account, including their names, IDs, and other key properties.",
+                "id": "7HhZGMx-IsICAzhR_313m"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iw_NukjbjDRv8aOKI_WtW",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "3eKxVShQrPnIZ4AwR6FMw",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Company",
+                "id": "kgELErtco7ikr32-ypvUQ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-company",
+              "legacyHash": "3eKxV"
+            }
+          },
+          {
+            "id": "rDFcz1ZR8x77K68On1DjV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches detailed information about a specific company using the provided company ID.",
+                "id": "rEvwW_JPYdQ0tS04XQvdV"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SWP6osaanxDuQ01wTLyeC",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "tNQXe5xSxYUtIuAMyylSf",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a List",
+                "id": "LE1r2_eQGy4PYkdwzciAV"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-list",
+              "legacyHash": "tNQXe"
+            }
+          },
+          {
+            "id": "wImEcOoLx_0XSkBtnQfSb",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a specific list using its unique ID.",
+                "id": "SitBxxi5t_JmhQKzG_7q6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "k_paGA6xAgDGxaKJkN5sb",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "d518bQFMKzgv4EUlisvG1",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Person",
+                "id": "vuAGBJOvmCsOGAeUmu9U5"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-person",
+              "legacyHash": "d518b"
+            }
+          },
+          {
+            "id": "2QWONQW7MeynZ4CLWSNHq",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a specific person using their unique ID.",
+                "id": "1BGfeziky7iicXdRMvweB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jTagL20P_hUiKFhyvnlOn",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "N712AGEV3qpQDbI30LXpw",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Person Lists",
+                "id": "385s1SD7k01OE53OtZLiX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-person-lists",
+              "legacyHash": "N712A"
+            }
+          },
+          {
+            "id": "6Zzc56ccLweN9mJX3Y79P",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves all the lists associated with a specific person ID, allowing you to see which lists that person belongs to.",
+                "id": "DCIrP_rEhw7jCeQHkzjce"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Q8ExZ82qSdpUS2XhTXkJR",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "6z14l6GFdrV1QA8gp-SzR",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get an Opportunity",
+                "id": "j3w1mbXtAyxBXMSlGC7gX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-an-opportunity",
+              "legacyHash": "6z14l"
+            }
+          },
+          {
+            "id": "r5AKLUTeec7VbUj-CpNal",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves detailed information about a specific opportunity.",
+                "id": "vHl54XmSJR5AN8XwnDLMN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "X7OA7RXDN4Y9jz7lyNTgY",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "jmsmaWDGSt9n90O_-vv_-",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List Custom Field Values",
+                "id": "fjRDG9aYiMBlw-351_FyA"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-custom-field-values",
+              "legacyHash": "jmsma"
+            }
+          },
+          {
+            "id": "ODgJIYzXPXeTBDYGMA7IE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches the values of custom fields for a specific entity based on its ID, allowing you to access detailed, tailored information associated with that particular record.",
+                "id": "aZ5FmXLAeTVoSIWpRQ7Qn"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PSoG-Xn-b2w-X18q9RYIS",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "XtcZ1KUw2m5rnvcP-K2z0",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List Opportunities",
+                "id": "Q0B-_Q5ZPiZav7qaUZioo"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-opportunities",
+              "legacyHash": "XtcZ1"
+            }
+          },
+          {
+            "id": "eORr1FSpl86AWoUzh4Wm5",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Fetches and displays a list of all available opportunities, allowing you to view and manage them easily.",
+                "id": "vrk_qJXwLFo2z247jHAii"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BTXhrMOMw28yIox62f0fV",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "SN2r_xiY9EvozXyZnSYre",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "3m6zC2xCuJCEbB9Sv5BaO"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "SN2r_"
+            }
+          },
+          {
+            "id": "4igYSS4fhPopnUahT7aJo",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make custom, authorized API requests to the connected service, enabling you to access features or data not covered by the standard modules.",
+                "id": "8L3iR__l5tlZmcru8f1XB"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bLmUkqqBU8Y0ZjeiqVc60",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "VMo53uOA5QrBCzh8VFIYW",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search Companies",
+                "id": "Mbtq134rSgrFc6yeE2d_6"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-companies",
+              "legacyHash": "VMo53"
+            }
+          },
+          {
+            "id": "4aAR2MQ-v4CGJ-0ti3OGE",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a list of companies that match the criteria you specify, making it easy to find exactly the businesses you're looking for.",
+                "id": "AvGLdGKMjOVRVrzetoAPC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "s4u18nsgtuy9VBGMRlDGp",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "gfK16HUcQPrRZgykJrQs3",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search List Entries",
+                "id": "k5RXYfL3EiGdoHrxjYrIA"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-list-entries",
+              "legacyHash": "gfK16"
+            }
+          },
+          {
+            "id": "7JpCdjlUQyZiUPHoHvsK-",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Finds and retrieves list entries that match the criteria you set, helping you quickly locate the specific items you need.",
+                "id": "Ct-Tv7q4UKB0yp05wCkXq"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "RCDX-y59bWB1sMDwnpj_w",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "9goDIF2aAiilyaGxb0jaJ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search List Entries from a Saved View",
+                "id": "4oj_zzxppeX6Ejr39hVub"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-list-entries-from-a-saved-view",
+              "legacyHash": "9goDI"
+            }
+          },
+          {
+            "id": "dX4CCk0DwI3U9tPltoMBL",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Finds and retrieves list entries that match your chosen criteria from a saved view, helping you quickly locate the specific information you need.",
+                "id": "Tedoo41CRkJuZMGc7byA2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "q69V79VDD1F2Lc1XqWnhB",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Lav34qtD3IGFP0FT2S7-T",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search Organizations",
+                "id": "CxNm1vklplxi8rQpS4Ptd"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-organizations",
+              "legacyHash": "Lav34"
+            }
+          },
+          {
+            "id": "i-VjtwOmI7M5C199-H9E5",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Finds and retrieves information about organizations based on your search criteria.",
+                "id": "ag1cIyvP6JQvEOIrOPV19"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01MUnyNNcUzk6_F7YDkBm",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "-3W9Rt8UKFdOhP1TuNmPo",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search Persons",
+                "id": "Mbym4dGxXGllcD5AnUA_Z"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-persons",
+              "legacyHash": "-3W9R"
+            }
+          },
+          {
+            "id": "jwU8Bb31KyoCGUEmBchQt",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a list of people who match the criteria you specify, helping you quickly find the individuals you’re looking for.",
+                "id": "pb5Mn-gxAF5Enygbl4iXj"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CJs4oKxSpODaka6XpAk8E",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "1WwcqHZrq_v0ZslQMKp2y",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Set a Custom Field Value",
+                "id": "LqfsZMV7MDqCA-MjbmcZS"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "set-a-custom-field-value",
+              "legacyHash": "1Wwcq"
+            }
+          },
+          {
+            "id": "B3p1oVU6fQayHyaIlICOu",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Updates the value of a custom field for a specific entity you choose, allowing you to tailor information to your needs.",
+                "id": "_5AzXOZ3gLJQN0ulTNDiO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "EAtu3htSoF7A_rQYWyrfD",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "z4IfGga6J0FW-r8jZxa1f",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Custom Field Value",
+                "id": "jBQIFRrY4GH65j8sXD-Zy"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-custom-field-value",
+              "legacyHash": "z4IfG"
+            }
+          },
+          {
+            "id": "o1NkJWjDaENMm-GW8bt_w",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Updates the value of a specific custom field, allowing you to modify and keep your data up to date according to your needs.",
+                "id": "FhLwWPcSKvvvaMyAbb0em"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8hZInbiUSLvByjBO39JxS",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "nmIFBZN90bzX3ZyQdQFdB",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Person",
+                "id": "mB3OpSLZP5HNGcWwjxCWJ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-person",
+              "legacyHash": "nmIFB"
+            }
+          },
+          {
+            "id": "eubuoDOc3RfLnd_cUJgeS",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Updates the details of an existing person using their unique ID, allowing you to modify information such as name, contact details, or other personal data.",
+                "id": "edmSZtr9YRzBR266qd5Qw"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E7xO6dw8_XL29ScdPd6Ry",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "QzkIwuCc5PY0WtUY-0--o",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update an Opportunity",
+                "id": "hvB9VWIbbIS1z7to0HRUV"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-an-opportunity",
+              "legacyHash": "QzkIw"
+            }
+          },
+          {
+            "id": "DwtbxfZNHUTydjQNYjyqJ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Updates the details of an existing opportunity, allowing you to modify information such as status, value, or other relevant fields.",
+                "id": "zySauTq0w3MVLm39gKb6E"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BY76tJrVZ1uvIpAVGsQLK",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "1B8JCSPDug0rpmSj5rcD9",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update an Organization",
+                "id": "8MF86LrtUXJMPLnMUNuYv"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-an-organization",
+              "legacyHash": "1B8JC"
+            }
+          },
+          {
+            "id": "jiH2mWChMoa9Ev76gez75",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Updates the details of an existing organization, allowing you to modify information such as the organization's name, contact details, or other relevant settings.",
+                "id": "8mUHrKThWq5eMLpQDF_0S"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "S3Ox05vKjqOwCrWnos-ex",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "EY8FurrsOBBdFEb3u23ua",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Watch Events",
+                "id": "3j28TnGvvQTp9NGJ8WI8c"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "watch-events",
+              "legacyHash": "EY8Fu"
+            }
+          },
+          {
+            "id": "sRqbSCQ5kSWvcsdtNLZWi",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Triggers when a particular event you’ve chosen takes place, allowing you to automatically start your scenario based on that specific activity.",
+                "id": "4KIY9IXwDp652dIye2i6u"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "iWY0qqVVeEy3Rr0uA7Odf",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "r4iPJ9E9m6_Dg-mdkd4qp"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "iWY0q"
+        }
+      },
+      {
+        "id": "WpInSABxfLQgZDEAC_5Ou",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "Qn2w-lYBptRWjozOYN8pJ"
+          },
+          {
+            "id": "JRB958jUMFg9G3AAndCEq",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "JOeYW-2cbThnyDWrLj9j8"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "1Ey_MEz6NNgtQD2CtUjYw"
+          },
+          {
+            "id": "isJEO4oo9MFXEisbWDhJj",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "P5Od5dfrG2IAds2tlLD0Z"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "fG1i_3JUpwM7YmzUAJPFL"
+          }
+        ]
+      },
+      {
+        "id": "pk7HebYPMrfG3aFn9Incf",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Affinity resources ",
+            "id": "klKy3CTFkrBKRUk_h6Q6u"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "affinity-resources",
+          "legacyHash": "pk7He"
+        }
+      },
+      {
+        "id": "66bwv0sW3FwJK2zmh-VV5",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "9FmYbn3Rzjksn-0_VfFvh",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "Zzh_XbPNl6Xmcekurd71r",
+            "data": {
+              "href": "https://community.make.com/search?q=Affinity",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "_ESfBZJQzsdUKAal42e6a",
+                "text": "Affinity topics on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "6c3mP81MJwlv3hnODz_-1",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "C7hOG77Ww4iifRyIkU44S",
+            "data": {
+              "href": "https://affinity.co",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "8K3fPknDLb2U4-UPGDkMO",
+                "text": "Affinity website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "FuiiCWnwhD_O09V2eTG3w",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "qzsSsVObtn9qWyoPbwaXk",
+            "data": {
+              "href": "https://support.affinity.co/s/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "aFcd6aILXSqYwG_2prEXd",
+                "text": "Affinity documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "AtFKoHdXeuYY0KYV_giHh",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "T0h4IxaKJrWrzyI5YKA8P",
+            "data": {
+              "href": "https://developer.affinity.co/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "vvPH-_M6pN8ktyhe8Xo6P",
+                "text": "Affinity API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "Am2XGK6MVosIuQtTqjtQm",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "u1v7TrbvToJpu0zYZeJz6",
+            "data": {
+              "href": "https://www.make.com/en/integrations/affinity-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "d3zrmVgYVFa-Xou4LkNqH",
+                "text": "Affinity page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "h7y_tLwzA7o8CfdTTLsz1",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "L_q9rlY5za7Uqzfqg4dQA",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "S8EuKsGUw8QZHWLfJbyCj",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "weZcPES3Y2L6ckiFwFKe-",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:22:07.662Z",
+  "createdAt": "2025-10-30T18:10:16.232Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-4X_XAoZ8rMq6BlrZL1Ane",
+    "children": [],
+    "isHidden": false,
+    "name": "Affinity by Codex Solutions",
+    "urlKey": "affinity-f3xs5o",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-RQcOcpnAT9Ie32OgTz49Z",
+    "children": [],
+    "isHidden": false,
+    "name": "Agent.AI",
+    "urlKey": "agent-ai",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

@@ -1,0 +1,1199 @@
+{
+  "id": "PUBLISHED-1huX30Pp_B-V8VtsUkDqR",
+  "name": "Charla by Codex Solutions International",
+  "icon": "",
+  "title": "Charla by Codex Solutions International",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_charla-community.png",
+  "summary": null,
+  "urlKey": "charla-d8xcin",
+  "description": "How to integrate Charla with Make.com",
+  "urlAlias": "apps.make.com/charla-community-codex-solutions-international",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-29T14:35:19.489Z"
+    },
+    "nodes": [
+      {
+        "id": "89IzsD7NEIIt4FVKngzvs",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "krCRr4ppRF1rETmAbM78R",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "YZi8Jn8IUIomVaWJokkBn",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "38kyrs_kTmQrBmbcHtEBP",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/charla-d8xcin.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": "",
+                      "alt": "Charla logo"
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "LKzbDXlIzeXSAcAxY6lvz",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "x7TrRVSTrc_mGHl8ejRXE",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "4-SPmDfYc1jls87xhROpz",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "O0kSZF7_pR5Xz8MDWY96q",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Charla is an AI-powered meeting assistant that transcribes, summarizes, and analyzes conversations. Integrating Charla with Make.com enables automated workflows for meeting data, enhancing productivity and streamlining follow-up actions across various business tools."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jMn7CVM8BpF3Axp1dU7AP",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "vFBAPjtT2befwdQoLHCV8",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Limited documentation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "id": "StoabUtrErIC893GO0hvq",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "We currently can't provide complete documentation for Charla because there isn't enough publicly available information about this app. Our AI-powered documentation system relies on comprehensive data from Charla and public sources to create detailed guides."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "children": [
+          {
+            "text": "About Charla"
+          }
+        ],
+        "type": "h1",
+        "id": "7hAInWS4AFvZW-mNaGJt1",
+        "data": {
+          "autoGeneratedAnchorSlug": "about-charla",
+          "legacyHash": "7hAIn"
+        }
+      },
+      {
+        "id": "SZjc1N3lLNxm9dMWonU-Z",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Charla is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Charla&app_slug=charla-community&app_unique_id=charla-d8xcin."
+          }
+        ]
+      },
+      {
+        "id": "iXigscQoBczH88WLZEfjV",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "iXigs"
+        }
+      },
+      {
+        "id": "crGG57OmMhdUx4A8wxrjv",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "pLUCILPneJJhxtlqdYc84",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "e62oYW22tv4qB8YRvxv47",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "40XMRqjut0KkkS8-gb6lt",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "0u4RJ5WQ8kaLTdE_WaCax",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "vSpMcnAhK2Ysy33omo-yV",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "JB-HHn2rrLT1AYbycVf8l",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "uJJWUZwiTS6XQ0iB7YE7b",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/charla-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "Df3EUDQLy8WZT7tXOelSB",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "FIC2MnnhdV7S-RxKOqcpf",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "H29U3Mlez_dp5LauI8kA_",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "qYcvOe9vbdItFp0dFC-cD",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Fifshnpg6CDwIjBbSSFDK",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "V_qe_sdkKq7OBoK0i60wc",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "IPXJi7H9mWeG4sHJH-RAX",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Charla modules",
+            "id": "SLjUBGQ6TD1yqDhUHK-GL"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "charla-modules",
+          "legacyHash": "IPXJi"
+        }
+      },
+      {
+        "id": "yxtJin5g7OE-LecgDhFRl",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Y"
+          },
+          {
+            "text": "ou can choose from a list of available modules to build your ",
+            "id": "Py9A2W1XqrfBzl8TK0Fqm"
+          },
+          {
+            "id": "g9Kz4fl7bghXtKYBEvpC9",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "kblBrfEzAUUptEkoaycJ4"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "fcakBoenMjopzzM78mNvi"
+          }
+        ]
+      },
+      {
+        "id": "T0DSH_CcbLF2LAjZy3TXg",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "TY69oRcwlsjtZedyGxWOt",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Delete a Article",
+                "id": "vDtbixuNZq6OirlEu42MQ"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "delete-a-article",
+              "legacyHash": "TY69o"
+            }
+          },
+          {
+            "id": "G566KFMPZ-sR1gW2k5OZ1",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Delete a specific article from your collection by entering its ID.",
+                "id": "XZy6b27BPbuWEcrmcW-ai"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XRQkUG7Stfkf8vIlY_Txl",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "y7-GZpOch4FyjQ3bvuS8A",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Article",
+                "id": "FzcVqQGdNRDaQ8PDPZU9o"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-article",
+              "legacyHash": "y7-GZ"
+            }
+          },
+          {
+            "id": "kNymEPyvIpgs2vIP4m_7P",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about a specific article using its ID.",
+                "id": "YAWVvQyGXcaiXt_5IhSBi"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FevSWXqw2ZEBmCtFjsqen",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "KqeTfA5v7FvQGUKTw-JAn",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Contact",
+                "id": "Py50j-dwyweaWwYguiY81"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-contact",
+              "legacyHash": "KqeTf"
+            }
+          },
+          {
+            "id": "3DP5WyPriUf_sQEJPaj6x",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about a contact using their unique ID.",
+                "id": "JG678g2_3G3oaBt3UQt9Y"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f__CifPd6DA-hN8NcVO8o",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "uGUF4UO39Kpl-ujaQ8kST",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Articles",
+                "id": "jvADpa_rXIYNs7RtdSJMg"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-articles",
+              "legacyHash": "uGUF4"
+            }
+          },
+          {
+            "id": "t5nXsRDP8IAUHzDBIt39f",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all available articles.",
+                "id": "qk_JwIMcDE9cV_48uowpv"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ACRXp4bg3KyZRgbcsGhWy",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "97pfPEJfLQYqETSNo47Il",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Categories",
+                "id": "EoF0tumYTPQy7MPgPVKEy"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-categories",
+              "legacyHash": "97pfP"
+            }
+          },
+          {
+            "id": "q6HpCzMEnNapJuIf_66lb",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Get a complete list of all available categories.",
+                "id": "0Rj0FyMbcsYfaaVygfens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Kb1bUBYy6iAlY65prLbBa",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "6FtPwIqSZ7dxCIBC-enQo",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Contacts",
+                "id": "PESddBxwE3cD6GjYfcPU1"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-contacts",
+              "legacyHash": "6FtPw"
+            }
+          },
+          {
+            "id": "cn7w5I3cT8qvDHihJgPeJ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all your contacts.",
+                "id": "xZMfMUGbtp1y0YyjQX6K4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "t34e86xQkr1l4a4TPAuvu",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ZGZhJq8mOLYj9D-rALajP",
+            "type": "h3",
+            "children": [
+              {
+                "text": "List all Conversations",
+                "id": "tjLtKii6fq07J30KIgu1i"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "list-all-conversations",
+              "legacyHash": "ZGZhJ"
+            }
+          },
+          {
+            "id": "iClrEtMOFQKEL6xSuN0lk",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieves a complete list of all your conversations.",
+                "id": "V9TJyYfmhgJENt195wY88"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "D9F7-oiIz0VX0UI8lZ3e8",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "L0Tfyg39bQYZTvC3jGTIF",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "m51Z7QlFvFFUR41aHhSQf"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "L0Tfy"
+            }
+          },
+          {
+            "id": "kYCk1_-PxrgGicLLPBJmS",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom, authorized API request to the service, giving you flexibility to access endpoints not covered by standard modules.",
+                "id": "1Icgfpe5BxLASh1sWHfxV"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CImlr9TEDUaqusRevgK21",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "Jeii74fecnfw7ebbJi6q-",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Update a Contact",
+                "id": "-PmjlwTNEootErXuyv7Ik"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "update-a-contact",
+              "legacyHash": "Jeii7"
+            }
+          },
+          {
+            "id": "_0OsRcHgneRoZIi4VxGrp",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Create a new contact or update the details of an existing one.",
+                "id": "2SR5jMfNSzp_pXIjXcAF_"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-GOL-dhoTLFjyutSb5z4A",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "mQlwGTq1CzuFM92Fz9xBi",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Watch Articles",
+                "id": "nZYCpEeQXSvKPGkiqqkd_"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "watch-articles",
+              "legacyHash": "mQlwG"
+            }
+          },
+          {
+            "id": "lAqZvMDZg07h31OLRqhh9",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Triggers when a new article is added, letting you know as soon as fresh content becomes available.",
+                "id": "ewO6iZzmLTwHtl-EnXg8g"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "-I5Fb9lfmWuls-62V5PNK",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "naf480yclRJDQEXJJTVYz",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Watch Contacts",
+                "id": "uJ4ka-kfjz_elPG8qDd58"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "watch-contacts",
+              "legacyHash": "naf48"
+            }
+          },
+          {
+            "id": "naQ6D9Sw_YhEWKO1545rV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Triggers when a new contact is added to your account.",
+                "id": "_ddLZktrQnJVfclkFPEpj"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "48gdsZDEXdReCYhG38fIV",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "qSMrT87IORgkWjq_p66GN",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Watch Conversations",
+                "id": "4unfKDPpIkDfFK94I-U6U"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "watch-conversations",
+              "legacyHash": "qSMrT"
+            }
+          },
+          {
+            "id": "iYsOoA4ZxI1Kzhup_ll-2",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Triggers whenever a new conversation is started.",
+                "id": "hT2sXJ6TVi_eKSgweA-aR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XQAi2tMK0c0BSK3njEfYw",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "U1QWScJV8gIb8eYdWgO3N"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "XQAi2"
+        }
+      },
+      {
+        "id": "eDR6NehzRdX-oLU1D5QXu",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "HI09aevB_ehQMEvODDcdV"
+          },
+          {
+            "id": "CAzmcb5RaaSricZ2MJwqE",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "2bgJLMJBqPWMjTPU7aR4w"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "Oq4WtY7yev8vE7imPxzgE"
+          },
+          {
+            "id": "TJg6rZ9jzm9prWWK8SlKu",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "ho2EpbNwPObasvXL-O3Ut"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "zlbHcvFSykazVIhZfOK1l"
+          }
+        ]
+      },
+      {
+        "id": "dNZUaux_DEOJEn710rXPj",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Charla resources ",
+            "id": "cecqg-e3FmK6q30RRKI7r"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "charla-resources",
+          "legacyHash": "dNZUa"
+        }
+      },
+      {
+        "id": "bNRv2Yh5WOBSnARIsMdjl",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "o_0qlawzqbyO13fdX51nD",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "sgMq2iNk_G40opgkJ_6wV",
+            "data": {
+              "href": "https://community.make.com/search?q=Charla",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "kJg4AJ3i6OzCBG62v82DW",
+                "text": "Join discussions about  Charla on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "UGQrkk0Nz-fx7HHXZjGNw",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "xbHLew73iFBp2HQ-OD_au",
+            "data": {
+              "href": "https://charla.com/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "VUy0uw14Ij3rlB7oD2o18",
+                "text": "Visit Charla website "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "8HJIrtPGeFdor70D6_gG1",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "-mM1JgFXSUn9znN1Egz0q",
+            "data": {
+              "href": "https://codexsolutionsint.com/charla",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "1jLlpUTTe0tUqucQ0-3FL",
+                "text": "Access Charla help documentation "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "BrvgOuaS1yPPTrxD672wk",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "x6HaRo5sfPWhjVTaBaDoN",
+            "data": {
+              "href": "https://www.make.com/en/hq/app-invitation/5f87ad2382efefc132b07dbd871f9638",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "PY0WUWxMJrihsuoeuLvoq",
+                "text": "View Charla API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "6SxjDoG13_TrKSi0tBqQC",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "Qx_F5bwxwkR6flUplEK8b",
+            "data": {
+              "href": "https://www.make.com/en/integrations/charla-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "kU_mqG08rOiPT-clu761v",
+                "text": "Visit Charla page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "GEI3qfIqDbID_sufPvRlx",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Help us improve this documentation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "help-us-improve-this-documentation",
+          "legacyHash": "GEI3q"
+        }
+      },
+      {
+        "children": [
+          {
+            "text": "Have experience with Charla? We'd love to hear from you. If you have insights, use cases, or technical details that could help other users, please consider:"
+          }
+        ],
+        "type": "paragraph",
+        "id": "9-tyzH3Rpm31hofEozBi0"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Using the feedback widget at the bottom of the page"
+          }
+        ],
+        "id": "wK5RDgYVpRHdeWz-Gn7SB"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Contacting the developer to request public documentation - https://f.make.com/r/reachout?app_name=Charla&app_slug=charla-community&app_unique_id=charla-d8xcin"
+          }
+        ],
+        "id": "YP9TK3EAnWn0mVFp91sUS",
+        "listStart": 2
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Sharing your knowledge in the "
+          },
+          {
+            "id": "kaONHdQBaStxTdFAI1tQF",
+            "type": "link",
+            "data": {
+              "href": "https://community.make.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make community"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "id": "rnASmkmLCDtrti6IuRUPX",
+        "listStart": 3
+      },
+      {
+        "children": [
+          {
+            "text": "Your feedback helps us create better documentation for everyone."
+          }
+        ],
+        "type": "paragraph",
+        "id": "FQb8lV6TiyQdvpqAhi1AS"
+      },
+      {
+        "id": "VTpUWxJ1aqA-22Pn8GVZ4",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "rluCXJHagve1kVz_nY-ou",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "iRiMux6FjrVkEaZj1OHCc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "DL_5LZoutNRVmXqloU2xj",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-13T16:22:57.946Z",
+  "createdAt": "2025-11-29T14:35:19.492Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-ixBNddI99O3BlooE2ENFp",
+    "children": [],
+    "isHidden": false,
+    "name": "Cerebras AI",
+    "urlKey": "cerebras-ai",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-6xmzGtdug2h4v9pIdY1NK",
+    "isCategory": false,
+    "categoryName": "chatbase",
+    "children": [],
+    "name": "Chatbase",
+    "urlKey": "6xmz-chatbase",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

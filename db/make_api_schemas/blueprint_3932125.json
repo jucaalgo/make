@@ -1,0 +1,2570 @@
+{
+  "code": "OK",
+  "response": {
+    "blueprint": {
+      "flow": [
+        {
+          "id": 1,
+          "mapper": {
+            "limit": "100",
+            "query": "mimeType = 'application/vnd.google-apps.folder' and name contains '@' and trashed = false",
+            "select": "list",
+            "folderId": "/1xSgd1s1DmyDXw7Vhf3ttKvlYoUGPFubw/1K_24Sq36rkClKijWelODujM59ZX1h34W",
+            "retrieve": "folder",
+            "searchType": "custom",
+            "destination": "drive",
+            "searchScope": "limit"
+          },
+          "module": "google-drive:searchForFilesFolders",
+          "version": 4,
+          "metadata": {
+            "expect": [
+              {
+                "name": "select",
+                "type": "select",
+                "label": "Select the Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "map",
+                    "list"
+                  ]
+                }
+              },
+              {
+                "name": "retrieve",
+                "type": "select",
+                "label": "Retrieve",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "file",
+                    "folder",
+                    "file_folder"
+                  ]
+                }
+              },
+              {
+                "name": "searchType",
+                "type": "select",
+                "label": "Search",
+                "validate": {
+                  "enum": [
+                    "title",
+                    "fulltext",
+                    "custom"
+                  ]
+                }
+              },
+              {
+                "name": "limit",
+                "type": "uinteger",
+                "label": "Limit"
+              },
+              {
+                "name": "destination",
+                "type": "select",
+                "label": "Choose a Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "searchScope",
+                "type": "select",
+                "label": "Search Scope",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "everywhere",
+                    "limit"
+                  ]
+                }
+              },
+              {
+                "name": "folderId",
+                "type": "folder",
+                "label": "Choose a Folder"
+              },
+              {
+                "name": "query",
+                "type": "text",
+                "label": "Query",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "select": {
+                  "label": "Select from the list"
+                },
+                "folderId": {
+                  "mode": "chose",
+                  "path": [
+                    "Jonathan",
+                    "00_AUTOMATIZACION_IG"
+                  ]
+                },
+                "retrieve": {
+                  "label": "Folders"
+                },
+                "searchType": {
+                  "label": "Enter custom search query"
+                },
+                "destination": {
+                  "label": "My Drive"
+                },
+                "searchScope": {
+                  "label": "Limit to the chosen folder"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google-restricted"
+                  },
+                  "label": "My Google (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 0,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google-restricted",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7052685
+          }
+        },
+        {
+          "id": 3,
+          "mapper": {
+            "limit": "100",
+            "query": "mimeType = 'application/vnd.google-apps.folder' and not name contains '[OK]' and trashed = false",
+            "select": "list",
+            "folderId": "{{1.id}}",
+            "retrieve": "folder",
+            "searchType": "custom",
+            "destination": "drive",
+            "searchScope": "limit"
+          },
+          "module": "google-drive:searchForFilesFolders",
+          "version": 4,
+          "metadata": {
+            "expect": [
+              {
+                "name": "select",
+                "type": "select",
+                "label": "Select the Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "map",
+                    "list"
+                  ]
+                }
+              },
+              {
+                "name": "retrieve",
+                "type": "select",
+                "label": "Retrieve",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "file",
+                    "folder",
+                    "file_folder"
+                  ]
+                }
+              },
+              {
+                "name": "searchType",
+                "type": "select",
+                "label": "Search",
+                "validate": {
+                  "enum": [
+                    "title",
+                    "fulltext",
+                    "custom"
+                  ]
+                }
+              },
+              {
+                "name": "limit",
+                "type": "uinteger",
+                "label": "Limit"
+              },
+              {
+                "name": "destination",
+                "type": "select",
+                "label": "Choose a Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "searchScope",
+                "type": "select",
+                "label": "Search Scope",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "everywhere",
+                    "limit"
+                  ]
+                }
+              },
+              {
+                "name": "folderId",
+                "type": "folder",
+                "label": "Choose a Folder"
+              },
+              {
+                "name": "query",
+                "type": "text",
+                "label": "Query",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "select": {
+                  "label": "Select from the list"
+                },
+                "folderId": {
+                  "mode": "edit",
+                  "path": []
+                },
+                "retrieve": {
+                  "label": "Folders"
+                },
+                "searchType": {
+                  "label": "Enter custom search query"
+                },
+                "destination": {
+                  "label": "My Drive"
+                },
+                "searchScope": {
+                  "label": "Limit to the chosen folder"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google-restricted"
+                  },
+                  "label": "My Google (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 300,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google-restricted",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7052685
+          }
+        },
+        {
+          "id": 23,
+          "mapper": {
+            "limit": "10",
+            "query": "mimeType contains 'image/' and trashed = false",
+            "select": "list",
+            "folderId": "/{{3.id}}",
+            "retrieve": "file_folder",
+            "searchType": "custom",
+            "destination": "drive",
+            "searchScope": "limit"
+          },
+          "module": "google-drive:searchForFilesFolders",
+          "version": 4,
+          "metadata": {
+            "expect": [
+              {
+                "name": "select",
+                "type": "select",
+                "label": "Select the Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "map",
+                    "list"
+                  ]
+                }
+              },
+              {
+                "name": "retrieve",
+                "type": "select",
+                "label": "Retrieve",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "file",
+                    "folder",
+                    "file_folder"
+                  ]
+                }
+              },
+              {
+                "name": "searchType",
+                "type": "select",
+                "label": "Search",
+                "validate": {
+                  "enum": [
+                    "title",
+                    "fulltext",
+                    "custom"
+                  ]
+                }
+              },
+              {
+                "name": "limit",
+                "type": "uinteger",
+                "label": "Limit"
+              },
+              {
+                "name": "destination",
+                "type": "select",
+                "label": "Choose a Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "searchScope",
+                "type": "select",
+                "label": "Search Scope",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "everywhere",
+                    "limit"
+                  ]
+                }
+              },
+              {
+                "name": "folderId",
+                "type": "folder",
+                "label": "Choose a Folder"
+              },
+              {
+                "name": "query",
+                "type": "text",
+                "label": "Query",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "select": {
+                  "label": "Select from the list"
+                },
+                "folderId": {
+                  "mode": "edit",
+                  "path": []
+                },
+                "retrieve": {
+                  "label": "Files and folders"
+                },
+                "searchType": {
+                  "label": "Enter custom search query"
+                },
+                "destination": {
+                  "label": "My Drive"
+                },
+                "searchScope": {
+                  "label": "Limit to the chosen folder"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google-restricted"
+                  },
+                  "label": "My Google (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 600,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google-restricted",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7052685
+          }
+        },
+        {
+          "id": 36,
+          "mapper": {
+            "array": "{{23.id}}"
+          },
+          "module": "builtin:BasicFeeder",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "mode": "edit",
+                "name": "array",
+                "spec": [],
+                "type": "array",
+                "label": "Array"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "array": {
+                  "mode": "edit"
+                }
+              }
+            },
+            "designer": {
+              "x": 900,
+              "y": 0
+            }
+          },
+          "parameters": {}
+        },
+        {
+          "id": 30,
+          "mapper": {
+            "file": "{{23.id}}",
+            "select": "map",
+            "formatDrawings": "image/jpeg",
+            "formatDocuments": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "formatSpreadsheets": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "formatPresentations": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+          },
+          "module": "google-drive:getAFile",
+          "version": 4,
+          "metadata": {
+            "expect": [
+              {
+                "name": "select",
+                "type": "select",
+                "label": "Enter a File ID",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "map",
+                    "value"
+                  ]
+                }
+              },
+              {
+                "name": "formatDocuments",
+                "type": "select",
+                "label": "Convert Google Documents Files to Format",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "application/pdf",
+                    "application/vnd.oasis.opendocument.text",
+                    "text/html",
+                    "text/plain",
+                    "application/rtf",
+                    "text/markdown"
+                  ]
+                }
+              },
+              {
+                "name": "formatSpreadsheets",
+                "type": "select",
+                "label": "Convert Google Spreadsheets Files to Format",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    "application/x-vnd.oasis.opendocument.spreadsheet",
+                    "application/pdf",
+                    "text/csv"
+                  ]
+                }
+              },
+              {
+                "name": "formatPresentations",
+                "type": "select",
+                "label": "Convert Google Slides Files to Format",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                    "application/pdf"
+                  ]
+                }
+              },
+              {
+                "name": "formatDrawings",
+                "type": "select",
+                "label": "Convert Google Drawings Files to Format",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "image/jpeg",
+                    "image/png",
+                    "image/svg+xml",
+                    "application/pdf"
+                  ]
+                }
+              },
+              {
+                "name": "file",
+                "type": "text",
+                "label": "File ID",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "select": {
+                  "label": "Enter manually"
+                },
+                "formatDrawings": {
+                  "label": "JPEG"
+                },
+                "formatDocuments": {
+                  "label": "MS Word Document"
+                },
+                "formatSpreadsheets": {
+                  "label": "MS Excel"
+                },
+                "formatPresentations": {
+                  "label": "MS PowerPoint"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google-restricted"
+                  },
+                  "label": "My Google (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 1200,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google-restricted",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7052685
+          }
+        },
+        {
+          "id": 31,
+          "mapper": {
+            "file_data": "{{30.data}}",
+            "file_name": "{{30.name}}",
+            "useFileSearchStore": false
+          },
+          "module": "gemini-ai:uploadAFile",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "file_name",
+                "type": "text",
+                "label": "Name",
+                "required": true
+              },
+              {
+                "name": "file_data",
+                "type": "buffer",
+                "label": "Data",
+                "required": true
+              },
+              {
+                "name": "useFileSearchStore",
+                "type": "boolean",
+                "label": "Use File Search Store"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "useFileSearchStore": {
+                  "mode": "chose"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "gemini-ai-q9zyjp"
+                  },
+                  "label": "My Gemini AI connection"
+                }
+              }
+            },
+            "designer": {
+              "x": 1500,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:gemini-ai-q9zyjp",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7053345
+          }
+        },
+        {
+          "id": 32,
+          "mapper": {
+            "uri": "{{31.uri}}",
+            "name": "{{31.name}}",
+            "mimeType": "{{31.mimeType}}",
+            "webViewLink": "{{30.webViewLink}}",
+            "webContentLink": "{{30.webContentLink}}"
+          },
+          "module": "builtin:BasicAggregator",
+          "version": 1,
+          "metadata": {
+            "restore": {
+              "extra": {
+                "feeder": {
+                  "label": "Google Drive - Search for Files/Folders [23]"
+                },
+                "target": {
+                  "label": "Custom"
+                }
+              }
+            },
+            "designer": {
+              "x": 1800,
+              "y": 0
+            }
+          },
+          "parameters": {
+            "feeder": 23
+          }
+        },
+        {
+          "id": 28,
+          "mapper": {
+            "model": "gemini-2.5-flash",
+            "contents": [
+              {
+                "role": "user",
+                "parts": [
+                  {
+                    "text": "Actúa como una API de datos. Tu salida debe ser ÚNICAMENTE el objeto JSON, sin introducciones, sin explicaciones y SIN marcas de bloque de código Markdown (```). Comienza directamente con { y termina con }\nAnaliza estas imágenes como un único carrusel de Instagram. Genera 6 copys (<25 palabras) en JSON: opcion_1 (Emotiva), opcion_2 (Acción), opcion_3 (Técnica), opcion_4 (Minimalista), opcion_5 (Viral), opcion_6 (Creativa). Responde SOLO el JSON.",
+                    "type": "text"
+                  },
+                  {
+                    "type": "file",
+                    "file_data": {
+                      "file_uri": "{{32.array[].uri}}",
+                      "mime_type": "{{get(map(32.array; \"\"\"mimeType\"\"\"); 1)}}"
+                    }
+                  }
+                ]
+              }
+            ],
+            "generationConfig": {
+              "imageConfig": {},
+              "thinkingConfig": {},
+              "responseModalities": [
+                "text"
+              ]
+            },
+            "system_instruction": {}
+          },
+          "module": "gemini-ai:createACompletionGeminiPro",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "model",
+                "type": "select",
+                "label": "AI Model",
+                "required": true
+              },
+              {
+                "name": "contents",
+                "spec": [
+                  {
+                    "name": "role",
+                    "type": "select",
+                    "label": "Role",
+                    "options": [
+                      {
+                        "label": "User",
+                        "value": "user"
+                      },
+                      {
+                        "label": "Model",
+                        "value": "model"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "parts",
+                    "spec": [
+                      {
+                        "name": "type",
+                        "type": "select",
+                        "label": "Message Type",
+                        "options": [
+                          {
+                            "label": "Text",
+                            "value": "text",
+                            "nested": [
+                              {
+                                "name": "text",
+                                "type": "text",
+                                "label": "Text",
+                                "required": false
+                              }
+                            ]
+                          },
+                          {
+                            "label": "File",
+                            "value": "file",
+                            "nested": [
+                              {
+                                "name": "file_data",
+                                "spec": [
+                                  {
+                                    "name": "mime_type",
+                                    "type": "text",
+                                    "label": "Mime Type",
+                                    "required": false
+                                  },
+                                  {
+                                    "help": "You get this from the 'Upload a File' module.",
+                                    "name": "file_uri",
+                                    "type": "text",
+                                    "label": "File URI",
+                                    "required": false
+                                  }
+                                ],
+                                "type": "collection",
+                                "label": "File Data",
+                                "required": false
+                              }
+                            ]
+                          },
+                          {
+                            "label": "Function Call",
+                            "value": "functionCall",
+                            "nested": [
+                              {
+                                "name": "functionCall",
+                                "spec": [
+                                  {
+                                    "help": "The name of the function to call.",
+                                    "name": "name",
+                                    "type": "text",
+                                    "label": "Name",
+                                    "required": true,
+                                    "validate": {
+                                      "max": 64
+                                    }
+                                  },
+                                  {
+                                    "help": "The function parameters and values in JSON object format.",
+                                    "name": "args",
+                                    "type": "json",
+                                    "label": "Arguments"
+                                  },
+                                  {
+                                    "help": "The unique ID of the function call.",
+                                    "name": "id",
+                                    "type": "text",
+                                    "label": "Function Call ID"
+                                  }
+                                ],
+                                "type": "collection",
+                                "label": "Function Call"
+                              }
+                            ]
+                          },
+                          {
+                            "label": "Function Response",
+                            "value": "functionResponse",
+                            "nested": [
+                              {
+                                "name": "functionResponse",
+                                "spec": [
+                                  {
+                                    "help": "The name of the function to call.",
+                                    "name": "name",
+                                    "type": "text",
+                                    "label": "Name",
+                                    "required": true,
+                                    "validate": {
+                                      "max": 64
+                                    }
+                                  },
+                                  {
+                                    "help": "The function response in JSON object format.",
+                                    "name": "response",
+                                    "type": "json",
+                                    "label": "Response",
+                                    "required": true
+                                  }
+                                ],
+                                "type": "collection",
+                                "label": "Function Response"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "thoughtSignature",
+                        "type": "text",
+                        "label": "Thought Signature"
+                      }
+                    ],
+                    "type": "array",
+                    "label": "Parts"
+                  }
+                ],
+                "type": "array",
+                "label": "Messages",
+                "required": true
+              },
+              {
+                "name": "system_instruction",
+                "spec": [
+                  {
+                    "name": "parts",
+                    "spec": {
+                      "name": "value",
+                      "spec": [
+                        {
+                          "name": "text",
+                          "type": "text",
+                          "label": "Value"
+                        }
+                      ],
+                      "type": "collection",
+                      "label": "Prompt"
+                    },
+                    "type": "array",
+                    "label": "Prompts"
+                  }
+                ],
+                "type": "collection",
+                "label": "System Instructions"
+              },
+              {
+                "name": "safetySettings",
+                "spec": [
+                  {
+                    "name": "category",
+                    "type": "select",
+                    "label": "Category",
+                    "options": [
+                      {
+                        "label": "Harassment content",
+                        "value": "HARM_CATEGORY_HARASSMENT"
+                      },
+                      {
+                        "label": "Hate speech and content",
+                        "value": "HARM_CATEGORY_HATE_SPEECH"
+                      },
+                      {
+                        "label": "Sexually explicit content.",
+                        "value": "HARM_CATEGORY_SEXUALLY_EXPLICIT"
+                      },
+                      {
+                        "label": "Dangerous content:",
+                        "value": "HARM_CATEGORY_DANGEROUS_CONTENT"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "threshold",
+                    "type": "select",
+                    "label": "Threshold",
+                    "options": [
+                      {
+                        "label": "Block low and above.",
+                        "value": "BLOCK_LOW_AND_ABOVE"
+                      },
+                      {
+                        "label": "Block medium and above.",
+                        "value": "BLOCK_MEDIUM_AND_ABOVE"
+                      },
+                      {
+                        "label": "Block only high.",
+                        "value": "BLOCK_ONLY_HIGH"
+                      },
+                      {
+                        "label": "Block none.",
+                        "value": "BLOCK_NONE"
+                      }
+                    ]
+                  }
+                ],
+                "type": "array",
+                "label": "Safety Settings"
+              },
+              {
+                "name": "generationConfig",
+                "spec": [
+                  {
+                    "name": "stopSequences",
+                    "spec": {
+                      "name": "value",
+                      "type": "text",
+                      "label": "Stop Sequence"
+                    },
+                    "type": "array",
+                    "label": "Stop Sequences"
+                  },
+                  {
+                    "name": "responseModalities",
+                    "type": "select",
+                    "label": "Response Modalities",
+                    "multiple": true,
+                    "validate": {
+                      "enum": [
+                        "text",
+                        "image"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "maxOutputTokens",
+                    "type": "number",
+                    "label": "Max Output Tokens"
+                  },
+                  {
+                    "name": "temperature",
+                    "type": "number",
+                    "label": "Temperature",
+                    "validate": {
+                      "max": 1,
+                      "min": 0
+                    }
+                  },
+                  {
+                    "name": "topP",
+                    "type": "number",
+                    "label": "Top P",
+                    "validate": {
+                      "max": 1,
+                      "min": 0
+                    }
+                  },
+                  {
+                    "name": "topK",
+                    "type": "number",
+                    "label": "Top K"
+                  },
+                  {
+                    "name": "thinkingConfig",
+                    "spec": [
+                      {
+                        "name": "thinkingBudget",
+                        "type": "number",
+                        "label": "Thinking Budget"
+                      },
+                      {
+                        "name": "include_thoughts",
+                        "type": "boolean",
+                        "label": "Include Thoughts"
+                      },
+                      {
+                        "name": "thinking_level",
+                        "type": "select",
+                        "label": "Thinking Level",
+                        "validate": {
+                          "enum": [
+                            "low",
+                            "high"
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "collection",
+                    "label": "Thinking Config"
+                  },
+                  {
+                    "name": "mediaResolution",
+                    "type": "select",
+                    "label": "Media Resolution",
+                    "validate": {
+                      "enum": [
+                        "media_resolution_low",
+                        "media_resolution_medium",
+                        "media_resolution_high"
+                      ]
+                    }
+                  },
+                  {
+                    "name": "imageConfig",
+                    "spec": [
+                      {
+                        "name": "imageSize",
+                        "type": "select",
+                        "label": "Image Size",
+                        "validate": {
+                          "enum": [
+                            "1K",
+                            "2K",
+                            "4K"
+                          ]
+                        }
+                      }
+                    ],
+                    "type": "collection",
+                    "label": "Image Configuration"
+                  },
+                  {
+                    "name": "responseMimeType",
+                    "type": "select",
+                    "label": "Response Format"
+                  }
+                ],
+                "type": "collection",
+                "label": "Generation configurations"
+              },
+              {
+                "name": "tools",
+                "type": "any",
+                "label": "Tools"
+              },
+              {
+                "name": "tool_config",
+                "type": "any",
+                "label": "Tool Config"
+              },
+              {
+                "name": "function_declarations_context",
+                "type": "boolean",
+                "label": "Function Declarations Grounding"
+              },
+              {
+                "name": "url_context",
+                "type": "boolean",
+                "label": "URL Context"
+              },
+              {
+                "name": "google_search_context",
+                "type": "boolean",
+                "label": "Google Search Grounding"
+              },
+              {
+                "name": "code_execution",
+                "type": "boolean",
+                "label": "Code Execution"
+              },
+              {
+                "name": "google_maps_context",
+                "type": "boolean",
+                "label": "Google Maps Grounding"
+              },
+              {
+                "name": "file_search_store_context",
+                "type": "boolean",
+                "label": "File Search Store Context"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "model": {
+                  "mode": "chose",
+                  "label": "Gemini 2.5 Flash"
+                },
+                "contents": {
+                  "mode": "chose",
+                  "items": [
+                    {
+                      "role": {
+                        "mode": "chose",
+                        "label": "User"
+                      },
+                      "parts": {
+                        "mode": "chose",
+                        "items": [
+                          {
+                            "type": {
+                              "mode": "chose",
+                              "label": "Text"
+                            }
+                          },
+                          {
+                            "type": {
+                              "mode": "chose",
+                              "label": "File"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "url_context": {
+                  "mode": "chose"
+                },
+                "code_execution": {
+                  "mode": "chose"
+                },
+                "safetySettings": {
+                  "mode": "chose"
+                },
+                "generationConfig": {
+                  "nested": {
+                    "imageConfig": {
+                      "nested": {
+                        "imageSize": {
+                          "mode": "chose",
+                          "label": "Empty"
+                        }
+                      }
+                    },
+                    "stopSequences": {
+                      "mode": "chose"
+                    },
+                    "thinkingConfig": {
+                      "nested": {
+                        "thinking_level": {
+                          "mode": "chose",
+                          "label": "Empty"
+                        },
+                        "include_thoughts": {
+                          "mode": "chose"
+                        }
+                      }
+                    },
+                    "mediaResolution": {
+                      "mode": "chose",
+                      "label": "Empty"
+                    },
+                    "responseMimeType": {
+                      "mode": "chose",
+                      "label": "Empty"
+                    },
+                    "responseModalities": {
+                      "mode": "chose"
+                    }
+                  }
+                },
+                "system_instruction": {
+                  "nested": {
+                    "parts": {
+                      "mode": "chose"
+                    }
+                  }
+                },
+                "google_maps_context": {
+                  "mode": "chose"
+                },
+                "google_search_context": {
+                  "mode": "chose"
+                },
+                "file_search_store_context": {
+                  "mode": "chose"
+                },
+                "function_declarations_context": {
+                  "mode": "chose"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "gemini-ai-q9zyjp"
+                  },
+                  "label": "My Gemini AI connection"
+                }
+              }
+            },
+            "designer": {
+              "x": 2100,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:gemini-ai-q9zyjp",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7053345
+          }
+        },
+        {
+          "id": 34,
+          "mapper": {
+            "json": "{{28.result}}"
+          },
+          "module": "json:ParseJSON",
+          "version": 1,
+          "metadata": {
+            "expect": [
+              {
+                "name": "json",
+                "type": "text",
+                "label": "JSON string",
+                "required": true
+              }
+            ],
+            "restore": {
+              "parameters": {
+                "type": {
+                  "label": "Choose a data structure"
+                }
+              }
+            },
+            "designer": {
+              "x": 2400,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "type",
+                "type": "udt",
+                "label": "Data structure"
+              }
+            ]
+          },
+          "parameters": {
+            "type": ""
+          }
+        },
+        {
+          "id": 22,
+          "mapper": {
+            "from": "drive",
+            "mode": "select",
+            "values": {
+              "0": "{{3.id}}",
+              "1": "{{3.name}}",
+              "2": "{{1.name}}",
+              "3": "{{join(map(32.array; \"webViewLink\"); \", \")}}",
+              "4": "{{34.opcion_1}}",
+              "5": "{{34.opcion_2}}",
+              "6": "{{34.opcion_3}}",
+              "7": "{{34.opcion_4}}",
+              "8": "{{34.opcion_5}}",
+              "9": "{{34.opcion_6}}",
+              "11": "Pendiente",
+              "12": "{{3.createdTime}}"
+            },
+            "sheetId": "Automatización Instagram con IA y Sheets",
+            "spreadsheetId": "/1xSgd1s1DmyDXw7Vhf3ttKvlYoUGPFubw/1K_24Sq36rkClKijWelODujM59ZX1h34W/1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+            "includesHeaders": true,
+            "insertDataOption": "INSERT_ROWS",
+            "valueInputOption": "USER_ENTERED",
+            "insertUnformatted": false
+          },
+          "module": "google-sheets:addRow",
+          "version": 2,
+          "metadata": {
+            "expect": [
+              {
+                "name": "mode",
+                "type": "select",
+                "label": "Search Method",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "select",
+                    "fromAll",
+                    "map"
+                  ]
+                }
+              },
+              {
+                "name": "insertUnformatted",
+                "type": "boolean",
+                "label": "Unformatted",
+                "required": true
+              },
+              {
+                "name": "valueInputOption",
+                "type": "select",
+                "label": "Value input option",
+                "validate": {
+                  "enum": [
+                    "USER_ENTERED",
+                    "RAW"
+                  ]
+                }
+              },
+              {
+                "name": "insertDataOption",
+                "type": "select",
+                "label": "Insert data option",
+                "validate": {
+                  "enum": [
+                    "INSERT_ROWS",
+                    "OVERWRITE"
+                  ]
+                }
+              },
+              {
+                "name": "from",
+                "type": "select",
+                "label": "Drive",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "drive",
+                    "share",
+                    "team"
+                  ]
+                }
+              },
+              {
+                "name": "spreadsheetId",
+                "type": "file",
+                "label": "Spreadsheet ID",
+                "required": true
+              },
+              {
+                "name": "sheetId",
+                "type": "select",
+                "label": "Sheet Name",
+                "required": true
+              },
+              {
+                "name": "includesHeaders",
+                "type": "select",
+                "label": "Table contains headers",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    true,
+                    false
+                  ]
+                }
+              },
+              {
+                "name": "values",
+                "spec": [
+                  {
+                    "name": "0",
+                    "type": "text",
+                    "label": "ID_Drive (A)"
+                  },
+                  {
+                    "name": "1",
+                    "type": "text",
+                    "label": "Nombre_Archivo (B)"
+                  },
+                  {
+                    "name": "2",
+                    "type": "text",
+                    "label": "Contexto (C)"
+                  },
+                  {
+                    "name": "3",
+                    "type": "text",
+                    "label": "Link_Visual (D)"
+                  },
+                  {
+                    "name": "4",
+                    "type": "text",
+                    "label": "Opcion_1 (E)"
+                  },
+                  {
+                    "name": "5",
+                    "type": "text",
+                    "label": "Opcion_2 (F)"
+                  },
+                  {
+                    "name": "6",
+                    "type": "text",
+                    "label": "Opcion_3 (G)"
+                  },
+                  {
+                    "name": "7",
+                    "type": "text",
+                    "label": "Opcion_4 (H)"
+                  },
+                  {
+                    "name": "8",
+                    "type": "text",
+                    "label": "Opcion_5 (I)"
+                  },
+                  {
+                    "name": "9",
+                    "type": "text",
+                    "label": "Opcion_6 (J)"
+                  },
+                  {
+                    "name": "10",
+                    "type": "text",
+                    "label": "Seleccion (K)"
+                  },
+                  {
+                    "name": "11",
+                    "type": "text",
+                    "label": "Estado (L)"
+                  },
+                  {
+                    "name": "12",
+                    "type": "text",
+                    "label": "Fecha (M)"
+                  },
+                  {
+                    "name": "13",
+                    "type": "text",
+                    "label": "(N)"
+                  },
+                  {
+                    "name": "14",
+                    "type": "text",
+                    "label": "(O)"
+                  },
+                  {
+                    "name": "15",
+                    "type": "text",
+                    "label": "(P)"
+                  },
+                  {
+                    "name": "16",
+                    "type": "text",
+                    "label": "(Q)"
+                  },
+                  {
+                    "name": "17",
+                    "type": "text",
+                    "label": "(R)"
+                  },
+                  {
+                    "name": "18",
+                    "type": "text",
+                    "label": "(S)"
+                  },
+                  {
+                    "name": "19",
+                    "type": "text",
+                    "label": "(T)"
+                  },
+                  {
+                    "name": "20",
+                    "type": "text",
+                    "label": "(U)"
+                  },
+                  {
+                    "name": "21",
+                    "type": "text",
+                    "label": "(V)"
+                  },
+                  {
+                    "name": "22",
+                    "type": "text",
+                    "label": "(W)"
+                  },
+                  {
+                    "name": "23",
+                    "type": "text",
+                    "label": "(X)"
+                  }
+                ],
+                "type": "collection",
+                "label": "Values"
+              }
+            ],
+            "restore": {
+              "expect": {
+                "from": {
+                  "label": "My Drive"
+                },
+                "mode": {
+                  "label": "Search by path"
+                },
+                "sheetId": {
+                  "label": "Automatización Instagram con IA y Sheets"
+                },
+                "spreadsheetId": {
+                  "path": [
+                    "Jonathan",
+                    "00_AUTOMATIZACION_IG",
+                    "Planner Instagram"
+                  ]
+                },
+                "includesHeaders": {
+                  "label": "Yes",
+                  "nested": [
+                    {
+                      "name": "values",
+                      "spec": [
+                        {
+                          "name": "0",
+                          "type": "text",
+                          "label": "ID_Drive (A)"
+                        },
+                        {
+                          "name": "1",
+                          "type": "text",
+                          "label": "Nombre_Archivo (B)"
+                        },
+                        {
+                          "name": "2",
+                          "type": "text",
+                          "label": "Contexto (C)"
+                        },
+                        {
+                          "name": "3",
+                          "type": "text",
+                          "label": "Link_Visual (D)"
+                        },
+                        {
+                          "name": "4",
+                          "type": "text",
+                          "label": "Opcion_1 (E)"
+                        },
+                        {
+                          "name": "5",
+                          "type": "text",
+                          "label": "Opcion_2 (F)"
+                        },
+                        {
+                          "name": "6",
+                          "type": "text",
+                          "label": "Opcion_3 (G)"
+                        },
+                        {
+                          "name": "7",
+                          "type": "text",
+                          "label": "Opcion_4 (H)"
+                        },
+                        {
+                          "name": "8",
+                          "type": "text",
+                          "label": "Opcion_5 (I)"
+                        },
+                        {
+                          "name": "9",
+                          "type": "text",
+                          "label": "Opcion_6 (J)"
+                        },
+                        {
+                          "name": "10",
+                          "type": "text",
+                          "label": "Seleccion (K)"
+                        },
+                        {
+                          "name": "11",
+                          "type": "text",
+                          "label": "Estado (L)"
+                        },
+                        {
+                          "name": "12",
+                          "type": "text",
+                          "label": "Fecha (M)"
+                        },
+                        {
+                          "name": "13",
+                          "type": "text",
+                          "label": "(N)"
+                        },
+                        {
+                          "name": "14",
+                          "type": "text",
+                          "label": "(O)"
+                        },
+                        {
+                          "name": "15",
+                          "type": "text",
+                          "label": "(P)"
+                        },
+                        {
+                          "name": "16",
+                          "type": "text",
+                          "label": "(Q)"
+                        },
+                        {
+                          "name": "17",
+                          "type": "text",
+                          "label": "(R)"
+                        },
+                        {
+                          "name": "18",
+                          "type": "text",
+                          "label": "(S)"
+                        },
+                        {
+                          "name": "19",
+                          "type": "text",
+                          "label": "(T)"
+                        },
+                        {
+                          "name": "20",
+                          "type": "text",
+                          "label": "(U)"
+                        },
+                        {
+                          "name": "21",
+                          "type": "text",
+                          "label": "(V)"
+                        },
+                        {
+                          "name": "22",
+                          "type": "text",
+                          "label": "(W)"
+                        },
+                        {
+                          "name": "23",
+                          "type": "text",
+                          "label": "(X)"
+                        }
+                      ],
+                      "type": "collection",
+                      "label": "Values"
+                    }
+                  ]
+                },
+                "insertDataOption": {
+                  "mode": "chose",
+                  "label": "Insert rows"
+                },
+                "valueInputOption": {
+                  "mode": "chose",
+                  "label": "User entered"
+                },
+                "insertUnformatted": {
+                  "mode": "chose"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google"
+                  },
+                  "label": "My Google connection (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 2700,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7054313
+          }
+        },
+        {
+          "id": 37,
+          "mapper": {
+            "file": "{{3.id}}",
+            "title": "OK_{{3.name}}",
+            "select": "map",
+            "changeContent": false
+          },
+          "module": "google-drive:updateAFile",
+          "version": 4,
+          "metadata": {
+            "expect": [
+              {
+                "name": "select",
+                "type": "select",
+                "label": "Enter a File ID",
+                "required": true,
+                "validate": {
+                  "enum": [
+                    "map",
+                    "value"
+                  ]
+                }
+              },
+              {
+                "name": "title",
+                "type": "text",
+                "label": "New Updated File Name"
+              },
+              {
+                "name": "description",
+                "type": "text",
+                "label": "File Description"
+              },
+              {
+                "name": "changeContent",
+                "type": "boolean",
+                "label": "Change File Content",
+                "required": true
+              },
+              {
+                "name": "keepRevisionForever",
+                "type": "boolean",
+                "label": "Keep Revision Forever"
+              },
+              {
+                "name": "file",
+                "type": "text",
+                "label": "File ID",
+                "required": true
+              }
+            ],
+            "restore": {
+              "expect": {
+                "select": {
+                  "label": "Enter manually"
+                },
+                "keepRevisionForever": {
+                  "mode": "chose"
+                }
+              },
+              "parameters": {
+                "__IMTCONN__": {
+                  "data": {
+                    "scoped": "true",
+                    "connection": "google-restricted"
+                  },
+                  "label": "My Google (jucaalgo@gmail.com)"
+                }
+              }
+            },
+            "designer": {
+              "x": 3000,
+              "y": 0
+            },
+            "parameters": [
+              {
+                "name": "__IMTCONN__",
+                "type": "account:google-restricted",
+                "label": "Connection",
+                "required": true
+              }
+            ]
+          },
+          "parameters": {
+            "__IMTCONN__": 7052685
+          }
+        }
+      ],
+      "name": "RevisionFotos",
+      "metadata": {
+        "instant": false,
+        "version": 1,
+        "designer": {
+          "orphans": [],
+          "samples": {
+            "1": {
+              "id": "1DRRw6Vz18k_GT7WnPfndIab93afVKlwS",
+              "kind": "drive#file",
+              "name": "@ninosbravos , @inverfest",
+              "owners": [
+                {
+                  "me": false,
+                  "kind": "drive#user",
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "permissionId": "04021799227798587820"
+                }
+              ],
+              "shared": true,
+              "spaces": [
+                "drive"
+              ],
+              "parents": [
+                "1K_24Sq36rkClKijWelODujM59ZX1h34W"
+              ],
+              "starred": false,
+              "trashed": false,
+              "version": "13",
+              "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+shared",
+              "mimeType": "application/vnd.google-apps.folder",
+              "ownedByMe": false,
+              "viewedByMe": true,
+              "createdTime": "2026-01-20T16:05:57.787Z",
+              "permissions": [
+                {
+                  "id": "04021799227798587820",
+                  "kind": "drive#permission",
+                  "role": "owner",
+                  "type": "user",
+                  "deleted": null,
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "pendingOwner": null,
+                  "allowFileDiscovery": null
+                }
+              ],
+              "webViewLink": "https://drive.google.com/drive/folders/1DRRw6Vz18k_GT7WnPfndIab93afVKlwS",
+              "__IMTINDEX__": 1,
+              "capabilities": {
+                "canCopy": false,
+                "canEdit": true,
+                "canShare": true,
+                "canTrash": false,
+                "canDelete": false,
+                "canRename": true,
+                "canComment": true,
+                "canUntrash": false,
+                "canDownload": true,
+                "canReadLabels": false,
+                "canAddChildren": true,
+                "canListChildren": true,
+                "canModifyLabels": false,
+                "canModifyContent": true,
+                "canReadRevisions": false,
+                "canRemoveChildren": true,
+                "canAcceptOwnership": false,
+                "canAddMyDriveParent": false,
+                "canMoveItemOutOfDrive": false,
+                "canMoveItemWithinDrive": true,
+                "canRemoveMyDriveParent": true,
+                "canMoveItemIntoTeamDrive": false,
+                "canMoveChildrenWithinDrive": true,
+                "canModifyContentRestriction": false,
+                "canRemoveContentRestriction": false,
+                "canEnableInheritedPermissions": true,
+                "canChangeSecurityUpdateEnabled": false,
+                "canChangeViewersCanCopyContent": false,
+                "canDisableInheritedPermissions": true,
+                "canChangeItemDownloadRestriction": false,
+                "canModifyOwnerContentRestriction": false,
+                "canModifyEditorContentRestriction": false,
+                "canChangeCopyRequiresWriterPermission": false
+              },
+              "hasThumbnail": false,
+              "modifiedByMe": true,
+              "modifiedTime": "2026-01-20T16:18:31.882Z",
+              "__IMTLENGTH__": 1,
+              "permissionIds": [
+                "anyoneWithLink"
+              ],
+              "folderColorRgb": "#8f8f8f",
+              "quotaBytesUsed": "0",
+              "viewedByMeTime": "2026-01-20T22:24:29.789Z",
+              "isAppAuthorized": false,
+              "writersCanShare": true,
+              "modifiedByMeTime": "2026-01-20T16:18:31.882Z",
+              "thumbnailVersion": "0",
+              "explicitlyTrashed": false,
+              "lastModifyingUser": {
+                "me": true,
+                "kind": "drive#user",
+                "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                "displayName": "Juan Carlos Alvarado",
+                "emailAddress": "jucaalgo@gmail.com",
+                "permissionId": "16601922730504765853"
+              },
+              "linkShareMetadata": {
+                "securityUpdateEnabled": true,
+                "securityUpdateEligible": false
+              },
+              "downloadRestrictions": {
+                "itemDownloadRestriction": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                },
+                "effectiveDownloadRestrictionWithContext": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                }
+              },
+              "viewersCanCopyContent": true,
+              "copyRequiresWriterPermission": false,
+              "inheritedPermissionsDisabled": false
+            },
+            "3": {
+              "id": "13nBOVYFc04ksRkmqxvdoSM5zzD1ZYErw",
+              "kind": "drive#file",
+              "name": "Publicacion4",
+              "owners": [
+                {
+                  "me": true,
+                  "kind": "drive#user",
+                  "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                  "displayName": "Juan Carlos Alvarado",
+                  "emailAddress": "jucaalgo@gmail.com",
+                  "permissionId": "16601922730504765853"
+                }
+              ],
+              "shared": true,
+              "spaces": [
+                "drive"
+              ],
+              "parents": [
+                "1DRRw6Vz18k_GT7WnPfndIab93afVKlwS"
+              ],
+              "starred": false,
+              "trashed": false,
+              "version": "3",
+              "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+shared",
+              "mimeType": "application/vnd.google-apps.folder",
+              "ownedByMe": true,
+              "viewedByMe": true,
+              "createdTime": "2026-01-20T21:39:09.240Z",
+              "permissions": [
+                {
+                  "id": "04021799227798587820",
+                  "kind": "drive#permission",
+                  "role": "writer",
+                  "type": "user",
+                  "deleted": null,
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "pendingOwner": null,
+                  "allowFileDiscovery": null
+                }
+              ],
+              "webViewLink": "https://drive.google.com/drive/folders/13nBOVYFc04ksRkmqxvdoSM5zzD1ZYErw",
+              "__IMTINDEX__": 1,
+              "capabilities": {
+                "canCopy": false,
+                "canEdit": true,
+                "canShare": true,
+                "canTrash": true,
+                "canDelete": true,
+                "canRename": true,
+                "canComment": true,
+                "canUntrash": true,
+                "canDownload": true,
+                "canReadLabels": false,
+                "canAddChildren": true,
+                "canListChildren": true,
+                "canModifyLabels": false,
+                "canModifyContent": true,
+                "canReadRevisions": false,
+                "canRemoveChildren": true,
+                "canAcceptOwnership": false,
+                "canAddMyDriveParent": false,
+                "canMoveItemOutOfDrive": true,
+                "canMoveItemWithinDrive": true,
+                "canRemoveMyDriveParent": true,
+                "canMoveItemIntoTeamDrive": true,
+                "canMoveChildrenWithinDrive": true,
+                "canModifyContentRestriction": false,
+                "canRemoveContentRestriction": false,
+                "canEnableInheritedPermissions": true,
+                "canChangeSecurityUpdateEnabled": false,
+                "canChangeViewersCanCopyContent": false,
+                "canDisableInheritedPermissions": true,
+                "canChangeItemDownloadRestriction": false,
+                "canModifyOwnerContentRestriction": false,
+                "canModifyEditorContentRestriction": false,
+                "canChangeCopyRequiresWriterPermission": false
+              },
+              "hasThumbnail": false,
+              "modifiedByMe": true,
+              "modifiedTime": "2026-01-20T21:42:48.231Z",
+              "__IMTLENGTH__": 4,
+              "permissionIds": [
+                "anyoneWithLink"
+              ],
+              "folderColorRgb": "#8f8f8f",
+              "quotaBytesUsed": "0",
+              "viewedByMeTime": "2026-01-21T07:13:13.371Z",
+              "isAppAuthorized": false,
+              "writersCanShare": true,
+              "modifiedByMeTime": "2026-01-20T21:42:48.231Z",
+              "thumbnailVersion": "0",
+              "explicitlyTrashed": false,
+              "lastModifyingUser": {
+                "me": true,
+                "kind": "drive#user",
+                "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                "displayName": "Juan Carlos Alvarado",
+                "emailAddress": "jucaalgo@gmail.com",
+                "permissionId": "16601922730504765853"
+              },
+              "linkShareMetadata": {
+                "securityUpdateEnabled": true,
+                "securityUpdateEligible": false
+              },
+              "downloadRestrictions": {
+                "itemDownloadRestriction": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                },
+                "effectiveDownloadRestrictionWithContext": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                }
+              },
+              "viewersCanCopyContent": true,
+              "copyRequiresWriterPermission": false,
+              "inheritedPermissionsDisabled": false
+            },
+            "22": {
+              "updates": {
+                "updatedRows": 1,
+                "updatedCells": 12,
+                "updatedRange": "'Automatización Instagram con IA y Sheets'!A2:M2",
+                "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20",
+                "updatedColumns": 12
+              },
+              "rowNumber": 2,
+              "sheetName": "Automatización Instagram con IA y Sheets",
+              "tableRange": "'Automatización Instagram con IA y Sheets'!A1:M1",
+              "spreadsheetId": "1ImqajeH8iM6PH1IZ9IAGr7wdMUbtT5te5zl7CmF_E20"
+            },
+            "23": {
+              "id": "1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR",
+              "kind": "drive#file",
+              "name": "niñosbravosP-12.JPG",
+              "size": "708870",
+              "owners": [
+                {
+                  "me": false,
+                  "kind": "drive#user",
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "permissionId": "04021799227798587820"
+                }
+              ],
+              "shared": true,
+              "spaces": [
+                "drive"
+              ],
+              "parents": [
+                "13nBOVYFc04ksRkmqxvdoSM5zzD1ZYErw"
+              ],
+              "starred": false,
+              "trashed": false,
+              "version": "8",
+              "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/image/jpeg",
+              "mimeType": "image/jpeg",
+              "ownedByMe": false,
+              "viewedByMe": true,
+              "createdTime": "2026-01-20T16:06:17.482Z",
+              "md5Checksum": "537660aa895747fa28c4fae3da09155c",
+              "permissions": [
+                {
+                  "id": "04021799227798587820",
+                  "kind": "drive#permission",
+                  "role": "owner",
+                  "type": "user",
+                  "deleted": null,
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "pendingOwner": null,
+                  "allowFileDiscovery": null
+                }
+              ],
+              "webViewLink": "https://drive.google.com/file/d/1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR/view?usp=drivesdk",
+              "__IMTINDEX__": 1,
+              "capabilities": {
+                "canCopy": true,
+                "canEdit": true,
+                "canShare": true,
+                "canTrash": false,
+                "canDelete": false,
+                "canRename": true,
+                "canComment": true,
+                "canUntrash": false,
+                "canDownload": true,
+                "canReadLabels": false,
+                "canAddChildren": false,
+                "canListChildren": false,
+                "canModifyLabels": false,
+                "canModifyContent": true,
+                "canReadRevisions": true,
+                "canRemoveChildren": false,
+                "canAcceptOwnership": false,
+                "canAddMyDriveParent": false,
+                "canMoveItemOutOfDrive": false,
+                "canMoveItemWithinDrive": true,
+                "canRemoveMyDriveParent": true,
+                "canMoveItemIntoTeamDrive": false,
+                "canMoveChildrenWithinDrive": false,
+                "canModifyContentRestriction": true,
+                "canRemoveContentRestriction": false,
+                "canEnableInheritedPermissions": true,
+                "canChangeSecurityUpdateEnabled": false,
+                "canChangeViewersCanCopyContent": false,
+                "canDisableInheritedPermissions": false,
+                "canChangeItemDownloadRestriction": false,
+                "canModifyOwnerContentRestriction": false,
+                "canModifyEditorContentRestriction": true,
+                "canChangeCopyRequiresWriterPermission": false
+              },
+              "hasThumbnail": true,
+              "modifiedByMe": false,
+              "modifiedTime": "2026-01-20T15:52:59.000Z",
+              "sha1Checksum": "da841db48bc71fdecb2fc1ae4d47fd55ee10fc58",
+              "__IMTLENGTH__": 3,
+              "fileExtension": "JPG",
+              "permissionIds": [
+                "anyoneWithLink"
+              ],
+              "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBOsDZQ57LEXvim4T8yrrHowFGxh2zDTgSVmlmtx7lLq_vCY...",
+              "headRevisionId": "0B20B7Ht-biSDekhnUE5iZmd3V09SRklaTnBNZDlsRCtUcExrPQ",
+              "quotaBytesUsed": "708870",
+              "sha256Checksum": "0e52c9087c533eb4f5f519b040156bd0f31978d054e778d195e422d47fa07d5b",
+              "viewedByMeTime": "2026-01-21T10:48:08.911Z",
+              "webContentLink": "https://drive.google.com/uc?id=1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR&export=download",
+              "isAppAuthorized": false,
+              "writersCanShare": true,
+              "originalFilename": "niñosbravosP-12.JPG",
+              "thumbnailVersion": "1",
+              "explicitlyTrashed": false,
+              "fullFileExtension": "JPG",
+              "lastModifyingUser": {
+                "me": false,
+                "kind": "drive#user",
+                "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                "displayName": "jocampoyandy",
+                "emailAddress": "jocampoyandy@gmail.com",
+                "permissionId": "04021799227798587820"
+              },
+              "linkShareMetadata": {
+                "securityUpdateEnabled": true,
+                "securityUpdateEligible": false
+              },
+              "imageMediaMetadata": {
+                "width": 1536,
+                "height": 2048,
+                "rotation": 0,
+                "colorSpace": "sRGB"
+              },
+              "downloadRestrictions": {
+                "itemDownloadRestriction": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                },
+                "effectiveDownloadRestrictionWithContext": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                }
+              },
+              "viewersCanCopyContent": true,
+              "copyRequiresWriterPermission": false,
+              "inheritedPermissionsDisabled": false
+            },
+            "28": {
+              "result": {
+                "opcion_1": "Siente cada nota, la pasión en el escenario se desborda. Una noche para el alma.",
+                "opcion_2": "¡Revive la energía del show! No te pierdas nuestra próxima actuación. Sigue nuestra música.",
+                "opcion_3": "Bajista y vocalista fusionadas. El sonido potente de Fender llenó el lugar. Precisión y fuerza en ca...",
+                "opcion_4": "Vibrando en vivo. Música que te atrapa.",
+                "opcion_5": "¿Quién más sintió esta energía? ¡Comparte si te encantó! #MúsicaEnVivo",
+                "opcion_6": "Cuando la luz te guía y el bajo te eleva. Una sinfonía de emociones bajo el foco."
+              },
+              "candidates": [
+                {
+                  "index": 0,
+                  "content": {
+                    "role": "model",
+                    "parts": [
+                      {
+                        "text": "{\n\"opcion_1\": \"Siente cada nota, la pasión en el escenario se desborda. Una noche para el alma.\",\n\"o..."
+                      }
+                    ]
+                  },
+                  "finishReason": "STOP"
+                }
+              ],
+              "responseId": "ZbBwabbEN7qHjrEP2JH0sQs",
+              "modelVersion": "gemini-2.5-flash",
+              "usageMetadata": {
+                "totalTokenCount": 1218,
+                "promptTokenCount": 382,
+                "thoughtsTokenCount": 662,
+                "promptTokensDetails": [
+                  {
+                    "modality": "IMAGE",
+                    "tokenCount": 258
+                  }
+                ],
+                "candidatesTokenCount": 174
+              }
+            },
+            "30": {
+              "id": "1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR",
+              "data": "IMTBuffer(708870, binary, da841db48bc71fdecb2fc1ae4d47fd55ee10fc58): ffd8ffe1319745786966000049492a0...",
+              "kind": "drive#file",
+              "name": "niñosbravosP-12.JPG",
+              "size": "708870",
+              "owners": [
+                {
+                  "me": false,
+                  "kind": "drive#user",
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "permissionId": "04021799227798587820"
+                }
+              ],
+              "shared": true,
+              "spaces": [
+                "drive"
+              ],
+              "parents": [
+                "13nBOVYFc04ksRkmqxvdoSM5zzD1ZYErw"
+              ],
+              "starred": false,
+              "trashed": false,
+              "version": "8",
+              "filesize": 708870,
+              "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/image/jpeg",
+              "mimeType": "image/jpeg",
+              "ownedByMe": false,
+              "viewedByMe": true,
+              "createdTime": "2026-01-20T16:06:17.482Z",
+              "md5Checksum": "537660aa895747fa28c4fae3da09155c",
+              "permissions": [
+                {
+                  "id": "04021799227798587820",
+                  "kind": "drive#permission",
+                  "role": "owner",
+                  "type": "user",
+                  "deleted": null,
+                  "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "pendingOwner": null,
+                  "permissionDetails": [
+                    {
+                      "role": "owner",
+                      "inherited": true,
+                      "permissionType": "file"
+                    }
+                  ],
+                  "allowFileDiscovery": null
+                }
+              ],
+              "webViewLink": "https://drive.google.com/file/d/1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR/view?usp=drivesdk",
+              "capabilities": {
+                "canCopy": true,
+                "canEdit": true,
+                "canShare": true,
+                "canTrash": false,
+                "canDelete": false,
+                "canRename": true,
+                "canComment": true,
+                "canUntrash": false,
+                "canDownload": true,
+                "canReadLabels": false,
+                "canAddChildren": false,
+                "canListChildren": false,
+                "canModifyLabels": false,
+                "canModifyContent": true,
+                "canReadRevisions": true,
+                "canRemoveChildren": false,
+                "canAcceptOwnership": false,
+                "canAddMyDriveParent": false,
+                "canMoveItemOutOfDrive": false,
+                "canMoveItemWithinDrive": true,
+                "canRemoveMyDriveParent": true,
+                "canMoveItemIntoTeamDrive": false,
+                "canMoveChildrenWithinDrive": false,
+                "canModifyContentRestriction": true,
+                "canRemoveContentRestriction": false,
+                "canEnableInheritedPermissions": true,
+                "canChangeSecurityUpdateEnabled": false,
+                "canChangeViewersCanCopyContent": false,
+                "canDisableInheritedPermissions": false,
+                "canChangeItemDownloadRestriction": false,
+                "canModifyOwnerContentRestriction": false,
+                "canModifyEditorContentRestriction": true,
+                "canChangeCopyRequiresWriterPermission": false
+              },
+              "hasThumbnail": true,
+              "modifiedByMe": false,
+              "modifiedTime": "2026-01-20T15:52:59.000Z",
+              "sha1Checksum": "da841db48bc71fdecb2fc1ae4d47fd55ee10fc58",
+              "fileExtension": "JPG",
+              "permissionIds": [
+                "anyoneWithLink"
+              ],
+              "thumbnailLink": "https://lh3.googleusercontent.com/drive-storage/AJQWtBNC3mrXbvWjHot5YpoaXE_Wcocmuki4Nzsa1qDtdyinNr9R...",
+              "headRevisionId": "0B20B7Ht-biSDekhnUE5iZmd3V09SRklaTnBNZDlsRCtUcExrPQ",
+              "quotaBytesUsed": "708870",
+              "sha256Checksum": "0e52c9087c533eb4f5f519b040156bd0f31978d054e778d195e422d47fa07d5b",
+              "viewedByMeTime": "2026-01-21T10:48:08.911Z",
+              "webContentLink": "https://drive.google.com/uc?id=1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR&export=download",
+              "isAppAuthorized": false,
+              "writersCanShare": true,
+              "originalFilename": "niñosbravosP-12.JPG",
+              "thumbnailVersion": "1",
+              "explicitlyTrashed": false,
+              "fullFileExtension": "JPG",
+              "lastModifyingUser": {
+                "me": false,
+                "kind": "drive#user",
+                "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjXUD2yfRvLe8LjusfDlDmYZZ9vVxL_Vw23c15mi4gI9_8MRBIKyQQ=s64",
+                "displayName": "jocampoyandy",
+                "emailAddress": "jocampoyandy@gmail.com",
+                "permissionId": "04021799227798587820"
+              },
+              "linkShareMetadata": {
+                "securityUpdateEnabled": true,
+                "securityUpdateEligible": false
+              },
+              "imageMediaMetadata": {
+                "width": 1536,
+                "height": 2048,
+                "rotation": 0,
+                "colorSpace": "sRGB"
+              },
+              "downloadRestrictions": {
+                "itemDownloadRestriction": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                },
+                "effectiveDownloadRestrictionWithContext": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                }
+              },
+              "viewersCanCopyContent": true,
+              "copyRequiresWriterPermission": false,
+              "inheritedPermissionsDisabled": false
+            },
+            "31": {
+              "uri": "https://generativelanguage.googleapis.com/v1beta/files/ag175h9i8hdc",
+              "name": "files/ag175h9i8hdc",
+              "state": "ACTIVE",
+              "source": "UPLOADED",
+              "mimeType": "image/jpeg",
+              "sizeBytes": "708870",
+              "createTime": "2026-01-21T10:54:21.812840Z",
+              "sha256Hash": "MGU1MmM5MDg3YzUzM2ViNGY1ZjUxOWIwNDAxNTZiZDBmMzE5NzhkMDU0ZTc3OGQxOTVlNDIyZDQ3ZmEwN2Q1Yg==",
+              "updateTime": "2026-01-21T10:54:21.812840Z",
+              "expirationTime": "2026-01-23T10:54:21.482546671Z"
+            },
+            "32": {
+              "array": [
+                {
+                  "uri": "https://generativelanguage.googleapis.com/v1beta/files/qta4nv9r9k1z",
+                  "name": "files/qta4nv9r9k1z",
+                  "mimeType": "image/jpeg",
+                  "webViewLink": "https://drive.google.com/file/d/10sa2dm6t_LKFlpNM4tH33bLy948_NARi/view?usp=drivesdk",
+                  "webContentLink": "https://drive.google.com/uc?id=10sa2dm6t_LKFlpNM4tH33bLy948_NARi&export=download"
+                }
+              ],
+              "__IMTAGGLENGTH__": 3
+            },
+            "34": {
+              "opcion_1": "Siente cada nota, la pasión en el escenario se desborda. Una noche para el alma.",
+              "opcion_2": "¡Revive la energía del show! No te pierdas nuestra próxima actuación. Sigue nuestra música.",
+              "opcion_3": "Bajista y vocalista fusionadas. El sonido potente de Fender llenó el lugar. Precisión y fuerza en ca...",
+              "opcion_4": "Vibrando en vivo. Música que te atrapa.",
+              "opcion_5": "¿Quién más sintió esta energía? ¡Comparte si te encantó! #MúsicaEnVivo",
+              "opcion_6": "Cuando la luz te guía y el bajo te eleva. Una sinfonía de emociones bajo el foco."
+            },
+            "36": {
+              "value": "1Brk2yQx2990RIUc_r3EBh2L1L_QXGOvR",
+              "__IMTINDEX__": 1,
+              "__IMTLENGTH__": 1
+            },
+            "37": {
+              "id": "13nBOVYFc04ksRkmqxvdoSM5zzD1ZYErw",
+              "kind": "drive#file",
+              "name": "OK_Publicacion4",
+              "owners": [
+                {
+                  "me": true,
+                  "kind": "drive#user",
+                  "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                  "displayName": "Juan Carlos Alvarado",
+                  "emailAddress": "jucaalgo@gmail.com",
+                  "permissionId": "16601922730504765853"
+                }
+              ],
+              "shared": true,
+              "spaces": [
+                "drive"
+              ],
+              "parents": [
+                "1DRRw6Vz18k_GT7WnPfndIab93afVKlwS"
+              ],
+              "starred": false,
+              "trashed": false,
+              "version": "4",
+              "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+48+shared",
+              "mimeType": "application/vnd.google-apps.folder",
+              "ownedByMe": true,
+              "viewedByMe": true,
+              "createdTime": "2026-01-20T21:39:09.240Z",
+              "permissions": [
+                {
+                  "id": "04021799227798587820",
+                  "kind": "drive#permission",
+                  "role": "writer",
+                  "type": "user",
+                  "deleted": null,
+                  "displayName": "jocampoyandy",
+                  "emailAddress": "jocampoyandy@gmail.com",
+                  "pendingOwner": null,
+                  "allowFileDiscovery": null
+                }
+              ],
+              "webViewLink": "https://drive.google.com/drive/folders/13nBOVYFc04ksRkmqxvdoSM5zzD1ZYErw",
+              "capabilities": {
+                "canCopy": false,
+                "canEdit": true,
+                "canShare": true,
+                "canTrash": true,
+                "canDelete": true,
+                "canRename": true,
+                "canComment": true,
+                "canUntrash": true,
+                "canDownload": true,
+                "canReadLabels": false,
+                "canAddChildren": true,
+                "canListChildren": true,
+                "canModifyLabels": false,
+                "canModifyContent": true,
+                "canReadRevisions": false,
+                "canRemoveChildren": true,
+                "canAcceptOwnership": false,
+                "canAddMyDriveParent": false,
+                "canMoveItemOutOfDrive": true,
+                "canMoveItemWithinDrive": true,
+                "canRemoveMyDriveParent": true,
+                "canMoveItemIntoTeamDrive": true,
+                "canMoveChildrenWithinDrive": true,
+                "canModifyContentRestriction": false,
+                "canRemoveContentRestriction": false,
+                "canEnableInheritedPermissions": true,
+                "canChangeSecurityUpdateEnabled": false,
+                "canChangeViewersCanCopyContent": false,
+                "canDisableInheritedPermissions": true,
+                "canChangeItemDownloadRestriction": false,
+                "canModifyOwnerContentRestriction": false,
+                "canModifyEditorContentRestriction": false,
+                "canChangeCopyRequiresWriterPermission": false
+              },
+              "hasThumbnail": false,
+              "modifiedByMe": true,
+              "modifiedTime": "2026-01-21T10:54:31.210Z",
+              "permissionIds": [
+                "anyoneWithLink"
+              ],
+              "folderColorRgb": "#8f8f8f",
+              "quotaBytesUsed": "0",
+              "viewedByMeTime": "2026-01-21T07:13:13.371Z",
+              "isAppAuthorized": false,
+              "writersCanShare": true,
+              "modifiedByMeTime": "2026-01-21T10:54:31.210Z",
+              "thumbnailVersion": "0",
+              "explicitlyTrashed": false,
+              "lastModifyingUser": {
+                "me": true,
+                "kind": "drive#user",
+                "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocKTn-ES-uDX-w9qw9syxYClxb0r5h7cl0D7EZ0d4jcihLvhHug=s64",
+                "displayName": "Juan Carlos Alvarado",
+                "emailAddress": "jucaalgo@gmail.com",
+                "permissionId": "16601922730504765853"
+              },
+              "linkShareMetadata": {
+                "securityUpdateEnabled": true,
+                "securityUpdateEligible": false
+              },
+              "downloadRestrictions": {
+                "itemDownloadRestriction": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                },
+                "effectiveDownloadRestrictionWithContext": {
+                  "restrictedForReaders": false,
+                  "restrictedForWriters": false
+                }
+              },
+              "viewersCanCopyContent": true,
+              "copyRequiresWriterPermission": false,
+              "inheritedPermissionsDisabled": false
+            }
+          }
+        },
+        "scenario": {
+          "dlq": false,
+          "slots": null,
+          "dataloss": false,
+          "maxErrors": 3,
+          "autoCommit": true,
+          "roundtrips": 1,
+          "sequential": false,
+          "confidential": false,
+          "freshVariables": false,
+          "autoCommitTriggerLast": true
+        }
+      }
+    },
+    "scheduling": {
+      "days": [
+        1
+      ],
+      "time": "08:00",
+      "type": "weekly"
+    },
+    "concept": false,
+    "created": "2026-01-19T16:21:23.444Z",
+    "last_edit": "2026-01-21T10:59:23.973Z",
+    "metadata": {
+      "input_spec": [],
+      "output_spec": []
+    },
+    "idSequence": 38
+  }
+}

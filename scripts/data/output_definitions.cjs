@@ -24,8 +24,45 @@ module.exports = {
         },
         'createPhotoPost': {
             mapper: {
-                id: { type: 'string', label: 'Media ID' },
-                ig_id: { type: 'string', label: 'Instagram ID' }
+                id: { type: 'string', label: 'Container ID' },
+                ig_id: { type: 'string', label: 'Instagram Media ID' },
+                media_type: { type: 'string', label: 'Media Type' },
+                timestamp: { type: 'date', label: 'Created At' },
+                permalink: { type: 'string', label: 'Permalink' }
+            }
+        },
+        'createMedia': {
+            mapper: {
+                id: { type: 'string', label: 'Container ID' }
+            }
+        },
+        'publishMedia': {
+            mapper: {
+                id: { type: 'string', label: 'Post ID' }
+            }
+        }
+    },
+
+    // --- TELEGRAM (Added via Research) ---
+    'telegram': {
+        'sendMessage': {
+            mapper: {
+                message_id: { type: 'number', label: 'Message ID' },
+                date: { type: 'date', label: 'Date' },
+                text: { type: 'string', label: 'Message Text' },
+                chat: {
+                    type: 'collection', label: 'Chat Info', spec: [
+                        { name: 'id', type: 'number', label: 'Chat ID' },
+                        { name: 'type', type: 'string', label: 'Chat Type' },
+                        { name: 'title', type: 'string', label: 'Chat Title' }
+                    ]
+                }
+            }
+        },
+        'sendPhoto': {
+            mapper: {
+                message_id: { type: 'number', label: 'Message ID' },
+                caption: { type: 'string', label: 'Caption' }
             }
         }
     },
@@ -167,6 +204,24 @@ module.exports = {
             id: { type: 'string', label: 'ID' },
             data: { type: 'any', label: 'Output Data' },
             success: { type: 'boolean', label: 'Success' }
+        }
+    },
+
+    // --- TOOLS / FLOW CONTROL ---
+    'builtin': {
+        'Sleep': {
+            mapper: {} // No output modification (Passthrough)
+        },
+        'SetVariable': {
+            mapper: {
+                name: { type: 'string', label: 'Variable Name' },
+                value: { type: 'any', label: 'Variable Value' }
+            }
+        },
+        'GetVariable': {
+            mapper: {
+                value: { type: 'any', label: 'Value' }
+            }
         }
     }
 };

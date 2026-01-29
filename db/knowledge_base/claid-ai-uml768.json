@@ -1,0 +1,1315 @@
+{
+  "id": "PUBLISHED-57CHJWVnC1Als0K9nI-NS",
+  "name": "Claid.AI by Maxmel Tech",
+  "icon": "",
+  "title": "Claid.AI by Maxmel Tech",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_claid.ai-community.png",
+  "summary": null,
+  "urlKey": "claid-ai-uml768",
+  "description": "How to integrate Claid.AI with Make.com",
+  "urlAlias": "claid.ai-community-maxmel-tech",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-03T04:00:16.312Z"
+    },
+    "nodes": [
+      {
+        "id": "mhHH8XwbpOfhZbed4myZp",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "TpilVGubR1SrGDP1JM7eG",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "hmKkDAQxOlQgzJMBc8NMi",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "Mza4ds3f8qEQxYIy5AUVi",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/claid.ai-community.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "4HIdMwaFut15HX9XUynqB",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "F83d9QOFTLJJ93X4jX5Z1",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "poKF7msTzeEOQtcvIIahw",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "OjB4QD384BRP4I3MxMVRo",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Claid.ai is an AI-driven photography suite for generating, enhancing, and editing product images, especially for e-commerce. Integrating it with Make.com would automate image editing workflows, saving time and ensuring consistent, high-quality visuals for online businesses."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "GEQgYO84ZnmKu56J9jyal",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "Lhbj6cBQ3Qe_UCmD4e2_n",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This is AI-generated content based on official Claid.AI documentation. The content may still contain errors—please verify important information. If you have questions, contact "
+              },
+              {
+                "id": "oQ3ZHtZD1Edc4A8wIfEyo",
+                "type": "link",
+                "data": {
+                  "href": "https://claid.ai",
+                  "newTab": true,
+                  "hasDisabledNofollow": false
+                },
+                "children": [
+                  {
+                    "text": "Claid.AI"
+                  }
+                ]
+              },
+              {
+                "text": " directly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "BDlJpoYINOENFPKZk-rzl",
+        "type": "h1",
+        "children": [
+          {
+            "text": "How to get support on Claid.AI"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "how-to-get-support-on-claidai",
+          "legacyHash": "BDlJp"
+        }
+      },
+      {
+        "id": "vU0sn2SALs7aYhP2VYed6",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Claid.AI is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Claid.AI&app_slug=claid.ai-community&app_unique_id=claid-ai-uml768."
+          }
+        ]
+      },
+      {
+        "id": "x8N7BNRngZXdsaJ7nr3tN",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Requirements",
+            "id": "WjA1umCRDiLCeDcJO3Vle"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "requirements",
+          "legacyHash": "x8N7B"
+        }
+      },
+      {
+        "id": "WwcQ9wSseaLcdkoK6oPq8",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To use the Claid.AI app in Make, "
+          },
+          {
+            "text": "you must have an active Claidai account and an API key, ",
+            "id": "4rGFiU0anSv67x217GdzA"
+          },
+          {
+            "id": "s7WOvD7Ki5dZBbktBgY4g",
+            "type": "link",
+            "data": {
+              "href": "https://claid.ai",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "id": "VR7cCuTB9vw6NqZ7wFTWC",
+                "text": "create your account on Claid.AI."
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "X3UTgsyDlZ2mdzJoYALJ1",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "X3UTg"
+        }
+      },
+      {
+        "id": "WG0rcLQxJSoGNRU3Q6k1u",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "mKlKm2s__GbCo3m4YYjav",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "AbblStfwgZguyJgj-7nU2",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rn2UjoWJA4C4KPg6anWnG",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "u2NSEoYgqDYhGrIIqxB31",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "-QAqlPD05U_3-mSJAIQUl",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "JuQQUF6gQ7pNTmzmIYI6-",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "l2hi0v9G0LGCNMR51rBBo",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/claid.ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "CNTDVi1sNTtRhVMgaUZBG",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "vSzhqPbtI9RktOTxonE-V",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "X_hYYZPpuvX1-os8VZHOx",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "zAMXYZfrOM5e9WMUkgzHf",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "IbxTu8nYjfWyyqBXi48vO",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "KlwBTHX70r6JoWG15Corz",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6E-VgTPtp59cYVc_sINbb",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Connect Claid.AI and ",
+            "id": "jV_9WB6Wp_23I2G-Fr5K_"
+          },
+          {
+            "id": "TBlUeNK3NbUmXfzhzTDCY",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "9OS-xSuAyOHStB0u-opPj"
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "id": "Cb_59pWqIq7-8nEm2FISk"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "connect-claidai-and",
+          "legacyHash": "6E-Vg"
+        }
+      },
+      {
+        "id": "fx2GudysSspdE-5BaIQRF",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "To get started, you must first create a connection between Claid.AI and ",
+            "id": "L9I0hY-h2ECWeJ0IYKSDG"
+          },
+          {
+            "id": "77DVztuD69YQ6_wzJMbKa",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "34S-4uCIXXLP2P66mnVer"
+              }
+            ]
+          },
+          {
+            "text": ", allowing the two services to communicate. ",
+            "id": "Wx4I1QVGg0Li-Vw8q4T2a"
+          }
+        ]
+      },
+      {
+        "id": "4klcOIGBqPKBb6Bn-sLfE",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "11vtgrxm3MwcDghhydrFf",
+            "text": "You can connect using the following method: OAuth2.0 Bearer Token (API Key)."
+          }
+        ]
+      },
+      {
+        "id": "-Z5Sp6_XiGpPmlvrSOcij",
+        "type": "h2",
+        "children": [
+          {
+            "id": null,
+            "text": "OAuth2.0 Bearer Token (API Key) Instructions"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "oauth20-bearer-token-api-key-instructions",
+          "legacyHash": "-Z5Sp"
+        }
+      },
+      {
+        "id": "O2BU2X1GfCroXbKqmxLoh",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "ujCZIYxOfpM-nk6E6S37X",
+            "text": "You need to generate your API key."
+          }
+        ]
+      },
+      {
+        "id": "HTM8Ieosy2gY4Ey7ZjRo2",
+        "data": null,
+        "type": "workflow",
+        "children": [
+          {
+            "id": "onM9cBCi52ignzaeYmgvR",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "gioRmxT5ngL5vL1aOrtTr",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Sign in to your Claid account."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "Smq2ggK0Au69jmnLwb4ES",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "P3xhi7F_EHwgVF1mzg8TL",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Navigate to the Overview or API keys pages."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "QPQZvQmBDdnh9aG5RMFkP",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "SPuvfs1IaP-rYAHd5HR5q",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the Create API key button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mW1BcDR_ukbd5LMB52j7j",
+            "data": null,
+            "type": "workflowItem",
+            "children": [
+              {
+                "id": "jfvUixqA6uLQWZN0SGW2Z",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Copy the generated API key."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XW8yWQC5j0KGn38d12glU",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "dy6NtK67j2w8tVvkaJWSV",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "hyujC0FHMJiAlpZ-MhtRd",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Some community developers require an additional specific "
+              },
+              {
+                "text": "API Key",
+                "bold": true
+              },
+              {
+                "text": ". Retrieve the required "
+              },
+              {
+                "text": "API key ",
+                "bold": true
+              },
+              {
+                "text": "from the community developer's dashboard, generally found under "
+              },
+              {
+                "text": "Settings/API.  ",
+                "bold": true
+              },
+              {
+                "text": "For more info, please https://f.make.com/r/reachout?app_name=Claid.AI&app_slug=claid.ai-community&app_unique_id=claid-ai-uml768."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "LMdiHg0HUg59-rHXyAy6R",
+        "type": "h2",
+        "children": [
+          {
+            "text": "Create the connection in "
+          },
+          {
+            "id": "VogA23JRjfl67zjtX1lRI",
+            "type": "variable",
+            "data": {
+              "key": "product_name"
+            },
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "text": " "
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "create-the-connection-in",
+          "legacyHash": "LMdiH"
+        }
+      },
+      {
+        "id": "CLz5SBxRjRDFkR9NczpyP",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "PX27RNSGhPGTaBX-pgYyx",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "-t_cMqnjhQAHsT9p-I8TV",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "id": "NCntWxkW74s3i2QB8YHnV",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/register",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "id": "VwijDRP3ia3XdQfXIJMZE",
+                        "type": "link",
+                        "data": {
+                          "href": "https://www.make.com/en/register",
+                          "newTab": true,
+                          "hasDisabledNofollow": false
+                        },
+                        "children": [
+                          {
+                            "text": "Log in in your Make",
+                            "id": "NU4a8BEtbh-dTtf4E3vkw"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "KQskGo1-2ew7e1P718cCY",
+                        "text": " account"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "9S8g3i7jgOCwoZNf484Nf",
+                    "text": ", add the Claid.AI module to your "
+                  },
+                  {
+                    "id": "u5pd8Dz511n1Mc_dYJkvj",
+                    "type": "variable",
+                    "data": {
+                      "key": "scenario_singular_lowercase"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "id": "6H-FQiYwR9u7otBrzDqop",
+                    "text": ", and click "
+                  },
+                  {
+                    "text": "Create a connection. ",
+                    "id": "VRZDRbyMf6n-H199Jk_9o",
+                    "bold": true
+                  }
+                ],
+                "listRestartPolite": 1
+              },
+              {
+                "id": "g9IOWE1DRXapXtjDSHAks",
+                "type": "callout-v2",
+                "data": {
+                  "type": "info"
+                },
+                "children": [
+                  {
+                    "id": "wrBfot-TCIwSuoPMaHEbZ",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "If you add a module with an instant tag, click "
+                      },
+                      {
+                        "text": "Create a webhook",
+                        "bold": true
+                      },
+                      {
+                        "text": ", then "
+                      },
+                      {
+                        "text": "Create a connection.",
+                        "bold": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ynjYQyYhKcPQRTj5F3dlT",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "oexK5hffOC9hJS57Sg2Bo",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "YZXY2f4NDw_W-FPRJqf57",
+                    "text": "Optional: ",
+                    "italic": true
+                  },
+                  {
+                    "text": "in the ",
+                    "id": "ZloJILppLKSqUCT0MHmxK"
+                  },
+                  {
+                    "id": "kWVOc8GjpJALK3fuhJkY-",
+                    "text": "Connection name",
+                    "bold": true
+                  },
+                  {
+                    "text": " field, enter a name for the connection.",
+                    "id": "VaDLfD-bkvSeoUXdlrGd4"
+                  }
+                ],
+                "listRestartPolite": 2
+              }
+            ]
+          },
+          {
+            "id": "lhAk1fuJbTJWnpxGX_Y2r",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "lL-h-w0aMnbOKwxvNnSZZ",
+                "type": "paragraph",
+                "listRestartPolite": 2,
+                "children": [
+                  {
+                    "text": "Enter the "
+                  },
+                  {
+                    "text": "authentication credentials",
+                    "bold": true
+                  },
+                  {
+                    "text": " you copied from your Claid.AI or follow the on-screen instructions to create the connection. You must also enter any required third-party API keys obtained earlier."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fhdFsUoaOYyJMrKGSnjOk",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "For detailed information on connecting an application, see "
+          },
+          {
+            "id": "89_CKrrWK5FyX5V3Ymd19",
+            "type": "mention-doc",
+            "data": {
+              "label": "Connect an application",
+              "spaceId": "3msXVRtu3M77nS4P5PXU9",
+              "docId": "SO88FM6pkT0G-adKDDfzZ",
+              "version": "v2",
+              "docAnchorId": "",
+              "loadingMethod": "static",
+              "overridedLabel": "",
+              "newTab": true,
+              "href": "https://help.make.com/connect-an-application"
+            },
+            "children": [
+              {
+                "text": "Connect an application.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "text": " page."
+          }
+        ]
+      },
+      {
+        "id": "0ZcYWHQK0bKgPBjVlRVsW",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Claid.AI modules",
+            "id": "NeC0Ojhwco12VgeecIXwu"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "claidai-modules",
+          "legacyHash": "0ZcYW"
+        }
+      },
+      {
+        "id": "xvxjp2pOCUOX_43j_c2Rn",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "After connecting to the Claid.AI app, you can choose from a list of available modules to build your ",
+            "id": "0J-znenWpXxeSE_vBxU_g"
+          },
+          {
+            "id": "Gtt9MppVqVai5QYu9BPsA",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "BKGRDIl2ikg4lRcTtjgDe"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "4ZDWvYsl0GorPdaI4AeKs"
+          }
+        ]
+      },
+      {
+        "id": "_fARWh34kNVud47iqaAOc",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "qxLpNNygdzborBHes08a1",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Edit an Image",
+                "id": "1QuW1wIVj6NMmIakWH-9E"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "edit-an-image",
+              "legacyHash": "qxLpN"
+            }
+          },
+          {
+            "id": "2EPw19AkRjqnbHffMaUKV",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to modify a selected image by applying specific editing actions, such as cropping, resizing, or adjusting its appearance.",
+                "id": "OHGqVyGODVoj2N6vMSPcz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Ix01D8HZ6rN8Hd7CTim7Y",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "aE4i6m58Ko4hknqMCtcuZ",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate a Background",
+                "id": "0PuYJIDoJJxFnb7noUk-I"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-a-background",
+              "legacyHash": "aE4i6"
+            }
+          },
+          {
+            "id": "Z6IL9WIYQCIeZTU6zM-35",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a custom scene background image for your project.",
+                "id": "6eiwE2rVZciWvqSNZ6GqE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "o2gPO8Yzm_F79PJpPnIgo",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ofkQfbrkvkHfLvDk8ujD_",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Generate an Image",
+                "id": "GwTl2kS2j9WtyGUxfDqVe"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "generate-an-image",
+              "legacyHash": "ofkQf"
+            }
+          },
+          {
+            "id": "3iP4v8wGgHX4gR347oIyc",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Creates a new image based on your specified settings and inputs.",
+                "id": "zSdugb9Ksxvs7qbJVGVcp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CJju2I0VFDWFD2WkGFnPM",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "kA3XWxhDludA6vsrGOCkh",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "epNCDp74zyl4yVlQ4AlZ8"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "kA3XW"
+            }
+          },
+          {
+            "id": "-aoVV9kxgXHxJ3WVnTu5E",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Allows you to make a custom API request to the service, using your own parameters and authorization, so you can access features or data not covered by the standard modules.",
+                "id": "-TgI9cJq1RZLSMdFW7zwE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Hin0jfmJ8cJRz363LKXto",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "SEHZtxS4rdcE6A-WY3Rcb"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "Hin0j"
+        }
+      },
+      {
+        "id": "Xqk7qwWT8aP9yJ1d9V_z9",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "MsFj8GrRATQPbs6PkZaCP"
+          },
+          {
+            "id": "1EoWw_WcW0bk3uZLAjWcT",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "YowLptoVmYnivtc5dPWI8"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "KcGlRKTH33NHZqxBV8j4d"
+          },
+          {
+            "id": "FRKbzo1ylPEmhb_0FfKRk",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "yn-85h8YVZCLFQOiik-Zs"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "734PykIsecycB9k0bOb-6"
+          }
+        ]
+      },
+      {
+        "id": "jrGFPuDaAKiG7Libxux_s",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Claid.AI resources ",
+            "id": "lKAUSZfG5ULbhESWi2ujt"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "claidai-resources",
+          "legacyHash": "jrGFP"
+        }
+      },
+      {
+        "id": "v-VUynWOWcDwLSH_kBKv4",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "vjOZ107y3vyEVREP0fTBk",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "jY394KZ7ZTnVehy2u2q9p",
+            "data": {
+              "href": "https://claid.ai",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "4kg3gzKEB0tR3SUb3Yz7L",
+                "text": "Claid.AI website"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "4vL8h06hvS2BAmRIWtMOD",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "e1KM64PdATiX_Sj0-zwnd",
+            "data": {
+              "href": "https://docs.claid.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "FNz4eogLA7X8hE-qDahnL",
+                "text": "Claid.AI documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "USWbzna3TulYEtZUDX2Xy",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "9zZ8PpxAVWtLZOhHOuXyT",
+            "data": {
+              "href": "https://docs.claid.ai/image-editing-api/api-reference",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Ga-YV8PY2noemOjeVJT3F",
+                "text": "Claid.AI API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "SaJN_7d_r8GsnD4aPQthC",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "LpyftVFBd5B9xxd3UYYxs",
+            "data": {
+              "href": "https://www.make.com/en/integrations/claid.ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "KVTKa9CF9XAD8FxkVjPxb",
+                "text": "Claid.AI page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "tBolOBoyMuyxWj_73pCeC",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "ZoTYeH8c7gZbMiCU2nXYX",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "GDp-Gmlc-hN3tq2la-6my",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 2,
+  "privacy": "shared with team",
+  "shareableToken": "Gg0BrahN79v2IYq4TMHfq",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "2_XuI8XkshGrZ1UEVW8JY",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T07:46:50.092Z",
+  "createdAt": "2025-11-03T04:00:16.315Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-XYKzTl5gXf4Rq-u97GukV",
+    "children": [],
+    "isHidden": false,
+    "name": "Claid.AI by Codex Solutions",
+    "urlKey": "claidai-5yuk62",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-9RTD-l1SvGSPFbOstfJ_D",
+    "children": [],
+    "isHidden": false,
+    "name": "ClipDrop by Codex Solutions",
+    "urlKey": "clipdrop-co-mh29fv",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}

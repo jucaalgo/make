@@ -1,0 +1,1033 @@
+{
+  "id": "PUBLISHED-cGQwtft5oT0dNNsXIkhmE",
+  "name": "Alt Text Ai by Codex Solutions",
+  "icon": "",
+  "title": "Alt Text Ai by Codex Solutions",
+  "previewImageURL": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/PREVIEW_alt-text-ai-community.png",
+  "summary": null,
+  "urlKey": "custom-app-7r6ksj",
+  "description": "How to integrate Alt Text Ai with Make.com",
+  "urlAlias": "apps.make.com/alt-text-ai-community-codex-solutions",
+  "data": {
+    "metadata": {
+      "type": "doc",
+      "version": "v2",
+      "convertedDate": "2025-11-12T00:41:15.971Z"
+    },
+    "nodes": [
+      {
+        "id": "QKjK4ltAHl-0Q6quDtQVc",
+        "data": {
+          "isTableHeaderOn": true,
+          "columnWidths": {
+            "0": 235,
+            "1": 426
+          },
+          "selectedColumns": [],
+          "selectedRows": [],
+          "selectedTable": false
+        },
+        "type": "table",
+        "children": [
+          {
+            "id": "aS76WcZ6IjOAfk-Iime9M",
+            "type": "table-row",
+            "children": [
+              {
+                "id": "i0OQkgsbJps8mxg8zmzrR",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "type": "image",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "id": "mXdcaegRycRwXslJaKkjd",
+                    "data": {
+                      "src": "https://make-cxp-documentation.ams3.digitaloceanspaces.com/apps-center-icons/custom-app-7r6ksj.png",
+                      "signedSrc": "",
+                      "size": 50,
+                      "width": 512,
+                      "height": 512,
+                      "position": "center",
+                      "caption": "",
+                      "alt": "Alt Text Ai logo"
+                    }
+                  },
+                  {
+                    "type": "paragraph",
+                    "id": "Q16qeIHIxBu4xzh5qlu7t",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "id": "-hzuL2WMmk5_sxuDhKfPs",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {
+                      "src": "https://app.archbee.com/api/optimize/oAyFj2GHlBeBVWF5OAir2/JoAJhvSlBlBIvHteHmo_y-20251023-115411.jpeg",
+                      "signedSrc": "",
+                      "size": 46,
+                      "width": 400,
+                      "height": 128,
+                      "position": "center",
+                      "caption": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "zJZh1B6RpgD1rMpTGfimm",
+                "type": "table-cell",
+                "data": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "id": "EnlakhyOEcA-gShB3fAxQ",
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "AltText.ai is an AI-powered tool that automatically generates descriptive alt text for images, improving accessibility and SEO. Integrating it with Make.com streamlines image processing workflows and ensures consistent, high-quality alt text across platforms."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "h0GxE4_nzpSGtXaIuXK-B",
+        "type": "callout-v2",
+        "data": {
+          "type": "warning"
+        },
+        "children": [
+          {
+            "id": "Qzz92DlnvwmjpSxiUNwWR",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Limited documentation",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "id": "PsIu7kfEd0IUJq4aOPq8C",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "We currently can't provide complete documentation for Alt Text Ai because there isn't enough publicly available information about this app. Our AI-powered documentation system relies on comprehensive data from Alt Text Ai and public sources to create detailed guides."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "children": [
+          {
+            "text": "About Alt Text Ai"
+          }
+        ],
+        "type": "h1",
+        "id": "uxn3wul1w8qpv5q-iJcGW",
+        "data": {
+          "autoGeneratedAnchorSlug": "about-alt-text-ai",
+          "legacyHash": "uxn3w"
+        }
+      },
+      {
+        "id": "ZSBFtgg4IHMQFvWEpO5-T",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Alt Text Ai is a community-developed application and is subjected to the developer's terms and conditions, which may include applicable fees. Make does not maintain or support this integration. For assistance, please https://f.make.com/r/reachout?app_name=Alt%20Text%20Ai&app_slug=alt-text-ai-community&app_unique_id=custom-app-7r6ksj."
+          }
+        ]
+      },
+      {
+        "id": "WBNsLszoMCZpa-8tmdSrW",
+        "type": "h1",
+        "children": [
+          {
+            "text": "App installation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "app-installation",
+          "legacyHash": "WBNsL"
+        }
+      },
+      {
+        "id": "3qZAHGhaZ76sKO_0m3D8w",
+        "type": "callout-v2",
+        "data": {
+          "type": "info"
+        },
+        "children": [
+          {
+            "id": "PbbI9p4nLi2neoaqivDAG",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "To install this app, you need Admin, Owner, or App Developer permissions. "
+              },
+              {
+                "id": "FXsH1C1-60faYK-QqXJ7l",
+                "type": "mention-doc",
+                "data": {
+                  "label": "Organizations",
+                  "spaceId": "3msXVRtu3M77nS4P5PXU9",
+                  "docId": "-FOYcASPYP9uYKGm7LQPB",
+                  "version": "v2",
+                  "docAnchorId": "",
+                  "loadingMethod": "static",
+                  "overridedLabel": "Learn more about organization roles.",
+                  "newTab": true,
+                  "href": "https://help.make.com/organizations"
+                },
+                "children": [
+                  {
+                    "text": "Learn more about organization roles",
+                    "underline": true
+                  }
+                ]
+              },
+              {
+                "text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2AFckT5at1kP7-kInEvFW",
+        "type": "workflow",
+        "data": null,
+        "children": [
+          {
+            "id": "9t57B-F7Zrj_IvicDi-Sp",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "o5pVwq-elU3qBot36CfEQ",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "id": "auVWJ-eXf71MfxA4pYhrJ",
+                    "text": "Go to the "
+                  },
+                  {
+                    "id": "v5cEc4WBlqHDA9mXS0YSb",
+                    "type": "link",
+                    "data": {
+                      "href": "https://www.make.com/en/integrations/alt-text-ai-community/",
+                      "newTab": true,
+                      "hasDisabledNofollow": false
+                    },
+                    "children": [
+                      {
+                        "id": "WEmQXNVZJAOKTjf9qPJQo",
+                        "text": "Make integration page"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "yk36BES8ZU5ZrSu8QpCIE",
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2uPO70Oy0hGh_EKnOilYM",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "asbDXTjuuNNs5HWH1NsDA",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Click the "
+                  },
+                  {
+                    "text": "Install",
+                    "bold": true
+                  },
+                  {
+                    "text": " button."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "RRF18RSYlLX65kEWqBCWx",
+            "type": "workflowItem",
+            "data": null,
+            "children": [
+              {
+                "id": "gIdXOIMvtcxrV18AYZF8c",
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Follow",
+                    "bold": true
+                  },
+                  {
+                    "text": " the on-screen instructions to complete the setup. "
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "krXF0rEdDE8QNk7FT0agx",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Alt Text Ai modules",
+            "id": "Wg87M32gjaUsjuQzFlEUg"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "alt-text-ai-modules",
+          "legacyHash": "krXF0"
+        }
+      },
+      {
+        "id": "sD0mMwqfPVzoi4LU75HDi",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Y"
+          },
+          {
+            "text": "ou can choose from a list of available modules to build your ",
+            "id": "P--Ifc7aVfaP1PTVVQlFi"
+          },
+          {
+            "id": "C_v-3vd0RYQTqFvNQkKu4",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "ttOh4X8z7ijELG7ZZhvcn"
+              }
+            ]
+          },
+          {
+            "text": ". ",
+            "id": "sCZPvotFq2o_g2DnYa759"
+          }
+        ]
+      },
+      {
+        "id": "9psg2oGoi1XAnVYNUm3AV",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "UXMlAOjj_Q-dQNOujU4Q7",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create Bulk",
+                "id": "7n9jYT4PSE0tkMEzQJOG-"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-bulk",
+              "legacyHash": "UXMlA"
+            }
+          },
+          {
+            "id": "p30wau76mD6lXHtw2OPGZ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Easily upload a CSV file containing image URLs, and this module will process them to help you generate alt text for each image.",
+                "id": "kJLFJg98R8rsKzNeUwMu9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9zEt-32BTwC2JsDGKmOe5",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "mp7XyecYlP0pwCW6UdTk6",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Create Image",
+                "id": "xMRhTeXYvGHyNbCliv1_e"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "create-image",
+              "legacyHash": "mp7Xy"
+            }
+          },
+          {
+            "id": "EZy63m-0q-VnfdzKe761P",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "This module lets you easily create a new item in your selected Notion database, helping you organize and manage your information efficiently.\n\n![Illustration of adding a new item to a Notion database](https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80)\nAlt text: Illustration showing a new entry being added to a Notion database.",
+                "id": "PvFANL6MGZgO93avbtPjh"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "oBn6G1TEUkP8bdEZhAS46",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "F1qior7vgk0JE5pYsZjyg",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Account",
+                "id": "AMiHa4P4woyStkDwluTdy"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-account",
+              "legacyHash": "F1qio"
+            }
+          },
+          {
+            "id": "P188ux2v38PjjmVBWex6t",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve your account settings and preferences.",
+                "id": "ffv_OgN9R3WxcMu4mZjMh"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qBFZgyXTED_gKYSC8hgXU",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "XXkYfZvdDbdnRtRYTGho2",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get Image By Asset ID",
+                "id": "yncWtSiF1-9AQCGeeRUZX"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-image-by-asset-id",
+              "legacyHash": "XXkYf"
+            }
+          },
+          {
+            "id": "evG9_9-Y6Uv3IL8yTcbfj",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Get detailed information about a specific image you already have.",
+                "id": "0VeQbX-rJGvIOw23IfUSZ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4mp3m76hkNhyyi2X_yUum",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "ULerYfjx6Ai7AhIvME1h4",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Get a Image",
+                "id": "30dTj6oEuMi8wtLTHvLfE"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "get-a-image",
+              "legacyHash": "ULerY"
+            }
+          },
+          {
+            "id": "7tzxbLM0aOtrADQjqxjAJ",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Retrieve detailed information about your existing images. You can also use the 'page' and 'limit' options to browse through your images more easily.",
+                "id": "OOQVcHZDIjvZwTeRQhfGq"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "afdVVDiFHNDzHBAQmBRvz",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "EyQdE6i0u0Vp7AGsz_6q1",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Make an API Call",
+                "id": "DsXBrXYUmt2FbD-ml0tJc"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "make-an-api-call",
+              "legacyHash": "EyQdE"
+            }
+          },
+          {
+            "id": "K6io3etzSMeNc5t4ahCTO",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Send a customized API request to connect with your chosen service and retrieve or update data as needed.",
+                "id": "lVRK9yfS743djYNo6q21S"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FV6EjV_9CcZgwquSk0FsT",
+        "data": {
+          "isOpen": false
+        },
+        "type": "expandable-heading3",
+        "children": [
+          {
+            "id": "VVtIT78Y8nYAtgDOfyeE3",
+            "type": "h3",
+            "children": [
+              {
+                "text": "Search Image",
+                "id": "DySK9wyIe7kYiLM1cDqPg"
+              }
+            ],
+            "data": {
+              "autoGeneratedAnchorSlug": "search-image",
+              "legacyHash": "VVtIT"
+            }
+          },
+          {
+            "id": "kl8VKR76j5LnPRi2FI4ty",
+            "type": "paragraph",
+            "children": [
+              {
+                "text": "Search for the alternative text (alt text) of an image to help describe its content.",
+                "id": "XqInJANT4cz6ZMGQwx1Br"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "XUq-xcQGKyDlaDoSmzFCL",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Templates",
+            "id": "YqlGrbSsh1JUcjJIcXp77"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "templates",
+          "legacyHash": "XUq-x"
+        }
+      },
+      {
+        "id": "q59jd7ts-dbDOh_f0t7G5",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can look for more templates in ",
+            "id": "drCDBvexX0kCj5SGcZIfB"
+          },
+          {
+            "id": "mTPsr1-qWqRpTDq96eOsH",
+            "type": "link",
+            "data": {
+              "href": "https://www.make.com/en/templates",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make's template gallery",
+                "id": "-PYnwnGsPuOrrNIke8ZpO"
+              }
+            ]
+          },
+          {
+            "text": ", where you'll find thousands of pre-created ",
+            "id": "1CV7AxJCYeMSFxbPhObbS"
+          },
+          {
+            "id": "K0wYFOeo2NQDlFQbq4-Of",
+            "type": "variable",
+            "data": {
+              "key": "scenario_plural_lowercase"
+            },
+            "children": [
+              {
+                "text": "",
+                "id": "0CSBW2q7LOvmShygH7vew"
+              }
+            ]
+          },
+          {
+            "text": ".",
+            "id": "35ZB-k-jjaNVOarDdNWZD"
+          }
+        ]
+      },
+      {
+        "id": "Ie5EbacIFqWgyOs70FkVg",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Alt Text Ai resources ",
+            "id": "qr0hyGPh1Qvn5x3zSEBY0"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "alt-text-ai-resources",
+          "legacyHash": "Ie5Eb"
+        }
+      },
+      {
+        "id": "BcE6KC9F9GKEMfX-pxOJt",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "You can have access to more resources related to this app on the following links :"
+          }
+        ]
+      },
+      {
+        "id": "B6rYyxxBYDNslBOZw7eeN",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "NveWjjFDM_DPQkUcgcv1k",
+            "data": {
+              "href": "https://community.make.com/search?q=Alt%20Text%20Ai",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "2BSS2VjqiynEitZ9-oTPu",
+                "text": "Join discussions about  Alt Text Ai on Make community"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "zt02GaknfCVXgftiY43w2",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "atvJ4KTA2UJeVAQqXq1nF",
+            "data": {
+              "href": "https://alttext.ai/",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "qG-FkhAioI9jQ_bUDbIWo",
+                "text": "Visit Alt Text Ai website "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "0W-nyGPkUoGBU29dBbd3p",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "9o9LzjKRI1OET3T2A3dpq",
+            "data": {
+              "href": "https://alttext.ai/docs",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "_pmTkkMDR0CaIHzt4eKQW",
+                "text": "Access Alt Text Ai help documentation "
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "iWmoC9sisWcxT8hEou1-c",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "6_80KhhywcNfGNW5IKLNk",
+            "data": {
+              "href": "https://alttext.ai/apidocs",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "E0PscUs2LciqEL0bm3Kh4",
+                "text": "View Alt Text Ai API documentation"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "vwMDmDs_OCFMJdxg8LiFx",
+        "type": "paragraph",
+        "children": [
+          {
+            "id": "lzEId0zMFISK0e5brzMle",
+            "data": {
+              "href": "https://www.make.com/en/integrations/alt-text-ai-community",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "type": "link",
+            "children": [
+              {
+                "id": "Z-7uTahfP_8GMonYrFiXV",
+                "text": "Visit Alt Text Ai page on make"
+              }
+            ]
+          }
+        ],
+        "indent": 1,
+        "listStyleType": "disc"
+      },
+      {
+        "id": "I4nqqXfZkJdkR8bxF_n6l",
+        "type": "h1",
+        "children": [
+          {
+            "text": "Help us improve this documentation"
+          }
+        ],
+        "data": {
+          "autoGeneratedAnchorSlug": "help-us-improve-this-documentation",
+          "legacyHash": "I4nqq"
+        }
+      },
+      {
+        "children": [
+          {
+            "text": "Have experience with Alt Text Ai? We'd love to hear from you. If you have insights, use cases, or technical details that could help other users, please consider:"
+          }
+        ],
+        "type": "paragraph",
+        "id": "Glj0rwtlkcxbuN9LGGHNR"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Using the feedback widget at the bottom of the page"
+          }
+        ],
+        "id": "csizn14wrkucP_aJG4rHc"
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Contacting the developer to request public documentation - https://f.make.com/r/reachout?app_name=Alt%20Text%20Ai&app_slug=alt-text-ai-community&app_unique_id=custom-app-7r6ksj"
+          }
+        ],
+        "id": "0-7rJBvdcRFcCEf4136fi",
+        "listStart": 2
+      },
+      {
+        "indent": 1,
+        "listStyleType": "disc",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "Sharing your knowledge in the "
+          },
+          {
+            "id": "yivXhT46sVP5DFHrJptTq",
+            "type": "link",
+            "data": {
+              "href": "https://community.make.com",
+              "newTab": true,
+              "hasDisabledNofollow": false
+            },
+            "children": [
+              {
+                "text": "Make community"
+              }
+            ]
+          },
+          {
+            "text": ""
+          }
+        ],
+        "id": "E_ChrdnLk6_FLeUyddzjZ",
+        "listStart": 3
+      },
+      {
+        "children": [
+          {
+            "text": "Your feedback helps us create better documentation for everyone."
+          }
+        ],
+        "type": "paragraph",
+        "id": "kqLLRuIYIA03OtmRA0Iqk"
+      },
+      {
+        "id": "M1-_59WoEQhiH2pq2tkbO",
+        "type": "horizontal-line",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "id": "rm_A8JWmPCO-qamITRSbb",
+        "type": "cta-button",
+        "children": [
+          {
+            "text": ""
+          }
+        ],
+        "data": {
+          "label": "Get started for free",
+          "docId": "",
+          "docAnchorId": "",
+          "externalHref": "https://www.make.com/en/register",
+          "openInNewTab": true,
+          "noFollow": false
+        }
+      },
+      {
+        "id": "orkq6Nh4yJTy2JRI7BmYq",
+        "type": "paragraph",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      }
+    ]
+  },
+  "version": 0,
+  "privacy": "shared with team",
+  "shareableToken": "UnjHELIDfTw_kGD4Gl9dt",
+  "tags": [],
+  "docTags": [],
+  "children": [],
+  "hasDraft": false,
+  "createdByUserId": "GlJor3wiNabX230qpQ7tp",
+  "createdBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "lastModifiedByUserId": "GlJor3wiNabX230qpQ7tp",
+  "lastModifiedBy": {
+    "id": "",
+    "fullName": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "profilePhotoURL": ""
+  },
+  "contributorsDetails": [],
+  "watchers": [],
+  "isArchbeeBrandVisible": false,
+  "customCSS": "<style>\n@media print {\n  html, body {\n    overflow-x: visible;\n  }\n}\n#tally-widget-button {\n  position: fixed !important;\n  background-color: #FFFFFF;\n  display: none;\n  visibility: visible !important;\n  opacity: 1 !important;\n  color: #0C121D;\n  border: 2px solid #0C121D;\n  border-radius: 4px;\n  align-items: center;\n  justify-content: center;\n  font-size: 14px;\n  font-weight: 600;\n  font-family: 'Inter';\n  text-align: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  z-index: 999999 !important;\n  -webkit-tap-highlight-color: transparent;\n  outline: none;\n  touch-action: manipulation;\n  pointer-events: auto;\n  transform: translate3d(0, 0, 0);\n}\n.button-text {\n  display: inline-block;\n  margin-right: 8px;\n}\n.button-text::before {\n  content: attr(data-text);\n}\n#tally-widget-popup {\n  position: fixed;\n  background-color: white;\n  display: none;\n  border-radius: 12px;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);\n  z-index: 999999;\n  overflow: hidden;\n  border: 0px solid #0C121D;\n  padding-top: 30px;\n}\n#tally-widget-close {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  background: none;\n  border: none;\n  font-size: 36px;\n  font-weight: bold;\n  padding: 8px;\n  cursor: pointer;\n  color: #0C121D;\n}\n\n  .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #7302D5 !important;\n    font-family: 'Inter' !important;\n  }\n\n  .dark .ab-plugin-wrapper .ab-link-block-item .ab-link {\n    color: #F6F6F6 !important;\n  }\n  \n  #main-column > div > div > div.flex.flex-1.w-full.justify-center.pb-0 > div > div.flex.items-center.pl-0.pr-2.mb-5.xl\\:-mt-1\\.5 > div > div > div > div:nth-child(1) > div.flex.pr-2.text-gray-500.items-center {\n    color: #7302D5 !important;\n  }\n\n  a.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n  }\n\n  .ab-public-space-links-wrap .ab-public-space-link:first-of-type {\n    border-color: #7302D5 !important;\n  }\n\n  .ab-toc-item-active a{\n    color: #7302D5 !important;\n  }\n\n  #main-column .text-ab-blue-500 span {\n    color: #7302D5 !important;\n  }\n  \n  #main-column .text-ab-blue-500 {\n    text-decoration-color: #7302D5 !important;\n  }\n  .ab-nav-left:hover > svg,\n  .ab-nav-left:hover .text-gray-300,\n  .ab-nav-left:hover .ab-nav-left-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  .ab-nav-right:hover > svg,\n  .ab-nav-right:hover .text-gray-300,\n  .ab-nav-right:hover .ab-nav-right-text {\n     color: #7302D5 !important;\n     stroke: #7302D5 !important;\n  }\n  \n#tally-inline-popup {\n  position: fixed;\n  display: none;\n  z-index: 999999;\n  width: min(420px, 90vw);\n  height: min(550px, 80vh);\n  background: #fff;\n  color: #0c121d;\n  border: 1px solid rgba(0,0,0,0.08);\n  border-radius: 12px;\n  box-shadow: 0 12px 28px rgba(0,0,0,0.22), 0 2px 6px rgba(0,0,0,0.12);\n  overflow: hidden;\n  padding: 5px;\n}\n\n#tally-inline-popup iframe {\n  width: 100%;\n  height: 100%;\n  border: 0;\n  display: block;\n  border-radius: 8px;\n}\n\n#tally-inline-popup .tip-close {\n  position: absolute;\n  top: 6px;\n  right: 8px;\n  width: 32px;\n  height: 32px;\n  line-height: 28px;\n  font-size: 22px;\n  text-align: center;\n  background: rgba(255,255,255,0.85);\n  border: 1px solid rgba(0,0,0,0.06);\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n#main-column a[data-form-url],\n#main-column a[data-tally-url] {\n  color: #7302D5 !important;\n  text-decoration: underline;\n  text-underline-offset: 2px;\n  text-decoration-thickness: 1.5px;\n  font-weight: 600;\n}\n\n@media (max-width: 640px) {\n  #tally-inline-popup {\n    width: min(360px, 94vw);\n    height: min(500px, 80vh);\n  }\n}\n\n#main-column .ab-cta-button a.ab-cta-button {\n  background-color: #7302D5;\n}\n\n/* Titles in purple */\n.ab-link-blocks-wrapper .ab-link-block-item.ab-docs-card-mode .ab-link-block-content-wrap .font-bold {\n  color: #7302D5 !important;\n}\n\n.ab-tree-navigation-link-active span {\n    color: #7302D5 !important;\n}\n\n</style>",
+  "parentDocId": null,
+  "docSpaceId": "PUBLISHED-iXWrKc2x1ucDIV0u-J__u",
+  "updatedAt": "2025-12-09T09:19:39.481Z",
+  "createdAt": "2025-11-12T00:41:15.974Z",
+  "deletedAt": null,
+  "editable": false,
+  "expanded": true,
+  "reusableContentVariables": [
+    {
+      "contentVariableId": "piTKWetz4jD5z9seVFeI4",
+      "name": "string",
+      "content": "string",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "a list or sequence of characters (like letters, numbers, and symbols) used to represent text in a computer programming."
+    },
+    {
+      "contentVariableId": "WuoAQkMh9aR0Xb6lWAeoq",
+      "name": "Operations",
+      "content": "Operations",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "An operation is a single module run to process data or check for new data. "
+    },
+    {
+      "contentVariableId": "ml8JqJ6C8jN0W74-5XzTt",
+      "name": "Credits",
+      "content": "Credits",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "Credits (formerly operations) are the currency for running scenarios."
+    },
+    {
+      "contentVariableId": "maMMZujEWxXZ4PjZoEMED",
+      "name": "Route",
+      "content": "Route",
+      "scope": "global",
+      "spaceTargetMap": {},
+      "type": "glossary",
+      "description": "A route is a path that data can flow through in a scenario, visualized as the dotted lines between modules."
+    },
+    {
+      "contentVariableId": "ALQi8ivVz4u3tV4rhKbbb",
+      "name": "scenario_plural_lowercase",
+      "content": "scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "dayYC8yzPWqLqlX_lB6zN",
+      "name": "scenario_singular_lowercase",
+      "content": "scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "vnmnI1wPumL9LXYj_s8FD",
+      "name": "Scenario_plural",
+      "content": "Scenarios",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "y100vR8lJc1TKV4wub7k-",
+      "name": "Scenario_singular",
+      "content": "Scenario",
+      "scope": "global",
+      "spaceTargetMap": {}
+    },
+    {
+      "contentVariableId": "ZD0lZCEnHtnoVPXrYW7BZ",
+      "name": "product_name",
+      "content": "Make",
+      "scope": "global",
+      "spaceTargetMap": {}
+    }
+  ],
+  "reusableContentDocRefs": {},
+  "externalSync": "",
+  "contentFromExternalLink": "",
+  "leftDoc": {
+    "id": "PUBLISHED-l_Nsp3kDqoONSbtXZxjnw",
+    "children": [],
+    "isHidden": false,
+    "name": "Alai",
+    "urlKey": "alai",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  },
+  "rightDoc": {
+    "id": "PUBLISHED-ELn8qkLk84bYwZOh0up7_",
+    "children": [],
+    "isHidden": false,
+    "name": "AltText AI by Maxmel Tech",
+    "urlKey": "alt-text-ai-ump7gy",
+    "icon": "",
+    "parentDocId": "PUBLISHED-qPVP2wzgaOgPdhMx1RVmZ",
+    "conditionalRuleId": "",
+    "expanded": false,
+    "docTags": []
+  }
+}
